@@ -72,7 +72,7 @@ const left = [tone(73.42, 0.3, 0.06, 0), tone(110.0, 0.22, 0.045, 1.1), tone(146
 const right = [tone(73.6, 0.3, 0.055, 0.7), tone(109.8, 0.22, 0.05, 2.0), tone(147.1, 0.15, 0.075, 0.2), tone(220.6, 0.08, 0.09, 1.9), tone(293.2, 0.04, 0.13, 1.0)].join('+');
 const swellAt = chapters.slice(1).map((c) => Math.max(0, c.start - 0.5));
 const filters = [
-  `aevalsrc='${left}|${right}':s=44100:d=${total.toFixed(2)},lowpass=f=1500,aecho=0.8:0.7:140|310:0.3|0.22,volume=0.06[drone]`,
+  `aevalsrc='${left}|${right}':s=44100:d=${total.toFixed(2)},lowpass=f=1500,aecho=0.8:0.7:140|310:0.3|0.22,volume=0.035[drone]`,
   `anoisesrc=color=pink:r=44100:d=${total.toFixed(2)},highpass=f=300,lowpass=f=2400,volume=0.004,aformat=channel_layouts=stereo[air]`,
   `anoisesrc=color=pink:r=44100:d=2.4,bandpass=f=700:w=500,afade=t=in:d=0.9,afade=t=out:st=0.9:d=1.5,volume=0.07,aformat=channel_layouts=stereo,asplit=${swellAt.length}${swellAt.map((_, i) => `[s${i}]`).join('')}`,
   ...swellAt.map((s, i) => `[s${i}]adelay=${Math.round(s * 1000)}:all=1[d${i}]`),
