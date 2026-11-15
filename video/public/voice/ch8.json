@@ -1,0 +1,554 @@
+{
+ "chapter": 8,
+ "title": "Recap",
+ "characters": 510,
+ "duration": 37.955918,
+ "words": [
+  {
+   "text": "So",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "let's",
+   "start": 0.4,
+   "end": 0.64,
+   "paragraph": 0
+  },
+  {
+   "text": "put",
+   "start": 0.72,
+   "end": 0.8,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 0.88,
+   "end": 0.96,
+   "paragraph": 0
+  },
+  {
+   "text": "all",
+   "start": 1.04,
+   "end": 1.12,
+   "paragraph": 0
+  },
+  {
+   "text": "together.",
+   "start": 1.2,
+   "end": 1.88,
+   "paragraph": 0
+  },
+  {
+   "text": "A",
+   "start": 2.16,
+   "end": 2.24,
+   "paragraph": 1
+  },
+  {
+   "text": "metal",
+   "start": 2.32,
+   "end": 2.72,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 2.8,
+   "end": 2.96,
+   "paragraph": 1
+  },
+  {
+   "text": "full",
+   "start": 3.12,
+   "end": 3.28,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 3.36,
+   "end": 3.44,
+   "paragraph": 1
+  },
+  {
+   "text": "free",
+   "start": 3.52,
+   "end": 3.68,
+   "paragraph": 1
+  },
+  {
+   "text": "electrons,",
+   "start": 3.76,
+   "end": 4.72,
+   "paragraph": 1
+  },
+  {
+   "text": "always",
+   "start": 5,
+   "end": 5.28,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 5.36,
+   "end": 5.44,
+   "paragraph": 1
+  },
+  {
+   "text": "motion.",
+   "start": 5.52,
+   "end": 6.24,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 6.48,
+   "end": 6.56,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage",
+   "start": 6.64,
+   "end": 7.2,
+   "paragraph": 1
+  },
+  {
+   "text": "makes",
+   "start": 7.28,
+   "end": 7.52,
+   "paragraph": 1
+  },
+  {
+   "text": "them",
+   "start": 7.6,
+   "end": 7.68,
+   "paragraph": 1
+  },
+  {
+   "text": "drift.",
+   "start": 7.84,
+   "end": 8.44,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 8.64,
+   "end": 8.72,
+   "paragraph": 1
+  },
+  {
+   "text": "disorder",
+   "start": 8.84,
+   "end": 9.2,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 9.28,
+   "end": 9.36,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 9.4,
+   "end": 9.44,
+   "paragraph": 1
+  },
+  {
+   "text": "lattice",
+   "start": 9.52,
+   "end": 10,
+   "paragraph": 1
+  },
+  {
+   "text": "keeps",
+   "start": 10.08,
+   "end": 10.32,
+   "paragraph": 1
+  },
+  {
+   "text": "interrupting",
+   "start": 10.4,
+   "end": 11.04,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 11.12,
+   "end": 11.28,
+   "paragraph": 1
+  },
+  {
+   "text": "drift,",
+   "start": 11.32,
+   "end": 12,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 12.12,
+   "end": 12.24,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 12.32,
+   "end": 12.56,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 12.8,
+   "end": 12.96,
+   "paragraph": 1
+  },
+  {
+   "text": "resistance.",
+   "start": 13.08,
+   "end": 13.76,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 14.08,
+   "end": 14.16,
+   "paragraph": 2
+  },
+  {
+   "text": "longer",
+   "start": 14.24,
+   "end": 14.56,
+   "paragraph": 2
+  },
+  {
+   "text": "path",
+   "start": 14.64,
+   "end": 14.96,
+   "paragraph": 2
+  },
+  {
+   "text": "raises",
+   "start": 15.12,
+   "end": 15.52,
+   "paragraph": 2
+  },
+  {
+   "text": "it.",
+   "start": 15.64,
+   "end": 15.96,
+   "paragraph": 2
+  },
+  {
+   "text": "A",
+   "start": 16.16,
+   "end": 16.24,
+   "paragraph": 2
+  },
+  {
+   "text": "wider",
+   "start": 16.32,
+   "end": 16.64,
+   "paragraph": 2
+  },
+  {
+   "text": "path",
+   "start": 16.72,
+   "end": 17.04,
+   "paragraph": 2
+  },
+  {
+   "text": "lowers",
+   "start": 17.28,
+   "end": 17.6,
+   "paragraph": 2
+  },
+  {
+   "text": "it.",
+   "start": 17.68,
+   "end": 17.92,
+   "paragraph": 2
+  },
+  {
+   "text": "The",
+   "start": 18.24,
+   "end": 18.32,
+   "paragraph": 2
+  },
+  {
+   "text": "material",
+   "start": 18.6,
+   "end": 18.88,
+   "paragraph": 2
+  },
+  {
+   "text": "sets",
+   "start": 18.96,
+   "end": 19.2,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 19.28,
+   "end": 19.36,
+   "paragraph": 2
+  },
+  {
+   "text": "scale,",
+   "start": 19.56,
+   "end": 20.08,
+   "paragraph": 2
+  },
+  {
+   "text": "through",
+   "start": 20.16,
+   "end": 20.24,
+   "paragraph": 2
+  },
+  {
+   "text": "its",
+   "start": 20.36,
+   "end": 20.48,
+   "paragraph": 2
+  },
+  {
+   "text": "resistivity.",
+   "start": 20.56,
+   "end": 21.48,
+   "paragraph": 2
+  },
+  {
+   "text": "In",
+   "start": 21.68,
+   "end": 21.76,
+   "paragraph": 2
+  },
+  {
+   "text": "metals,",
+   "start": 21.84,
+   "end": 22.56,
+   "paragraph": 2
+  },
+  {
+   "text": "heat",
+   "start": 22.64,
+   "end": 22.96,
+   "paragraph": 2
+  },
+  {
+   "text": "raises",
+   "start": 23.12,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 23.52,
+   "end": 23.6,
+   "paragraph": 2
+  },
+  {
+   "text": "further.",
+   "start": 23.68,
+   "end": 24.24,
+   "paragraph": 2
+  },
+  {
+   "text": "And",
+   "start": 24.4,
+   "end": 24.56,
+   "paragraph": 2
+  },
+  {
+   "text": "every",
+   "start": 24.72,
+   "end": 25.04,
+   "paragraph": 2
+  },
+  {
+   "text": "interruption",
+   "start": 25.12,
+   "end": 25.76,
+   "paragraph": 2
+  },
+  {
+   "text": "turns",
+   "start": 25.84,
+   "end": 26.16,
+   "paragraph": 2
+  },
+  {
+   "text": "electrical",
+   "start": 26.24,
+   "end": 26.72,
+   "paragraph": 2
+  },
+  {
+   "text": "energy",
+   "start": 26.8,
+   "end": 27.28,
+   "paragraph": 2
+  },
+  {
+   "text": "into",
+   "start": 27.36,
+   "end": 27.6,
+   "paragraph": 2
+  },
+  {
+   "text": "heat.",
+   "start": 27.68,
+   "end": 28.08,
+   "paragraph": 2
+  },
+  {
+   "text": "All",
+   "start": 28.56,
+   "end": 28.64,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 28.72,
+   "end": 28.8,
+   "paragraph": 3
+  },
+  {
+   "text": "that,",
+   "start": 28.88,
+   "end": 29.28,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 29.36,
+   "end": 29.44,
+   "paragraph": 3
+  },
+  {
+   "text": "one",
+   "start": 29.52,
+   "end": 29.68,
+   "paragraph": 3
+  },
+  {
+   "text": "line:",
+   "start": 29.76,
+   "end": 30.48,
+   "paragraph": 3
+  },
+  {
+   "text": "R",
+   "start": 30.56,
+   "end": 30.8,
+   "paragraph": 3
+  },
+  {
+   "text": "equals",
+   "start": 30.96,
+   "end": 31.36,
+   "paragraph": 3
+  },
+  {
+   "text": "rho,",
+   "start": 31.44,
+   "end": 32.08,
+   "paragraph": 3
+  },
+  {
+   "text": "L",
+   "start": 32.16,
+   "end": 32.4,
+   "paragraph": 3
+  },
+  {
+   "text": "over",
+   "start": 32.48,
+   "end": 32.72,
+   "paragraph": 3
+  },
+  {
+   "text": "A.",
+   "start": 32.88,
+   "end": 33.12,
+   "paragraph": 3
+  },
+  {
+   "text": "Next",
+   "start": 33.6,
+   "end": 33.76,
+   "paragraph": 4
+  },
+  {
+   "text": "time",
+   "start": 33.84,
+   "end": 34,
+   "paragraph": 4
+  },
+  {
+   "text": "you",
+   "start": 34.04,
+   "end": 34.08,
+   "paragraph": 4
+  },
+  {
+   "text": "meet",
+   "start": 34.16,
+   "end": 34.32,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 34.4,
+   "end": 34.48,
+   "paragraph": 4
+  },
+  {
+   "text": "formula,",
+   "start": 34.56,
+   "end": 35.36,
+   "paragraph": 4
+  },
+  {
+   "text": "don't",
+   "start": 35.4,
+   "end": 35.52,
+   "paragraph": 4
+  },
+  {
+   "text": "just",
+   "start": 35.6,
+   "end": 35.76,
+   "paragraph": 4
+  },
+  {
+   "text": "read",
+   "start": 35.84,
+   "end": 36,
+   "paragraph": 4
+  },
+  {
+   "text": "it.",
+   "start": 36.08,
+   "end": 36.32,
+   "paragraph": 4
+  },
+  {
+   "text": "See",
+   "start": 36.88,
+   "end": 37.04,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 37.12,
+   "end": 37.2,
+   "paragraph": 4
+  },
+  {
+   "text": "wire.",
+   "start": 37.28,
+   "end": 38,
+   "paragraph": 4
+  }
+ ]
+}

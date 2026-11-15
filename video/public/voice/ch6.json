@@ -1,0 +1,1118 @@
+{
+ "chapter": 6,
+ "title": "Temperature",
+ "characters": 1122,
+ "duration": 77.714286,
+ "words": [
+  {
+   "text": "Resistivity",
+   "start": 0,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 0.8,
+   "end": 0.96,
+   "paragraph": 0
+  },
+  {
+   "text": "not",
+   "start": 1.04,
+   "end": 1.28,
+   "paragraph": 0
+  },
+  {
+   "text": "fixed,",
+   "start": 1.44,
+   "end": 1.84,
+   "paragraph": 0
+  },
+  {
+   "text": "though.",
+   "start": 1.96,
+   "end": 2.56,
+   "paragraph": 0
+  },
+  {
+   "text": "It",
+   "start": 2.64,
+   "end": 2.72,
+   "paragraph": 0
+  },
+  {
+   "text": "changes",
+   "start": 2.8,
+   "end": 3.2,
+   "paragraph": 0
+  },
+  {
+   "text": "with",
+   "start": 3.28,
+   "end": 3.44,
+   "paragraph": 0
+  },
+  {
+   "text": "temperature,",
+   "start": 3.52,
+   "end": 4.48,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 4.6,
+   "end": 4.72,
+   "paragraph": 0
+  },
+  {
+   "text": "you",
+   "start": 4.8,
+   "end": 4.96,
+   "paragraph": 0
+  },
+  {
+   "text": "already",
+   "start": 5.16,
+   "end": 5.36,
+   "paragraph": 0
+  },
+  {
+   "text": "know",
+   "start": 5.44,
+   "end": 5.52,
+   "paragraph": 0
+  },
+  {
+   "text": "why.",
+   "start": 5.6,
+   "end": 6.24,
+   "paragraph": 0
+  },
+  {
+   "text": "Heat",
+   "start": 6.56,
+   "end": 6.8,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 6.84,
+   "end": 6.88,
+   "paragraph": 1
+  },
+  {
+   "text": "metal",
+   "start": 6.96,
+   "end": 7.36,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 7.44,
+   "end": 7.6,
+   "paragraph": 1
+  },
+  {
+   "text": "its",
+   "start": 7.72,
+   "end": 7.84,
+   "paragraph": 1
+  },
+  {
+   "text": "lattice",
+   "start": 7.92,
+   "end": 8.32,
+   "paragraph": 1
+  },
+  {
+   "text": "trembles",
+   "start": 8.48,
+   "end": 8.96,
+   "paragraph": 1
+  },
+  {
+   "text": "more",
+   "start": 9.2,
+   "end": 9.36,
+   "paragraph": 1
+  },
+  {
+   "text": "violently.",
+   "start": 9.44,
+   "end": 10.32,
+   "paragraph": 1
+  },
+  {
+   "text": "More",
+   "start": 10.64,
+   "end": 10.8,
+   "paragraph": 1
+  },
+  {
+   "text": "trembling",
+   "start": 10.88,
+   "end": 11.36,
+   "paragraph": 1
+  },
+  {
+   "text": "means",
+   "start": 11.44,
+   "end": 11.68,
+   "paragraph": 1
+  },
+  {
+   "text": "more",
+   "start": 11.76,
+   "end": 11.92,
+   "paragraph": 1
+  },
+  {
+   "text": "scattering,",
+   "start": 12,
+   "end": 12.88,
+   "paragraph": 1
+  },
+  {
+   "text": "so",
+   "start": 12.96,
+   "end": 13.04,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 13.12,
+   "end": 13.2,
+   "paragraph": 1
+  },
+  {
+   "text": "electrons",
+   "start": 13.36,
+   "end": 13.84,
+   "paragraph": 1
+  },
+  {
+   "text": "are",
+   "start": 13.92,
+   "end": 14,
+   "paragraph": 1
+  },
+  {
+   "text": "interrupted",
+   "start": 14.24,
+   "end": 14.64,
+   "paragraph": 1
+  },
+  {
+   "text": "more",
+   "start": 14.72,
+   "end": 14.88,
+   "paragraph": 1
+  },
+  {
+   "text": "often.",
+   "start": 14.96,
+   "end": 15.52,
+   "paragraph": 1
+  },
+  {
+   "text": "Resistance",
+   "start": 15.76,
+   "end": 16.4,
+   "paragraph": 1
+  },
+  {
+   "text": "goes",
+   "start": 16.48,
+   "end": 16.72,
+   "paragraph": 1
+  },
+  {
+   "text": "up.",
+   "start": 16.88,
+   "end": 17.44,
+   "paragraph": 1
+  },
+  {
+   "text": "For",
+   "start": 17.76,
+   "end": 17.84,
+   "paragraph": 1
+  },
+  {
+   "text": "copper,",
+   "start": 17.92,
+   "end": 18.56,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 18.64,
+   "end": 18.72,
+   "paragraph": 1
+  },
+  {
+   "text": "rises",
+   "start": 18.8,
+   "end": 19.12,
+   "paragraph": 1
+  },
+  {
+   "text": "about",
+   "start": 19.2,
+   "end": 19.44,
+   "paragraph": 1
+  },
+  {
+   "text": "four",
+   "start": 19.6,
+   "end": 19.76,
+   "paragraph": 1
+  },
+  {
+   "text": "tenths",
+   "start": 19.92,
+   "end": 20.16,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 20.24,
+   "end": 20.32,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 20.36,
+   "end": 20.4,
+   "paragraph": 1
+  },
+  {
+   "text": "percent",
+   "start": 20.48,
+   "end": 20.88,
+   "paragraph": 1
+  },
+  {
+   "text": "for",
+   "start": 20.96,
+   "end": 21.2,
+   "paragraph": 1
+  },
+  {
+   "text": "every",
+   "start": 21.28,
+   "end": 21.52,
+   "paragraph": 1
+  },
+  {
+   "text": "degree",
+   "start": 21.6,
+   "end": 21.84,
+   "paragraph": 1
+  },
+  {
+   "text": "Celsius.",
+   "start": 21.92,
+   "end": 22.88,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 23.2,
+   "end": 23.28,
+   "paragraph": 2
+  },
+  {
+   "text": "tungsten",
+   "start": 23.36,
+   "end": 23.84,
+   "paragraph": 2
+  },
+  {
+   "text": "lamp",
+   "start": 23.92,
+   "end": 24.16,
+   "paragraph": 2
+  },
+  {
+   "text": "filament",
+   "start": 24.24,
+   "end": 24.64,
+   "paragraph": 2
+  },
+  {
+   "text": "shows",
+   "start": 24.72,
+   "end": 24.96,
+   "paragraph": 2
+  },
+  {
+   "text": "this",
+   "start": 25.04,
+   "end": 25.2,
+   "paragraph": 2
+  },
+  {
+   "text": "dramatically.",
+   "start": 25.28,
+   "end": 26.36,
+   "paragraph": 2
+  },
+  {
+   "text": "Glowing",
+   "start": 26.64,
+   "end": 27.04,
+   "paragraph": 2
+  },
+  {
+   "text": "at",
+   "start": 27.12,
+   "end": 27.2,
+   "paragraph": 2
+  },
+  {
+   "text": "well",
+   "start": 27.36,
+   "end": 27.52,
+   "paragraph": 2
+  },
+  {
+   "text": "over",
+   "start": 27.64,
+   "end": 27.76,
+   "paragraph": 2
+  },
+  {
+   "text": "two",
+   "start": 27.92,
+   "end": 28,
+   "paragraph": 2
+  },
+  {
+   "text": "thousand",
+   "start": 28.24,
+   "end": 28.64,
+   "paragraph": 2
+  },
+  {
+   "text": "degrees,",
+   "start": 28.72,
+   "end": 29.52,
+   "paragraph": 2
+  },
+  {
+   "text": "its",
+   "start": 29.64,
+   "end": 29.76,
+   "paragraph": 2
+  },
+  {
+   "text": "resistance",
+   "start": 29.84,
+   "end": 30.32,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 30.4,
+   "end": 30.56,
+   "paragraph": 2
+  },
+  {
+   "text": "more",
+   "start": 30.64,
+   "end": 30.72,
+   "paragraph": 2
+  },
+  {
+   "text": "than",
+   "start": 30.8,
+   "end": 31.04,
+   "paragraph": 2
+  },
+  {
+   "text": "ten",
+   "start": 31.12,
+   "end": 31.28,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 31.44,
+   "end": 31.84,
+   "paragraph": 2
+  },
+  {
+   "text": "what",
+   "start": 31.92,
+   "end": 32,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 32.08,
+   "end": 32.16,
+   "paragraph": 2
+  },
+  {
+   "text": "was",
+   "start": 32.24,
+   "end": 32.4,
+   "paragraph": 2
+  },
+  {
+   "text": "when",
+   "start": 32.48,
+   "end": 32.56,
+   "paragraph": 2
+  },
+  {
+   "text": "cold.",
+   "start": 32.72,
+   "end": 33.12,
+   "paragraph": 2
+  },
+  {
+   "text": "That",
+   "start": 33.68,
+   "end": 33.84,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 33.92,
+   "end": 34,
+   "paragraph": 2
+  },
+  {
+   "text": "why",
+   "start": 34.08,
+   "end": 34.24,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 34.32,
+   "end": 34.4,
+   "paragraph": 2
+  },
+  {
+   "text": "filament",
+   "start": 34.56,
+   "end": 34.96,
+   "paragraph": 2
+  },
+  {
+   "text": "bulb",
+   "start": 35.04,
+   "end": 35.28,
+   "paragraph": 2
+  },
+  {
+   "text": "draws",
+   "start": 35.36,
+   "end": 35.68,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 35.72,
+   "end": 35.76,
+   "paragraph": 2
+  },
+  {
+   "text": "surge",
+   "start": 36,
+   "end": 36.24,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 36.32,
+   "end": 36.4,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 36.48,
+   "end": 36.8,
+   "paragraph": 2
+  },
+  {
+   "text": "at",
+   "start": 36.88,
+   "end": 37.04,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 37.08,
+   "end": 37.12,
+   "paragraph": 2
+  },
+  {
+   "text": "instant",
+   "start": 37.36,
+   "end": 37.76,
+   "paragraph": 2
+  },
+  {
+   "text": "you",
+   "start": 37.8,
+   "end": 37.84,
+   "paragraph": 2
+  },
+  {
+   "text": "switch",
+   "start": 37.92,
+   "end": 38.16,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 38.2,
+   "end": 38.24,
+   "paragraph": 2
+  },
+  {
+   "text": "on.",
+   "start": 38.32,
+   "end": 38.8,
+   "paragraph": 2
+  },
+  {
+   "text": "Engineers",
+   "start": 39.12,
+   "end": 39.68,
+   "paragraph": 3
+  },
+  {
+   "text": "turn",
+   "start": 39.76,
+   "end": 40,
+   "paragraph": 3
+  },
+  {
+   "text": "this",
+   "start": 40.08,
+   "end": 40.16,
+   "paragraph": 3
+  },
+  {
+   "text": "effect",
+   "start": 40.24,
+   "end": 40.56,
+   "paragraph": 3
+  },
+  {
+   "text": "into",
+   "start": 40.64,
+   "end": 40.88,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 40.92,
+   "end": 40.96,
+   "paragraph": 3
+  },
+  {
+   "text": "thermometer.",
+   "start": 41.04,
+   "end": 41.96,
+   "paragraph": 3
+  },
+  {
+   "text": "A",
+   "start": 42.24,
+   "end": 42.32,
+   "paragraph": 3
+  },
+  {
+   "text": "platinum",
+   "start": 42.4,
+   "end": 42.8,
+   "paragraph": 3
+  },
+  {
+   "text": "sensor",
+   "start": 42.88,
+   "end": 43.36,
+   "paragraph": 3
+  },
+  {
+   "text": "called",
+   "start": 43.44,
+   "end": 43.68,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 43.76,
+   "end": 43.84,
+   "paragraph": 3
+  },
+  {
+   "text": "PT100",
+   "start": 44,
+   "end": 45.04,
+   "paragraph": 3
+  },
+  {
+   "text": "has",
+   "start": 45.28,
+   "end": 45.52,
+   "paragraph": 3
+  },
+  {
+   "text": "exactly",
+   "start": 45.6,
+   "end": 46.24,
+   "paragraph": 3
+  },
+  {
+   "text": "one",
+   "start": 46.4,
+   "end": 46.56,
+   "paragraph": 3
+  },
+  {
+   "text": "hundred",
+   "start": 46.64,
+   "end": 46.88,
+   "paragraph": 3
+  },
+  {
+   "text": "ohms",
+   "start": 47.04,
+   "end": 47.28,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 47.36,
+   "end": 47.52,
+   "paragraph": 3
+  },
+  {
+   "text": "zero",
+   "start": 47.6,
+   "end": 47.76,
+   "paragraph": 3
+  },
+  {
+   "text": "degrees.",
+   "start": 47.84,
+   "end": 48.4,
+   "paragraph": 3
+  },
+  {
+   "text": "Measure",
+   "start": 48.88,
+   "end": 49.12,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 49.2,
+   "end": 49.36,
+   "paragraph": 3
+  },
+  {
+   "text": "resistance",
+   "start": 49.44,
+   "end": 50,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 50.24,
+   "end": 50.4,
+   "paragraph": 3
+  },
+  {
+   "text": "you",
+   "start": 50.44,
+   "end": 50.48,
+   "paragraph": 3
+  },
+  {
+   "text": "know",
+   "start": 50.56,
+   "end": 50.64,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 50.72,
+   "end": 50.8,
+   "paragraph": 3
+  },
+  {
+   "text": "temperature.",
+   "start": 50.88,
+   "end": 51.44,
+   "paragraph": 3
+  },
+  {
+   "text": "Generators",
+   "start": 52,
+   "end": 52.64,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 52.72,
+   "end": 52.8,
+   "paragraph": 3
+  },
+  {
+   "text": "large",
+   "start": 52.88,
+   "end": 53.2,
+   "paragraph": 3
+  },
+  {
+   "text": "motors",
+   "start": 53.28,
+   "end": 53.68,
+   "paragraph": 3
+  },
+  {
+   "text": "have",
+   "start": 53.76,
+   "end": 53.92,
+   "paragraph": 3
+  },
+  {
+   "text": "these",
+   "start": 54,
+   "end": 54.16,
+   "paragraph": 3
+  },
+  {
+   "text": "buried",
+   "start": 54.32,
+   "end": 54.64,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 54.68,
+   "end": 54.72,
+   "paragraph": 3
+  },
+  {
+   "text": "their",
+   "start": 54.8,
+   "end": 54.88,
+   "paragraph": 3
+  },
+  {
+   "text": "windings.",
+   "start": 54.96,
+   "end": 55.6,
+   "paragraph": 3
+  },
+  {
+   "text": "Semiconductors",
+   "start": 56.24,
+   "end": 57.12,
+   "paragraph": 4
+  },
+  {
+   "text": "such",
+   "start": 57.2,
+   "end": 57.36,
+   "paragraph": 4
+  },
+  {
+   "text": "as",
+   "start": 57.44,
+   "end": 57.52,
+   "paragraph": 4
+  },
+  {
+   "text": "silicon",
+   "start": 57.6,
+   "end": 58.08,
+   "paragraph": 4
+  },
+  {
+   "text": "do",
+   "start": 58.16,
+   "end": 58.24,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 58.32,
+   "end": 58.4,
+   "paragraph": 4
+  },
+  {
+   "text": "opposite.",
+   "start": 58.48,
+   "end": 59.04,
+   "paragraph": 4
+  },
+  {
+   "text": "Heat",
+   "start": 59.52,
+   "end": 59.84,
+   "paragraph": 4
+  },
+  {
+   "text": "shakes",
+   "start": 59.92,
+   "end": 60.32,
+   "paragraph": 4
+  },
+  {
+   "text": "more",
+   "start": 60.4,
+   "end": 60.56,
+   "paragraph": 4
+  },
+  {
+   "text": "electrons",
+   "start": 60.64,
+   "end": 61.2,
+   "paragraph": 4
+  },
+  {
+   "text": "free,",
+   "start": 61.28,
+   "end": 61.92,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 62.04,
+   "end": 62.16,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 62.28,
+   "end": 62.4,
+   "paragraph": 4
+  },
+  {
+   "text": "gain",
+   "start": 62.48,
+   "end": 62.72,
+   "paragraph": 4
+  },
+  {
+   "text": "outweighs",
+   "start": 62.88,
+   "end": 63.44,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 63.48,
+   "end": 63.52,
+   "paragraph": 4
+  },
+  {
+   "text": "extra",
+   "start": 63.6,
+   "end": 63.92,
+   "paragraph": 4
+  },
+  {
+   "text": "scattering,",
+   "start": 64,
+   "end": 64.88,
+   "paragraph": 4
+  },
+  {
+   "text": "so",
+   "start": 64.96,
+   "end": 65.04,
+   "paragraph": 4
+  },
+  {
+   "text": "their",
+   "start": 65.12,
+   "end": 65.2,
+   "paragraph": 4
+  },
+  {
+   "text": "resistance",
+   "start": 65.28,
+   "end": 65.84,
+   "paragraph": 4
+  },
+  {
+   "text": "falls",
+   "start": 66,
+   "end": 66.4,
+   "paragraph": 4
+  },
+  {
+   "text": "as",
+   "start": 66.48,
+   "end": 66.56,
+   "paragraph": 4
+  },
+  {
+   "text": "they",
+   "start": 66.64,
+   "end": 66.72,
+   "paragraph": 4
+  },
+  {
+   "text": "warm.",
+   "start": 66.8,
+   "end": 67.4,
+   "paragraph": 4
+  },
+  {
+   "text": "And",
+   "start": 67.68,
+   "end": 67.84,
+   "paragraph": 5
+  },
+  {
+   "text": "cool",
+   "start": 67.92,
+   "end": 68.16,
+   "paragraph": 5
+  },
+  {
+   "text": "certain",
+   "start": 68.24,
+   "end": 68.48,
+   "paragraph": 5
+  },
+  {
+   "text": "materials",
+   "start": 68.56,
+   "end": 69.04,
+   "paragraph": 5
+  },
+  {
+   "text": "far",
+   "start": 69.2,
+   "end": 69.44,
+   "paragraph": 5
+  },
+  {
+   "text": "enough,",
+   "start": 69.52,
+   "end": 70.08,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 70.12,
+   "end": 70.16,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 70.24,
+   "end": 70.32,
+   "paragraph": 5
+  },
+  {
+   "text": "resistance",
+   "start": 70.4,
+   "end": 70.88,
+   "paragraph": 5
+  },
+  {
+   "text": "drops",
+   "start": 71.04,
+   "end": 71.28,
+   "paragraph": 5
+  },
+  {
+   "text": "to",
+   "start": 71.36,
+   "end": 71.44,
+   "paragraph": 5
+  },
+  {
+   "text": "exactly",
+   "start": 71.52,
+   "end": 72.16,
+   "paragraph": 5
+  },
+  {
+   "text": "zero.",
+   "start": 72.4,
+   "end": 73.04,
+   "paragraph": 5
+  },
+  {
+   "text": "That",
+   "start": 73.36,
+   "end": 73.68,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 73.84,
+   "end": 74,
+   "paragraph": 5
+  },
+  {
+   "text": "superconductivity,",
+   "start": 74.08,
+   "end": 75.44,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 75.52,
+   "end": 75.76,
+   "paragraph": 5
+  },
+  {
+   "text": "it",
+   "start": 75.84,
+   "end": 75.92,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 76,
+   "end": 76.08,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 76.12,
+   "end": 76.16,
+   "paragraph": 5
+  },
+  {
+   "text": "story",
+   "start": 76.24,
+   "end": 76.64,
+   "paragraph": 5
+  },
+  {
+   "text": "for",
+   "start": 76.72,
+   "end": 76.88,
+   "paragraph": 5
+  },
+  {
+   "text": "another",
+   "start": 77.04,
+   "end": 77.2,
+   "paragraph": 5
+  },
+  {
+   "text": "day.",
+   "start": 77.28,
+   "end": 77.76,
+   "paragraph": 5
+  }
+ ]
+}
