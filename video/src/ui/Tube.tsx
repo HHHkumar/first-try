@@ -18,10 +18,11 @@ type Props = {
   opacity?: number;
   seed?: number;
   lanes?: number; // dashed lane markings inside
+  laneOpacity?: number;
   broken?: number; // 0..1 a gap opening in the middle (a blown fuse)
 };
 
-export const Tube = ({ x, y, length, radius, frame, color = C.ion, flow = 1.2, density = 5, heat = 0, grain = 0.35, opacity = 1, seed = 1, lanes = 0, broken = 0 }: Props) => {
+export const Tube = ({ x, y, length, radius, frame, color = C.ion, flow = 1.2, density = 5, heat = 0, grain = 0.35, opacity = 1, seed = 1, lanes = 0, laneOpacity = 1, broken = 0 }: Props) => {
   const id = useId().replace(/:/g, '');
   const cap = Math.max(6, radius * 0.36);
   const dots = useMemo(() => {
@@ -60,7 +61,7 @@ export const Tube = ({ x, y, length, radius, frame, color = C.ion, flow = 1.2, d
         <rect x={x} y={y - radius} width={length} height={radius * 2} fill={`url(#b${id})`} />
         {heat > 0.02 ? <rect x={x} y={y - radius} width={length} height={radius * 2} fill={hot} opacity={heat * 0.45} /> : null}
         {dots.slice(0, nGrain).map((d, i) => (
-          <circle key={`g${i}`} cx={x + ((d.u * 7.31) % 1) * length} cy={y + d.v * radius * 0.86} r={3.2} fill={color} opacity={0.5} />
+          <circle key={`g${i}`} cx={x + ((d.u * 7.31) % 1) * length} cy={y + d.v * radius * 0.86} r={5} fill={color} opacity={0.6} />
         ))}
         {Array.from({ length: Math.max(0, lanes - 1) }, (_, i) => (
           <line
@@ -70,7 +71,7 @@ export const Tube = ({ x, y, length, radius, frame, color = C.ion, flow = 1.2, d
             y1={y - radius + ((i + 1) * radius * 2) / lanes}
             y2={y - radius + ((i + 1) * radius * 2) / lanes}
             stroke={C.text}
-            strokeOpacity={0.3}
+            strokeOpacity={0.4 * laneOpacity}
             strokeWidth={2}
             strokeDasharray="26 22"
             strokeDashoffset={-frame * flow}
@@ -81,8 +82,8 @@ export const Tube = ({ x, y, length, radius, frame, color = C.ion, flow = 1.2, d
           const py = y + d.v * radius * 0.84 + Math.sin(frame * 0.21 * d.s + d.ph) * 3;
           return (
             <g key={i}>
-              <circle cx={px} cy={py} r={7} fill={C.electron} opacity={0.22} />
-              <circle cx={px} cy={py} r={2.8} fill={C.electronCore} />
+              <circle cx={px} cy={py} r={10} fill={C.electron} opacity={0.2} />
+              <circle cx={px} cy={py} r={3.8} fill={C.electronCore} />
             </g>
           );
         })}

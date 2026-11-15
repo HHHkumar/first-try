@@ -230,7 +230,12 @@ const Scene = ({ frame, lattice, sim, pose, look }: Omit<Props, 'width' | 'heigh
           pushSprite(electronSprites, x, y, z, 1.0, e[0], e[1], e[2], 0.75 * hero.gain);
           pushSprite(electronSprites, x, y, z, 0.24, core[0], core[1], core[2], 1.2 * hero.gain);
         } else {
-          pushSprite(electronSprites, x, y, z, 0.05 + 0.07 * t, core[0], core[1], core[2], 0.5 * Math.pow(t, 0.8) * hero.gain);
+          const size = 0.05 + 0.07 * t;
+          const a = 0.34 * Math.pow(t, 0.8) * hero.gain;
+          const n = o + count * 3; // the newer sample, for a gap-free streak
+          pushSprite(electronSprites, x, y, z, size, core[0], core[1], core[2], a);
+          pushSprite(electronSprites, x + (sim.positions[n] - x) / 3, y + (sim.positions[n + 1] - y) / 3, z + (sim.positions[n + 2] - z) / 3, size, core[0], core[1], core[2], a);
+          pushSprite(electronSprites, x + ((sim.positions[n] - x) * 2) / 3, y + ((sim.positions[n + 1] - y) * 2) / 3, z + ((sim.positions[n + 2] - z) * 2) / 3, size, core[0], core[1], core[2], a);
         }
         if (sim.wrapped[s * count + i]) break;
       }
@@ -241,7 +246,7 @@ const Scene = ({ frame, lattice, sim, pose, look }: Omit<Props, 'width' | 'heigh
   return (
     <>
       <color attach="background" args={[C.bg0]} />
-      <Sprites kind="orb" data={ionSprites} {...common} grow={1.4} halo={0.2 + 0.5 * look.temperature} deep={mix3(hexToRgb(C.ionDeep), hexToRgb('#d2500f'), look.temperature)} renderOrder={2} />
+      <Sprites kind="orb" data={ionSprites} {...common} grow={1.4} halo={0.2 + 0.5 * look.temperature} deep={look.ionTint ? (hexToRgb(look.ionTint).map((v) => v * 0.28) as [number, number, number]) : mix3(hexToRgb(C.ionDeep), hexToRgb('#d2500f'), look.temperature)} renderOrder={2} />
       <Sprites kind="glow" data={electronSprites} {...common} grow={2.2} renderOrder={3} />
     </>
   );
