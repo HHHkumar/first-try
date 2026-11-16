@@ -1,0 +1,866 @@
+{
+ "chapter": 8,
+ "title": "The force on a moving charge",
+ "characters": 726,
+ "duration": 53.707755,
+ "words": [
+  {
+   "text": "A",
+   "start": 0,
+   "end": 0.08,
+   "paragraph": 0
+  },
+  {
+   "text": "magnetic",
+   "start": 0.16,
+   "end": 0.64,
+   "paragraph": 0
+  },
+  {
+   "text": "field",
+   "start": 0.72,
+   "end": 1.04,
+   "paragraph": 0
+  },
+  {
+   "text": "does",
+   "start": 1.28,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "not",
+   "start": 1.6,
+   "end": 1.84,
+   "paragraph": 0
+  },
+  {
+   "text": "push",
+   "start": 1.92,
+   "end": 2.08,
+   "paragraph": 0
+  },
+  {
+   "text": "on",
+   "start": 2.16,
+   "end": 2.24,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 2.28,
+   "end": 2.32,
+   "paragraph": 0
+  },
+  {
+   "text": "charge",
+   "start": 2.4,
+   "end": 2.72,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 2.8,
+   "end": 2.88,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 2.96,
+   "end": 3.04,
+   "paragraph": 0
+  },
+  {
+   "text": "standing",
+   "start": 3.24,
+   "end": 3.44,
+   "paragraph": 0
+  },
+  {
+   "text": "still.",
+   "start": 3.52,
+   "end": 4.2,
+   "paragraph": 0
+  },
+  {
+   "text": "It",
+   "start": 4.48,
+   "end": 4.64,
+   "paragraph": 0
+  },
+  {
+   "text": "acts",
+   "start": 4.72,
+   "end": 5.04,
+   "paragraph": 0
+  },
+  {
+   "text": "only",
+   "start": 5.12,
+   "end": 5.44,
+   "paragraph": 0
+  },
+  {
+   "text": "on",
+   "start": 5.48,
+   "end": 5.52,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 5.6,
+   "end": 5.68,
+   "paragraph": 0
+  },
+  {
+   "text": "charge",
+   "start": 5.76,
+   "end": 6.08,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 6.16,
+   "end": 6.32,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 6.4,
+   "end": 6.48,
+   "paragraph": 0
+  },
+  {
+   "text": "moving.",
+   "start": 6.56,
+   "end": 7.36,
+   "paragraph": 0
+  },
+  {
+   "text": "And",
+   "start": 7.68,
+   "end": 7.84,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 7.88,
+   "end": 7.92,
+   "paragraph": 0
+  },
+  {
+   "text": "force",
+   "start": 8.08,
+   "end": 8.4,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 8.48,
+   "end": 8.56,
+   "paragraph": 0
+  },
+  {
+   "text": "strange:",
+   "start": 8.64,
+   "end": 9.76,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 9.84,
+   "end": 9.92,
+   "paragraph": 0
+  },
+  {
+   "text": "points",
+   "start": 10,
+   "end": 10.32,
+   "paragraph": 0
+  },
+  {
+   "text": "neither",
+   "start": 10.48,
+   "end": 10.8,
+   "paragraph": 0
+  },
+  {
+   "text": "along",
+   "start": 10.96,
+   "end": 11.12,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 11.16,
+   "end": 11.2,
+   "paragraph": 0
+  },
+  {
+   "text": "field",
+   "start": 11.36,
+   "end": 11.76,
+   "paragraph": 0
+  },
+  {
+   "text": "nor",
+   "start": 12.08,
+   "end": 12.32,
+   "paragraph": 0
+  },
+  {
+   "text": "along",
+   "start": 12.4,
+   "end": 12.64,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 12.72,
+   "end": 12.76,
+   "paragraph": 0
+  },
+  {
+   "text": "motion,",
+   "start": 12.8,
+   "end": 13.68,
+   "paragraph": 0
+  },
+  {
+   "text": "but",
+   "start": 13.76,
+   "end": 14,
+   "paragraph": 0
+  },
+  {
+   "text": "at",
+   "start": 14.08,
+   "end": 14.24,
+   "paragraph": 0
+  },
+  {
+   "text": "right",
+   "start": 14.4,
+   "end": 14.64,
+   "paragraph": 0
+  },
+  {
+   "text": "angles",
+   "start": 14.72,
+   "end": 15.04,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 15.12,
+   "end": 15.2,
+   "paragraph": 0
+  },
+  {
+   "text": "both.",
+   "start": 15.28,
+   "end": 15.92,
+   "paragraph": 0
+  },
+  {
+   "text": "A",
+   "start": 16.24,
+   "end": 16.32,
+   "paragraph": 1
+  },
+  {
+   "text": "force",
+   "start": 16.4,
+   "end": 16.64,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 16.72,
+   "end": 16.8,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 16.88,
+   "end": 17.12,
+   "paragraph": 1
+  },
+  {
+   "text": "always",
+   "start": 17.2,
+   "end": 17.6,
+   "paragraph": 1
+  },
+  {
+   "text": "sideways",
+   "start": 17.68,
+   "end": 18.32,
+   "paragraph": 1
+  },
+  {
+   "text": "cannot",
+   "start": 18.48,
+   "end": 18.8,
+   "paragraph": 1
+  },
+  {
+   "text": "speed",
+   "start": 18.88,
+   "end": 19.12,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 19.16,
+   "end": 19.2,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 19.28,
+   "end": 19.6,
+   "paragraph": 1
+  },
+  {
+   "text": "up",
+   "start": 19.68,
+   "end": 19.92,
+   "paragraph": 1
+  },
+  {
+   "text": "or",
+   "start": 20.16,
+   "end": 20.32,
+   "paragraph": 1
+  },
+  {
+   "text": "slow",
+   "start": 20.4,
+   "end": 20.64,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 20.68,
+   "end": 20.72,
+   "paragraph": 1
+  },
+  {
+   "text": "down.",
+   "start": 20.8,
+   "end": 21.2,
+   "paragraph": 1
+  },
+  {
+   "text": "It",
+   "start": 21.6,
+   "end": 21.68,
+   "paragraph": 1
+  },
+  {
+   "text": "can",
+   "start": 21.76,
+   "end": 21.92,
+   "paragraph": 1
+  },
+  {
+   "text": "only",
+   "start": 22,
+   "end": 22.32,
+   "paragraph": 1
+  },
+  {
+   "text": "turn",
+   "start": 22.48,
+   "end": 22.72,
+   "paragraph": 1
+  },
+  {
+   "text": "it.",
+   "start": 22.8,
+   "end": 23.4,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 23.76,
+   "end": 24,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 24.32,
+   "end": 24.4,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 24.56,
+   "end": 24.88,
+   "paragraph": 1
+  },
+  {
+   "text": "moving",
+   "start": 24.96,
+   "end": 25.28,
+   "paragraph": 1
+  },
+  {
+   "text": "across",
+   "start": 25.4,
+   "end": 25.76,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 25.8,
+   "end": 25.84,
+   "paragraph": 1
+  },
+  {
+   "text": "magnetic",
+   "start": 25.92,
+   "end": 26.32,
+   "paragraph": 1
+  },
+  {
+   "text": "field",
+   "start": 26.48,
+   "end": 26.8,
+   "paragraph": 1
+  },
+  {
+   "text": "travels",
+   "start": 27.04,
+   "end": 27.52,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 27.6,
+   "end": 27.68,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 27.72,
+   "end": 27.76,
+   "paragraph": 1
+  },
+  {
+   "text": "circle.",
+   "start": 27.92,
+   "end": 28.4,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 29.04,
+   "end": 29.12,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 29.2,
+   "end": 29.6,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 29.76,
+   "end": 29.92,
+   "paragraph": 2
+  },
+  {
+   "text": "nothing",
+   "start": 30.08,
+   "end": 30.4,
+   "paragraph": 2
+  },
+  {
+   "text": "but",
+   "start": 30.48,
+   "end": 30.64,
+   "paragraph": 2
+  },
+  {
+   "text": "charges",
+   "start": 30.8,
+   "end": 31.2,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 31.28,
+   "end": 31.36,
+   "paragraph": 2
+  },
+  {
+   "text": "motion.",
+   "start": 31.44,
+   "end": 32.2,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 32.48,
+   "end": 32.72,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 33.04,
+   "end": 33.12,
+   "paragraph": 2
+  },
+  {
+   "text": "wire",
+   "start": 33.28,
+   "end": 33.52,
+   "paragraph": 2
+  },
+  {
+   "text": "carrying",
+   "start": 33.6,
+   "end": 33.92,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 34,
+   "end": 34.32,
+   "paragraph": 2
+  },
+  {
+   "text": "across",
+   "start": 34.4,
+   "end": 34.72,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 34.76,
+   "end": 34.8,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 34.96,
+   "end": 35.28,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 35.44,
+   "end": 35.6,
+   "paragraph": 2
+  },
+  {
+   "text": "pushed",
+   "start": 35.68,
+   "end": 36,
+   "paragraph": 2
+  },
+  {
+   "text": "sideways.",
+   "start": 36.16,
+   "end": 37.08,
+   "paragraph": 2
+  },
+  {
+   "text": "The",
+   "start": 37.36,
+   "end": 37.44,
+   "paragraph": 2
+  },
+  {
+   "text": "force",
+   "start": 37.6,
+   "end": 38,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 38.16,
+   "end": 38.24,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 38.32,
+   "end": 38.4,
+   "paragraph": 2
+  },
+  {
+   "text": "field,",
+   "start": 38.56,
+   "end": 39.2,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 39.36,
+   "end": 39.52,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 39.6,
+   "end": 39.68,
+   "paragraph": 2
+  },
+  {
+   "text": "current,",
+   "start": 39.76,
+   "end": 40.4,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 40.56,
+   "end": 40.72,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 40.8,
+   "end": 40.88,
+   "paragraph": 2
+  },
+  {
+   "text": "length",
+   "start": 40.96,
+   "end": 41.28,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 41.36,
+   "end": 41.44,
+   "paragraph": 2
+  },
+  {
+   "text": "wire",
+   "start": 41.52,
+   "end": 41.76,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 41.84,
+   "end": 41.92,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 42,
+   "end": 42.08,
+   "paragraph": 2
+  },
+  {
+   "text": "field.",
+   "start": 42.16,
+   "end": 42.76,
+   "paragraph": 2
+  },
+  {
+   "text": "Put",
+   "start": 43.04,
+   "end": 43.12,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 43.2,
+   "end": 43.28,
+   "paragraph": 3
+  },
+  {
+   "text": "loop",
+   "start": 43.36,
+   "end": 43.6,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 43.68,
+   "end": 43.76,
+   "paragraph": 3
+  },
+  {
+   "text": "wire",
+   "start": 43.84,
+   "end": 44.08,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 44.16,
+   "end": 44.24,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 44.28,
+   "end": 44.32,
+   "paragraph": 3
+  },
+  {
+   "text": "field",
+   "start": 44.4,
+   "end": 44.8,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 44.96,
+   "end": 45.12,
+   "paragraph": 3
+  },
+  {
+   "text": "pass",
+   "start": 45.2,
+   "end": 45.44,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 45.48,
+   "end": 45.52,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 45.6,
+   "end": 45.84,
+   "paragraph": 3
+  },
+  {
+   "text": "through",
+   "start": 45.92,
+   "end": 46.08,
+   "paragraph": 3
+  },
+  {
+   "text": "it.",
+   "start": 46.16,
+   "end": 46.4,
+   "paragraph": 3
+  },
+  {
+   "text": "One",
+   "start": 46.96,
+   "end": 47.12,
+   "paragraph": 3
+  },
+  {
+   "text": "side",
+   "start": 47.2,
+   "end": 47.44,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 47.52,
+   "end": 47.6,
+   "paragraph": 3
+  },
+  {
+   "text": "pushed",
+   "start": 47.68,
+   "end": 47.92,
+   "paragraph": 3
+  },
+  {
+   "text": "up,",
+   "start": 48,
+   "end": 48.56,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 48.6,
+   "end": 48.64,
+   "paragraph": 3
+  },
+  {
+   "text": "other",
+   "start": 48.72,
+   "end": 48.96,
+   "paragraph": 3
+  },
+  {
+   "text": "down,",
+   "start": 49.04,
+   "end": 49.68,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 49.76,
+   "end": 49.84,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 49.88,
+   "end": 49.92,
+   "paragraph": 3
+  },
+  {
+   "text": "loop",
+   "start": 50,
+   "end": 50.24,
+   "paragraph": 3
+  },
+  {
+   "text": "turns.",
+   "start": 50.4,
+   "end": 51.16,
+   "paragraph": 3
+  },
+  {
+   "text": "You",
+   "start": 51.44,
+   "end": 51.6,
+   "paragraph": 3
+  },
+  {
+   "text": "are",
+   "start": 51.68,
+   "end": 51.76,
+   "paragraph": 3
+  },
+  {
+   "text": "looking",
+   "start": 51.96,
+   "end": 52.16,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 52.24,
+   "end": 52.32,
+   "paragraph": 3
+  },
+  {
+   "text": "an",
+   "start": 52.4,
+   "end": 52.48,
+   "paragraph": 3
+  },
+  {
+   "text": "electric",
+   "start": 52.56,
+   "end": 53.04,
+   "paragraph": 3
+  },
+  {
+   "text": "motor.",
+   "start": 53.12,
+   "end": 53.76,
+   "paragraph": 3
+  }
+ ]
+}
