@@ -30,6 +30,7 @@ import { Capac6, CAPAC6_FRAMES } from './films/capacitance/Capac6';
 import { Capac7, CAPAC7_FRAMES } from './films/capacitance/Capac7';
 import { Capac8, CAPAC8_FRAMES } from './films/capacitance/Capac8';
 import { Capac9, CAPAC9_FRAMES } from './films/capacitance/Capac9';
+import { CapacThumb } from './films/capacitance/CapacThumb';
 import { FPS, H, W } from './theme';
 
 // Film 2: The Invisible Push (charge and the electric field).
@@ -79,6 +80,7 @@ export const Root = () => (
     <Composition id="StyleA" component={StyleA} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleB" component={StyleB} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleC" component={StyleC} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="CapacThumb" component={CapacThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="ChargeThumb" component={ChargeThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="Thumbnail" component={Thumbnail} durationInFrames={1} fps={FPS} width={W} height={H} />
   </>

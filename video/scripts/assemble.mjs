@@ -70,7 +70,7 @@ writeFileSync(list, chapters.map((c) => `file '${c.file}'`).join('\n') + '\n');
 const voiceOnly = join(out, `${film.name}-voice-only.mp4`);
 const joined = join(out, 'joined.mp4');
 run('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', joined]);
-run('ffmpeg', ['-v', 'error', '-y', '-i', joined, '-c:v', 'copy', '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', voiceOnly]);
+run('ffmpeg', ['-v', 'error', '-y', '-i', joined, '-c:v', 'copy', '-af', 'volume=7dB,alimiter=limit=0.9', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', voiceOnly]);
 
 // --- music and sound effects ---------------------------------------------------
 // public/audio holds a background track and a few effects generated with
@@ -103,7 +103,7 @@ filters.push(`${bed}atrim=0:${total.toFixed(2)},volume=0.13,afade=t=in:d=2,afade
 cues2.forEach((q, i) => filters.push(`[${copies + 1 + i}:a]volume=${(q.gain * 0.5).toFixed(3)},aformat=channel_layouts=stereo,adelay=${Math.round(q.at * 1000)}:all=1[e${i}]`));
 filters.push(`[0:a]aformat=channel_layouts=stereo,asplit=2[v1][v2]`);
 filters.push(`[bgm][v1]sidechaincompress=threshold=0.02:ratio=4:attack=120:release=900[ducked]`);
-filters.push(`[v2][ducked]${cues2.map((_, i) => `[e${i}]`).join('')}amix=inputs=${2 + cues2.length}:normalize=0:duration=first,loudnorm=I=-16:TP=-1.5:LRA=11[mix]`);
+filters.push(`[v2][ducked]${cues2.map((_, i) => `[e${i}]`).join('')}amix=inputs=${2 + cues2.length}:normalize=0:duration=first,volume=7dB,alimiter=limit=0.9[mix]`);
 const final = join(out, `${film.name}.mp4`);
 run('ffmpeg', ['-v', 'error', '-y', ...inputs, '-filter_complex', filters.join(';'), '-map', '0:v', '-map', '[mix]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', final]);
 
