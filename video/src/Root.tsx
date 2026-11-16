@@ -8,6 +8,9 @@ import { Chapter6, CH6_FRAMES } from './chapters/Chapter6';
 import { Chapter7, CH7_FRAMES } from './chapters/Chapter7';
 import { Chapter8, CH8_FRAMES } from './chapters/Chapter8';
 import { Thumbnail } from './chapters/Thumbnail';
+import { StyleA } from './styles/StyleA';
+import { StyleB } from './styles/StyleB';
+import { StyleC } from './styles/StyleC';
 import { FPS, H, W } from './theme';
 
 // Each chapter renders on its own; scripts/assemble.mjs joins them.
@@ -27,6 +30,10 @@ export const Root = () => (
     {chapters.map((c) => (
       <Composition key={c.id} id={c.id} component={c.component} durationInFrames={c.frames} fps={FPS} width={W} height={H} />
     ))}
+    {/* style options for the rest of the series */}
+    <Composition id="StyleA" component={StyleA} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="StyleB" component={StyleB} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="StyleC" component={StyleC} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="Thumbnail" component={Thumbnail} durationInFrames={1} fps={FPS} width={W} height={H} />
   </>
 );

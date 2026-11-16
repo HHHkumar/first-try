@@ -51,7 +51,7 @@ const mix3 = (a: readonly number[], b: readonly number[], t: number): [number, n
   a[2] + (b[2] - a[2]) * t,
 ];
 
-const Camera = ({ pose, aspect }: { pose: CameraPose; aspect: number }) => {
+export const Camera = ({ pose, aspect }: { pose: CameraPose; aspect: number }) => {
   const camera = useThree((s) => s.camera) as THREE.PerspectiveCamera;
   camera.position.set(pose.pos[0], pose.pos[1], pose.pos[2]);
   camera.up.set(0, 1, 0);

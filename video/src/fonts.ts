@@ -13,5 +13,11 @@ for (const w of ['400', '500'])
     load('STIX Two Greek', `stix-two-text-greek-${w}-${st}.woff2`, w, st);
   }
 
+// Faces for the alternative illustration styles.
+for (const w of ['500', '700']) load('Caveat', `caveat-latin-${w}-normal.woff2`, w);
+for (const w of ['400', '600']) load('Fredoka', `fredoka-latin-${w}-normal.woff2`, w);
+export const caveat = "'Caveat', 'Comic Sans MS', cursive";
+export const fredoka = "'Fredoka', 'Sora', Arial, sans-serif";
+
 export const sora = "'Sora', 'Helvetica Neue', Arial, sans-serif";
 export const stix = "'STIX Two', 'STIX Two Greek', 'Times New Roman', serif";
