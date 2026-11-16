@@ -50,6 +50,16 @@ import { Ind6, IND6_FRAMES } from './films/inductance/Ind6';
 import { Ind7, IND7_FRAMES } from './films/inductance/Ind7';
 import { Ind8, IND8_FRAMES } from './films/inductance/Ind8';
 import { Ind9, IND9_FRAMES } from './films/inductance/Ind9';
+import { F1, F1_FRAMES } from './films/fields/F1';
+import { F2, F2_FRAMES } from './films/fields/F2';
+import { F3, F3_FRAMES } from './films/fields/F3';
+import { F4, F4_FRAMES } from './films/fields/F4';
+import { F5, F5_FRAMES } from './films/fields/F5';
+import { F6, F6_FRAMES } from './films/fields/F6';
+import { F7, F7_FRAMES } from './films/fields/F7';
+import { F8, F8_FRAMES } from './films/fields/F8';
+import { F9, F9_FRAMES } from './films/fields/F9';
+import { FThumb } from './films/fields/FThumb';
 import { IndThumb } from './films/inductance/IndThumb';
 import { MagThumb } from './films/magnetism/MagThumb';
 import { FPS, H, W } from './theme';
@@ -92,6 +102,17 @@ const inductance = [
   { id: 'Ind8', component: Ind8, frames: IND8_FRAMES },
   { id: 'Ind9', component: Ind9, frames: IND9_FRAMES },
 ];
+const fields = [
+  { id: 'F1', component: F1, frames: F1_FRAMES },
+  { id: 'F2', component: F2, frames: F2_FRAMES },
+  { id: 'F3', component: F3, frames: F3_FRAMES },
+  { id: 'F4', component: F4, frames: F4_FRAMES },
+  { id: 'F5', component: F5, frames: F5_FRAMES },
+  { id: 'F6', component: F6, frames: F6_FRAMES },
+  { id: 'F7', component: F7, frames: F7_FRAMES },
+  { id: 'F8', component: F8, frames: F8_FRAMES },
+  { id: 'F9', component: F9, frames: F9_FRAMES },
+];
 const magnetism = [
   { id: 'Mag1', component: Mag1, frames: MAG1_FRAMES },
   { id: 'Mag2', component: Mag2, frames: MAG2_FRAMES },
@@ -119,13 +140,14 @@ const chapters = [
 
 export const Root = () => (
   <>
-    {[...chapters, ...charge, ...capacitance, ...magnetism, ...inductance].map((c) => (
+    {[...chapters, ...charge, ...capacitance, ...magnetism, ...inductance, ...fields].map((c) => (
       <Composition key={c.id} id={c.id} component={c.component} durationInFrames={c.frames} fps={FPS} width={W} height={H} />
     ))}
     {/* style options for the rest of the series */}
     <Composition id="StyleA" component={StyleA} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleB" component={StyleB} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleC" component={StyleC} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="FThumb" component={FThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IndThumb" component={IndThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="MagThumb" component={MagThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="CapacThumb" component={CapacThumb} durationInFrames={1} fps={FPS} width={W} height={H} />

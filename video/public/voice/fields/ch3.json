@@ -1,0 +1,1448 @@
+{
+ "chapter": 3,
+ "title": "The missing piece",
+ "characters": 1333,
+ "duration": 89.547755,
+ "words": [
+  {
+   "text": "Faraday",
+   "start": 0,
+   "end": 0.56,
+   "paragraph": 0
+  },
+  {
+   "text": "was",
+   "start": 0.68,
+   "end": 0.8,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 0.88,
+   "end": 0.96,
+   "paragraph": 0
+  },
+  {
+   "text": "brilliant",
+   "start": 1.04,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "experimenter,",
+   "start": 1.52,
+   "end": 2.72,
+   "paragraph": 0
+  },
+  {
+   "text": "but",
+   "start": 2.88,
+   "end": 3.04,
+   "paragraph": 0
+  },
+  {
+   "text": "he",
+   "start": 3.2,
+   "end": 3.36,
+   "paragraph": 0
+  },
+  {
+   "text": "had",
+   "start": 3.44,
+   "end": 3.6,
+   "paragraph": 0
+  },
+  {
+   "text": "almost",
+   "start": 3.84,
+   "end": 4.08,
+   "paragraph": 0
+  },
+  {
+   "text": "no",
+   "start": 4.32,
+   "end": 4.4,
+   "paragraph": 0
+  },
+  {
+   "text": "mathematics.",
+   "start": 4.48,
+   "end": 5.28,
+   "paragraph": 0
+  },
+  {
+   "text": "Thirty",
+   "start": 5.92,
+   "end": 6.16,
+   "paragraph": 0
+  },
+  {
+   "text": "years",
+   "start": 6.24,
+   "end": 6.48,
+   "paragraph": 0
+  },
+  {
+   "text": "later,",
+   "start": 6.56,
+   "end": 7.28,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 7.36,
+   "end": 7.44,
+   "paragraph": 0
+  },
+  {
+   "text": "Scottish",
+   "start": 7.6,
+   "end": 7.92,
+   "paragraph": 0
+  },
+  {
+   "text": "physicist",
+   "start": 8,
+   "end": 8.56,
+   "paragraph": 0
+  },
+  {
+   "text": "named",
+   "start": 8.64,
+   "end": 8.96,
+   "paragraph": 0
+  },
+  {
+   "text": "James",
+   "start": 9.12,
+   "end": 9.44,
+   "paragraph": 0
+  },
+  {
+   "text": "Clerk",
+   "start": 9.52,
+   "end": 9.84,
+   "paragraph": 0
+  },
+  {
+   "text": "Maxwell",
+   "start": 9.92,
+   "end": 10.48,
+   "paragraph": 0
+  },
+  {
+   "text": "set",
+   "start": 10.88,
+   "end": 11.04,
+   "paragraph": 0
+  },
+  {
+   "text": "out",
+   "start": 11.12,
+   "end": 11.28,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 11.36,
+   "end": 11.44,
+   "paragraph": 0
+  },
+  {
+   "text": "turn",
+   "start": 11.56,
+   "end": 11.68,
+   "paragraph": 0
+  },
+  {
+   "text": "Faraday's",
+   "start": 11.76,
+   "end": 12.32,
+   "paragraph": 0
+  },
+  {
+   "text": "pictures",
+   "start": 12.6,
+   "end": 12.88,
+   "paragraph": 0
+  },
+  {
+   "text": "into",
+   "start": 13,
+   "end": 13.12,
+   "paragraph": 0
+  },
+  {
+   "text": "equations.",
+   "start": 13.2,
+   "end": 14.28,
+   "paragraph": 0
+  },
+  {
+   "text": "He",
+   "start": 14.56,
+   "end": 14.72,
+   "paragraph": 1
+  },
+  {
+   "text": "wrote",
+   "start": 14.76,
+   "end": 14.96,
+   "paragraph": 1
+  },
+  {
+   "text": "down",
+   "start": 15.16,
+   "end": 15.36,
+   "paragraph": 1
+  },
+  {
+   "text": "everything",
+   "start": 15.64,
+   "end": 15.92,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 16,
+   "end": 16.08,
+   "paragraph": 1
+  },
+  {
+   "text": "was",
+   "start": 16.16,
+   "end": 16.24,
+   "paragraph": 1
+  },
+  {
+   "text": "known,",
+   "start": 16.32,
+   "end": 17.04,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 17.12,
+   "end": 17.2,
+   "paragraph": 1
+  },
+  {
+   "text": "he",
+   "start": 17.28,
+   "end": 17.36,
+   "paragraph": 1
+  },
+  {
+   "text": "found",
+   "start": 17.56,
+   "end": 17.76,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 17.92,
+   "end": 18,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 18.08,
+   "end": 18.12,
+   "paragraph": 1
+  },
+  {
+   "text": "rules",
+   "start": 18.16,
+   "end": 18.56,
+   "paragraph": 1
+  },
+  {
+   "text": "did",
+   "start": 18.64,
+   "end": 18.8,
+   "paragraph": 1
+  },
+  {
+   "text": "not",
+   "start": 18.96,
+   "end": 19.12,
+   "paragraph": 1
+  },
+  {
+   "text": "quite",
+   "start": 19.2,
+   "end": 19.44,
+   "paragraph": 1
+  },
+  {
+   "text": "fit",
+   "start": 19.52,
+   "end": 19.68,
+   "paragraph": 1
+  },
+  {
+   "text": "together.",
+   "start": 19.76,
+   "end": 20.44,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 20.72,
+   "end": 20.88,
+   "paragraph": 1
+  },
+  {
+   "text": "trouble",
+   "start": 20.96,
+   "end": 21.28,
+   "paragraph": 1
+  },
+  {
+   "text": "showed",
+   "start": 21.36,
+   "end": 21.6,
+   "paragraph": 1
+  },
+  {
+   "text": "up",
+   "start": 21.68,
+   "end": 21.84,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 21.88,
+   "end": 21.92,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 22,
+   "end": 22.04,
+   "paragraph": 1
+  },
+  {
+   "text": "capacitor.",
+   "start": 22.08,
+   "end": 23.12,
+   "paragraph": 1
+  },
+  {
+   "text": "Think",
+   "start": 23.44,
+   "end": 23.6,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 23.68,
+   "end": 23.76,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 23.8,
+   "end": 23.84,
+   "paragraph": 2
+  },
+  {
+   "text": "capacitor",
+   "start": 23.96,
+   "end": 24.48,
+   "paragraph": 2
+  },
+  {
+   "text": "being",
+   "start": 24.56,
+   "end": 24.72,
+   "paragraph": 2
+  },
+  {
+   "text": "charged.",
+   "start": 24.88,
+   "end": 25.6,
+   "paragraph": 2
+  },
+  {
+   "text": "Current",
+   "start": 25.84,
+   "end": 26.16,
+   "paragraph": 2
+  },
+  {
+   "text": "flows",
+   "start": 26.24,
+   "end": 26.56,
+   "paragraph": 2
+  },
+  {
+   "text": "along",
+   "start": 26.68,
+   "end": 26.8,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 26.88,
+   "end": 26.92,
+   "paragraph": 2
+  },
+  {
+   "text": "wire,",
+   "start": 26.96,
+   "end": 27.6,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 27.72,
+   "end": 27.84,
+   "paragraph": 2
+  },
+  {
+   "text": "around",
+   "start": 27.92,
+   "end": 28.32,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 28.36,
+   "end": 28.4,
+   "paragraph": 2
+  },
+  {
+   "text": "wire",
+   "start": 28.48,
+   "end": 28.8,
+   "paragraph": 2
+  },
+  {
+   "text": "there",
+   "start": 28.96,
+   "end": 29.04,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 29.12,
+   "end": 29.2,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 29.24,
+   "end": 29.28,
+   "paragraph": 2
+  },
+  {
+   "text": "magnetic",
+   "start": 29.36,
+   "end": 29.84,
+   "paragraph": 2
+  },
+  {
+   "text": "field,",
+   "start": 29.92,
+   "end": 30.56,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 30.64,
+   "end": 30.72,
+   "paragraph": 2
+  },
+  {
+   "text": "rings,",
+   "start": 30.8,
+   "end": 31.44,
+   "paragraph": 2
+  },
+  {
+   "text": "exactly",
+   "start": 31.52,
+   "end": 32.08,
+   "paragraph": 2
+  },
+  {
+   "text": "as",
+   "start": 32.16,
+   "end": 32.32,
+   "paragraph": 2
+  },
+  {
+   "text": "Oersted",
+   "start": 32.36,
+   "end": 32.72,
+   "paragraph": 2
+  },
+  {
+   "text": "found.",
+   "start": 32.8,
+   "end": 33.2,
+   "paragraph": 2
+  },
+  {
+   "text": "Now",
+   "start": 33.68,
+   "end": 33.92,
+   "paragraph": 2
+  },
+  {
+   "text": "follow",
+   "start": 34.08,
+   "end": 34.32,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 34.4,
+   "end": 34.48,
+   "paragraph": 2
+  },
+  {
+   "text": "wire",
+   "start": 34.56,
+   "end": 34.8,
+   "paragraph": 2
+  },
+  {
+   "text": "to",
+   "start": 34.88,
+   "end": 34.96,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 35,
+   "end": 35.04,
+   "paragraph": 2
+  },
+  {
+   "text": "plate.",
+   "start": 35.12,
+   "end": 35.76,
+   "paragraph": 2
+  },
+  {
+   "text": "Between",
+   "start": 36,
+   "end": 36.32,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 36.4,
+   "end": 36.48,
+   "paragraph": 2
+  },
+  {
+   "text": "plates",
+   "start": 36.56,
+   "end": 36.88,
+   "paragraph": 2
+  },
+  {
+   "text": "there",
+   "start": 37.04,
+   "end": 37.2,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 37.24,
+   "end": 37.28,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 37.36,
+   "end": 37.44,
+   "paragraph": 2
+  },
+  {
+   "text": "gap.",
+   "start": 37.52,
+   "end": 38.08,
+   "paragraph": 2
+  },
+  {
+   "text": "No",
+   "start": 38.32,
+   "end": 38.48,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 38.56,
+   "end": 38.88,
+   "paragraph": 2
+  },
+  {
+   "text": "crosses",
+   "start": 38.96,
+   "end": 39.28,
+   "paragraph": 2
+  },
+  {
+   "text": "it.",
+   "start": 39.36,
+   "end": 39.72,
+   "paragraph": 2
+  },
+  {
+   "text": "There",
+   "start": 39.92,
+   "end": 40,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 40.08,
+   "end": 40.16,
+   "paragraph": 2
+  },
+  {
+   "text": "no",
+   "start": 40.32,
+   "end": 40.4,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 40.56,
+   "end": 40.8,
+   "paragraph": 2
+  },
+  {
+   "text": "there",
+   "start": 40.88,
+   "end": 40.96,
+   "paragraph": 2
+  },
+  {
+   "text": "at",
+   "start": 41.04,
+   "end": 41.12,
+   "paragraph": 2
+  },
+  {
+   "text": "all.",
+   "start": 41.2,
+   "end": 41.72,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 42,
+   "end": 42.24,
+   "paragraph": 3
+  },
+  {
+   "text": "what",
+   "start": 42.48,
+   "end": 42.64,
+   "paragraph": 3
+  },
+  {
+   "text": "happens",
+   "start": 42.72,
+   "end": 43.04,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 43.08,
+   "end": 43.12,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 43.16,
+   "end": 43.2,
+   "paragraph": 3
+  },
+  {
+   "text": "magnetic",
+   "start": 43.28,
+   "end": 43.68,
+   "paragraph": 3
+  },
+  {
+   "text": "field?",
+   "start": 43.76,
+   "end": 44.16,
+   "paragraph": 3
+  },
+  {
+   "text": "Does",
+   "start": 44.56,
+   "end": 44.64,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 44.72,
+   "end": 44.8,
+   "paragraph": 3
+  },
+  {
+   "text": "simply",
+   "start": 44.88,
+   "end": 45.2,
+   "paragraph": 3
+  },
+  {
+   "text": "stop,",
+   "start": 45.28,
+   "end": 45.84,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 45.92,
+   "end": 46,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 46.04,
+   "end": 46.08,
+   "paragraph": 3
+  },
+  {
+   "text": "edge",
+   "start": 46.16,
+   "end": 46.32,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 46.36,
+   "end": 46.4,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 46.48,
+   "end": 46.56,
+   "paragraph": 3
+  },
+  {
+   "text": "plate,",
+   "start": 46.64,
+   "end": 47.12,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 47.2,
+   "end": 47.28,
+   "paragraph": 3
+  },
+  {
+   "text": "start",
+   "start": 47.36,
+   "end": 47.6,
+   "paragraph": 3
+  },
+  {
+   "text": "again",
+   "start": 47.68,
+   "end": 48,
+   "paragraph": 3
+  },
+  {
+   "text": "on",
+   "start": 48.04,
+   "end": 48.08,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 48.16,
+   "end": 48.24,
+   "paragraph": 3
+  },
+  {
+   "text": "other",
+   "start": 48.32,
+   "end": 48.4,
+   "paragraph": 3
+  },
+  {
+   "text": "side?",
+   "start": 48.48,
+   "end": 48.8,
+   "paragraph": 3
+  },
+  {
+   "text": "A",
+   "start": 49.28,
+   "end": 49.36,
+   "paragraph": 3
+  },
+  {
+   "text": "field",
+   "start": 49.52,
+   "end": 49.76,
+   "paragraph": 3
+  },
+  {
+   "text": "cannot",
+   "start": 49.92,
+   "end": 50.24,
+   "paragraph": 3
+  },
+  {
+   "text": "be",
+   "start": 50.32,
+   "end": 50.4,
+   "paragraph": 3
+  },
+  {
+   "text": "cut",
+   "start": 50.48,
+   "end": 50.56,
+   "paragraph": 3
+  },
+  {
+   "text": "off",
+   "start": 50.64,
+   "end": 50.8,
+   "paragraph": 3
+  },
+  {
+   "text": "like",
+   "start": 50.88,
+   "end": 50.96,
+   "paragraph": 3
+  },
+  {
+   "text": "that.",
+   "start": 51.04,
+   "end": 51.36,
+   "paragraph": 3
+  },
+  {
+   "text": "But",
+   "start": 51.84,
+   "end": 52,
+   "paragraph": 4
+  },
+  {
+   "text": "look",
+   "start": 52.24,
+   "end": 52.4,
+   "paragraph": 4
+  },
+  {
+   "text": "at",
+   "start": 52.48,
+   "end": 52.56,
+   "paragraph": 4
+  },
+  {
+   "text": "what",
+   "start": 52.64,
+   "end": 52.72,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 52.8,
+   "end": 52.88,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 52.96,
+   "end": 53.12,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 53.2,
+   "end": 53.28,
+   "paragraph": 4
+  },
+  {
+   "text": "gap.",
+   "start": 53.36,
+   "end": 53.88,
+   "paragraph": 4
+  },
+  {
+   "text": "It",
+   "start": 54.08,
+   "end": 54.16,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 54.24,
+   "end": 54.32,
+   "paragraph": 4
+  },
+  {
+   "text": "not",
+   "start": 54.4,
+   "end": 54.56,
+   "paragraph": 4
+  },
+  {
+   "text": "empty.",
+   "start": 54.64,
+   "end": 55.28,
+   "paragraph": 4
+  },
+  {
+   "text": "As",
+   "start": 55.52,
+   "end": 55.68,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 55.76,
+   "end": 55.84,
+   "paragraph": 4
+  },
+  {
+   "text": "plates",
+   "start": 55.92,
+   "end": 56.24,
+   "paragraph": 4
+  },
+  {
+   "text": "charge,",
+   "start": 56.32,
+   "end": 56.96,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 57.04,
+   "end": 57.12,
+   "paragraph": 4
+  },
+  {
+   "text": "electric",
+   "start": 57.2,
+   "end": 57.6,
+   "paragraph": 4
+  },
+  {
+   "text": "field",
+   "start": 57.68,
+   "end": 57.92,
+   "paragraph": 4
+  },
+  {
+   "text": "between",
+   "start": 58,
+   "end": 58.32,
+   "paragraph": 4
+  },
+  {
+   "text": "them",
+   "start": 58.4,
+   "end": 58.64,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 58.72,
+   "end": 58.8,
+   "paragraph": 4
+  },
+  {
+   "text": "growing",
+   "start": 58.88,
+   "end": 59.2,
+   "paragraph": 4
+  },
+  {
+   "text": "stronger",
+   "start": 59.28,
+   "end": 59.84,
+   "paragraph": 4
+  },
+  {
+   "text": "every",
+   "start": 60.08,
+   "end": 60.4,
+   "paragraph": 4
+  },
+  {
+   "text": "instant.",
+   "start": 60.68,
+   "end": 61.24,
+   "paragraph": 4
+  },
+  {
+   "text": "Maxwell",
+   "start": 61.52,
+   "end": 62,
+   "paragraph": 5
+  },
+  {
+   "text": "proposed",
+   "start": 62.08,
+   "end": 62.48,
+   "paragraph": 5
+  },
+  {
+   "text": "that",
+   "start": 62.64,
+   "end": 62.8,
+   "paragraph": 5
+  },
+  {
+   "text": "this",
+   "start": 62.96,
+   "end": 63.2,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 63.28,
+   "end": 63.44,
+   "paragraph": 5
+  },
+  {
+   "text": "enough.",
+   "start": 63.52,
+   "end": 64.12,
+   "paragraph": 5
+  },
+  {
+   "text": "A",
+   "start": 64.32,
+   "end": 64.48,
+   "paragraph": 5
+  },
+  {
+   "text": "changing",
+   "start": 64.68,
+   "end": 64.88,
+   "paragraph": 5
+  },
+  {
+   "text": "electric",
+   "start": 64.96,
+   "end": 65.36,
+   "paragraph": 5
+  },
+  {
+   "text": "field",
+   "start": 65.44,
+   "end": 65.84,
+   "paragraph": 5
+  },
+  {
+   "text": "makes",
+   "start": 65.92,
+   "end": 66.16,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 66.2,
+   "end": 66.24,
+   "paragraph": 5
+  },
+  {
+   "text": "magnetic",
+   "start": 66.32,
+   "end": 66.8,
+   "paragraph": 5
+  },
+  {
+   "text": "field",
+   "start": 66.88,
+   "end": 67.04,
+   "paragraph": 5
+  },
+  {
+   "text": "around",
+   "start": 67.12,
+   "end": 67.36,
+   "paragraph": 5
+  },
+  {
+   "text": "it,",
+   "start": 67.44,
+   "end": 67.84,
+   "paragraph": 5
+  },
+  {
+   "text": "just",
+   "start": 67.92,
+   "end": 68.16,
+   "paragraph": 5
+  },
+  {
+   "text": "as",
+   "start": 68.24,
+   "end": 68.32,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 68.36,
+   "end": 68.4,
+   "paragraph": 5
+  },
+  {
+   "text": "current",
+   "start": 68.48,
+   "end": 68.72,
+   "paragraph": 5
+  },
+  {
+   "text": "does.",
+   "start": 68.8,
+   "end": 69.36,
+   "paragraph": 5
+  },
+  {
+   "text": "With",
+   "start": 69.6,
+   "end": 69.76,
+   "paragraph": 5
+  },
+  {
+   "text": "that",
+   "start": 69.88,
+   "end": 70,
+   "paragraph": 5
+  },
+  {
+   "text": "one",
+   "start": 70.16,
+   "end": 70.32,
+   "paragraph": 5
+  },
+  {
+   "text": "addition,",
+   "start": 70.4,
+   "end": 71.12,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 71.16,
+   "end": 71.2,
+   "paragraph": 5
+  },
+  {
+   "text": "rings",
+   "start": 71.28,
+   "end": 71.52,
+   "paragraph": 5
+  },
+  {
+   "text": "of",
+   "start": 71.6,
+   "end": 71.68,
+   "paragraph": 5
+  },
+  {
+   "text": "magnetic",
+   "start": 71.76,
+   "end": 72.16,
+   "paragraph": 5
+  },
+  {
+   "text": "field",
+   "start": 72.32,
+   "end": 72.56,
+   "paragraph": 5
+  },
+  {
+   "text": "carry",
+   "start": 72.72,
+   "end": 72.96,
+   "paragraph": 5
+  },
+  {
+   "text": "on",
+   "start": 73.08,
+   "end": 73.2,
+   "paragraph": 5
+  },
+  {
+   "text": "smoothly",
+   "start": 73.44,
+   "end": 73.76,
+   "paragraph": 5
+  },
+  {
+   "text": "around",
+   "start": 73.88,
+   "end": 74,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 74.08,
+   "end": 74.16,
+   "paragraph": 5
+  },
+  {
+   "text": "gap,",
+   "start": 74.32,
+   "end": 74.72,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 74.8,
+   "end": 74.88,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 74.92,
+   "end": 74.96,
+   "paragraph": 5
+  },
+  {
+   "text": "rules",
+   "start": 75.04,
+   "end": 75.36,
+   "paragraph": 5
+  },
+  {
+   "text": "fit",
+   "start": 75.52,
+   "end": 75.68,
+   "paragraph": 5
+  },
+  {
+   "text": "together",
+   "start": 75.76,
+   "end": 76.24,
+   "paragraph": 5
+  },
+  {
+   "text": "everywhere.",
+   "start": 76.32,
+   "end": 77.16,
+   "paragraph": 5
+  },
+  {
+   "text": "Nobody",
+   "start": 77.44,
+   "end": 77.84,
+   "paragraph": 6
+  },
+  {
+   "text": "had",
+   "start": 77.92,
+   "end": 78.16,
+   "paragraph": 6
+  },
+  {
+   "text": "ever",
+   "start": 78.24,
+   "end": 78.48,
+   "paragraph": 6
+  },
+  {
+   "text": "seen",
+   "start": 78.56,
+   "end": 78.72,
+   "paragraph": 6
+  },
+  {
+   "text": "this",
+   "start": 78.8,
+   "end": 78.88,
+   "paragraph": 6
+  },
+  {
+   "text": "effect.",
+   "start": 78.96,
+   "end": 79.56,
+   "paragraph": 6
+  },
+  {
+   "text": "It",
+   "start": 79.76,
+   "end": 79.84,
+   "paragraph": 6
+  },
+  {
+   "text": "is",
+   "start": 79.92,
+   "end": 80,
+   "paragraph": 6
+  },
+  {
+   "text": "far",
+   "start": 80.16,
+   "end": 80.4,
+   "paragraph": 6
+  },
+  {
+   "text": "too",
+   "start": 80.48,
+   "end": 80.56,
+   "paragraph": 6
+  },
+  {
+   "text": "small",
+   "start": 80.64,
+   "end": 80.96,
+   "paragraph": 6
+  },
+  {
+   "text": "to",
+   "start": 81.04,
+   "end": 81.12,
+   "paragraph": 6
+  },
+  {
+   "text": "detect",
+   "start": 81.28,
+   "end": 81.44,
+   "paragraph": 6
+  },
+  {
+   "text": "with",
+   "start": 81.52,
+   "end": 81.6,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 81.68,
+   "end": 81.76,
+   "paragraph": 6
+  },
+  {
+   "text": "compass",
+   "start": 82,
+   "end": 82.24,
+   "paragraph": 6
+  },
+  {
+   "text": "and",
+   "start": 82.32,
+   "end": 82.4,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 82.44,
+   "end": 82.48,
+   "paragraph": 6
+  },
+  {
+   "text": "capacitor.",
+   "start": 82.56,
+   "end": 83.12,
+   "paragraph": 6
+  },
+  {
+   "text": "Maxwell",
+   "start": 83.52,
+   "end": 84.08,
+   "paragraph": 6
+  },
+  {
+   "text": "added",
+   "start": 84.16,
+   "end": 84.4,
+   "paragraph": 6
+  },
+  {
+   "text": "it",
+   "start": 84.48,
+   "end": 84.72,
+   "paragraph": 6
+  },
+  {
+   "text": "because",
+   "start": 84.88,
+   "end": 85.04,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 85.12,
+   "end": 85.2,
+   "paragraph": 6
+  },
+  {
+   "text": "mathematics",
+   "start": 85.28,
+   "end": 85.84,
+   "paragraph": 6
+  },
+  {
+   "text": "demanded",
+   "start": 85.92,
+   "end": 86.4,
+   "paragraph": 6
+  },
+  {
+   "text": "it,",
+   "start": 86.48,
+   "end": 86.96,
+   "paragraph": 6
+  },
+  {
+   "text": "and",
+   "start": 87.04,
+   "end": 87.36,
+   "paragraph": 6
+  },
+  {
+   "text": "because",
+   "start": 87.6,
+   "end": 87.84,
+   "paragraph": 6
+  },
+  {
+   "text": "of",
+   "start": 87.92,
+   "end": 88,
+   "paragraph": 6
+  },
+  {
+   "text": "what",
+   "start": 88.08,
+   "end": 88.24,
+   "paragraph": 6
+  },
+  {
+   "text": "it",
+   "start": 88.32,
+   "end": 88.4,
+   "paragraph": 6
+  },
+  {
+   "text": "led",
+   "start": 88.48,
+   "end": 88.64,
+   "paragraph": 6
+  },
+  {
+   "text": "to",
+   "start": 88.72,
+   "end": 88.88,
+   "paragraph": 6
+  },
+  {
+   "text": "next.",
+   "start": 89.12,
+   "end": 89.6,
+   "paragraph": 6
+  }
+ ]
+}

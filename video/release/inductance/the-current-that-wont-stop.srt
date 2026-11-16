@@ -1,0 +1,723 @@
+1
+00:00:00,667 --> 00:00:03,607
+In eighteen thirty-two, Joseph Henry,
+
+2
+00:00:03,627 --> 00:00:06,407
+the man who built the great electromagnets,
+
+3
+00:00:06,427 --> 00:00:09,207
+noticed something odd on his bench.
+
+4
+00:00:09,227 --> 00:00:13,127
+He had a small battery, far too weak to give a shock.
+
+5
+00:00:13,147 --> 00:00:16,647
+When he connected it to a short wire and broke the circuit,
+
+6
+00:00:16,667 --> 00:00:18,087
+nothing happened.
+
+7
+00:00:18,107 --> 00:00:21,687
+But when the wire was long, and wound into a coil,
+
+8
+00:00:21,707 --> 00:00:24,807
+breaking the circuit made a bright spark jump across the
+
+9
+00:00:24,827 --> 00:00:25,767
+gap.
+
+10
+00:00:25,787 --> 00:00:27,567
+The battery had not changed.
+
+11
+00:00:27,587 --> 00:00:30,337
+The spark was coming from the coil.
+
+12
+00:00:30,427 --> 00:00:33,207
+Something in that coil was refusing to let the current
+
+13
+00:00:33,227 --> 00:00:34,287
+stop.
+
+14
+00:00:34,307 --> 00:00:36,727
+That something is inductance.
+
+15
+00:00:36,747 --> 00:00:39,767
+It is in every motor, every transformer,
+
+16
+00:00:39,787 --> 00:00:42,657
+and every power line you will ever work on.
+
+17
+00:00:44,000 --> 00:00:47,860
+Last time, we saw that a current makes a magnetic field,
+
+18
+00:00:47,880 --> 00:00:50,270
+and that a coil concentrates it.
+
+19
+00:00:50,480 --> 00:00:54,030
+Now look more closely at the moment the current starts.
+
+20
+00:00:54,160 --> 00:00:57,740
+The field is not there, and then it is.
+
+21
+00:00:57,760 --> 00:00:59,500
+It has to be built.
+
+22
+00:00:59,520 --> 00:01:03,020
+And like the electric field between the plates of a capacitor,
+
+23
+00:01:03,040 --> 00:01:05,820
+a magnetic field holds energy.
+
+24
+00:01:05,840 --> 00:01:08,420
+That energy has to come from somewhere.
+
+25
+00:01:08,440 --> 00:01:10,460
+It comes from the circuit.
+
+26
+00:01:10,480 --> 00:01:12,540
+So while the field is being built,
+
+27
+00:01:12,560 --> 00:01:14,980
+the circuit has to do extra work,
+
+28
+00:01:15,000 --> 00:01:17,580
+on top of whatever it does to push current through the
+
+29
+00:01:17,600 --> 00:01:18,740
+wire.
+
+30
+00:01:18,760 --> 00:01:21,620
+Once the current is steady, the field is steady,
+
+31
+00:01:21,640 --> 00:01:24,140
+and it costs nothing more to keep.
+
+32
+00:01:24,160 --> 00:01:27,860
+The energy sits there, stored in the space in and around
+
+33
+00:01:27,880 --> 00:01:28,790
+the coil.
+
+34
+00:01:30,133 --> 00:01:32,683
+How does the circuit feel that extra work?
+
+35
+00:01:33,093 --> 00:01:34,283
+Through a voltage.
+
+36
+00:01:34,613 --> 00:01:38,353
+In eighteen thirty-one, Michael Faraday found that a changing
+
+37
+00:01:38,373 --> 00:01:42,473
+magnetic field produces a voltage in any wire it passes
+
+38
+00:01:42,493 --> 00:01:42,843
+through.
+
+39
+00:01:43,253 --> 00:01:45,963
+We will give that discovery a video of its own.
+
+40
+00:01:46,053 --> 00:01:48,363
+Here we need only one consequence.
+
+41
+00:01:48,693 --> 00:01:51,163
+A coil sits in its own field.
+
+42
+00:01:51,253 --> 00:01:54,833
+So when its current changes, its own field changes,
+
+43
+00:01:54,853 --> 00:01:58,043
+and a voltage appears across the coil itself.
+
+44
+00:01:58,213 --> 00:02:00,123
+Which way does that voltage point?
+
+45
+00:02:00,453 --> 00:02:03,953
+In eighteen thirty-four, the physicist Heinrich Lenz gave
+
+46
+00:02:03,973 --> 00:02:04,523
+the rule.
+
+47
+00:02:04,933 --> 00:02:08,163
+It always opposes the change that caused it.
+
+48
+00:02:08,293 --> 00:02:11,513
+Try to raise the current, and the coil pushes back against
+
+49
+00:02:11,533 --> 00:02:12,433
+the rise.
+
+50
+00:02:12,453 --> 00:02:15,873
+Try to reduce the current, and the coil pushes it forward,
+
+51
+00:02:15,893 --> 00:02:17,473
+trying to keep it going.
+
+52
+00:02:17,493 --> 00:02:19,793
+A coil does not resist current.
+
+53
+00:02:19,813 --> 00:02:22,043
+It resists a change in current.
+
+54
+00:02:23,400 --> 00:02:25,230
+Think of a heavy flywheel.
+
+55
+00:02:25,560 --> 00:02:28,700
+It is hard to get turning, and once it is turning,
+
+56
+00:02:28,720 --> 00:02:30,030
+it is hard to stop.
+
+57
+00:02:30,440 --> 00:02:32,190
+It does not object to spinning.
+
+58
+00:02:32,440 --> 00:02:34,990
+It objects to changing its speed.
+
+59
+00:02:35,160 --> 00:02:37,830
+A coil treats current the same way.
+
+60
+00:02:37,960 --> 00:02:40,990
+How strongly it objects is its inductance.
+
+61
+00:02:41,400 --> 00:02:43,700
+The faster you try to change the current,
+
+62
+00:02:43,720 --> 00:02:46,270
+the larger the voltage the coil produces.
+
+63
+00:02:46,680 --> 00:02:49,540
+The ratio between the two is the inductance,
+
+64
+00:02:49,560 --> 00:02:50,430
+written L.
+
+65
+00:02:50,920 --> 00:02:54,260
+The voltage across a coil equals its inductance,
+
+66
+00:02:54,280 --> 00:02:57,030
+times the rate at which the current is changing.
+
+67
+00:02:57,160 --> 00:03:00,740
+The word itself was coined in eighteen eighty-six by Oliver
+
+68
+00:03:00,760 --> 00:03:03,790
+Heaviside, a self-taught English engineer.
+
+69
+00:03:03,960 --> 00:03:06,350
+The unit came seven years later.
+
+70
+00:03:06,520 --> 00:03:09,460
+At the International Electrical Congress in Chicago,
+
+71
+00:03:09,480 --> 00:03:12,820
+in eighteen ninety-three, it was named the henry,
+
+72
+00:03:12,840 --> 00:03:15,270
+after the man who saw the spark.
+
+73
+00:03:15,480 --> 00:03:19,860
+One henry means this: if the current changes by one ampere
+
+74
+00:03:19,880 --> 00:03:22,990
+each second, the coil produces one volt.
+
+75
+00:03:23,400 --> 00:03:24,830
+It is a large unit.
+
+76
+00:03:25,080 --> 00:03:28,260
+The inductors on a circuit board are measured in thousandths
+
+77
+00:03:28,280 --> 00:03:30,110
+or millionths of a henry.
+
+78
+00:03:31,467 --> 00:03:34,057
+What decides the inductance of a coil?
+
+79
+00:03:34,187 --> 00:03:37,217
+Only its shape, and what it is wound on.
+
+80
+00:03:37,627 --> 00:03:39,697
+Start with the number of turns.
+
+81
+00:03:39,867 --> 00:03:42,967
+Double the turns, and the same current makes twice the
+
+82
+00:03:42,987 --> 00:03:43,537
+field.
+
+83
+00:03:43,947 --> 00:03:47,487
+But that field now passes through twice as many turns,
+
+84
+00:03:47,507 --> 00:03:50,017
+and each of them adds its own voltage.
+
+85
+00:03:50,347 --> 00:03:52,577
+So the inductance does not double.
+
+86
+00:03:52,747 --> 00:03:54,697
+It goes up four times.
+
+87
+00:03:54,827 --> 00:03:58,217
+Inductance grows with the square of the number of turns.
+
+88
+00:03:58,347 --> 00:04:01,127
+A wider coil encloses more field,
+
+89
+00:04:01,147 --> 00:04:03,537
+so inductance grows with the area.
+
+90
+00:04:03,867 --> 00:04:06,967
+A longer coil, with the same turns spread out,
+
+91
+00:04:06,987 --> 00:04:10,977
+has a weaker field, so inductance falls with the length.
+
+92
+00:04:11,067 --> 00:04:12,737
+And then there is the core.
+
+93
+00:04:13,067 --> 00:04:16,727
+Put iron inside, and its domains multiply the field,
+
+94
+00:04:16,747 --> 00:04:18,817
+hundreds or thousands of times.
+
+95
+00:04:19,067 --> 00:04:21,617
+The inductance is multiplied with it.
+
+96
+00:04:21,787 --> 00:04:23,057
+Notice one more thing.
+
+97
+00:04:23,387 --> 00:04:26,537
+Any wire carrying current has a field around it.
+
+98
+00:04:26,587 --> 00:04:29,407
+So every wire has some inductance,
+
+99
+00:04:29,427 --> 00:04:30,777
+even a straight one.
+
+100
+00:04:30,907 --> 00:04:32,417
+Usually it is tiny.
+
+101
+00:04:32,667 --> 00:04:35,767
+At high frequencies, or on a long power line,
+
+102
+00:04:35,787 --> 00:04:37,697
+it matters a great deal.
+
+103
+00:04:39,067 --> 00:04:41,297
+We said the field holds energy.
+
+104
+00:04:41,547 --> 00:04:42,457
+How much?
+
+105
+00:04:42,587 --> 00:04:45,527
+The work is done against the coil's voltage while the
+
+106
+00:04:45,547 --> 00:04:47,137
+current climbs from zero.
+
+107
+00:04:47,467 --> 00:04:50,817
+Add it all up, and the energy stored is one half,
+
+108
+00:04:50,907 --> 00:04:53,977
+times the inductance, times the current squared.
+
+109
+00:04:54,107 --> 00:04:56,057
+Set that beside the capacitor.
+
+110
+00:04:56,187 --> 00:04:59,447
+There, the energy was one half C V squared,
+
+111
+00:04:59,467 --> 00:05:01,137
+stored in an electric field.
+
+112
+00:05:01,387 --> 00:05:04,247
+Here, it is one half L I squared,
+
+113
+00:05:04,267 --> 00:05:06,017
+stored in a magnetic field.
+
+114
+00:05:06,347 --> 00:05:09,057
+A capacitor stores energy in voltage.
+
+115
+00:05:09,227 --> 00:05:11,577
+An inductor stores it in current.
+
+116
+00:05:11,627 --> 00:05:14,257
+And now Henry's spark makes sense.
+
+117
+00:05:14,347 --> 00:05:17,177
+Open the switch, and the current must stop.
+
+118
+00:05:17,227 --> 00:05:20,887
+The field collapses, and all its energy has to go somewhere,
+
+119
+00:05:20,907 --> 00:05:21,897
+at once.
+
+120
+00:05:21,947 --> 00:05:24,967
+The coil produces whatever voltage it takes to keep the
+
+121
+00:05:24,987 --> 00:05:28,327
+current flowing, hundreds or thousands of volts,
+
+122
+00:05:28,347 --> 00:05:31,127
+enough to drive it straight across the air in the open
+
+123
+00:05:31,147 --> 00:05:32,017
+switch.
+
+124
+00:05:33,400 --> 00:05:36,660
+Connect a coil and a resistor to a battery.
+
+125
+00:05:36,680 --> 00:05:39,460
+The current cannot jump to its final value,
+
+126
+00:05:39,480 --> 00:05:42,620
+because the coil will not allow a sudden change.
+
+127
+00:05:42,640 --> 00:05:46,660
+It climbs, quickly at first, then more slowly.
+
+128
+00:05:46,680 --> 00:05:50,500
+The pace is set by one number: the inductance divided
+
+129
+00:05:50,520 --> 00:05:52,110
+by the resistance.
+
+130
+00:05:52,160 --> 00:05:54,190
+This is the time constant.
+
+131
+00:05:54,240 --> 00:05:57,300
+After one time constant the current has reached about
+
+132
+00:05:57,320 --> 00:05:59,540
+two thirds of its final value.
+
+133
+00:05:59,560 --> 00:06:03,310
+After five, it is there for every practical purpose.
+
+134
+00:06:03,480 --> 00:06:06,950
+Once the current is steady, the coil does nothing at all.
+
+135
+00:06:07,000 --> 00:06:08,870
+It is just a piece of wire.
+
+136
+00:06:09,000 --> 00:06:12,100
+But an alternating current is always changing,
+
+137
+00:06:12,120 --> 00:06:14,820
+so the coil opposes it all the time,
+
+138
+00:06:14,840 --> 00:06:18,190
+and the faster it alternates, the stronger the opposition.
+
+139
+00:06:18,600 --> 00:06:23,060
+So an inductor passes direct current and holds back alternating
+
+140
+00:06:23,080 --> 00:06:23,630
+current.
+
+141
+00:06:23,880 --> 00:06:26,510
+That is exactly the opposite of a capacitor.
+
+142
+00:06:26,760 --> 00:06:30,500
+The two are mirror images, and much of electrical engineering
+
+143
+00:06:30,520 --> 00:06:33,310
+is built on playing one against the other.
+
+144
+00:06:34,667 --> 00:06:37,537
+Engineers soon learned to use the spark.
+
+145
+00:06:37,627 --> 00:06:41,687
+In eighteen fifty-one, Heinrich Ruhmkorff in Paris built
+
+146
+00:06:41,707 --> 00:06:45,127
+induction coils that turned a few volts from a battery
+
+147
+00:06:45,147 --> 00:06:48,087
+into sparks many centimetres long.
+
+148
+00:06:48,107 --> 00:06:51,807
+The same idea fires the spark plugs in a petrol engine.
+
+149
+00:06:51,827 --> 00:06:54,207
+They also learned to respect it.
+
+150
+00:06:54,227 --> 00:06:56,674
+Switch off a relay or a motor carelessly,
+
+151
+00:06:56,694 --> 00:06:59,767
+and the voltage from its coil can destroy the switch,
+
+152
+00:06:59,787 --> 00:07:01,927
+or the transistor that drives it.
+
+153
+00:07:01,947 --> 00:07:05,207
+That is why you will see a diode connected across almost
+
+154
+00:07:05,227 --> 00:07:08,967
+every relay coil: it gives the current a safe path while
+
+155
+00:07:08,987 --> 00:07:10,527
+the field dies away.
+
+156
+00:07:10,547 --> 00:07:14,087
+In a power supply, an inductor called a choke smooths
+
+157
+00:07:14,107 --> 00:07:17,527
+the current, just as a capacitor smooths the voltage.
+
+158
+00:07:17,547 --> 00:07:21,047
+In eighteen ninety-nine, Michael Pupin added coils at
+
+159
+00:07:21,067 --> 00:07:23,047
+intervals along telephone lines,
+
+160
+00:07:23,067 --> 00:07:25,407
+and made long-distance calls possible.
+
+161
+00:07:25,427 --> 00:07:28,647
+And on the grid, the inductance of the lines and windings
+
+162
+00:07:28,667 --> 00:07:31,487
+themselves decides how power flows,
+
+163
+00:07:31,507 --> 00:07:34,967
+how far the voltage drops, and how large a fault current
+
+164
+00:07:34,987 --> 00:07:35,937
+can become.
+
+165
+00:07:37,300 --> 00:07:39,130
+So let's put it together.
+
+166
+00:07:39,220 --> 00:07:42,000
+A magnetic field takes energy to build,
+
+167
+00:07:42,020 --> 00:07:44,170
+and gives it back when it collapses.
+
+168
+00:07:44,500 --> 00:07:48,250
+So a coil opposes any change in its own current.
+
+169
+00:07:48,500 --> 00:07:52,010
+That property is inductance, measured in henries.
+
+170
+00:07:52,180 --> 00:07:55,120
+It grows with the square of the turns and the area of
+
+171
+00:07:55,140 --> 00:07:58,490
+the coil, and it is multiplied by an iron core.
+
+172
+00:07:58,740 --> 00:08:00,960
+The energy is stored in the field,
+
+173
+00:08:00,980 --> 00:08:03,850
+and it equals one half L I squared.
+
+174
+00:08:04,100 --> 00:08:06,970
+An inductor takes time to carry a current,
+
+175
+00:08:07,020 --> 00:08:10,490
+passes a steady one, and holds back a changing one.
+
+176
+00:08:10,580 --> 00:08:13,280
+Twice now we have leaned on one fact:
+
+177
+00:08:13,300 --> 00:08:16,170
+a changing magnetic field makes a voltage.
+
+178
+00:08:16,500 --> 00:08:19,840
+Next time, we look at how the electric field and the magnetic
+
+179
+00:08:19,860 --> 00:08:21,290
+field are tied together.
+
+180
+00:08:21,540 --> 00:08:25,040
+If this helped you see it, and not just calculate it,
+
+181
+00:08:25,060 --> 00:08:28,090
+please like, share, and subscribe to this channel.
