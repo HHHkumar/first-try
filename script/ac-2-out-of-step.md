@@ -1,6 +1,6 @@
 # Out of Step: Resistors, Coils and Capacitors on AC
 
-Narration script, draft 1. English, about 12 minutes. Series 2 (Alternating Current), video 2 of 6.
+Narration script, draft 1. English, about 11 minutes. Series 2 (Alternating Current), video 2 of 6.
 
 Lines in plain text are spoken. Lines marked **On screen** describe the picture and are not spoken. **Hero scene** marks a showpiece shot. A timeline strip runs along the bottom of the frame, as in the earlier videos. The look is "Aurora", as in video 1: voltage waves in pink, current waves in cyan throughout.
 
