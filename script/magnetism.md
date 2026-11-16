@@ -1,6 +1,6 @@
 # The Second Field: Magnetism
 
-Narration script, draft 1. English, about 13 minutes. Video 3 of the six-part series.
+Narration script, draft 1. English, about 11 minutes. Video 3 of the six-part series.
 
 Lines in plain text are spoken. Lines marked **On screen** describe the picture and are not spoken. **Hero scene** marks a showpiece shot. A timeline strip runs along the bottom of the frame, as in the earlier videos.
 
