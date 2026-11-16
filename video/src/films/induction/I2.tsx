@@ -57,7 +57,7 @@ export const I2 = () => {
                 for (let i = 0; i < n; i++) {
                   const d = drops[i];
                   const y = 5 - ((frame * 0.16 + d.p) % 9);
-                  for (let k = 0; k < 4; k++) add(d.x, y + k * 0.12, d.z, 0.07, c, 0.5 - k * 0.1);
+                  for (let k = 0; k < 5; k++) add(d.x, y + k * 0.13, d.z, 0.12, c, 0.9 - k * 0.15);
                 }
                 // an open window frame, lying flat, then tilted on edge
                 const g = rgb('#f4ead2');

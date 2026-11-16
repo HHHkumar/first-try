@@ -64,6 +64,13 @@ import { I1, I1_FRAMES } from './films/induction/I1';
 import { I2, I2_FRAMES } from './films/induction/I2';
 import { I3, I3_FRAMES } from './films/induction/I3';
 import { I4, I4_FRAMES } from './films/induction/I4';
+import { I5, I5_FRAMES } from './films/induction/I5';
+import { I6, I6_FRAMES } from './films/induction/I6';
+import { I7, I7_FRAMES } from './films/induction/I7';
+import { I8, I8_FRAMES } from './films/induction/I8';
+import { I9, I9_FRAMES } from './films/induction/I9';
+import { I10, I10_FRAMES } from './films/induction/I10';
+import { IThumb } from './films/induction/IThumb';
 import { IndThumb } from './films/inductance/IndThumb';
 import { MagThumb } from './films/magnetism/MagThumb';
 import { FPS, H, W } from './theme';
@@ -122,6 +129,12 @@ const induction = [
   { id: 'I2', component: I2, frames: I2_FRAMES },
   { id: 'I3', component: I3, frames: I3_FRAMES },
   { id: 'I4', component: I4, frames: I4_FRAMES },
+  { id: 'I5', component: I5, frames: I5_FRAMES },
+  { id: 'I6', component: I6, frames: I6_FRAMES },
+  { id: 'I7', component: I7, frames: I7_FRAMES },
+  { id: 'I8', component: I8, frames: I8_FRAMES },
+  { id: 'I9', component: I9, frames: I9_FRAMES },
+  { id: 'I10', component: I10, frames: I10_FRAMES },
 ];
 const magnetism = [
   { id: 'Mag1', component: Mag1, frames: MAG1_FRAMES },
@@ -158,6 +171,7 @@ export const Root = () => (
     <Composition id="StyleB" component={StyleB} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleC" component={StyleC} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="FThumb" component={FThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="IThumb" component={IThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IndThumb" component={IndThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="MagThumb" component={MagThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="CapacThumb" component={CapacThumb} durationInFrames={1} fps={FPS} width={W} height={H} />

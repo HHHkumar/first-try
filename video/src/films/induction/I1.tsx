@@ -18,7 +18,7 @@ export const I1_FRAMES = chapterFrames(voice.duration);
 export const drawGenerator = (orbOrNull: Add | null, glow: Add | null, frame: number, angle: number) => {
   if (orbOrNull) rotMagnet(orbOrNull, angle, 1.7);
   if (glow) {
-    const spots: [number, number, 'x' | 'y', number][] = [[3.1, 0, 'x', 0], [0, 3.1, 'y', Math.PI / 2], [-3.1, 0, 'x', Math.PI], [0, -3.1, 'y', -Math.PI / 2]];
+    const spots: [number, number, 'x' | 'y', number][] = [[2.7, 0, 'x', 0], [0, 2.7, 'y', Math.PI / 2], [-2.7, 0, 'x', Math.PI], [0, -2.7, 'y', -Math.PI / 2]];
     for (const [x, y, axis, a] of spots) {
       const c = Math.sin(angle - a);
       for (const d of [-0.3, 0, 0.3]) {
@@ -34,12 +34,15 @@ export const I1 = () => {
   const { width, height } = useVideoConfig();
   const lights = useMemo(() => {
     const r = mulberry32(5);
-    return Array.from({ length: 900 }, () => {
-      const bx = Math.floor(r() * 16) - 8;
-      const bz = Math.floor(r() * 12) - 6;
-      const h = 0.4 + r() * r() * 3.2;
-      return { x: bx * 1.5 + r() * 1.0, z: bz * 1.5 + r() * 1.0, y: r() * h, warm: r(), tw: r() * 6 };
-    });
+    // buildings on a street grid, each a block of lit windows
+    const out: { x: number; z: number; y: number; warm: number; tw: number }[] = [];
+    for (let bx = -9; bx <= 9; bx++)
+      for (let bz = -7; bz <= 5; bz++) {
+        const h = 2 + Math.floor(r() * r() * 12);
+        const warm = r();
+        for (let c = 0; c < 3; c++) for (let f = 0; f < h; f++) if (r() > 0.35) out.push({ x: bx * 1.5 + c * 0.3, z: bz * 1.6, y: f * 0.3, warm: warm + r() * 0.3, tw: r() * 6 });
+      }
+    return out;
   }, []);
   const sCity = shot(frame, -1, 11.6);
   const sLine = shot(frame, 11.4, 18.2);
@@ -49,9 +52,9 @@ export const I1 = () => {
   const run = ramp(frame, T(11.4), T(18.2));
   const closing = ramp(frame, T(38.6), T(39.6));
   const poses: CameraPose[] = [
-    { pos: lerp3([0, 2.2, 9], [3, 11, 24], pull), target: [0, 0.6, 0], fov: 34, focus: lerp(10, 26, pull), dof: 0.03 },
-    { pos: [lerp(-8, 6, run), 1.6, 9], target: [lerp(-4, 9, run), 0.6, 0], fov: 34, focus: 9.5, dof: 0.05 },
-    { pos: [3 + Math.sin(frame * 0.004) * 2, 2.6, lerp(22, 14, ramp(frame, T(18.0), T(27.0), Easing.out(Easing.cubic)))], target: [0, 0, 0], fov: 34, focus: 15, dof: 0.04 },
+    { pos: lerp3([0, 1.6, 10], [4, 9, 25], pull), target: [0, 1.2, -2], fov: 34, focus: lerp(10, 26, pull), dof: 0.03 },
+    { pos: [lerp(-8, 6, run), 1.2, 10], target: [lerp(-4, 9, run), 1.7, 0], fov: 34, focus: 9.5, dof: 0.05 },
+    { pos: [3 + Math.sin(frame * 0.004) * 2, 2.6, lerp(24, 16, ramp(frame, T(18.0), T(27.0), Easing.out(Easing.cubic)))], target: [0, -0.6, 0], fov: 34, focus: 15, dof: 0.04 },
   ];
 
   return (
@@ -72,7 +75,7 @@ export const I1 = () => {
               if (which === 0)
                 for (const l of lights) {
                   const tw = 0.7 + 0.3 * Math.sin(frame * 0.1 + l.tw);
-                  add(l.x, l.y, l.z, 0.16, l.warm > 0.35 ? rgb('#ffd9a0') : rgb('#bfe0ff'), 0.9 * tw);
+                  add(l.x, l.y, l.z, 0.2, l.warm > 0.45 ? rgb('#ffd9a0') : rgb('#bfe0ff'), 0.95 * tw);
                 }
               if (which === 1) {
                 for (const [y, z] of [[2.2, -0.8], [2.2, 0.8], [2.9, 0]]) drawWire(add, y, z, -14, 22, frame * 2, 1);

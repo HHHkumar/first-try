@@ -28,10 +28,10 @@ export const I4 = () => {
   const mx = lerp(-6.2, -2.4, push);
   const suppose = span(frame, T(44.0), T(62.8), 12);
   // the magnet drifts down the pipe; a steel ball beside it simply falls
-  const fall = ramp(frame, T(70.0), T(96.0));
-  const my = lerp(4.4, -3.6, fall);
+  const fall = ramp(frame, T(69.6), T(84.6));
+  const my = lerp(3.9, -2.2, fall);
   const bs = Math.max(0, (frame - T(70.0)) / 30);
-  const by = Math.max(-5.5, 4.4 - 4.5 * bs * bs);
+  const by = Math.max(-3.4, 3.9 - 3.2 * bs * bs);
 
   return (
     <Shell
@@ -42,7 +42,7 @@ export const I4 = () => {
           <Stage3D
             width={width}
             height={height}
-            pose={pipe ? { pos: [4 + Math.sin(frame * 0.003) * 1.5, 1.6, 15], target: [0.8, 0, 0], fov: 34, focus: 15.5, dof: 0.04 } : orbit(frame)}
+            pose={pipe ? { pos: [5 + Math.sin(frame * 0.003) * 1.5, 2.0, 19], target: [1.2, 0.3, 0], fov: 34, focus: 19.5, dof: 0.03 } : orbit(frame)}
             orbs={(add) => {
               if (!pipe) drawBarMagnet(add, mx, 0, 1.4);
               else {
@@ -61,7 +61,7 @@ export const I4 = () => {
                 }
               } else {
                 // a thick copper pipe, as a stack of rings; currents bloom in the rings near the magnet
-                for (let y = -3.6; y <= 3.61; y += 0.36) {
+                for (let y = -3.0; y <= 3.01; y += 0.3) {
                   ring(add, 0, y, 0, 'y', 1.25, 0, COPPER, 0.55);
                   const near = Math.exp(-((y - my) ** 2) / 0.9);
                   if (near > 0.08 && fall > 0 && fall < 1) ring(add, 0, y, 0, 'y', 1.25, frame * 1.5, CURRENT, near * 1.1, y > my ? 1 : -1);
@@ -79,14 +79,14 @@ export const I4 = () => {
       <Cap opacity={span(frame, T(36.3), T(43.9))} kicker="That is where the electrical energy comes from" title="The work your hand does becomes the energy of the current" />
       <Center opacity={suppose}>
         <Kicker style={{ marginBottom: 24 }}>Suppose it went the other way, and the current helped the magnet along</Kicker>
-        <Big size={84} style={{ opacity: at(frame, 49.4) }}>
+        <Big size={68} style={{ opacity: at(frame, 49.4) }}>
           faster → more current → faster still → <span style={{ color: NORTH }}>energy from nothing</span>
         </Big>
         <Sub style={{ opacity: at(frame, 57.3), color: C.text, marginTop: 40 }}>Lenz’s law is the conservation of energy, written for magnets and wires</Sub>
       </Center>
       <Panel opacity={span(frame, T(69.0), T(120))} style={{ right: 110, top: 70, display: 'flex', gap: 56 }}>
         <Meter label="Magnet in the copper pipe" value="drifting" color={CURRENT} size={64} />
-        <Meter label="Steel ball beside it" value={by > -5.4 ? 'falling' : 'landed'} color={C.dim} size={64} />
+        <Meter label="Steel ball beside it" value={by > -3.3 ? 'falling' : 'landed'} color={C.dim} size={64} />
       </Panel>
       <Cap opacity={span(frame, T(63.0), T(68.6))} kicker="A strong magnet and a thick copper pipe" title="Copper is not magnetic" />
       <Cap opacity={span(frame, T(69.0), T(76.2))} kicker="Yet the magnet does not fall" title="It drifts down slowly, as if through honey" />

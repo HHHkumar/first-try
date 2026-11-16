@@ -79,6 +79,6 @@ export const plate = (glow: Add, x: number, cy: number, cz: number, hy: number, 
   for (let y = -hy; y <= hy + 0.01; y += 0.2)
     for (let z = -hz; z <= hz + 0.01; z += 0.2) {
       if (slots && Math.abs(((z + hz) % 0.8) - 0.4) < 0.11 && y < hy - 0.5) continue;
-      glow(x, cy + y, cz + z, 0.16, c, 0.6 * gain);
+      glow(x, cy + y, cz + z, 0.19, c, Math.min(1, 0.6 * gain));
     }
 };
