@@ -57,7 +57,7 @@ export const drawWave = (glow: Add, x0: number, x1: number, frame: number, opts:
     glow(x, 0, 0, 0.05, [0.8, 0.85, 1], 0.35 * gain);
     for (let j = 1; j <= 7; j++) {
       const t = j / 7;
-      glow(x, s * t, 0, 0.06 + 0.06 * t, e, (0.25 + 0.65 * t) * gain);
+      glow(x, s * t, 0, 0.09 + 0.07 * t, e, (0.5 + 0.5 * t) * gain);
       glow(x, 0, s * t, 0.06 + 0.06 * t, b, (0.25 + 0.65 * t) * gain);
     }
   }

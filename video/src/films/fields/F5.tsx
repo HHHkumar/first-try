@@ -46,7 +46,7 @@ export const F5 = () => {
             <div style={{ fontSize: 34, fontWeight: 300, color: C.dim }}>how strong the magnetic field of a given current is</div>
           </div>
         </Panel>
-        <Panel opacity={at(frame, 41.3)} style={{ left: 0, right: 0, top: 560, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 60 }}>
+        <Panel opacity={at(frame, 41.3)} style={{ left: 0, right: 0, top: 480, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 60 }}>
           <div style={{ fontSize: 110, display: 'flex', alignItems: 'center', gap: 22 }}>
             <Sym color={GOLD}>speed</Sym>
             <Sym color={C.dim} style={{ fontStyle: 'normal' }}>

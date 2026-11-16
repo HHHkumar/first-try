@@ -52,10 +52,10 @@ export const F4 = () => {
       <Scene opacity={halves}>
         <Panel opacity={1} style={{ left: 0, right: 0, top: 220, textAlign: 'center' }}>
           <Kicker>Put the two halves side by side</Kicker>
-          <Line size={84} top={60} opacity={at(frame, 2.8)}>
+          <Line size={66} top={60} opacity={at(frame, 2.8)}>
             A changing <B>magnetic field</B> makes an <E>electric field</E>
           </Line>
-          <Line size={84} top={40} opacity={at(frame, 6.5)}>
+          <Line size={66} top={40} opacity={at(frame, 6.5)}>
             A changing <E>electric field</E> makes a <B>magnetic field</B>
           </Line>
           <Line size={50} top={70} color={C.dim} opacity={at(frame, 10.1)}>

@@ -40,7 +40,7 @@ export const F1 = () => {
                   const r = j * 0.085;
                   const phase = (((j - frame * 0.5 + i * 7) % 20) + 20) % 20;
                   const pulse = Math.exp(-(phase * phase) / 8);
-                  add(-5.4 + Math.cos(a) * r, 0.4 + Math.sin(a) * r, 0, 0.06 + 0.08 * pulse, e, (0.35 + 0.6 * pulse) * left * (1 - j / 60));
+                  add(-5.4 + Math.cos(a) * r, 0.4 + Math.sin(a) * r, 0, 0.1 + 0.1 * pulse, e, (0.6 + 0.4 * pulse) * left * (1 - j / 70));
                 }
               }
               add(-5.4, 0.4, 0, 2.2, rgb(POS), 0.4);

@@ -63,7 +63,7 @@ export const F2 = () => {
                     const x = -5 + i * 0.11;
                     const phase = (((i - frame * 0.7 + y * 20 + z * 9) % 30) + 30) % 30;
                     const pulse = Math.exp(-(phase * phase) / 12);
-                    add(x, y, z, 0.06 + 0.1 * pulse, c, (0.2 + 0.7 * pulse) * (0.25 + 0.75 * grow));
+                    add(x, y, z, 0.09 + 0.1 * pulse, c, (0.45 + 0.55 * pulse) * (0.45 + 0.55 * grow));
                   }
                 // the wire loop, then only the electric field that was pushing its charges
                 const g = rgb('#c8d4ea');
@@ -71,8 +71,8 @@ export const F2 = () => {
                 const dir = Math.cos(frame * 0.05) > 0 ? 1 : -1;
                 const strength = Math.abs(Math.cos(frame * 0.05));
                 const loops = at(frame, 80.9);
-                ring(add, 0, 0, 0, 'x', 2.2, frame, EFIELD, loops * (0.3 + strength), dir);
-                for (const [x, r] of [[0, 3.2], [-2.4, 2.4], [2.4, 2.4], [0, 1.3]]) ring(add, x, 0, 0, 'x', r, frame, EFIELD, at(frame, 96.4) * (0.2 + 0.8 * strength), dir);
+                ring(add, 0, 0, 0, 'x', 2.2, frame, EFIELD, loops * (0.6 + 0.6 * strength), dir);
+                for (const [x, r] of [[0, 3.2], [-2.4, 2.4], [2.4, 2.4], [0, 1.3]]) ring(add, x, 0, 0, 'x', r, frame, EFIELD, at(frame, 96.4) * (0.5 + 0.5 * strength), dir);
               }}
             />
           </AbsoluteFill>
@@ -153,7 +153,7 @@ export const F2 = () => {
             <circle key={i} cx={720 + i * 60} cy={680} r={18} />
           ))}
         </Ink>
-        <Ink color={BFIELD} opacity={0.5 + 0.5 * Math.sin(frame * 0.5)}>
+        <Ink color={BFIELD} width={5} opacity={0.75 + 0.25 * Math.sin(frame * 0.5)}>
           {[120, 200, 280].map((r) => (
             <ellipse key={r} cx={960} cy={650} rx={r} ry={r * 0.55} strokeDasharray="5 12" />
           ))}

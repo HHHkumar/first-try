@@ -76,7 +76,7 @@ export const F6 = () => {
         </Ink>
         <Spark x={330} y={460} frame={frame} size={46} opacity={firing} />
         <Spark x={1520} y={460} frame={frame + 5} size={22} opacity={answer} />
-        <Panel opacity={at(frame, 18.4)} style={{ left: 180, top: 760, width: 300, textAlign: 'center' }}>
+        <Panel opacity={at(frame, 18.4)} style={{ left: 390, top: 610, width: 320 }}>
           <div style={{ fontSize: 30, fontWeight: 300, color: C.dim }}>a spark, millions of times a second</div>
         </Panel>
         <Panel opacity={at(frame, 30.4)} style={{ left: 1240, top: 640, width: 300, textAlign: 'center' }}>

@@ -19,19 +19,19 @@ const View = ({ cx, moving, frame, swing }: { cx: number; moving: boolean; frame
       <Ink color={EFIELD} width={3}>
         {Array.from({ length: 12 }, (_, i) => {
           const a = (i / 12) * Math.PI * 2;
-          return <path key={i} d={`M ${cx + drift + Math.cos(a) * 46} ${430 + Math.sin(a) * 46} L ${cx + drift + Math.cos(a) * 170} ${430 + Math.sin(a) * 170}`} />;
+          return <path key={i} d={`M ${cx + drift + Math.cos(a) * 46} ${450 + Math.sin(a) * 46} L ${cx + drift + Math.cos(a) * 170} ${450 + Math.sin(a) * 170}`} />;
         })}
       </Ink>
       {moving ? (
         <Ink color={BFIELD} width={3}>
           {[-130, 0, 130].map((dx) => (
-            <ellipse key={dx} cx={cx + drift + dx} cy={430} rx={30} ry={210} strokeDasharray="6 12" strokeDashoffset={-frame * 2} />
+            <ellipse key={dx} cx={cx + drift + dx} cy={450} rx={30} ry={200} strokeDasharray="6 12" strokeDashoffset={-frame * 2} />
           ))}
         </Ink>
       ) : null}
       <svg viewBox="0 0 1920 1080" width="100%" height="100%" style={{ position: 'absolute' }}>
-        <circle cx={cx + drift} cy={430} r={34} fill={POS} style={{ filter: `drop-shadow(0 0 18px ${POS})` }} />
-        <g transform={`translate(${cx}, 730) rotate(${swing})`}>
+        <circle cx={cx + drift} cy={450} r={34} fill={POS} style={{ filter: `drop-shadow(0 0 18px ${POS})` }} />
+        <g transform={`translate(${cx}, 760) rotate(${swing})`}>
           <circle r={62} fill="none" stroke="#d7e6ff" strokeWidth={3} />
           <path d="M 0 -9 L 50 0 L 0 9 Z" fill={NORTH} />
           <path d="M 0 -9 L -50 0 L 0 9 Z" fill={SOUTH} />
@@ -63,18 +63,18 @@ export const F7 = () => {
       <Scene opacity={views}>
         <div style={{ opacity: at(frame, 4.1) }}>
           <View cx={520} moving={false} frame={frame} swing={0} />
-          <Panel opacity={1} style={{ left: 220, top: 110, width: 600, textAlign: 'center' }}>
+          <Panel opacity={1} style={{ left: 120, top: 70, width: 800, textAlign: 'center' }}>
             <Kicker>You, standing beside the charge</Kicker>
-            <div style={{ fontSize: 36, fontWeight: 300, marginTop: 6, opacity: at(frame, 8.8) }}>
+            <div style={{ fontSize: 32, fontWeight: 300, marginTop: 6, opacity: at(frame, 8.8) }}>
               an <E>electric field</E>, and no magnetic field
             </div>
           </Panel>
         </div>
         <div style={{ opacity: friend }}>
           <View cx={1400} moving frame={frame} swing={-50 * at(frame, 25.7) + 4 * Math.sin(frame * 0.3)} />
-          <Panel opacity={1} style={{ left: 1100, top: 110, width: 600, textAlign: 'center' }}>
+          <Panel opacity={1} style={{ left: 1000, top: 70, width: 800, textAlign: 'center' }}>
             <Kicker>Your friend, walking past</Kicker>
-            <div style={{ fontSize: 36, fontWeight: 300, marginTop: 6, opacity: at(frame, 21.9) }}>
+            <div style={{ fontSize: 32, fontWeight: 300, marginTop: 6, opacity: at(frame, 21.9) }}>
               the charge is moving: a <B>magnetic field</B> too
             </div>
           </Panel>
@@ -86,7 +86,7 @@ export const F7 = () => {
       <Scene opacity={einstein}>
         <Panel opacity={1} style={{ left: 0, right: 0, top: 210, textAlign: 'center' }}>
           <Kicker>1905 · Albert Einstein opens his most famous paper with this puzzle</Kicker>
-          <div style={{ fontSize: 64, fontWeight: 300, marginTop: 60, opacity: at(frame, 41.4), color: C.dim }}>
+          <div style={{ fontSize: 52, fontWeight: 300, marginTop: 60, opacity: at(frame, 41.4), color: C.dim }}>
             The <E>electric</E> and <B>magnetic</B> fields are not two separate things
           </div>
           <Big size={100} style={{ marginTop: 40, opacity: at(frame, 47.4) }}>
