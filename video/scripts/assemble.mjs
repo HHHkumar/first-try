@@ -82,7 +82,7 @@ const audio = (name) => join(root, 'public', 'audio', `${name}.mp3`);
 const bgmLength = seconds(audio('bgm'));
 const XFADE = 6;
 const copies = Math.max(1, Math.ceil((total - XFADE) / (bgmLength - XFADE)));
-const cues2 = chapters.slice(1).map((c) => ({ at: Math.max(0, c.start - 0.7), sfx: 'whoosh', gain: 0.3 }));
+const cues2 = chapters.slice(1).map((c) => ({ at: Math.max(0, c.start - 0.7), sfx: 'whoosh', gain: 0.24 }));
 const cueFile = join(root, 'scripts', 'sound', `${process.argv[2] ?? 'resistance'}.json`);
 if (existsSync(cueFile)) {
   for (const q of JSON.parse(readFileSync(cueFile, 'utf8'))) {
@@ -99,8 +99,8 @@ for (let i = 1; i < copies; i++) {
   filters.push(`${bed}[${i + 1}:a]acrossfade=d=${XFADE}:c1=tri:c2=tri[x${i}]`);
   bed = `[x${i}]`;
 }
-filters.push(`${bed}atrim=0:${total.toFixed(2)},volume=0.17,afade=t=in:d=2,afade=t=out:st=${(total - 5).toFixed(2)}:d=5,aformat=channel_layouts=stereo[bgm]`);
-cues2.forEach((q, i) => filters.push(`[${copies + 1 + i}:a]volume=${q.gain},aformat=channel_layouts=stereo,adelay=${Math.round(q.at * 1000)}:all=1[e${i}]`));
+filters.push(`${bed}atrim=0:${total.toFixed(2)},volume=0.13,afade=t=in:d=2,afade=t=out:st=${(total - 5).toFixed(2)}:d=5,aformat=channel_layouts=stereo[bgm]`);
+cues2.forEach((q, i) => filters.push(`[${copies + 1 + i}:a]volume=${(q.gain * 0.5).toFixed(3)},aformat=channel_layouts=stereo,adelay=${Math.round(q.at * 1000)}:all=1[e${i}]`));
 filters.push(`[0:a]aformat=channel_layouts=stereo,asplit=2[v1][v2]`);
 filters.push(`[bgm][v1]sidechaincompress=threshold=0.02:ratio=4:attack=120:release=900[ducked]`);
 filters.push(`[v2][ducked]${cues2.map((_, i) => `[e${i}]`).join('')}amix=inputs=${2 + cues2.length}:normalize=0:duration=first,loudnorm=I=-16:TP=-1.5:LRA=11[mix]`);

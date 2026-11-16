@@ -12,9 +12,9 @@ import { at, Cap, drawPlates, Ink, PLATES, Timeline, VOICE } from './kit';
 // Chapter 3 - Capacitance. Charge per volt; the bucket; the farad.
 export const CAPAC3_FRAMES = chapterFrames(voice.duration);
 const SIZES = [
-  { unit: 'microfarad', sym: 'µF', pow: '10⁻⁶ F', use: 'smoothing a power supply', t: 45.2 },
-  { unit: 'nanofarad', sym: 'nF', pow: '10⁻⁹ F', use: 'timing and filters', t: 47.4 },
-  { unit: 'picofarad', sym: 'pF', pow: '10⁻¹² F', use: 'tuning a radio', t: 48.6 },
+  { unit: 'microfarad', sym: 'µF', pow: '10⁻⁶ F', use: 'smoothing a power supply', t: 66.2 },
+  { unit: 'nanofarad', sym: 'nF', pow: '10⁻⁹ F', use: 'timing and filters', t: 68.0 },
+  { unit: 'picofarad', sym: 'pF', pow: '10⁻¹² F', use: 'tuning a radio', t: 69.0 },
 ];
 
 export const Capac3 = () => {
@@ -115,11 +115,31 @@ export const Capac3 = () => {
           <Panel opacity={1} style={{ left: 110, top: 130, width: 800 }}>
             <Kicker>The unit of capacitance</Kicker>
             <div style={{ fontSize: 170, fontWeight: 300, letterSpacing: -4, lineHeight: 1.05 }}>1 farad</div>
-            <Sub style={{ textAlign: 'left', marginTop: 10, opacity: at(frame, 38.4) }}>one coulomb for each volt</Sub>
-            <Sub style={{ textAlign: 'left', marginTop: 10, color: C.electron, opacity: at(frame, 36.4) }}>named after Michael Faraday</Sub>
-            <Big size={64} style={{ textAlign: 'left', marginTop: 50, color: C.rho, opacity: at(frame, 41.0) }}>
+            <Sub style={{ textAlign: 'left', marginTop: 10, opacity: at(frame, 38.0) }}>one coulomb for each volt</Sub>
+            <Sub style={{ textAlign: 'left', marginTop: 10, color: C.electron, opacity: at(frame, 36.0) }}>named after Michael Faraday</Sub>
+            <Big size={64} style={{ textAlign: 'left', marginTop: 50, color: C.rho, opacity: at(frame, 60.2) }}>
               and it is enormous
             </Big>
+          </Panel>
+          {/* how the unit was agreed */}
+          <Panel opacity={span(frame, T(40.2), T(61.6))} style={{ left: 1020, top: 150, width: 800 }}>
+            <Kicker>1881 · Paris</Kicker>
+            <div style={{ fontSize: 56, fontWeight: 300, letterSpacing: -1, marginTop: 8, lineHeight: 1.15 }}>The first International Electrical Congress</div>
+            <Sub style={{ textAlign: 'left', marginTop: 18, opacity: at(frame, 42.8) }}>until then, every laboratory measured in its own way</Sub>
+            <div style={{ marginTop: 40, fontSize: 60, fontWeight: 300, display: 'flex', flexWrap: 'wrap', gap: '6px 40px' }}>
+              {[
+                ['ohm', 55.1],
+                ['volt', 56.0],
+                ['ampere', 56.8],
+                ['coulomb', 57.7],
+                ['farad', 58.9],
+              ].map(([u, t]) => (
+                <span key={u} style={{ opacity: at(frame, t as number, 0.4), color: u === 'farad' ? C.electron : C.text }}>
+                  {u}
+                </span>
+              ))}
+            </div>
+            <Sub style={{ textAlign: 'left', marginTop: 18, opacity: at(frame, 52.4) }}>one set of units for the whole world</Sub>
           </Panel>
           <div style={{ position: 'absolute', left: 1020, top: 250, width: 800 }}>
             {SIZES.map((s) => (
@@ -136,7 +156,7 @@ export const Capac3 = () => {
           </div>
         </AbsoluteFill>
       </Scene>
-      <Timeline frame={frame} already={[0, 1, 2]} events={[[7, 36.4]]} />
+      <Timeline frame={frame} already={[0, 1, 2]} events={[[7, 41.4]]} />
     </Shell>
   );
 };

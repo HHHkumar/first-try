@@ -44,7 +44,11 @@ Capacitance is the charge stored for each volt. C equals Q over V.
 
 Think of a bucket. The voltage is the depth of the water, and the charge is the amount. A wide bucket holds far more water at the same depth than a narrow one. Capacitance is the width of the bucket.
 
-Its unit is the farad, named after Michael Faraday: one coulomb for each volt. And one farad is enormous. The capacitors on a circuit board are measured in millionths of a farad, or billionths, or less.
+Its unit is the farad, named after Michael Faraday: one coulomb for each volt.
+
+It was made official in eighteen eighty-one. Until then, every laboratory measured electricity in its own way. That year, the first International Electrical Congress met in Paris, and agreed on one set of units for the whole world: the ohm, the volt, the ampere, the coulomb, and the farad.
+
+And one farad is enormous. The capacitors on a circuit board are measured in millionths of a farad, or billionths, or less.
 
 ---
 
