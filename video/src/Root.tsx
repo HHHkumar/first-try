@@ -31,6 +31,17 @@ import { Capac7, CAPAC7_FRAMES } from './films/capacitance/Capac7';
 import { Capac8, CAPAC8_FRAMES } from './films/capacitance/Capac8';
 import { Capac9, CAPAC9_FRAMES } from './films/capacitance/Capac9';
 import { CapacThumb } from './films/capacitance/CapacThumb';
+import { Mag1, MAG1_FRAMES } from './films/magnetism/Mag1';
+import { Mag2, MAG2_FRAMES } from './films/magnetism/Mag2';
+import { Mag3, MAG3_FRAMES } from './films/magnetism/Mag3';
+import { Mag4, MAG4_FRAMES } from './films/magnetism/Mag4';
+import { Mag5, MAG5_FRAMES } from './films/magnetism/Mag5';
+import { Mag6, MAG6_FRAMES } from './films/magnetism/Mag6';
+import { Mag7, MAG7_FRAMES } from './films/magnetism/Mag7';
+import { Mag8, MAG8_FRAMES } from './films/magnetism/Mag8';
+import { Mag9, MAG9_FRAMES } from './films/magnetism/Mag9';
+import { Mag10, MAG10_FRAMES } from './films/magnetism/Mag10';
+import { MagThumb } from './films/magnetism/MagThumb';
 import { FPS, H, W } from './theme';
 
 // Film 2: The Invisible Push (charge and the electric field).
@@ -59,6 +70,20 @@ const capacitance = [
   { id: 'Capac9', component: Capac9, frames: CAPAC9_FRAMES },
 ];
 
+// Film 4: The Second Field (magnetism).
+const magnetism = [
+  { id: 'Mag1', component: Mag1, frames: MAG1_FRAMES },
+  { id: 'Mag2', component: Mag2, frames: MAG2_FRAMES },
+  { id: 'Mag3', component: Mag3, frames: MAG3_FRAMES },
+  { id: 'Mag4', component: Mag4, frames: MAG4_FRAMES },
+  { id: 'Mag5', component: Mag5, frames: MAG5_FRAMES },
+  { id: 'Mag6', component: Mag6, frames: MAG6_FRAMES },
+  { id: 'Mag7', component: Mag7, frames: MAG7_FRAMES },
+  { id: 'Mag8', component: Mag8, frames: MAG8_FRAMES },
+  { id: 'Mag9', component: Mag9, frames: MAG9_FRAMES },
+  { id: 'Mag10', component: Mag10, frames: MAG10_FRAMES },
+];
+
 // Each chapter renders on its own; scripts/assemble.mjs joins them.
 const chapters = [
   { id: 'Chapter1', component: Chapter1, frames: CH1_FRAMES },
@@ -73,13 +98,14 @@ const chapters = [
 
 export const Root = () => (
   <>
-    {[...chapters, ...charge, ...capacitance].map((c) => (
+    {[...chapters, ...charge, ...capacitance, ...magnetism].map((c) => (
       <Composition key={c.id} id={c.id} component={c.component} durationInFrames={c.frames} fps={FPS} width={W} height={H} />
     ))}
     {/* style options for the rest of the series */}
     <Composition id="StyleA" component={StyleA} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleB" component={StyleB} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleC" component={StyleC} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="MagThumb" component={MagThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="CapacThumb" component={CapacThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="ChargeThumb" component={ChargeThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="Thumbnail" component={Thumbnail} durationInFrames={1} fps={FPS} width={W} height={H} />
