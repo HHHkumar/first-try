@@ -1,6 +1,7 @@
 // Joins the rendered chapters into the finished film.
-//   node scripts/assemble.mjs
-// Reads out/final/ch1.mp4 ... ch8.mp4 and writes, into out/final:
+//   node scripts/assemble.mjs              (the resistance film)
+//   node scripts/assemble.mjs charge       (The Invisible Push)
+// Reads the film's ch1.mp4 ... chN.mp4 and writes, beside them:
 //   inside-the-wire.mp4             picture + narration + ambient bed
 //   inside-the-wire-voice-only.mp4  picture + narration, nothing else
 //   inside-the-wire.srt             subtitles from the narration timings
@@ -10,16 +11,22 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const out = join(root, 'out', 'final');
+const FILMS = {
+  resistance: { dir: [], voice: [], chapters: 8, lead: (n) => (n === 1 ? 36 : 20), name: 'inside-the-wire' },
+  charge: { dir: ['charge'], voice: ['charge'], chapters: 9, lead: () => 20, name: 'the-invisible-push' },
+};
+const film = FILMS[process.argv[2] ?? 'resistance'];
+if (!film) throw new Error(`Unknown film "${process.argv[2]}"`);
+const out = join(root, 'out', 'final', ...film.dir);
 const run = (cmd, args) => execFileSync(cmd, args, { stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 1 << 28 }).toString();
 const seconds = (file) => Number(run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', file]).trim());
 
 const FPS = 30;
-const chapters = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => ({
+const chapters = Array.from({ length: film.chapters }, (_, i) => i + 1).map((n) => ({
   n,
   file: join(out, `ch${n}.mp4`),
-  voice: JSON.parse(readFileSync(join(root, 'public', 'voice', `ch${n}.json`), 'utf8')),
-  lead: (n === 1 ? 36 : 20) / FPS, // picture before the voice starts (see the chapter files)
+  voice: JSON.parse(readFileSync(join(root, 'public', 'voice', ...film.voice, `ch${n}.json`), 'utf8')),
+  lead: film.lead(n) / FPS, // picture before the voice starts (see the chapter files)
 }));
 
 let t = 0;
@@ -54,12 +61,12 @@ for (const c of chapters) {
   flush();
 }
 for (let i = 0; i < cues.length - 1; i++) cues[i].end = Math.min(cues[i].end, cues[i + 1].start - 0.02);
-writeFileSync(join(out, 'inside-the-wire.srt'), cues.map((c, i) => `${i + 1}\n${stamp(c.start)} --> ${stamp(c.end)}\n${c.text}\n`).join('\n'));
+writeFileSync(join(out, `${film.name}.srt`), cues.map((c, i) => `${i + 1}\n${stamp(c.start)} --> ${stamp(c.end)}\n${c.text}\n`).join('\n'));
 
 // --- picture + narration -----------------------------------------------------
 const list = join(out, 'concat.txt');
 writeFileSync(list, chapters.map((c) => `file '${c.file}'`).join('\n') + '\n');
-const voiceOnly = join(out, 'inside-the-wire-voice-only.mp4');
+const voiceOnly = join(out, `${film.name}-voice-only.mp4`);
 const joined = join(out, 'joined.mp4');
 run('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', joined]);
 run('ffmpeg', ['-v', 'error', '-y', '-i', joined, '-c:v', 'copy', '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', voiceOnly]);
@@ -81,7 +88,7 @@ const filters = [
   `[bed][v1]sidechaincompress=threshold=0.02:ratio=5:attack=120:release=900[ducked]`,
   `[v2][ducked]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-16:TP=-1.5:LRA=11[mix]`,
 ];
-const final = join(out, 'inside-the-wire.mp4');
+const final = join(out, `${film.name}.mp4`);
 run('ffmpeg', ['-v', 'error', '-y', '-i', joined, '-filter_complex', filters.join(';'), '-map', '0:v', '-map', '[mix]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', final]);
 
 console.log(`chapters: ${chapters.map((c) => `${c.n}@${c.start.toFixed(1)}s`).join(' ')}`);

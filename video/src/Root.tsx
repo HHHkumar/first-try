@@ -11,7 +11,29 @@ import { Thumbnail } from './chapters/Thumbnail';
 import { StyleA } from './styles/StyleA';
 import { StyleB } from './styles/StyleB';
 import { StyleC } from './styles/StyleC';
+import { Charge1, CHARGE1_FRAMES } from './films/charge/Charge1';
+import { Charge2, CHARGE2_FRAMES } from './films/charge/Charge2';
+import { Charge3, CHARGE3_FRAMES } from './films/charge/Charge3';
+import { Charge4, CHARGE4_FRAMES } from './films/charge/Charge4';
+import { Charge5, CHARGE5_FRAMES } from './films/charge/Charge5';
+import { Charge6, CHARGE6_FRAMES } from './films/charge/Charge6';
+import { Charge7, CHARGE7_FRAMES } from './films/charge/Charge7';
+import { Charge8, CHARGE8_FRAMES } from './films/charge/Charge8';
+import { Charge9, CHARGE9_FRAMES } from './films/charge/Charge9';
 import { FPS, H, W } from './theme';
+
+// Film 2: The Invisible Push (charge and the electric field).
+const charge = [
+  { id: 'Charge1', component: Charge1, frames: CHARGE1_FRAMES },
+  { id: 'Charge2', component: Charge2, frames: CHARGE2_FRAMES },
+  { id: 'Charge3', component: Charge3, frames: CHARGE3_FRAMES },
+  { id: 'Charge4', component: Charge4, frames: CHARGE4_FRAMES },
+  { id: 'Charge5', component: Charge5, frames: CHARGE5_FRAMES },
+  { id: 'Charge6', component: Charge6, frames: CHARGE6_FRAMES },
+  { id: 'Charge7', component: Charge7, frames: CHARGE7_FRAMES },
+  { id: 'Charge8', component: Charge8, frames: CHARGE8_FRAMES },
+  { id: 'Charge9', component: Charge9, frames: CHARGE9_FRAMES },
+];
 
 // Each chapter renders on its own; scripts/assemble.mjs joins them.
 const chapters = [
@@ -27,7 +49,7 @@ const chapters = [
 
 export const Root = () => (
   <>
-    {chapters.map((c) => (
+    {[...chapters, ...charge].map((c) => (
       <Composition key={c.id} id={c.id} component={c.component} durationInFrames={c.frames} fps={FPS} width={W} height={H} />
     ))}
     {/* style options for the rest of the series */}
