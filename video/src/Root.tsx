@@ -71,6 +71,9 @@ import { I8, I8_FRAMES } from './films/induction/I8';
 import { I9, I9_FRAMES } from './films/induction/I9';
 import { I10, I10_FRAMES } from './films/induction/I10';
 import { IThumb } from './films/induction/IThumb';
+import { A1, A1_FRAMES } from './films/ac1/A1';
+import { A2, A2_FRAMES } from './films/ac1/A2';
+import { A3, A3_FRAMES } from './films/ac1/A3';
 import { StyleAC } from './films/ac/StyleAC';
 import { IndThumb } from './films/inductance/IndThumb';
 import { MagThumb } from './films/magnetism/MagThumb';
@@ -137,6 +140,11 @@ const induction = [
   { id: 'I9', component: I9, frames: I9_FRAMES },
   { id: 'I10', component: I10, frames: I10_FRAMES },
 ];
+const ac1 = [
+  { id: 'A1', component: A1, frames: A1_FRAMES },
+  { id: 'A2', component: A2, frames: A2_FRAMES },
+  { id: 'A3', component: A3, frames: A3_FRAMES },
+];
 const magnetism = [
   { id: 'Mag1', component: Mag1, frames: MAG1_FRAMES },
   { id: 'Mag2', component: Mag2, frames: MAG2_FRAMES },
@@ -164,7 +172,7 @@ const chapters = [
 
 export const Root = () => (
   <>
-    {[...chapters, ...charge, ...capacitance, ...magnetism, ...inductance, ...fields, ...induction].map((c) => (
+    {[...chapters, ...charge, ...capacitance, ...magnetism, ...inductance, ...fields, ...induction, ...ac1].map((c) => (
       <Composition key={c.id} id={c.id} component={c.component} durationInFrames={c.frames} fps={FPS} width={W} height={H} />
     ))}
     {/* style options for the rest of the series */}
