@@ -71,6 +71,7 @@ import { I8, I8_FRAMES } from './films/induction/I8';
 import { I9, I9_FRAMES } from './films/induction/I9';
 import { I10, I10_FRAMES } from './films/induction/I10';
 import { IThumb } from './films/induction/IThumb';
+import { StyleAC } from './films/ac/StyleAC';
 import { IndThumb } from './films/inductance/IndThumb';
 import { MagThumb } from './films/magnetism/MagThumb';
 import { FPS, H, W } from './theme';
@@ -171,6 +172,9 @@ export const Root = () => (
     <Composition id="StyleB" component={StyleB} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleC" component={StyleC} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="FThumb" component={FThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="AcStyleA" component={StyleAC} defaultProps={{ look: 'A' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="AcStyleB" component={StyleAC} defaultProps={{ look: 'B' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="AcStyleC" component={StyleAC} defaultProps={{ look: 'C' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IThumb" component={IThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IndThumb" component={IndThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="MagThumb" component={MagThumb} durationInFrames={1} fps={FPS} width={W} height={H} />

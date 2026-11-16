@@ -26,6 +26,7 @@ type Props = {
   fog?: number;
   halo?: number;
   deep?: [number, number, number];
+  bg?: string;
   orbs?: (add: Add) => void;
   glows?: (add: Add) => void;
 };
@@ -33,7 +34,7 @@ type Props = {
 const ORBS = 9000;
 const GLOWS = 90000;
 
-const Scene = ({ pose, fog = 0.02, halo = 0.2, deep, orbs, glows }: Omit<Props, 'width' | 'height'>) => {
+const Scene = ({ pose, fog = 0.02, halo = 0.2, deep, bg = C.bg0, orbs, glows }: Omit<Props, 'width' | 'height'>) => {
   const orbSprites = useMemo(() => makeSprites(ORBS), []);
   const glowSprites = useMemo(() => makeSprites(GLOWS), []);
   const scratch = useMemo(() => ({ data: new Float32Array(ORBS * 8), order: new Uint32Array(ORBS), depth: new Float32Array(ORBS) }), []);
@@ -71,7 +72,7 @@ const Scene = ({ pose, fog = 0.02, halo = 0.2, deep, orbs, glows }: Omit<Props, 
   const common = { focus: pose.focus, dof: pose.dof, fog, version: version.current };
   return (
     <>
-      <color attach="background" args={[C.bg0]} />
+      <color attach="background" args={[bg]} />
       <Sprites kind="orb" data={orbSprites} {...common} grow={1.4} halo={halo} deep={deep ?? hexToRgb(C.ionDeep)} renderOrder={1} />
       <Sprites kind="glow" data={glowSprites} {...common} grow={2.2} renderOrder={2} />
     </>
