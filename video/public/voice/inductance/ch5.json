@@ -1,0 +1,1028 @@
+{
+ "chapter": 5,
+ "title": "What sets it",
+ "characters": 929,
+ "duration": 66.037551,
+ "words": [
+  {
+   "text": "What",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "decides",
+   "start": 0.32,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 0.8,
+   "end": 0.88,
+   "paragraph": 0
+  },
+  {
+   "text": "inductance",
+   "start": 0.96,
+   "end": 1.52,
+   "paragraph": 0
+  },
+  {
+   "text": "of",
+   "start": 1.6,
+   "end": 1.68,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 1.733,
+   "end": 1.787,
+   "paragraph": 0
+  },
+  {
+   "text": "coil?",
+   "start": 1.84,
+   "end": 2.44,
+   "paragraph": 0
+  },
+  {
+   "text": "Only",
+   "start": 2.72,
+   "end": 3.04,
+   "paragraph": 0
+  },
+  {
+   "text": "its",
+   "start": 3.16,
+   "end": 3.28,
+   "paragraph": 0
+  },
+  {
+   "text": "shape,",
+   "start": 3.36,
+   "end": 4.08,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 4.2,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "what",
+   "start": 4.48,
+   "end": 4.64,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 4.68,
+   "end": 4.72,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 4.8,
+   "end": 4.88,
+   "paragraph": 0
+  },
+  {
+   "text": "wound",
+   "start": 4.96,
+   "end": 5.28,
+   "paragraph": 0
+  },
+  {
+   "text": "on.",
+   "start": 5.4,
+   "end": 5.6,
+   "paragraph": 0
+  },
+  {
+   "text": "Start",
+   "start": 6.16,
+   "end": 6.48,
+   "paragraph": 1
+  },
+  {
+   "text": "with",
+   "start": 6.56,
+   "end": 6.64,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 6.68,
+   "end": 6.72,
+   "paragraph": 1
+  },
+  {
+   "text": "number",
+   "start": 6.8,
+   "end": 7.04,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 7.12,
+   "end": 7.2,
+   "paragraph": 1
+  },
+  {
+   "text": "turns.",
+   "start": 7.28,
+   "end": 8.08,
+   "paragraph": 1
+  },
+  {
+   "text": "Double",
+   "start": 8.4,
+   "end": 8.64,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 8.72,
+   "end": 8.8,
+   "paragraph": 1
+  },
+  {
+   "text": "turns,",
+   "start": 8.88,
+   "end": 9.44,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 9.52,
+   "end": 9.6,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 9.64,
+   "end": 9.68,
+   "paragraph": 1
+  },
+  {
+   "text": "same",
+   "start": 9.84,
+   "end": 10.08,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 10.16,
+   "end": 10.56,
+   "paragraph": 1
+  },
+  {
+   "text": "makes",
+   "start": 10.64,
+   "end": 10.88,
+   "paragraph": 1
+  },
+  {
+   "text": "twice",
+   "start": 11.04,
+   "end": 11.36,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 11.4,
+   "end": 11.44,
+   "paragraph": 1
+  },
+  {
+   "text": "field.",
+   "start": 11.52,
+   "end": 11.92,
+   "paragraph": 1
+  },
+  {
+   "text": "But",
+   "start": 12.48,
+   "end": 12.64,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 12.72,
+   "end": 12.88,
+   "paragraph": 1
+  },
+  {
+   "text": "field",
+   "start": 13.04,
+   "end": 13.36,
+   "paragraph": 1
+  },
+  {
+   "text": "now",
+   "start": 13.44,
+   "end": 13.6,
+   "paragraph": 1
+  },
+  {
+   "text": "passes",
+   "start": 13.68,
+   "end": 14.08,
+   "paragraph": 1
+  },
+  {
+   "text": "through",
+   "start": 14.16,
+   "end": 14.4,
+   "paragraph": 1
+  },
+  {
+   "text": "twice",
+   "start": 14.48,
+   "end": 14.8,
+   "paragraph": 1
+  },
+  {
+   "text": "as",
+   "start": 14.88,
+   "end": 14.96,
+   "paragraph": 1
+  },
+  {
+   "text": "many",
+   "start": 15.04,
+   "end": 15.12,
+   "paragraph": 1
+  },
+  {
+   "text": "turns,",
+   "start": 15.28,
+   "end": 15.92,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 16.04,
+   "end": 16.16,
+   "paragraph": 1
+  },
+  {
+   "text": "each",
+   "start": 16.24,
+   "end": 16.4,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 16.48,
+   "end": 16.56,
+   "paragraph": 1
+  },
+  {
+   "text": "them",
+   "start": 16.64,
+   "end": 16.88,
+   "paragraph": 1
+  },
+  {
+   "text": "adds",
+   "start": 16.96,
+   "end": 17.2,
+   "paragraph": 1
+  },
+  {
+   "text": "its",
+   "start": 17.28,
+   "end": 17.52,
+   "paragraph": 1
+  },
+  {
+   "text": "own",
+   "start": 17.6,
+   "end": 17.76,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage.",
+   "start": 17.84,
+   "end": 18.4,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 18.88,
+   "end": 18.96,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 19.04,
+   "end": 19.08,
+   "paragraph": 1
+  },
+  {
+   "text": "inductance",
+   "start": 19.12,
+   "end": 19.84,
+   "paragraph": 1
+  },
+  {
+   "text": "does",
+   "start": 19.92,
+   "end": 20.08,
+   "paragraph": 1
+  },
+  {
+   "text": "not",
+   "start": 20.24,
+   "end": 20.48,
+   "paragraph": 1
+  },
+  {
+   "text": "double.",
+   "start": 20.56,
+   "end": 20.96,
+   "paragraph": 1
+  },
+  {
+   "text": "It",
+   "start": 21.28,
+   "end": 21.44,
+   "paragraph": 1
+  },
+  {
+   "text": "goes",
+   "start": 21.52,
+   "end": 21.68,
+   "paragraph": 1
+  },
+  {
+   "text": "up",
+   "start": 21.76,
+   "end": 21.92,
+   "paragraph": 1
+  },
+  {
+   "text": "four",
+   "start": 22.08,
+   "end": 22.24,
+   "paragraph": 1
+  },
+  {
+   "text": "times.",
+   "start": 22.32,
+   "end": 23.08,
+   "paragraph": 1
+  },
+  {
+   "text": "Inductance",
+   "start": 23.36,
+   "end": 24,
+   "paragraph": 1
+  },
+  {
+   "text": "grows",
+   "start": 24.08,
+   "end": 24.4,
+   "paragraph": 1
+  },
+  {
+   "text": "with",
+   "start": 24.48,
+   "end": 24.56,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 24.64,
+   "end": 24.72,
+   "paragraph": 1
+  },
+  {
+   "text": "square",
+   "start": 24.8,
+   "end": 25.2,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 25.24,
+   "end": 25.28,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 25.36,
+   "end": 25.4,
+   "paragraph": 1
+  },
+  {
+   "text": "number",
+   "start": 25.44,
+   "end": 25.68,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 25.72,
+   "end": 25.76,
+   "paragraph": 1
+  },
+  {
+   "text": "turns.",
+   "start": 25.92,
+   "end": 26.6,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 26.88,
+   "end": 26.96,
+   "paragraph": 2
+  },
+  {
+   "text": "wider",
+   "start": 27.12,
+   "end": 27.44,
+   "paragraph": 2
+  },
+  {
+   "text": "coil",
+   "start": 27.52,
+   "end": 27.84,
+   "paragraph": 2
+  },
+  {
+   "text": "encloses",
+   "start": 27.92,
+   "end": 28.56,
+   "paragraph": 2
+  },
+  {
+   "text": "more",
+   "start": 28.64,
+   "end": 28.88,
+   "paragraph": 2
+  },
+  {
+   "text": "field,",
+   "start": 28.96,
+   "end": 29.6,
+   "paragraph": 2
+  },
+  {
+   "text": "so",
+   "start": 29.68,
+   "end": 29.92,
+   "paragraph": 2
+  },
+  {
+   "text": "inductance",
+   "start": 30,
+   "end": 30.64,
+   "paragraph": 2
+  },
+  {
+   "text": "grows",
+   "start": 30.8,
+   "end": 31.04,
+   "paragraph": 2
+  },
+  {
+   "text": "with",
+   "start": 31.12,
+   "end": 31.2,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 31.28,
+   "end": 31.36,
+   "paragraph": 2
+  },
+  {
+   "text": "area.",
+   "start": 31.44,
+   "end": 31.92,
+   "paragraph": 2
+  },
+  {
+   "text": "A",
+   "start": 32.4,
+   "end": 32.48,
+   "paragraph": 2
+  },
+  {
+   "text": "longer",
+   "start": 32.56,
+   "end": 32.88,
+   "paragraph": 2
+  },
+  {
+   "text": "coil,",
+   "start": 32.96,
+   "end": 33.52,
+   "paragraph": 2
+  },
+  {
+   "text": "with",
+   "start": 33.6,
+   "end": 33.68,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 33.76,
+   "end": 33.84,
+   "paragraph": 2
+  },
+  {
+   "text": "same",
+   "start": 33.92,
+   "end": 34.16,
+   "paragraph": 2
+  },
+  {
+   "text": "turns",
+   "start": 34.24,
+   "end": 34.56,
+   "paragraph": 2
+  },
+  {
+   "text": "spread",
+   "start": 34.72,
+   "end": 34.88,
+   "paragraph": 2
+  },
+  {
+   "text": "out,",
+   "start": 35.04,
+   "end": 35.44,
+   "paragraph": 2
+  },
+  {
+   "text": "has",
+   "start": 35.52,
+   "end": 35.6,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 35.68,
+   "end": 35.76,
+   "paragraph": 2
+  },
+  {
+   "text": "weaker",
+   "start": 35.84,
+   "end": 36.16,
+   "paragraph": 2
+  },
+  {
+   "text": "field,",
+   "start": 36.24,
+   "end": 36.88,
+   "paragraph": 2
+  },
+  {
+   "text": "so",
+   "start": 36.96,
+   "end": 37.2,
+   "paragraph": 2
+  },
+  {
+   "text": "inductance",
+   "start": 37.28,
+   "end": 37.92,
+   "paragraph": 2
+  },
+  {
+   "text": "falls",
+   "start": 38.08,
+   "end": 38.4,
+   "paragraph": 2
+  },
+  {
+   "text": "with",
+   "start": 38.48,
+   "end": 38.56,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 38.6,
+   "end": 38.64,
+   "paragraph": 2
+  },
+  {
+   "text": "length.",
+   "start": 38.72,
+   "end": 39.36,
+   "paragraph": 2
+  },
+  {
+   "text": "And",
+   "start": 39.6,
+   "end": 39.76,
+   "paragraph": 3
+  },
+  {
+   "text": "then",
+   "start": 39.84,
+   "end": 40.08,
+   "paragraph": 3
+  },
+  {
+   "text": "there",
+   "start": 40.24,
+   "end": 40.32,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 40.4,
+   "end": 40.48,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 40.52,
+   "end": 40.56,
+   "paragraph": 3
+  },
+  {
+   "text": "core.",
+   "start": 40.72,
+   "end": 41.12,
+   "paragraph": 3
+  },
+  {
+   "text": "Put",
+   "start": 41.6,
+   "end": 41.76,
+   "paragraph": 3
+  },
+  {
+   "text": "iron",
+   "start": 41.92,
+   "end": 42.16,
+   "paragraph": 3
+  },
+  {
+   "text": "inside,",
+   "start": 42.24,
+   "end": 42.88,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 42.92,
+   "end": 42.96,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 43.04,
+   "end": 43.2,
+   "paragraph": 3
+  },
+  {
+   "text": "domains",
+   "start": 43.28,
+   "end": 43.76,
+   "paragraph": 3
+  },
+  {
+   "text": "multiply",
+   "start": 43.92,
+   "end": 44.4,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 44.44,
+   "end": 44.48,
+   "paragraph": 3
+  },
+  {
+   "text": "field,",
+   "start": 44.64,
+   "end": 45.2,
+   "paragraph": 3
+  },
+  {
+   "text": "hundreds",
+   "start": 45.28,
+   "end": 45.84,
+   "paragraph": 3
+  },
+  {
+   "text": "or",
+   "start": 45.88,
+   "end": 45.92,
+   "paragraph": 3
+  },
+  {
+   "text": "thousands",
+   "start": 46.08,
+   "end": 46.56,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 46.6,
+   "end": 46.64,
+   "paragraph": 3
+  },
+  {
+   "text": "times.",
+   "start": 46.72,
+   "end": 47.2,
+   "paragraph": 3
+  },
+  {
+   "text": "The",
+   "start": 47.6,
+   "end": 47.68,
+   "paragraph": 3
+  },
+  {
+   "text": "inductance",
+   "start": 47.76,
+   "end": 48.4,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 48.48,
+   "end": 48.64,
+   "paragraph": 3
+  },
+  {
+   "text": "multiplied",
+   "start": 48.72,
+   "end": 49.2,
+   "paragraph": 3
+  },
+  {
+   "text": "with",
+   "start": 49.28,
+   "end": 49.44,
+   "paragraph": 3
+  },
+  {
+   "text": "it.",
+   "start": 49.56,
+   "end": 50,
+   "paragraph": 3
+  },
+  {
+   "text": "Notice",
+   "start": 50.32,
+   "end": 50.64,
+   "paragraph": 4
+  },
+  {
+   "text": "one",
+   "start": 50.72,
+   "end": 50.88,
+   "paragraph": 4
+  },
+  {
+   "text": "more",
+   "start": 50.96,
+   "end": 51.12,
+   "paragraph": 4
+  },
+  {
+   "text": "thing.",
+   "start": 51.24,
+   "end": 51.44,
+   "paragraph": 4
+  },
+  {
+   "text": "Any",
+   "start": 51.92,
+   "end": 52.16,
+   "paragraph": 4
+  },
+  {
+   "text": "wire",
+   "start": 52.24,
+   "end": 52.56,
+   "paragraph": 4
+  },
+  {
+   "text": "carrying",
+   "start": 52.64,
+   "end": 52.88,
+   "paragraph": 4
+  },
+  {
+   "text": "current",
+   "start": 53.04,
+   "end": 53.44,
+   "paragraph": 4
+  },
+  {
+   "text": "has",
+   "start": 53.52,
+   "end": 53.68,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 53.72,
+   "end": 53.76,
+   "paragraph": 4
+  },
+  {
+   "text": "field",
+   "start": 53.92,
+   "end": 54.16,
+   "paragraph": 4
+  },
+  {
+   "text": "around",
+   "start": 54.32,
+   "end": 54.48,
+   "paragraph": 4
+  },
+  {
+   "text": "it.",
+   "start": 54.56,
+   "end": 54.92,
+   "paragraph": 4
+  },
+  {
+   "text": "So",
+   "start": 55.12,
+   "end": 55.36,
+   "paragraph": 4
+  },
+  {
+   "text": "every",
+   "start": 55.6,
+   "end": 55.92,
+   "paragraph": 4
+  },
+  {
+   "text": "wire",
+   "start": 56,
+   "end": 56.32,
+   "paragraph": 4
+  },
+  {
+   "text": "has",
+   "start": 56.4,
+   "end": 56.64,
+   "paragraph": 4
+  },
+  {
+   "text": "some",
+   "start": 56.72,
+   "end": 56.88,
+   "paragraph": 4
+  },
+  {
+   "text": "inductance,",
+   "start": 56.96,
+   "end": 57.84,
+   "paragraph": 4
+  },
+  {
+   "text": "even",
+   "start": 57.96,
+   "end": 58.08,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 58.12,
+   "end": 58.16,
+   "paragraph": 4
+  },
+  {
+   "text": "straight",
+   "start": 58.24,
+   "end": 58.56,
+   "paragraph": 4
+  },
+  {
+   "text": "one.",
+   "start": 58.64,
+   "end": 59.16,
+   "paragraph": 4
+  },
+  {
+   "text": "Usually",
+   "start": 59.44,
+   "end": 59.92,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 60,
+   "end": 60.08,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 60.16,
+   "end": 60.24,
+   "paragraph": 4
+  },
+  {
+   "text": "tiny.",
+   "start": 60.32,
+   "end": 60.8,
+   "paragraph": 4
+  },
+  {
+   "text": "At",
+   "start": 61.2,
+   "end": 61.36,
+   "paragraph": 4
+  },
+  {
+   "text": "high",
+   "start": 61.44,
+   "end": 61.6,
+   "paragraph": 4
+  },
+  {
+   "text": "frequencies,",
+   "start": 61.68,
+   "end": 62.56,
+   "paragraph": 4
+  },
+  {
+   "text": "or",
+   "start": 62.68,
+   "end": 62.8,
+   "paragraph": 4
+  },
+  {
+   "text": "on",
+   "start": 62.88,
+   "end": 62.96,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 63.04,
+   "end": 63.08,
+   "paragraph": 4
+  },
+  {
+   "text": "long",
+   "start": 63.12,
+   "end": 63.36,
+   "paragraph": 4
+  },
+  {
+   "text": "power",
+   "start": 63.44,
+   "end": 63.68,
+   "paragraph": 4
+  },
+  {
+   "text": "line,",
+   "start": 63.84,
+   "end": 64.24,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 64.32,
+   "end": 64.4,
+   "paragraph": 4
+  },
+  {
+   "text": "matters",
+   "start": 64.48,
+   "end": 64.88,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 64.96,
+   "end": 65.04,
+   "paragraph": 4
+  },
+  {
+   "text": "great",
+   "start": 65.2,
+   "end": 65.44,
+   "paragraph": 4
+  },
+  {
+   "text": "deal.",
+   "start": 65.52,
+   "end": 66.08,
+   "paragraph": 4
+  }
+ ]
+}

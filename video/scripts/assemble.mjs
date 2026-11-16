@@ -16,6 +16,7 @@ const FILMS = {
   charge: { dir: ['charge'], voice: ['charge'], chapters: 9, lead: () => 20, name: 'the-invisible-push' },
   capacitance: { dir: ['capacitance'], voice: ['capacitance'], chapters: 9, lead: () => 20, name: 'the-space-between' },
   magnetism: { dir: ['magnetism'], voice: ['magnetism'], chapters: 10, lead: () => 20, name: 'the-second-field' },
+  inductance: { dir: ['inductance'], voice: ['inductance'], chapters: 9, lead: () => 20, name: 'the-current-that-wont-stop' },
 };
 const film = FILMS[process.argv[2] ?? 'resistance'];
 if (!film) throw new Error(`Unknown film "${process.argv[2]}"`);

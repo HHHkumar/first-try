@@ -1,0 +1,824 @@
+{
+ "chapter": 3,
+ "title": "The coil pushes back",
+ "characters": 768,
+ "duration": 51.722449,
+ "words": [
+  {
+   "text": "How",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "does",
+   "start": 0.32,
+   "end": 0.4,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 0.48,
+   "end": 0.56,
+   "paragraph": 0
+  },
+  {
+   "text": "circuit",
+   "start": 0.64,
+   "end": 0.96,
+   "paragraph": 0
+  },
+  {
+   "text": "feel",
+   "start": 1.2,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 1.52,
+   "end": 1.6,
+   "paragraph": 0
+  },
+  {
+   "text": "extra",
+   "start": 1.68,
+   "end": 2,
+   "paragraph": 0
+  },
+  {
+   "text": "work?",
+   "start": 2.08,
+   "end": 2.4,
+   "paragraph": 0
+  },
+  {
+   "text": "Through",
+   "start": 2.96,
+   "end": 3.12,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 3.2,
+   "end": 3.28,
+   "paragraph": 0
+  },
+  {
+   "text": "voltage.",
+   "start": 3.36,
+   "end": 4,
+   "paragraph": 0
+  },
+  {
+   "text": "In",
+   "start": 4.48,
+   "end": 4.64,
+   "paragraph": 1
+  },
+  {
+   "text": "eighteen",
+   "start": 4.72,
+   "end": 4.96,
+   "paragraph": 1
+  },
+  {
+   "text": "thirty-one,",
+   "start": 5.12,
+   "end": 6,
+   "paragraph": 1
+  },
+  {
+   "text": "Michael",
+   "start": 6.08,
+   "end": 6.4,
+   "paragraph": 1
+  },
+  {
+   "text": "Faraday",
+   "start": 6.48,
+   "end": 6.96,
+   "paragraph": 1
+  },
+  {
+   "text": "found",
+   "start": 7.12,
+   "end": 7.36,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 7.44,
+   "end": 7.52,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 7.6,
+   "end": 7.68,
+   "paragraph": 1
+  },
+  {
+   "text": "changing",
+   "start": 7.76,
+   "end": 8.16,
+   "paragraph": 1
+  },
+  {
+   "text": "magnetic",
+   "start": 8.24,
+   "end": 8.72,
+   "paragraph": 1
+  },
+  {
+   "text": "field",
+   "start": 8.88,
+   "end": 9.2,
+   "paragraph": 1
+  },
+  {
+   "text": "produces",
+   "start": 9.36,
+   "end": 9.84,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 9.92,
+   "end": 10,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage",
+   "start": 10.08,
+   "end": 10.64,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 10.72,
+   "end": 10.96,
+   "paragraph": 1
+  },
+  {
+   "text": "any",
+   "start": 11.04,
+   "end": 11.28,
+   "paragraph": 1
+  },
+  {
+   "text": "wire",
+   "start": 11.36,
+   "end": 11.6,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 11.68,
+   "end": 11.84,
+   "paragraph": 1
+  },
+  {
+   "text": "passes",
+   "start": 12.04,
+   "end": 12.24,
+   "paragraph": 1
+  },
+  {
+   "text": "through.",
+   "start": 12.36,
+   "end": 12.56,
+   "paragraph": 1
+  },
+  {
+   "text": "We",
+   "start": 13.12,
+   "end": 13.2,
+   "paragraph": 1
+  },
+  {
+   "text": "will",
+   "start": 13.28,
+   "end": 13.36,
+   "paragraph": 1
+  },
+  {
+   "text": "give",
+   "start": 13.44,
+   "end": 13.52,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 13.6,
+   "end": 13.68,
+   "paragraph": 1
+  },
+  {
+   "text": "discovery",
+   "start": 13.76,
+   "end": 14.32,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 14.4,
+   "end": 14.48,
+   "paragraph": 1
+  },
+  {
+   "text": "video",
+   "start": 14.56,
+   "end": 14.8,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 14.88,
+   "end": 14.96,
+   "paragraph": 1
+  },
+  {
+   "text": "its",
+   "start": 15.04,
+   "end": 15.12,
+   "paragraph": 1
+  },
+  {
+   "text": "own.",
+   "start": 15.2,
+   "end": 15.68,
+   "paragraph": 1
+  },
+  {
+   "text": "Here",
+   "start": 15.92,
+   "end": 16.24,
+   "paragraph": 1
+  },
+  {
+   "text": "we",
+   "start": 16.32,
+   "end": 16.4,
+   "paragraph": 1
+  },
+  {
+   "text": "need",
+   "start": 16.48,
+   "end": 16.64,
+   "paragraph": 1
+  },
+  {
+   "text": "only",
+   "start": 16.72,
+   "end": 16.96,
+   "paragraph": 1
+  },
+  {
+   "text": "one",
+   "start": 17.12,
+   "end": 17.28,
+   "paragraph": 1
+  },
+  {
+   "text": "consequence.",
+   "start": 17.36,
+   "end": 18.08,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 18.56,
+   "end": 18.64,
+   "paragraph": 2
+  },
+  {
+   "text": "coil",
+   "start": 18.8,
+   "end": 19.12,
+   "paragraph": 2
+  },
+  {
+   "text": "sits",
+   "start": 19.28,
+   "end": 19.52,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 19.6,
+   "end": 19.68,
+   "paragraph": 2
+  },
+  {
+   "text": "its",
+   "start": 19.76,
+   "end": 19.84,
+   "paragraph": 2
+  },
+  {
+   "text": "own",
+   "start": 20,
+   "end": 20.16,
+   "paragraph": 2
+  },
+  {
+   "text": "field.",
+   "start": 20.32,
+   "end": 20.88,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 21.12,
+   "end": 21.36,
+   "paragraph": 2
+  },
+  {
+   "text": "when",
+   "start": 21.44,
+   "end": 21.6,
+   "paragraph": 2
+  },
+  {
+   "text": "its",
+   "start": 21.68,
+   "end": 21.76,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 21.84,
+   "end": 22.08,
+   "paragraph": 2
+  },
+  {
+   "text": "changes,",
+   "start": 22.16,
+   "end": 22.88,
+   "paragraph": 2
+  },
+  {
+   "text": "its",
+   "start": 23,
+   "end": 23.12,
+   "paragraph": 2
+  },
+  {
+   "text": "own",
+   "start": 23.2,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 23.6,
+   "end": 23.84,
+   "paragraph": 2
+  },
+  {
+   "text": "changes,",
+   "start": 23.92,
+   "end": 24.64,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 24.72,
+   "end": 24.8,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 24.88,
+   "end": 24.92,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 24.96,
+   "end": 25.44,
+   "paragraph": 2
+  },
+  {
+   "text": "appears",
+   "start": 25.52,
+   "end": 25.92,
+   "paragraph": 2
+  },
+  {
+   "text": "across",
+   "start": 26,
+   "end": 26.32,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 26.4,
+   "end": 26.48,
+   "paragraph": 2
+  },
+  {
+   "text": "coil",
+   "start": 26.56,
+   "end": 26.8,
+   "paragraph": 2
+  },
+  {
+   "text": "itself.",
+   "start": 26.88,
+   "end": 27.76,
+   "paragraph": 2
+  },
+  {
+   "text": "Which",
+   "start": 28.08,
+   "end": 28.24,
+   "paragraph": 3
+  },
+  {
+   "text": "way",
+   "start": 28.32,
+   "end": 28.48,
+   "paragraph": 3
+  },
+  {
+   "text": "does",
+   "start": 28.56,
+   "end": 28.64,
+   "paragraph": 3
+  },
+  {
+   "text": "that",
+   "start": 28.72,
+   "end": 28.8,
+   "paragraph": 3
+  },
+  {
+   "text": "voltage",
+   "start": 28.88,
+   "end": 29.2,
+   "paragraph": 3
+  },
+  {
+   "text": "point?",
+   "start": 29.36,
+   "end": 29.84,
+   "paragraph": 3
+  },
+  {
+   "text": "In",
+   "start": 30.32,
+   "end": 30.48,
+   "paragraph": 3
+  },
+  {
+   "text": "eighteen",
+   "start": 30.56,
+   "end": 30.8,
+   "paragraph": 3
+  },
+  {
+   "text": "thirty-four,",
+   "start": 30.96,
+   "end": 31.76,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 31.8,
+   "end": 31.84,
+   "paragraph": 3
+  },
+  {
+   "text": "physicist",
+   "start": 31.92,
+   "end": 32.48,
+   "paragraph": 3
+  },
+  {
+   "text": "Heinrich",
+   "start": 32.56,
+   "end": 33.04,
+   "paragraph": 3
+  },
+  {
+   "text": "Lenz",
+   "start": 33.12,
+   "end": 33.52,
+   "paragraph": 3
+  },
+  {
+   "text": "gave",
+   "start": 33.6,
+   "end": 33.76,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 33.84,
+   "end": 33.88,
+   "paragraph": 3
+  },
+  {
+   "text": "rule.",
+   "start": 33.92,
+   "end": 34.24,
+   "paragraph": 3
+  },
+  {
+   "text": "It",
+   "start": 34.8,
+   "end": 35.04,
+   "paragraph": 3
+  },
+  {
+   "text": "always",
+   "start": 35.12,
+   "end": 35.6,
+   "paragraph": 3
+  },
+  {
+   "text": "opposes",
+   "start": 35.68,
+   "end": 36.24,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 36.32,
+   "end": 36.4,
+   "paragraph": 3
+  },
+  {
+   "text": "change",
+   "start": 36.48,
+   "end": 36.8,
+   "paragraph": 3
+  },
+  {
+   "text": "that",
+   "start": 36.88,
+   "end": 37.04,
+   "paragraph": 3
+  },
+  {
+   "text": "caused",
+   "start": 37.12,
+   "end": 37.36,
+   "paragraph": 3
+  },
+  {
+   "text": "it.",
+   "start": 37.44,
+   "end": 37.88,
+   "paragraph": 3
+  },
+  {
+   "text": "Try",
+   "start": 38.16,
+   "end": 38.32,
+   "paragraph": 4
+  },
+  {
+   "text": "to",
+   "start": 38.4,
+   "end": 38.48,
+   "paragraph": 4
+  },
+  {
+   "text": "raise",
+   "start": 38.56,
+   "end": 38.8,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 38.84,
+   "end": 38.88,
+   "paragraph": 4
+  },
+  {
+   "text": "current,",
+   "start": 38.96,
+   "end": 39.52,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 39.6,
+   "end": 39.68,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 39.72,
+   "end": 39.76,
+   "paragraph": 4
+  },
+  {
+   "text": "coil",
+   "start": 39.84,
+   "end": 40.08,
+   "paragraph": 4
+  },
+  {
+   "text": "pushes",
+   "start": 40.24,
+   "end": 40.64,
+   "paragraph": 4
+  },
+  {
+   "text": "back",
+   "start": 40.72,
+   "end": 40.96,
+   "paragraph": 4
+  },
+  {
+   "text": "against",
+   "start": 41.04,
+   "end": 41.36,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 41.4,
+   "end": 41.44,
+   "paragraph": 4
+  },
+  {
+   "text": "rise.",
+   "start": 41.64,
+   "end": 42.24,
+   "paragraph": 4
+  },
+  {
+   "text": "Try",
+   "start": 42.32,
+   "end": 42.48,
+   "paragraph": 4
+  },
+  {
+   "text": "to",
+   "start": 42.56,
+   "end": 42.64,
+   "paragraph": 4
+  },
+  {
+   "text": "reduce",
+   "start": 42.84,
+   "end": 43.04,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 43.12,
+   "end": 43.2,
+   "paragraph": 4
+  },
+  {
+   "text": "current,",
+   "start": 43.36,
+   "end": 43.76,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 43.84,
+   "end": 43.92,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 43.96,
+   "end": 44,
+   "paragraph": 4
+  },
+  {
+   "text": "coil",
+   "start": 44.08,
+   "end": 44.32,
+   "paragraph": 4
+  },
+  {
+   "text": "pushes",
+   "start": 44.48,
+   "end": 44.72,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 44.84,
+   "end": 44.96,
+   "paragraph": 4
+  },
+  {
+   "text": "forward,",
+   "start": 45.16,
+   "end": 45.6,
+   "paragraph": 4
+  },
+  {
+   "text": "trying",
+   "start": 45.76,
+   "end": 45.92,
+   "paragraph": 4
+  },
+  {
+   "text": "to",
+   "start": 46,
+   "end": 46.08,
+   "paragraph": 4
+  },
+  {
+   "text": "keep",
+   "start": 46.16,
+   "end": 46.24,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 46.32,
+   "end": 46.4,
+   "paragraph": 4
+  },
+  {
+   "text": "going.",
+   "start": 46.48,
+   "end": 47.28,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 47.36,
+   "end": 47.44,
+   "paragraph": 4
+  },
+  {
+   "text": "coil",
+   "start": 47.52,
+   "end": 47.76,
+   "paragraph": 4
+  },
+  {
+   "text": "does",
+   "start": 47.84,
+   "end": 48,
+   "paragraph": 4
+  },
+  {
+   "text": "not",
+   "start": 48.08,
+   "end": 48.24,
+   "paragraph": 4
+  },
+  {
+   "text": "resist",
+   "start": 48.32,
+   "end": 48.72,
+   "paragraph": 4
+  },
+  {
+   "text": "current.",
+   "start": 48.8,
+   "end": 49.6,
+   "paragraph": 4
+  },
+  {
+   "text": "It",
+   "start": 49.68,
+   "end": 49.76,
+   "paragraph": 4
+  },
+  {
+   "text": "resists",
+   "start": 49.88,
+   "end": 50.32,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 50.44,
+   "end": 50.56,
+   "paragraph": 4
+  },
+  {
+   "text": "change",
+   "start": 50.64,
+   "end": 50.96,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 51.04,
+   "end": 51.12,
+   "paragraph": 4
+  },
+  {
+   "text": "current.",
+   "start": 51.2,
+   "end": 51.76,
+   "paragraph": 4
+  }
+ ]
+}
