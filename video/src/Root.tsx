@@ -60,6 +60,10 @@ import { F7, F7_FRAMES } from './films/fields/F7';
 import { F8, F8_FRAMES } from './films/fields/F8';
 import { F9, F9_FRAMES } from './films/fields/F9';
 import { FThumb } from './films/fields/FThumb';
+import { I1, I1_FRAMES } from './films/induction/I1';
+import { I2, I2_FRAMES } from './films/induction/I2';
+import { I3, I3_FRAMES } from './films/induction/I3';
+import { I4, I4_FRAMES } from './films/induction/I4';
 import { IndThumb } from './films/inductance/IndThumb';
 import { MagThumb } from './films/magnetism/MagThumb';
 import { FPS, H, W } from './theme';
@@ -113,6 +117,12 @@ const fields = [
   { id: 'F8', component: F8, frames: F8_FRAMES },
   { id: 'F9', component: F9, frames: F9_FRAMES },
 ];
+const induction = [
+  { id: 'I1', component: I1, frames: I1_FRAMES },
+  { id: 'I2', component: I2, frames: I2_FRAMES },
+  { id: 'I3', component: I3, frames: I3_FRAMES },
+  { id: 'I4', component: I4, frames: I4_FRAMES },
+];
 const magnetism = [
   { id: 'Mag1', component: Mag1, frames: MAG1_FRAMES },
   { id: 'Mag2', component: Mag2, frames: MAG2_FRAMES },
@@ -140,7 +150,7 @@ const chapters = [
 
 export const Root = () => (
   <>
-    {[...chapters, ...charge, ...capacitance, ...magnetism, ...inductance, ...fields].map((c) => (
+    {[...chapters, ...charge, ...capacitance, ...magnetism, ...inductance, ...fields, ...induction].map((c) => (
       <Composition key={c.id} id={c.id} component={c.component} durationInFrames={c.frames} fps={FPS} width={W} height={H} />
     ))}
     {/* style options for the rest of the series */}

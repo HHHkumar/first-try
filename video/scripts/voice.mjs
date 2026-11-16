@@ -19,6 +19,7 @@ const FILMS = {
   magnetism: { script: 'magnetism.md', out: ['magnetism'] },
   inductance: { script: 'inductance.md', out: ['inductance'] },
   fields: { script: 'fields-together.md', out: ['fields'] },
+  induction: { script: 'induction.md', out: ['induction'] },
 };
 const film = FILMS[process.argv[2]];
 if (!film) throw new Error(`Unknown film "${process.argv[2]}". Known: ${Object.keys(FILMS).join(', ')}`);
