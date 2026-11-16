@@ -1,0 +1,1682 @@
+{
+ "chapter": 4,
+ "title": "Coulomb's law",
+ "characters": 1505,
+ "duration": 103.88898,
+ "words": [
+  {
+   "text": "How",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "strong",
+   "start": 0.32,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 0.8,
+   "end": 0.88,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 0.92,
+   "end": 0.96,
+   "paragraph": 0
+  },
+  {
+   "text": "force",
+   "start": 1.12,
+   "end": 1.36,
+   "paragraph": 0
+  },
+  {
+   "text": "between",
+   "start": 1.44,
+   "end": 1.76,
+   "paragraph": 0
+  },
+  {
+   "text": "two",
+   "start": 1.84,
+   "end": 1.92,
+   "paragraph": 0
+  },
+  {
+   "text": "charges?",
+   "start": 2.08,
+   "end": 2.84,
+   "paragraph": 0
+  },
+  {
+   "text": "In",
+   "start": 3.12,
+   "end": 3.28,
+   "paragraph": 0
+  },
+  {
+   "text": "seventeen",
+   "start": 3.36,
+   "end": 3.76,
+   "paragraph": 0
+  },
+  {
+   "text": "eighty-five,",
+   "start": 3.84,
+   "end": 4.8,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 4.88,
+   "end": 4.96,
+   "paragraph": 0
+  },
+  {
+   "text": "French",
+   "start": 5.12,
+   "end": 5.28,
+   "paragraph": 0
+  },
+  {
+   "text": "engineer",
+   "start": 5.36,
+   "end": 5.84,
+   "paragraph": 0
+  },
+  {
+   "text": "Charles",
+   "start": 6,
+   "end": 6.32,
+   "paragraph": 0
+  },
+  {
+   "text": "Coulomb",
+   "start": 6.48,
+   "end": 6.88,
+   "paragraph": 0
+  },
+  {
+   "text": "found",
+   "start": 7.12,
+   "end": 7.28,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 7.36,
+   "end": 7.44,
+   "paragraph": 0
+  },
+  {
+   "text": "way",
+   "start": 7.52,
+   "end": 7.68,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 7.76,
+   "end": 7.84,
+   "paragraph": 0
+  },
+  {
+   "text": "measure",
+   "start": 7.92,
+   "end": 8.16,
+   "paragraph": 0
+  },
+  {
+   "text": "it.",
+   "start": 8.24,
+   "end": 8.96,
+   "paragraph": 0
+  },
+  {
+   "text": "He",
+   "start": 9.04,
+   "end": 9.12,
+   "paragraph": 0
+  },
+  {
+   "text": "hung",
+   "start": 9.2,
+   "end": 9.36,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 9.44,
+   "end": 9.52,
+   "paragraph": 0
+  },
+  {
+   "text": "light",
+   "start": 9.6,
+   "end": 9.84,
+   "paragraph": 0
+  },
+  {
+   "text": "rod",
+   "start": 9.92,
+   "end": 10.24,
+   "paragraph": 0
+  },
+  {
+   "text": "from",
+   "start": 10.32,
+   "end": 10.48,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 10.56,
+   "end": 10.64,
+   "paragraph": 0
+  },
+  {
+   "text": "very",
+   "start": 10.72,
+   "end": 10.96,
+   "paragraph": 0
+  },
+  {
+   "text": "fine",
+   "start": 11.12,
+   "end": 11.36,
+   "paragraph": 0
+  },
+  {
+   "text": "wire,",
+   "start": 11.44,
+   "end": 12.08,
+   "paragraph": 0
+  },
+  {
+   "text": "with",
+   "start": 12.16,
+   "end": 12.24,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 12.32,
+   "end": 12.4,
+   "paragraph": 0
+  },
+  {
+   "text": "small",
+   "start": 12.6,
+   "end": 12.8,
+   "paragraph": 0
+  },
+  {
+   "text": "charged",
+   "start": 12.96,
+   "end": 13.28,
+   "paragraph": 0
+  },
+  {
+   "text": "ball",
+   "start": 13.36,
+   "end": 13.68,
+   "paragraph": 0
+  },
+  {
+   "text": "on",
+   "start": 13.8,
+   "end": 13.92,
+   "paragraph": 0
+  },
+  {
+   "text": "one",
+   "start": 14,
+   "end": 14.08,
+   "paragraph": 0
+  },
+  {
+   "text": "end.",
+   "start": 14.16,
+   "end": 14.96,
+   "paragraph": 0
+  },
+  {
+   "text": "When",
+   "start": 15.04,
+   "end": 15.12,
+   "paragraph": 0
+  },
+  {
+   "text": "he",
+   "start": 15.2,
+   "end": 15.28,
+   "paragraph": 0
+  },
+  {
+   "text": "brought",
+   "start": 15.36,
+   "end": 15.6,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 15.68,
+   "end": 15.76,
+   "paragraph": 0
+  },
+  {
+   "text": "second",
+   "start": 15.84,
+   "end": 16.16,
+   "paragraph": 0
+  },
+  {
+   "text": "charged",
+   "start": 16.24,
+   "end": 16.56,
+   "paragraph": 0
+  },
+  {
+   "text": "ball",
+   "start": 16.68,
+   "end": 16.8,
+   "paragraph": 0
+  },
+  {
+   "text": "close,",
+   "start": 16.96,
+   "end": 17.68,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 17.76,
+   "end": 17.84,
+   "paragraph": 0
+  },
+  {
+   "text": "rod",
+   "start": 17.92,
+   "end": 18.24,
+   "paragraph": 0
+  },
+  {
+   "text": "turned,",
+   "start": 18.32,
+   "end": 19.04,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 19.12,
+   "end": 19.2,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 19.28,
+   "end": 19.44,
+   "paragraph": 0
+  },
+  {
+   "text": "twist",
+   "start": 19.48,
+   "end": 19.76,
+   "paragraph": 0
+  },
+  {
+   "text": "in",
+   "start": 19.84,
+   "end": 19.92,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 20,
+   "end": 20.08,
+   "paragraph": 0
+  },
+  {
+   "text": "wire",
+   "start": 20.32,
+   "end": 20.56,
+   "paragraph": 0
+  },
+  {
+   "text": "told",
+   "start": 20.6,
+   "end": 20.8,
+   "paragraph": 0
+  },
+  {
+   "text": "him",
+   "start": 20.88,
+   "end": 20.96,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 21.04,
+   "end": 21.12,
+   "paragraph": 0
+  },
+  {
+   "text": "force.",
+   "start": 21.32,
+   "end": 22.08,
+   "paragraph": 0
+  },
+  {
+   "text": "The",
+   "start": 22.16,
+   "end": 22.24,
+   "paragraph": 0
+  },
+  {
+   "text": "forces",
+   "start": 22.32,
+   "end": 22.72,
+   "paragraph": 0
+  },
+  {
+   "text": "were",
+   "start": 22.84,
+   "end": 22.96,
+   "paragraph": 0
+  },
+  {
+   "text": "tiny,",
+   "start": 23.32,
+   "end": 23.733,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 23.787,
+   "end": 23.84,
+   "paragraph": 0
+  },
+  {
+   "text": "his",
+   "start": 23.96,
+   "end": 24.08,
+   "paragraph": 0
+  },
+  {
+   "text": "balance",
+   "start": 24.28,
+   "end": 24.48,
+   "paragraph": 0
+  },
+  {
+   "text": "was",
+   "start": 24.56,
+   "end": 24.8,
+   "paragraph": 0
+  },
+  {
+   "text": "sensitive",
+   "start": 24.96,
+   "end": 25.28,
+   "paragraph": 0
+  },
+  {
+   "text": "enough",
+   "start": 25.36,
+   "end": 25.6,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 25.68,
+   "end": 25.76,
+   "paragraph": 0
+  },
+  {
+   "text": "weigh",
+   "start": 25.84,
+   "end": 26,
+   "paragraph": 0
+  },
+  {
+   "text": "them.",
+   "start": 26.12,
+   "end": 26.8,
+   "paragraph": 0
+  },
+  {
+   "text": "He",
+   "start": 26.88,
+   "end": 26.96,
+   "paragraph": 1
+  },
+  {
+   "text": "found",
+   "start": 27.04,
+   "end": 27.44,
+   "paragraph": 1
+  },
+  {
+   "text": "two",
+   "start": 27.52,
+   "end": 27.68,
+   "paragraph": 1
+  },
+  {
+   "text": "simple",
+   "start": 27.84,
+   "end": 28.16,
+   "paragraph": 1
+  },
+  {
+   "text": "rules.",
+   "start": 28.24,
+   "end": 29.2,
+   "paragraph": 1
+  },
+  {
+   "text": "First,",
+   "start": 29.4,
+   "end": 29.92,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 30,
+   "end": 30.16,
+   "paragraph": 2
+  },
+  {
+   "text": "force",
+   "start": 30.36,
+   "end": 30.56,
+   "paragraph": 2
+  },
+  {
+   "text": "grows",
+   "start": 30.64,
+   "end": 31.04,
+   "paragraph": 2
+  },
+  {
+   "text": "with",
+   "start": 31.12,
+   "end": 31.36,
+   "paragraph": 2
+  },
+  {
+   "text": "each",
+   "start": 31.44,
+   "end": 31.68,
+   "paragraph": 2
+  },
+  {
+   "text": "charge.",
+   "start": 31.76,
+   "end": 32.64,
+   "paragraph": 2
+  },
+  {
+   "text": "Double",
+   "start": 32.72,
+   "end": 32.96,
+   "paragraph": 2
+  },
+  {
+   "text": "one",
+   "start": 33.04,
+   "end": 33.2,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 33.28,
+   "end": 33.68,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 33.84,
+   "end": 33.92,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 33.96,
+   "end": 34,
+   "paragraph": 2
+  },
+  {
+   "text": "force",
+   "start": 34.08,
+   "end": 34.4,
+   "paragraph": 2
+  },
+  {
+   "text": "doubles.",
+   "start": 34.48,
+   "end": 35.36,
+   "paragraph": 2
+  },
+  {
+   "text": "Double",
+   "start": 35.44,
+   "end": 35.68,
+   "paragraph": 2
+  },
+  {
+   "text": "both",
+   "start": 35.84,
+   "end": 36.16,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 36.4,
+   "end": 36.56,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 36.6,
+   "end": 36.64,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 36.72,
+   "end": 36.88,
+   "paragraph": 2
+  },
+  {
+   "text": "four",
+   "start": 37.04,
+   "end": 37.2,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 37.28,
+   "end": 37.6,
+   "paragraph": 2
+  },
+  {
+   "text": "as",
+   "start": 37.68,
+   "end": 37.76,
+   "paragraph": 2
+  },
+  {
+   "text": "strong.",
+   "start": 37.84,
+   "end": 38.8,
+   "paragraph": 2
+  },
+  {
+   "text": "Second,",
+   "start": 39.04,
+   "end": 39.6,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 39.68,
+   "end": 39.84,
+   "paragraph": 3
+  },
+  {
+   "text": "force",
+   "start": 40.04,
+   "end": 40.24,
+   "paragraph": 3
+  },
+  {
+   "text": "falls",
+   "start": 40.4,
+   "end": 40.8,
+   "paragraph": 3
+  },
+  {
+   "text": "with",
+   "start": 40.88,
+   "end": 40.96,
+   "paragraph": 3
+  },
+  {
+   "text": "distance,",
+   "start": 41.04,
+   "end": 41.84,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 41.92,
+   "end": 42,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 42.08,
+   "end": 42.16,
+   "paragraph": 3
+  },
+  {
+   "text": "falls",
+   "start": 42.24,
+   "end": 42.56,
+   "paragraph": 3
+  },
+  {
+   "text": "fast.",
+   "start": 42.72,
+   "end": 43.68,
+   "paragraph": 3
+  },
+  {
+   "text": "Move",
+   "start": 43.8,
+   "end": 43.92,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 44,
+   "end": 44.08,
+   "paragraph": 3
+  },
+  {
+   "text": "charges",
+   "start": 44.32,
+   "end": 44.56,
+   "paragraph": 3
+  },
+  {
+   "text": "twice",
+   "start": 44.64,
+   "end": 44.96,
+   "paragraph": 3
+  },
+  {
+   "text": "as",
+   "start": 45.04,
+   "end": 45.2,
+   "paragraph": 3
+  },
+  {
+   "text": "far",
+   "start": 45.28,
+   "end": 45.36,
+   "paragraph": 3
+  },
+  {
+   "text": "apart",
+   "start": 45.44,
+   "end": 46,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 46.08,
+   "end": 46.16,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 46.24,
+   "end": 46.32,
+   "paragraph": 3
+  },
+  {
+   "text": "force",
+   "start": 46.4,
+   "end": 46.72,
+   "paragraph": 3
+  },
+  {
+   "text": "drops",
+   "start": 46.8,
+   "end": 47.04,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 47.12,
+   "end": 47.2,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 47.28,
+   "end": 47.36,
+   "paragraph": 3
+  },
+  {
+   "text": "quarter.",
+   "start": 47.56,
+   "end": 48.24,
+   "paragraph": 3
+  },
+  {
+   "text": "Three",
+   "start": 48.36,
+   "end": 48.48,
+   "paragraph": 3
+  },
+  {
+   "text": "times",
+   "start": 48.56,
+   "end": 48.8,
+   "paragraph": 3
+  },
+  {
+   "text": "as",
+   "start": 48.88,
+   "end": 49.04,
+   "paragraph": 3
+  },
+  {
+   "text": "far,",
+   "start": 49.16,
+   "end": 49.6,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 49.68,
+   "end": 49.76,
+   "paragraph": 3
+  },
+  {
+   "text": "ninth.",
+   "start": 49.84,
+   "end": 50.8,
+   "paragraph": 3
+  },
+  {
+   "text": "This",
+   "start": 50.88,
+   "end": 51.2,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 51.28,
+   "end": 51.36,
+   "paragraph": 3
+  },
+  {
+   "text": "an",
+   "start": 51.48,
+   "end": 51.6,
+   "paragraph": 3
+  },
+  {
+   "text": "inverse",
+   "start": 51.68,
+   "end": 52.08,
+   "paragraph": 3
+  },
+  {
+   "text": "square",
+   "start": 52.24,
+   "end": 52.4,
+   "paragraph": 3
+  },
+  {
+   "text": "law.",
+   "start": 52.52,
+   "end": 53.12,
+   "paragraph": 3
+  },
+  {
+   "text": "Here",
+   "start": 53.24,
+   "end": 53.36,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 53.44,
+   "end": 53.52,
+   "paragraph": 4
+  },
+  {
+   "text": "why",
+   "start": 53.6,
+   "end": 53.76,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 53.84,
+   "end": 53.92,
+   "paragraph": 4
+  },
+  {
+   "text": "has",
+   "start": 54.08,
+   "end": 54.24,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 54.36,
+   "end": 54.48,
+   "paragraph": 4
+  },
+  {
+   "text": "shape.",
+   "start": 54.64,
+   "end": 55.28,
+   "paragraph": 4
+  },
+  {
+   "text": "Picture",
+   "start": 55.44,
+   "end": 55.6,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 55.68,
+   "end": 55.76,
+   "paragraph": 4
+  },
+  {
+   "text": "influence",
+   "start": 55.84,
+   "end": 56.32,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 56.36,
+   "end": 56.4,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 56.48,
+   "end": 56.56,
+   "paragraph": 4
+  },
+  {
+   "text": "charge",
+   "start": 56.64,
+   "end": 57.04,
+   "paragraph": 4
+  },
+  {
+   "text": "spreading",
+   "start": 57.12,
+   "end": 57.6,
+   "paragraph": 4
+  },
+  {
+   "text": "outward",
+   "start": 57.68,
+   "end": 58.24,
+   "paragraph": 4
+  },
+  {
+   "text": "evenly",
+   "start": 58.32,
+   "end": 58.88,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 58.96,
+   "end": 59.2,
+   "paragraph": 4
+  },
+  {
+   "text": "every",
+   "start": 59.36,
+   "end": 59.52,
+   "paragraph": 4
+  },
+  {
+   "text": "direction.",
+   "start": 60,
+   "end": 60.533,
+   "paragraph": 4
+  },
+  {
+   "text": "At",
+   "start": 60.587,
+   "end": 60.64,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 60.68,
+   "end": 60.72,
+   "paragraph": 4
+  },
+  {
+   "text": "distance",
+   "start": 60.8,
+   "end": 61.28,
+   "paragraph": 4
+  },
+  {
+   "text": "r,",
+   "start": 61.36,
+   "end": 61.92,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 61.96,
+   "end": 62,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 62.08,
+   "end": 62.16,
+   "paragraph": 4
+  },
+  {
+   "text": "spread",
+   "start": 62.24,
+   "end": 62.56,
+   "paragraph": 4
+  },
+  {
+   "text": "over",
+   "start": 62.64,
+   "end": 62.8,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 62.88,
+   "end": 62.96,
+   "paragraph": 4
+  },
+  {
+   "text": "sphere,",
+   "start": 63.36,
+   "end": 63.787,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 63.813,
+   "end": 63.84,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 63.92,
+   "end": 64.08,
+   "paragraph": 4
+  },
+  {
+   "text": "area",
+   "start": 64.16,
+   "end": 64.4,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 64.48,
+   "end": 64.56,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 64.64,
+   "end": 64.72,
+   "paragraph": 4
+  },
+  {
+   "text": "sphere",
+   "start": 64.96,
+   "end": 65.2,
+   "paragraph": 4
+  },
+  {
+   "text": "grows",
+   "start": 65.28,
+   "end": 65.6,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 65.72,
+   "end": 65.84,
+   "paragraph": 4
+  },
+  {
+   "text": "r",
+   "start": 66,
+   "end": 66.08,
+   "paragraph": 4
+  },
+  {
+   "text": "squared.",
+   "start": 66.16,
+   "end": 67,
+   "paragraph": 4
+  },
+  {
+   "text": "The",
+   "start": 67.04,
+   "end": 67.2,
+   "paragraph": 4
+  },
+  {
+   "text": "same",
+   "start": 67.28,
+   "end": 67.44,
+   "paragraph": 4
+  },
+  {
+   "text": "influence",
+   "start": 67.52,
+   "end": 68.08,
+   "paragraph": 4
+  },
+  {
+   "text": "over",
+   "start": 68.16,
+   "end": 68.48,
+   "paragraph": 4
+  },
+  {
+   "text": "four",
+   "start": 68.6,
+   "end": 68.72,
+   "paragraph": 4
+  },
+  {
+   "text": "times",
+   "start": 68.88,
+   "end": 69.04,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 69.12,
+   "end": 69.2,
+   "paragraph": 4
+  },
+  {
+   "text": "area",
+   "start": 69.28,
+   "end": 69.76,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 69.8,
+   "end": 69.84,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 70.08,
+   "end": 70.187,
+   "paragraph": 4
+  },
+  {
+   "text": "quarter",
+   "start": 70.293,
+   "end": 70.4,
+   "paragraph": 4
+  },
+  {
+   "text": "as",
+   "start": 70.48,
+   "end": 70.64,
+   "paragraph": 4
+  },
+  {
+   "text": "strong.",
+   "start": 70.72,
+   "end": 71.52,
+   "paragraph": 4
+  },
+  {
+   "text": "Put",
+   "start": 71.6,
+   "end": 71.68,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 71.76,
+   "end": 71.84,
+   "paragraph": 5
+  },
+  {
+   "text": "two",
+   "start": 71.92,
+   "end": 72,
+   "paragraph": 5
+  },
+  {
+   "text": "rules",
+   "start": 72.16,
+   "end": 72.32,
+   "paragraph": 5
+  },
+  {
+   "text": "together",
+   "start": 72.4,
+   "end": 73.04,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 73.16,
+   "end": 73.28,
+   "paragraph": 5
+  },
+  {
+   "text": "you",
+   "start": 73.36,
+   "end": 73.44,
+   "paragraph": 5
+  },
+  {
+   "text": "have",
+   "start": 73.52,
+   "end": 73.84,
+   "paragraph": 5
+  },
+  {
+   "text": "Coulomb's",
+   "start": 73.92,
+   "end": 74.32,
+   "paragraph": 5
+  },
+  {
+   "text": "law.",
+   "start": 74.64,
+   "end": 75,
+   "paragraph": 5
+  },
+  {
+   "text": "The",
+   "start": 75.04,
+   "end": 75.2,
+   "paragraph": 5
+  },
+  {
+   "text": "force",
+   "start": 75.4,
+   "end": 75.6,
+   "paragraph": 5
+  },
+  {
+   "text": "equals",
+   "start": 75.68,
+   "end": 76,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 76.16,
+   "end": 76.453,
+   "paragraph": 5
+  },
+  {
+   "text": "constant,",
+   "start": 76.747,
+   "end": 77.08,
+   "paragraph": 5
+  },
+  {
+   "text": "times",
+   "start": 77.12,
+   "end": 77.36,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 77.44,
+   "end": 77.52,
+   "paragraph": 5
+  },
+  {
+   "text": "first",
+   "start": 77.6,
+   "end": 77.84,
+   "paragraph": 5
+  },
+  {
+   "text": "charge,",
+   "start": 77.92,
+   "end": 78.64,
+   "paragraph": 5
+  },
+  {
+   "text": "times",
+   "start": 78.72,
+   "end": 78.8,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 78.88,
+   "end": 79.04,
+   "paragraph": 5
+  },
+  {
+   "text": "second,",
+   "start": 79.4,
+   "end": 79.8,
+   "paragraph": 5
+  },
+  {
+   "text": "divided",
+   "start": 79.84,
+   "end": 80.32,
+   "paragraph": 5
+  },
+  {
+   "text": "by",
+   "start": 80.4,
+   "end": 80.48,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 80.56,
+   "end": 80.64,
+   "paragraph": 5
+  },
+  {
+   "text": "distance",
+   "start": 80.88,
+   "end": 81.12,
+   "paragraph": 5
+  },
+  {
+   "text": "squared.",
+   "start": 81.16,
+   "end": 82.08,
+   "paragraph": 5
+  },
+  {
+   "text": "That",
+   "start": 82.2,
+   "end": 82.32,
+   "paragraph": 6
+  },
+  {
+   "text": "constant",
+   "start": 82.4,
+   "end": 82.96,
+   "paragraph": 6
+  },
+  {
+   "text": "is",
+   "start": 83.04,
+   "end": 83.28,
+   "paragraph": 6
+  },
+  {
+   "text": "huge:",
+   "start": 83.36,
+   "end": 84.28,
+   "paragraph": 6
+  },
+  {
+   "text": "nine",
+   "start": 84.32,
+   "end": 84.72,
+   "paragraph": 6
+  },
+  {
+   "text": "billion.",
+   "start": 84.8,
+   "end": 85.76,
+   "paragraph": 6
+  },
+  {
+   "text": "Two",
+   "start": 85.84,
+   "end": 85.92,
+   "paragraph": 6
+  },
+  {
+   "text": "charges",
+   "start": 86.16,
+   "end": 86.4,
+   "paragraph": 6
+  },
+  {
+   "text": "of",
+   "start": 86.52,
+   "end": 86.64,
+   "paragraph": 6
+  },
+  {
+   "text": "one",
+   "start": 86.72,
+   "end": 86.88,
+   "paragraph": 6
+  },
+  {
+   "text": "coulomb",
+   "start": 86.96,
+   "end": 87.28,
+   "paragraph": 6
+  },
+  {
+   "text": "each,",
+   "start": 87.36,
+   "end": 87.973,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 88.027,
+   "end": 88.08,
+   "paragraph": 6
+  },
+  {
+   "text": "metre",
+   "start": 88.2,
+   "end": 88.4,
+   "paragraph": 6
+  },
+  {
+   "text": "apart,",
+   "start": 88.52,
+   "end": 89.2,
+   "paragraph": 6
+  },
+  {
+   "text": "would",
+   "start": 89.28,
+   "end": 89.36,
+   "paragraph": 6
+  },
+  {
+   "text": "push",
+   "start": 89.44,
+   "end": 89.6,
+   "paragraph": 6
+  },
+  {
+   "text": "on",
+   "start": 89.68,
+   "end": 89.76,
+   "paragraph": 6
+  },
+  {
+   "text": "each",
+   "start": 89.84,
+   "end": 90,
+   "paragraph": 6
+  },
+  {
+   "text": "other",
+   "start": 90.08,
+   "end": 90.32,
+   "paragraph": 6
+  },
+  {
+   "text": "with",
+   "start": 90.4,
+   "end": 90.48,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 90.56,
+   "end": 90.64,
+   "paragraph": 6
+  },
+  {
+   "text": "weight",
+   "start": 90.8,
+   "end": 90.96,
+   "paragraph": 6
+  },
+  {
+   "text": "of",
+   "start": 91.04,
+   "end": 91.2,
+   "paragraph": 6
+  },
+  {
+   "text": "nearly",
+   "start": 91.28,
+   "end": 91.68,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 91.8,
+   "end": 91.92,
+   "paragraph": 6
+  },
+  {
+   "text": "million",
+   "start": 92.16,
+   "end": 92.4,
+   "paragraph": 6
+  },
+  {
+   "text": "tonnes.",
+   "start": 92.48,
+   "end": 93.36,
+   "paragraph": 6
+  },
+  {
+   "text": "That",
+   "start": 93.44,
+   "end": 93.52,
+   "paragraph": 6
+  },
+  {
+   "text": "is",
+   "start": 93.6,
+   "end": 93.68,
+   "paragraph": 6
+  },
+  {
+   "text": "why",
+   "start": 93.76,
+   "end": 94,
+   "paragraph": 6
+  },
+  {
+   "text": "you",
+   "start": 94.12,
+   "end": 94.24,
+   "paragraph": 6
+  },
+  {
+   "text": "never",
+   "start": 94.32,
+   "end": 94.56,
+   "paragraph": 6
+  },
+  {
+   "text": "meet",
+   "start": 94.64,
+   "end": 94.8,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 94.88,
+   "end": 94.96,
+   "paragraph": 6
+  },
+  {
+   "text": "loose",
+   "start": 95.04,
+   "end": 95.28,
+   "paragraph": 6
+  },
+  {
+   "text": "coulomb.",
+   "start": 95.36,
+   "end": 96.12,
+   "paragraph": 6
+  },
+  {
+   "text": "And",
+   "start": 96.16,
+   "end": 96.24,
+   "paragraph": 7
+  },
+  {
+   "text": "when",
+   "start": 96.32,
+   "end": 96.48,
+   "paragraph": 7
+  },
+  {
+   "text": "there",
+   "start": 96.52,
+   "end": 96.56,
+   "paragraph": 7
+  },
+  {
+   "text": "are",
+   "start": 96.64,
+   "end": 96.8,
+   "paragraph": 7
+  },
+  {
+   "text": "more",
+   "start": 96.88,
+   "end": 96.96,
+   "paragraph": 7
+  },
+  {
+   "text": "than",
+   "start": 97.04,
+   "end": 97.2,
+   "paragraph": 7
+  },
+  {
+   "text": "two",
+   "start": 97.28,
+   "end": 97.36,
+   "paragraph": 7
+  },
+  {
+   "text": "charges,",
+   "start": 97.76,
+   "end": 98.267,
+   "paragraph": 7
+  },
+  {
+   "text": "nothing",
+   "start": 98.373,
+   "end": 98.48,
+   "paragraph": 7
+  },
+  {
+   "text": "new",
+   "start": 98.56,
+   "end": 98.64,
+   "paragraph": 7
+  },
+  {
+   "text": "is",
+   "start": 98.72,
+   "end": 98.8,
+   "paragraph": 7
+  },
+  {
+   "text": "needed.",
+   "start": 98.88,
+   "end": 99.6,
+   "paragraph": 7
+  },
+  {
+   "text": "Work",
+   "start": 99.72,
+   "end": 99.84,
+   "paragraph": 7
+  },
+  {
+   "text": "out",
+   "start": 99.92,
+   "end": 100,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 100.08,
+   "end": 100.16,
+   "paragraph": 7
+  },
+  {
+   "text": "force",
+   "start": 100.32,
+   "end": 100.48,
+   "paragraph": 7
+  },
+  {
+   "text": "from",
+   "start": 100.6,
+   "end": 100.72,
+   "paragraph": 7
+  },
+  {
+   "text": "each",
+   "start": 100.8,
+   "end": 100.96,
+   "paragraph": 7
+  },
+  {
+   "text": "one",
+   "start": 101.04,
+   "end": 101.2,
+   "paragraph": 7
+  },
+  {
+   "text": "separately,",
+   "start": 101.28,
+   "end": 102.24,
+   "paragraph": 7
+  },
+  {
+   "text": "then",
+   "start": 102.32,
+   "end": 102.4,
+   "paragraph": 7
+  },
+  {
+   "text": "add",
+   "start": 102.48,
+   "end": 102.64,
+   "paragraph": 7
+  },
+  {
+   "text": "them",
+   "start": 102.72,
+   "end": 102.96,
+   "paragraph": 7
+  },
+  {
+   "text": "as",
+   "start": 103.04,
+   "end": 103.2,
+   "paragraph": 7
+  },
+  {
+   "text": "arrows.",
+   "start": 103.28,
+   "end": 103.92,
+   "paragraph": 7
+  }
+ ]
+}

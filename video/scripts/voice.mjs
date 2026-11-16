@@ -1,6 +1,7 @@
-// Generates narration audio and word timings from script/narration.md.
-//   node scripts/voice.mjs 1        -> chapter 1 only
-//   node scripts/voice.mjs 2 3 4    -> several chapters
+// Generates narration audio and word timings from a film's script.
+//   node scripts/voice.mjs resistance 1      -> chapter 1 of the resistance film
+//   node scripts/voice.mjs charge 2 3 4      -> several chapters of the charge film
+//   node scripts/voice.mjs charge            -> list that film's chapters
 // The API key is supplied by the environment's network proxy; set
 // ELEVENLABS_API_KEY only when running somewhere without that proxy.
 import { execFileSync } from 'node:child_process';
@@ -11,10 +12,16 @@ import { fileURLToPath } from 'node:url';
 const VOICE_ID = 'Ut4tnRZt9dfqFBruMIJe';
 const MODEL_ID = 'eleven_v4';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const outDir = join(root, 'public', 'voice');
+const FILMS = {
+  resistance: { script: 'narration.md', out: [] },
+  charge: { script: 'charge-and-field.md', out: ['charge'] },
+};
+const film = FILMS[process.argv[2]];
+if (!film) throw new Error(`Unknown film "${process.argv[2]}". Known: ${Object.keys(FILMS).join(', ')}`);
+const outDir = join(root, 'public', 'voice', ...film.out);
 
 export const readChapters = () => {
-  const md = readFileSync(join(root, '..', 'script', 'narration.md'), 'utf8');
+  const md = readFileSync(join(root, '..', 'script', film.script), 'utf8');
   const chapters = [];
   for (const block of md.split(/^## /m).slice(1)) {
     const [heading, ...rest] = block.split('\n');
@@ -74,7 +81,7 @@ const generate = async (chapter) => {
   console.log(`ch${chapter.number} "${chapter.title}": ${text.length} chars, ${words.length} words, ${duration.toFixed(1)} s`);
 };
 
-const wanted = process.argv.slice(2).map(Number);
+const wanted = process.argv.slice(3).map(Number);
 if (wanted.length) {
   for (const chapter of readChapters().filter((c) => wanted.includes(c.number))) await generate(chapter);
 } else {
