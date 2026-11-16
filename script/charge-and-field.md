@@ -1,6 +1,6 @@
 # The Invisible Push: Charge and the Electric Field
 
-Narration script, draft 1. English, about 13 minutes. Video 1 of the six-part series (teaching order).
+Narration script, draft 1. English, about 11 minutes. Video 1 of the six-part series (teaching order).
 
 Lines in plain text are spoken. Lines marked **On screen** describe the picture and are not spoken. **Hero scene** marks a showpiece shot.
 
