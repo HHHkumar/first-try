@@ -15,6 +15,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const FILMS = {
   resistance: { script: 'narration.md', out: [] },
   charge: { script: 'charge-and-field.md', out: ['charge'] },
+  capacitance: { script: 'capacitance.md', out: ['capacitance'] },
 };
 const film = FILMS[process.argv[2]];
 if (!film) throw new Error(`Unknown film "${process.argv[2]}". Known: ${Object.keys(FILMS).join(', ')}`);

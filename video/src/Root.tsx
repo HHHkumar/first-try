@@ -21,6 +21,15 @@ import { Charge7, CHARGE7_FRAMES } from './films/charge/Charge7';
 import { Charge8, CHARGE8_FRAMES } from './films/charge/Charge8';
 import { Charge9, CHARGE9_FRAMES } from './films/charge/Charge9';
 import { ChargeThumb } from './films/charge/ChargeThumb';
+import { Capac1, CAPAC1_FRAMES } from './films/capacitance/Capac1';
+import { Capac2, CAPAC2_FRAMES } from './films/capacitance/Capac2';
+import { Capac3, CAPAC3_FRAMES } from './films/capacitance/Capac3';
+import { Capac4, CAPAC4_FRAMES } from './films/capacitance/Capac4';
+import { Capac5, CAPAC5_FRAMES } from './films/capacitance/Capac5';
+import { Capac6, CAPAC6_FRAMES } from './films/capacitance/Capac6';
+import { Capac7, CAPAC7_FRAMES } from './films/capacitance/Capac7';
+import { Capac8, CAPAC8_FRAMES } from './films/capacitance/Capac8';
+import { Capac9, CAPAC9_FRAMES } from './films/capacitance/Capac9';
 import { FPS, H, W } from './theme';
 
 // Film 2: The Invisible Push (charge and the electric field).
@@ -34,6 +43,19 @@ const charge = [
   { id: 'Charge7', component: Charge7, frames: CHARGE7_FRAMES },
   { id: 'Charge8', component: Charge8, frames: CHARGE8_FRAMES },
   { id: 'Charge9', component: Charge9, frames: CHARGE9_FRAMES },
+];
+
+// Film 3: The Space Between (capacitance).
+const capacitance = [
+  { id: 'Capac1', component: Capac1, frames: CAPAC1_FRAMES },
+  { id: 'Capac2', component: Capac2, frames: CAPAC2_FRAMES },
+  { id: 'Capac3', component: Capac3, frames: CAPAC3_FRAMES },
+  { id: 'Capac4', component: Capac4, frames: CAPAC4_FRAMES },
+  { id: 'Capac5', component: Capac5, frames: CAPAC5_FRAMES },
+  { id: 'Capac6', component: Capac6, frames: CAPAC6_FRAMES },
+  { id: 'Capac7', component: Capac7, frames: CAPAC7_FRAMES },
+  { id: 'Capac8', component: Capac8, frames: CAPAC8_FRAMES },
+  { id: 'Capac9', component: Capac9, frames: CAPAC9_FRAMES },
 ];
 
 // Each chapter renders on its own; scripts/assemble.mjs joins them.
@@ -50,7 +72,7 @@ const chapters = [
 
 export const Root = () => (
   <>
-    {[...chapters, ...charge].map((c) => (
+    {[...chapters, ...charge, ...capacitance].map((c) => (
       <Composition key={c.id} id={c.id} component={c.component} durationInFrames={c.frames} fps={FPS} width={W} height={H} />
     ))}
     {/* style options for the rest of the series */}

@@ -122,7 +122,7 @@ And capacitance appears where nobody asked for it. Any two conductors with a gap
 
 ## 9. Recap
 
-**On screen:** The timeline, complete. Each idea returns as one image: the jar, the plates filling, the buckets, the closing gap, the turning molecules, the glowing field, the charging curve. The final frame holds *C = Q / V* and *C = ε A / d* over the plates.
+**On screen:** The timeline, complete. Each idea returns as one image: the jar, the plates filling, the buckets, the closing gap, the turning molecules, the glowing field, the charging curve. The final frame holds *C = Q / V* and *C = ε A / d* over the plates. End card: Like · Share · Subscribe, with the channel handle @electricalmcqs.
 
 So let's put it together.
 
@@ -137,3 +137,5 @@ The energy is stored in the field, and it equals one half C V squared.
 A capacitor takes time to charge, blocks a steady current, and passes a changing one.
 
 So far, every charge we have looked at has been standing still, or nearly. Next time, we set them moving, and find a second field that nobody expected.
+
+If this helped you see it, and not just calculate it, please like, share, and subscribe to this channel.

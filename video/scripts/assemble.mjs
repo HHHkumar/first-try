@@ -2,11 +2,11 @@
 //   node scripts/assemble.mjs              (the resistance film)
 //   node scripts/assemble.mjs charge       (The Invisible Push)
 // Reads the film's ch1.mp4 ... chN.mp4 and writes, beside them:
-//   inside-the-wire.mp4             picture + narration + ambient bed
+//   inside-the-wire.mp4             picture + narration + music and sound effects
 //   inside-the-wire-voice-only.mp4  picture + narration, nothing else
 //   inside-the-wire.srt             subtitles from the narration timings
 import { execFileSync } from 'node:child_process';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -14,6 +14,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const FILMS = {
   resistance: { dir: [], voice: [], chapters: 8, lead: (n) => (n === 1 ? 36 : 20), name: 'inside-the-wire' },
   charge: { dir: ['charge'], voice: ['charge'], chapters: 9, lead: () => 20, name: 'the-invisible-push' },
+  capacitance: { dir: ['capacitance'], voice: ['capacitance'], chapters: 9, lead: () => 20, name: 'the-space-between' },
 };
 const film = FILMS[process.argv[2] ?? 'resistance'];
 if (!film) throw new Error(`Unknown film "${process.argv[2]}"`);
@@ -71,25 +72,40 @@ const joined = join(out, 'joined.mp4');
 run('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', joined]);
 run('ffmpeg', ['-v', 'error', '-y', '-i', joined, '-c:v', 'copy', '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', voiceOnly]);
 
-// --- ambient bed -------------------------------------------------------------
-// A slow, low drone on D with breathing overtones, a little air, and a soft
-// swell where each chapter begins. It ducks under the voice.
-const tone = (f, a, rate, phase) => `${a}*sin(2*PI*${f}*t)*(0.55+0.45*sin(2*PI*${rate}*t+${phase}))`;
-const left = [tone(73.42, 0.3, 0.06, 0), tone(110.0, 0.22, 0.045, 1.1), tone(146.83, 0.15, 0.08, 2.3), tone(220.0, 0.08, 0.1, 0.4), tone(293.66, 0.04, 0.12, 3.0)].join('+');
-const right = [tone(73.6, 0.3, 0.055, 0.7), tone(109.8, 0.22, 0.05, 2.0), tone(147.1, 0.15, 0.075, 0.2), tone(220.6, 0.08, 0.09, 1.9), tone(293.2, 0.04, 0.13, 1.0)].join('+');
-const swellAt = chapters.slice(1).map((c) => Math.max(0, c.start - 0.5));
-const filters = [
-  `aevalsrc='${left}|${right}':s=44100:d=${total.toFixed(2)},lowpass=f=1500,aecho=0.8:0.7:140|310:0.3|0.22,volume=0.035[drone]`,
-  `anoisesrc=color=pink:r=44100:d=${total.toFixed(2)},highpass=f=300,lowpass=f=2400,volume=0.004,aformat=channel_layouts=stereo[air]`,
-  `anoisesrc=color=pink:r=44100:d=2.4,bandpass=f=700:w=500,afade=t=in:d=0.9,afade=t=out:st=0.9:d=1.5,volume=0.07,aformat=channel_layouts=stereo,asplit=${swellAt.length}${swellAt.map((_, i) => `[s${i}]`).join('')}`,
-  ...swellAt.map((s, i) => `[s${i}]adelay=${Math.round(s * 1000)}:all=1[d${i}]`),
-  `[drone][air]${swellAt.map((_, i) => `[d${i}]`).join('')}amix=inputs=${2 + swellAt.length}:normalize=0:duration=first,afade=t=in:d=2.5,afade=t=out:st=${(total - 4).toFixed(2)}:d=4[bed]`,
-  `[0:a]aformat=channel_layouts=stereo,asplit=2[v1][v2]`,
-  `[bed][v1]sidechaincompress=threshold=0.02:ratio=5:attack=120:release=900[ducked]`,
-  `[v2][ducked]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-16:TP=-1.5:LRA=11[mix]`,
-];
+// --- music and sound effects ---------------------------------------------------
+// public/audio holds a background track and a few effects generated with
+// ElevenLabs. The track is repeated with long crossfades to cover the film and
+// ducks under the voice. A whoosh marks each chapter change; a film can add its
+// own cues in scripts/sound/<film>.json as { chapter, t, sfx, gain } with t in
+// narration seconds.
+const audio = (name) => join(root, 'public', 'audio', `${name}.mp3`);
+const bgmLength = seconds(audio('bgm'));
+const XFADE = 6;
+const copies = Math.max(1, Math.ceil((total - XFADE) / (bgmLength - XFADE)));
+const cues2 = chapters.slice(1).map((c) => ({ at: Math.max(0, c.start - 0.7), sfx: 'whoosh', gain: 0.3 }));
+const cueFile = join(root, 'scripts', 'sound', `${process.argv[2] ?? 'resistance'}.json`);
+if (existsSync(cueFile)) {
+  for (const q of JSON.parse(readFileSync(cueFile, 'utf8'))) {
+    const c = chapters[q.chapter - 1];
+    cues2.push({ at: c.start + c.lead + q.t, sfx: q.sfx, gain: q.gain ?? 0.3 });
+  }
+}
+const inputs = ['-i', joined];
+for (let i = 0; i < copies; i++) inputs.push('-i', audio('bgm'));
+for (const q of cues2) inputs.push('-i', audio(q.sfx));
+const filters = [];
+let bed = '[1:a]';
+for (let i = 1; i < copies; i++) {
+  filters.push(`${bed}[${i + 1}:a]acrossfade=d=${XFADE}:c1=tri:c2=tri[x${i}]`);
+  bed = `[x${i}]`;
+}
+filters.push(`${bed}atrim=0:${total.toFixed(2)},volume=0.17,afade=t=in:d=2,afade=t=out:st=${(total - 5).toFixed(2)}:d=5,aformat=channel_layouts=stereo[bgm]`);
+cues2.forEach((q, i) => filters.push(`[${copies + 1 + i}:a]volume=${q.gain},aformat=channel_layouts=stereo,adelay=${Math.round(q.at * 1000)}:all=1[e${i}]`));
+filters.push(`[0:a]aformat=channel_layouts=stereo,asplit=2[v1][v2]`);
+filters.push(`[bgm][v1]sidechaincompress=threshold=0.02:ratio=4:attack=120:release=900[ducked]`);
+filters.push(`[v2][ducked]${cues2.map((_, i) => `[e${i}]`).join('')}amix=inputs=${2 + cues2.length}:normalize=0:duration=first,loudnorm=I=-16:TP=-1.5:LRA=11[mix]`);
 const final = join(out, `${film.name}.mp4`);
-run('ffmpeg', ['-v', 'error', '-y', '-i', joined, '-filter_complex', filters.join(';'), '-map', '0:v', '-map', '[mix]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', final]);
+run('ffmpeg', ['-v', 'error', '-y', ...inputs, '-filter_complex', filters.join(';'), '-map', '0:v', '-map', '[mix]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', final]);
 
 console.log(`chapters: ${chapters.map((c) => `${c.n}@${c.start.toFixed(1)}s`).join(' ')}`);
 console.log(`total ${total.toFixed(1)} s (${(total / 60).toFixed(2)} min), ${cues.length} subtitle cues`);

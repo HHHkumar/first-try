@@ -1,0 +1,1202 @@
+{
+ "chapter": 5,
+ "title": "The dielectric",
+ "characters": 1132,
+ "duration": 78.680816,
+ "words": [
+  {
+   "text": "So",
+   "start": 0,
+   "end": 0.18,
+   "paragraph": 0
+  },
+  {
+   "text": "how",
+   "start": 0.24,
+   "end": 0.667,
+   "paragraph": 0
+  },
+  {
+   "text": "do",
+   "start": 0.72,
+   "end": 0.84,
+   "paragraph": 0
+  },
+  {
+   "text": "real",
+   "start": 0.88,
+   "end": 1.2,
+   "paragraph": 0
+  },
+  {
+   "text": "capacitors",
+   "start": 1.28,
+   "end": 1.84,
+   "paragraph": 0
+  },
+  {
+   "text": "manage",
+   "start": 1.92,
+   "end": 2.24,
+   "paragraph": 0
+  },
+  {
+   "text": "it?",
+   "start": 2.36,
+   "end": 2.76,
+   "paragraph": 0
+  },
+  {
+   "text": "The",
+   "start": 3.04,
+   "end": 3.2,
+   "paragraph": 0
+  },
+  {
+   "text": "answer",
+   "start": 3.28,
+   "end": 3.6,
+   "paragraph": 0
+  },
+  {
+   "text": "was",
+   "start": 3.68,
+   "end": 3.84,
+   "paragraph": 0
+  },
+  {
+   "text": "found",
+   "start": 3.92,
+   "end": 4.16,
+   "paragraph": 0
+  },
+  {
+   "text": "by",
+   "start": 4.24,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "Faraday",
+   "start": 4.48,
+   "end": 5.04,
+   "paragraph": 0
+  },
+  {
+   "text": "in",
+   "start": 5.16,
+   "end": 5.28,
+   "paragraph": 0
+  },
+  {
+   "text": "eighteen",
+   "start": 5.4,
+   "end": 5.6,
+   "paragraph": 0
+  },
+  {
+   "text": "thirty-seven.",
+   "start": 5.76,
+   "end": 6.96,
+   "paragraph": 0
+  },
+  {
+   "text": "He",
+   "start": 7.08,
+   "end": 7.2,
+   "paragraph": 0
+  },
+  {
+   "text": "filled",
+   "start": 7.32,
+   "end": 7.44,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 7.52,
+   "end": 7.6,
+   "paragraph": 0
+  },
+  {
+   "text": "gap",
+   "start": 7.76,
+   "end": 7.92,
+   "paragraph": 0
+  },
+  {
+   "text": "with",
+   "start": 8.04,
+   "end": 8.16,
+   "paragraph": 0
+  },
+  {
+   "text": "different",
+   "start": 8.36,
+   "end": 8.56,
+   "paragraph": 0
+  },
+  {
+   "text": "insulating",
+   "start": 8.64,
+   "end": 9.2,
+   "paragraph": 0
+  },
+  {
+   "text": "materials,",
+   "start": 9.28,
+   "end": 10.16,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 10.28,
+   "end": 10.4,
+   "paragraph": 0
+  },
+  {
+   "text": "found",
+   "start": 10.6,
+   "end": 10.8,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 10.88,
+   "end": 10.96,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 11,
+   "end": 11.04,
+   "paragraph": 0
+  },
+  {
+   "text": "capacitance",
+   "start": 11.12,
+   "end": 11.84,
+   "paragraph": 0
+  },
+  {
+   "text": "went",
+   "start": 11.92,
+   "end": 12.16,
+   "paragraph": 0
+  },
+  {
+   "text": "up,",
+   "start": 12.32,
+   "end": 12.88,
+   "paragraph": 0
+  },
+  {
+   "text": "by",
+   "start": 12.96,
+   "end": 13.04,
+   "paragraph": 0
+  },
+  {
+   "text": "an",
+   "start": 13.12,
+   "end": 13.2,
+   "paragraph": 0
+  },
+  {
+   "text": "amount",
+   "start": 13.44,
+   "end": 13.68,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 13.76,
+   "end": 13.92,
+   "paragraph": 0
+  },
+  {
+   "text": "depended",
+   "start": 14.04,
+   "end": 14.48,
+   "paragraph": 0
+  },
+  {
+   "text": "on",
+   "start": 14.56,
+   "end": 14.64,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 14.72,
+   "end": 14.76,
+   "paragraph": 0
+  },
+  {
+   "text": "material.",
+   "start": 14.8,
+   "end": 15.68,
+   "paragraph": 0
+  },
+  {
+   "text": "An",
+   "start": 16,
+   "end": 16.16,
+   "paragraph": 1
+  },
+  {
+   "text": "insulator",
+   "start": 16.24,
+   "end": 16.88,
+   "paragraph": 1
+  },
+  {
+   "text": "has",
+   "start": 16.96,
+   "end": 17.2,
+   "paragraph": 1
+  },
+  {
+   "text": "no",
+   "start": 17.36,
+   "end": 17.52,
+   "paragraph": 1
+  },
+  {
+   "text": "free",
+   "start": 17.6,
+   "end": 17.76,
+   "paragraph": 1
+  },
+  {
+   "text": "electrons.",
+   "start": 17.84,
+   "end": 18.72,
+   "paragraph": 1
+  },
+  {
+   "text": "But",
+   "start": 18.96,
+   "end": 19.12,
+   "paragraph": 1
+  },
+  {
+   "text": "its",
+   "start": 19.2,
+   "end": 19.28,
+   "paragraph": 1
+  },
+  {
+   "text": "molecules",
+   "start": 19.44,
+   "end": 20,
+   "paragraph": 1
+  },
+  {
+   "text": "can",
+   "start": 20.08,
+   "end": 20.24,
+   "paragraph": 1
+  },
+  {
+   "text": "stretch,",
+   "start": 20.32,
+   "end": 21.04,
+   "paragraph": 1
+  },
+  {
+   "text": "or",
+   "start": 21.12,
+   "end": 21.2,
+   "paragraph": 1
+  },
+  {
+   "text": "turn.",
+   "start": 21.28,
+   "end": 22,
+   "paragraph": 1
+  },
+  {
+   "text": "In",
+   "start": 22.32,
+   "end": 22.4,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 22.48,
+   "end": 22.56,
+   "paragraph": 1
+  },
+  {
+   "text": "field,",
+   "start": 22.64,
+   "end": 23.28,
+   "paragraph": 1
+  },
+  {
+   "text": "their",
+   "start": 23.4,
+   "end": 23.52,
+   "paragraph": 1
+  },
+  {
+   "text": "positive",
+   "start": 23.76,
+   "end": 24,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 24.08,
+   "end": 24.16,
+   "paragraph": 1
+  },
+  {
+   "text": "negative",
+   "start": 24.24,
+   "end": 24.64,
+   "paragraph": 1
+  },
+  {
+   "text": "sides",
+   "start": 24.72,
+   "end": 25.12,
+   "paragraph": 1
+  },
+  {
+   "text": "shift",
+   "start": 25.28,
+   "end": 25.52,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 25.6,
+   "end": 25.64,
+   "paragraph": 1
+  },
+  {
+   "text": "little",
+   "start": 25.68,
+   "end": 25.92,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 26,
+   "end": 26.16,
+   "paragraph": 1
+  },
+  {
+   "text": "opposite",
+   "start": 26.24,
+   "end": 26.56,
+   "paragraph": 1
+  },
+  {
+   "text": "directions.",
+   "start": 26.64,
+   "end": 27.6,
+   "paragraph": 1
+  },
+  {
+   "text": "Each",
+   "start": 27.92,
+   "end": 28.16,
+   "paragraph": 1
+  },
+  {
+   "text": "molecule",
+   "start": 28.24,
+   "end": 28.72,
+   "paragraph": 1
+  },
+  {
+   "text": "becomes",
+   "start": 28.8,
+   "end": 29.12,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 29.16,
+   "end": 29.2,
+   "paragraph": 1
+  },
+  {
+   "text": "tiny",
+   "start": 29.36,
+   "end": 29.68,
+   "paragraph": 1
+  },
+  {
+   "text": "pair",
+   "start": 29.76,
+   "end": 29.92,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 30,
+   "end": 30.08,
+   "paragraph": 1
+  },
+  {
+   "text": "charges,",
+   "start": 30.16,
+   "end": 30.96,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 31.04,
+   "end": 31.2,
+   "paragraph": 1
+  },
+  {
+   "text": "together",
+   "start": 31.28,
+   "end": 31.68,
+   "paragraph": 1
+  },
+  {
+   "text": "they",
+   "start": 31.92,
+   "end": 32,
+   "paragraph": 1
+  },
+  {
+   "text": "produce",
+   "start": 32.08,
+   "end": 32.4,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 32.48,
+   "end": 32.56,
+   "paragraph": 1
+  },
+  {
+   "text": "field",
+   "start": 32.64,
+   "end": 32.88,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 32.92,
+   "end": 32.96,
+   "paragraph": 1
+  },
+  {
+   "text": "their",
+   "start": 33.04,
+   "end": 33.2,
+   "paragraph": 1
+  },
+  {
+   "text": "own,",
+   "start": 33.32,
+   "end": 33.76,
+   "paragraph": 1
+  },
+  {
+   "text": "pointing",
+   "start": 33.92,
+   "end": 34.16,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 34.24,
+   "end": 34.32,
+   "paragraph": 1
+  },
+  {
+   "text": "other",
+   "start": 34.4,
+   "end": 34.64,
+   "paragraph": 1
+  },
+  {
+   "text": "way.",
+   "start": 34.72,
+   "end": 34.96,
+   "paragraph": 1
+  },
+  {
+   "text": "That",
+   "start": 35.52,
+   "end": 35.76,
+   "paragraph": 2
+  },
+  {
+   "text": "weakens",
+   "start": 35.92,
+   "end": 36.4,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 36.44,
+   "end": 36.48,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 36.56,
+   "end": 36.8,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 36.88,
+   "end": 36.96,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 37.04,
+   "end": 37.08,
+   "paragraph": 2
+  },
+  {
+   "text": "gap.",
+   "start": 37.12,
+   "end": 37.52,
+   "paragraph": 2
+  },
+  {
+   "text": "A",
+   "start": 38,
+   "end": 38.08,
+   "paragraph": 2
+  },
+  {
+   "text": "weaker",
+   "start": 38.16,
+   "end": 38.48,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 38.56,
+   "end": 38.88,
+   "paragraph": 2
+  },
+  {
+   "text": "means",
+   "start": 39.04,
+   "end": 39.28,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 39.32,
+   "end": 39.36,
+   "paragraph": 2
+  },
+  {
+   "text": "lower",
+   "start": 39.52,
+   "end": 39.76,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 39.84,
+   "end": 40.24,
+   "paragraph": 2
+  },
+  {
+   "text": "for",
+   "start": 40.32,
+   "end": 40.4,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 40.48,
+   "end": 40.56,
+   "paragraph": 2
+  },
+  {
+   "text": "same",
+   "start": 40.64,
+   "end": 40.88,
+   "paragraph": 2
+  },
+  {
+   "text": "charge.",
+   "start": 40.96,
+   "end": 41.44,
+   "paragraph": 2
+  },
+  {
+   "text": "And",
+   "start": 41.84,
+   "end": 41.92,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 42,
+   "end": 42.08,
+   "paragraph": 2
+  },
+  {
+   "text": "lower",
+   "start": 42.16,
+   "end": 42.4,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 42.44,
+   "end": 42.8,
+   "paragraph": 2
+  },
+  {
+   "text": "for",
+   "start": 42.88,
+   "end": 42.96,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 43,
+   "end": 43.04,
+   "paragraph": 2
+  },
+  {
+   "text": "same",
+   "start": 43.12,
+   "end": 43.28,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 43.44,
+   "end": 43.84,
+   "paragraph": 2
+  },
+  {
+   "text": "is,",
+   "start": 44,
+   "end": 44.4,
+   "paragraph": 2
+  },
+  {
+   "text": "by",
+   "start": 44.48,
+   "end": 44.56,
+   "paragraph": 2
+  },
+  {
+   "text": "definition,",
+   "start": 44.64,
+   "end": 45.52,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 45.6,
+   "end": 45.68,
+   "paragraph": 2
+  },
+  {
+   "text": "larger",
+   "start": 45.76,
+   "end": 46.08,
+   "paragraph": 2
+  },
+  {
+   "text": "capacitance.",
+   "start": 46.16,
+   "end": 46.96,
+   "paragraph": 2
+  },
+  {
+   "text": "We",
+   "start": 47.44,
+   "end": 47.6,
+   "paragraph": 3
+  },
+  {
+   "text": "call",
+   "start": 47.72,
+   "end": 47.84,
+   "paragraph": 3
+  },
+  {
+   "text": "such",
+   "start": 47.92,
+   "end": 48.08,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 48.107,
+   "end": 48.133,
+   "paragraph": 3
+  },
+  {
+   "text": "material",
+   "start": 48.16,
+   "end": 48.64,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 48.8,
+   "end": 48.88,
+   "paragraph": 3
+  },
+  {
+   "text": "dielectric.",
+   "start": 48.96,
+   "end": 49.84,
+   "paragraph": 3
+  },
+  {
+   "text": "Paper",
+   "start": 50.4,
+   "end": 50.8,
+   "paragraph": 3
+  },
+  {
+   "text": "multiplies",
+   "start": 50.88,
+   "end": 51.44,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 51.48,
+   "end": 51.52,
+   "paragraph": 3
+  },
+  {
+   "text": "capacitance",
+   "start": 51.6,
+   "end": 52.24,
+   "paragraph": 3
+  },
+  {
+   "text": "by",
+   "start": 52.32,
+   "end": 52.4,
+   "paragraph": 3
+  },
+  {
+   "text": "about",
+   "start": 52.56,
+   "end": 52.72,
+   "paragraph": 3
+  },
+  {
+   "text": "three.",
+   "start": 52.88,
+   "end": 53.2,
+   "paragraph": 3
+  },
+  {
+   "text": "Glass,",
+   "start": 53.68,
+   "end": 54.24,
+   "paragraph": 3
+  },
+  {
+   "text": "by",
+   "start": 54.32,
+   "end": 54.4,
+   "paragraph": 3
+  },
+  {
+   "text": "five",
+   "start": 54.56,
+   "end": 54.72,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 54.8,
+   "end": 54.96,
+   "paragraph": 3
+  },
+  {
+   "text": "ten.",
+   "start": 55.12,
+   "end": 55.36,
+   "paragraph": 3
+  },
+  {
+   "text": "Some",
+   "start": 55.84,
+   "end": 56,
+   "paragraph": 3
+  },
+  {
+   "text": "ceramics,",
+   "start": 56.08,
+   "end": 56.72,
+   "paragraph": 3
+  },
+  {
+   "text": "by",
+   "start": 56.8,
+   "end": 56.88,
+   "paragraph": 3
+  },
+  {
+   "text": "thousands.",
+   "start": 57.12,
+   "end": 57.84,
+   "paragraph": 3
+  },
+  {
+   "text": "A",
+   "start": 58.4,
+   "end": 58.48,
+   "paragraph": 4
+  },
+  {
+   "text": "dielectric",
+   "start": 58.56,
+   "end": 59.2,
+   "paragraph": 4
+  },
+  {
+   "text": "does",
+   "start": 59.28,
+   "end": 59.44,
+   "paragraph": 4
+  },
+  {
+   "text": "one",
+   "start": 59.6,
+   "end": 59.76,
+   "paragraph": 4
+  },
+  {
+   "text": "more",
+   "start": 59.84,
+   "end": 60,
+   "paragraph": 4
+  },
+  {
+   "text": "useful",
+   "start": 60.08,
+   "end": 60.4,
+   "paragraph": 4
+  },
+  {
+   "text": "thing.",
+   "start": 60.48,
+   "end": 60.96,
+   "paragraph": 4
+  },
+  {
+   "text": "It",
+   "start": 61.2,
+   "end": 61.28,
+   "paragraph": 4
+  },
+  {
+   "text": "can",
+   "start": 61.36,
+   "end": 61.44,
+   "paragraph": 4
+  },
+  {
+   "text": "stand",
+   "start": 61.52,
+   "end": 61.84,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 61.92,
+   "end": 62.08,
+   "paragraph": 4
+  },
+  {
+   "text": "far",
+   "start": 62.16,
+   "end": 62.4,
+   "paragraph": 4
+  },
+  {
+   "text": "stronger",
+   "start": 62.48,
+   "end": 62.88,
+   "paragraph": 4
+  },
+  {
+   "text": "field",
+   "start": 62.96,
+   "end": 63.28,
+   "paragraph": 4
+  },
+  {
+   "text": "than",
+   "start": 63.36,
+   "end": 63.44,
+   "paragraph": 4
+  },
+  {
+   "text": "air",
+   "start": 63.6,
+   "end": 63.84,
+   "paragraph": 4
+  },
+  {
+   "text": "before",
+   "start": 64,
+   "end": 64.24,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 64.32,
+   "end": 64.4,
+   "paragraph": 4
+  },
+  {
+   "text": "breaks",
+   "start": 64.48,
+   "end": 64.72,
+   "paragraph": 4
+  },
+  {
+   "text": "down,",
+   "start": 64.8,
+   "end": 65.52,
+   "paragraph": 4
+  },
+  {
+   "text": "so",
+   "start": 65.6,
+   "end": 65.68,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 65.76,
+   "end": 65.84,
+   "paragraph": 4
+  },
+  {
+   "text": "plates",
+   "start": 65.92,
+   "end": 66.24,
+   "paragraph": 4
+  },
+  {
+   "text": "can",
+   "start": 66.32,
+   "end": 66.4,
+   "paragraph": 4
+  },
+  {
+   "text": "sit",
+   "start": 66.48,
+   "end": 66.72,
+   "paragraph": 4
+  },
+  {
+   "text": "much",
+   "start": 66.88,
+   "end": 67.12,
+   "paragraph": 4
+  },
+  {
+   "text": "closer",
+   "start": 67.2,
+   "end": 67.44,
+   "paragraph": 4
+  },
+  {
+   "text": "together.",
+   "start": 67.52,
+   "end": 68,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 68.56,
+   "end": 68.72,
+   "paragraph": 4
+  },
+  {
+   "text": "modern",
+   "start": 68.8,
+   "end": 69.04,
+   "paragraph": 4
+  },
+  {
+   "text": "capacitor",
+   "start": 69.12,
+   "end": 69.68,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 69.84,
+   "end": 70,
+   "paragraph": 4
+  },
+  {
+   "text": "thin",
+   "start": 70.08,
+   "end": 70.32,
+   "paragraph": 4
+  },
+  {
+   "text": "metal",
+   "start": 70.4,
+   "end": 70.72,
+   "paragraph": 4
+  },
+  {
+   "text": "foil,",
+   "start": 70.8,
+   "end": 71.52,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 71.6,
+   "end": 71.68,
+   "paragraph": 4
+  },
+  {
+   "text": "film",
+   "start": 71.76,
+   "end": 72.08,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 72.16,
+   "end": 72.24,
+   "paragraph": 4
+  },
+  {
+   "text": "few",
+   "start": 72.32,
+   "end": 72.48,
+   "paragraph": 4
+  },
+  {
+   "text": "thousandths",
+   "start": 72.72,
+   "end": 73.2,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 73.28,
+   "end": 73.36,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 73.4,
+   "end": 73.44,
+   "paragraph": 4
+  },
+  {
+   "text": "millimetre",
+   "start": 73.52,
+   "end": 73.92,
+   "paragraph": 4
+  },
+  {
+   "text": "thick,",
+   "start": 74,
+   "end": 74.64,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 74.72,
+   "end": 74.8,
+   "paragraph": 4
+  },
+  {
+   "text": "metres",
+   "start": 74.96,
+   "end": 75.36,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 75.44,
+   "end": 75.52,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 75.6,
+   "end": 75.68,
+   "paragraph": 4
+  },
+  {
+   "text": "rolled",
+   "start": 75.76,
+   "end": 76,
+   "paragraph": 4
+  },
+  {
+   "text": "into",
+   "start": 76.08,
+   "end": 76.24,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 76.32,
+   "end": 76.4,
+   "paragraph": 4
+  },
+  {
+   "text": "cylinder",
+   "start": 76.48,
+   "end": 76.88,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 77.04,
+   "end": 77.12,
+   "paragraph": 4
+  },
+  {
+   "text": "size",
+   "start": 77.2,
+   "end": 77.52,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 77.6,
+   "end": 77.68,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 77.76,
+   "end": 77.84,
+   "paragraph": 4
+  },
+  {
+   "text": "fingertip.",
+   "start": 77.92,
+   "end": 78.72,
+   "paragraph": 4
+  }
+ ]
+}

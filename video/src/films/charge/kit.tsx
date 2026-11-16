@@ -34,10 +34,11 @@ type TimelineProps = {
   already: number[]; // lit before this chapter began
   events?: [number, number][]; // [index, narration seconds] lit during this chapter
   opacity?: number;
+  entries?: readonly { year: string; name: string }[];
 };
 
-export const Timeline = ({ frame, already, events = [], opacity = 1 }: TimelineProps) => {
-  const level: number[] = TIMELINE.map((_, i) => (already.includes(i) ? 1 : 0));
+export const Timeline = ({ frame, already, events = [], opacity = 1, entries = TIMELINE }: TimelineProps) => {
+  const level: number[] = entries.map((_, i) => (already.includes(i) ? 1 : 0));
   let current = -1;
   for (const [i, t] of events) {
     level[i] = Math.max(level[i], at(frame, t, 0.8));
@@ -46,12 +47,12 @@ export const Timeline = ({ frame, already, events = [], opacity = 1 }: TimelineP
   return (
     <div style={{ position: 'absolute', left: 110, right: 110, bottom: 34, height: 70, opacity, fontFamily: sora }}>
       <div style={{ position: 'absolute', left: 0, right: 0, top: 9, height: 2, background: 'rgba(147,163,192,0.28)' }} />
-      {TIMELINE.map((e, i) => {
+      {entries.map((e, i) => {
         const lit = level[i];
         const now = i === current;
         const color = now ? C.electron : C.text;
         return (
-          <div key={e.year + e.name} style={{ position: 'absolute', left: `${(i / (TIMELINE.length - 1)) * 100}%`, top: 0, width: 0 }}>
+          <div key={e.year + e.name} style={{ position: 'absolute', left: `${(i / (entries.length - 1)) * 100}%`, top: 0, width: 0 }}>
             <div
               style={{
                 position: 'absolute',
@@ -131,17 +132,20 @@ export type PlateOptions = {
   lines?: number; // how much of each field line is drawn
   lineGain?: number;
   hide?: { from: number; to: number; amount: number }; // a stretch with no field (inside a conductor)
+  size?: number; // scales the plates' height and depth (area grows with size squared)
 };
 
 export const drawPlates = (orb: Add | null, glow: Add | null, frame: number, o: PlateOptions = {}) => {
-  const { half = 3.4, appear = 1, charge = 1, lines = 1, lineGain = 1, hide } = o;
+  const { half = 3.4, appear = 1, charge = 1, lines = 1, lineGain = 1, hide, size = 1 } = o;
+  const ny = Math.round(3 * size);
+  const nz = Math.round(2 * size);
   if (appear <= 0.01) return;
   if (orb) {
     const hot = rgb('#ffb35c');
     const cool = rgb('#8a96b4');
     for (let layer = 0; layer < 2; layer++)
-      for (let y = -3; y <= 3; y++)
-        for (let z = -3; z <= 3; z += 1.5) {
+      for (let y = -ny; y <= ny; y++)
+        for (let z = -nz * 1.5; z <= nz * 1.5 + 0.01; z += 1.5) {
           orb(-half - layer * 0.8, y, z, 0.54, hot, appear);
           orb(half + layer * 0.8, y, z, 0.54, cool, appear);
         }
@@ -152,10 +156,10 @@ export const drawPlates = (orb: Add | null, glow: Add | null, frame: number, o: 
   const white = rgb('#eafcff');
   const fieldColour = rgb('#b7a2ff');
   // charge sitting on the inner faces
-  const count = Math.round(70 * charge);
+  const count = Math.round(70 * charge * size * size);
   for (let i = 0; i < count; i++) {
-    const y = ((i * 0.618034) % 1) * 6.4 - 3.2;
-    const z = ((i * 0.754878 + 0.13) % 1) * 6.4 - 3.2;
+    const y = (((i * 0.618034) % 1) * 2 - 1) * (ny + 0.2);
+    const z = (((i * 0.754878 + 0.13) % 1) * 2 - 1) * (nz * 1.5 + 0.2);
     const tw = 0.7 + 0.3 * Math.sin(frame * 0.09 + i);
     glow(half - 0.5, y, z, 0.5, neg, 0.6 * appear * tw);
     glow(half - 0.5, y, z, 0.14, white, appear);
@@ -166,8 +170,8 @@ export const drawPlates = (orb: Add | null, glow: Add | null, frame: number, o: 
   const span = half * 2 - 1.3;
   const n = Math.round(span / 0.1);
   let k = 0;
-  for (let y = -2.4; y <= 2.41; y += 1.2)
-    for (let z = -2; z <= 2.01; z += 2) {
+  for (let y = -(ny - 0.6); y <= ny - 0.59; y += 1.2)
+    for (let z = -(nz * 1.5 - 1); z <= nz * 1.5 - 0.99; z += 2) {
       k++;
       for (let i = 0; i <= n * lines; i++) {
         const x = -half + 0.65 + i * 0.1;
