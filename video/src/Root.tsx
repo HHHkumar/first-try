@@ -20,6 +20,7 @@ import { Charge6, CHARGE6_FRAMES } from './films/charge/Charge6';
 import { Charge7, CHARGE7_FRAMES } from './films/charge/Charge7';
 import { Charge8, CHARGE8_FRAMES } from './films/charge/Charge8';
 import { Charge9, CHARGE9_FRAMES } from './films/charge/Charge9';
+import { ChargeThumb } from './films/charge/ChargeThumb';
 import { FPS, H, W } from './theme';
 
 // Film 2: The Invisible Push (charge and the electric field).
@@ -56,6 +57,7 @@ export const Root = () => (
     <Composition id="StyleA" component={StyleA} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleB" component={StyleB} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="StyleC" component={StyleC} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="ChargeThumb" component={ChargeThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="Thumbnail" component={Thumbnail} durationInFrames={1} fps={FPS} width={W} height={H} />
   </>
 );
