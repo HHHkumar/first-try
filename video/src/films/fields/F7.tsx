@@ -1,4 +1,4 @@
-import { useCurrentFrame } from 'remotion';
+import { AbsoluteFill, useCurrentFrame, useVideoConfig } from 'remotion';
 import voice from '../../../public/voice/fields/ch7.json';
 import { ramp, span } from '../../anim';
 import { C } from '../../theme';
@@ -6,50 +6,40 @@ import { Panel } from '../../ui/hud';
 import { Scene, Shell, T, chapterFrames } from '../../ui/Shell';
 import { Big, Kicker, Sym } from '../../ui/type';
 import { POS } from '../../world/field';
-import { BFIELD, NORTH, SOUTH } from '../../world/magnet';
-import { at, B, Cap, E, EFIELD, GOLD, Ink, Timeline, VOICE } from './kit';
+import { BFIELD, drawNeedle } from '../../world/magnet';
+import { rgb, Stage3D, type Add } from '../../world/Stage3D';
+import { at, B, Cap, E, EFIELD, GOLD, ring, shot, Timeline, VOICE } from './kit';
 
 // Chapter 7 - One field, two faces.
 export const F7_FRAMES = chapterFrames(voice.duration);
 
-const View = ({ cx, moving, frame, swing }: { cx: number; moving: boolean; frame: number; swing: number }) => {
-  const drift = moving ? ((frame * 2.2) % 240) - 120 : 0;
-  return (
-    <>
-      <Ink color={EFIELD} width={3}>
-        {Array.from({ length: 12 }, (_, i) => {
-          const a = (i / 12) * Math.PI * 2;
-          return <path key={i} d={`M ${cx + drift + Math.cos(a) * 46} ${450 + Math.sin(a) * 46} L ${cx + drift + Math.cos(a) * 170} ${450 + Math.sin(a) * 170}`} />;
-        })}
-      </Ink>
-      {moving ? (
-        <Ink color={BFIELD} width={3}>
-          {[-130, 0, 130].map((dx) => (
-            <ellipse key={dx} cx={cx + drift + dx} cy={450} rx={30} ry={200} strokeDasharray="6 12" strokeDashoffset={-frame * 2} />
-          ))}
-        </Ink>
-      ) : null}
-      <svg viewBox="0 0 1920 1080" width="100%" height="100%" style={{ position: 'absolute' }}>
-        <circle cx={cx + drift} cy={450} r={34} fill={POS} style={{ filter: `drop-shadow(0 0 18px ${POS})` }} />
-        <g transform={`translate(${cx}, 760) rotate(${swing})`}>
-          <circle r={62} fill="none" stroke="#d7e6ff" strokeWidth={3} />
-          <path d="M 0 -9 L 50 0 L 0 9 Z" fill={NORTH} />
-          <path d="M 0 -9 L -50 0 L 0 9 Z" fill={SOUTH} />
-        </g>
-      </svg>
-    </>
-  );
+// a charge and its electric field, reaching straight out in every direction
+const radial = (glow: Add, cx: number, cy: number, frame: number, gain = 1) => {
+  const e = rgb(EFIELD);
+  for (let i = 0; i < 14; i++) {
+    const a = (i / 14) * Math.PI * 2;
+    for (let j = 6; j < 34; j++) {
+      const r = j * 0.085;
+      const phase = (((j - frame * 0.5 + i * 7) % 20) + 20) % 20;
+      const pulse = Math.exp(-(phase * phase) / 8);
+      glow(cx + Math.cos(a) * r, cy + Math.sin(a) * r, 0, 0.1 + 0.1 * pulse, e, (0.6 + 0.4 * pulse) * gain * (1 - j / 50));
+    }
+  }
+  glow(cx, cy, 0, 2, rgb(POS), 0.4 * gain);
 };
 
 export const F7 = () => {
   const frame = useCurrentFrame();
-  const views = span(frame, T(-1), T(34.0), 12);
+  const { width, height } = useVideoConfig();
+  const sViews = shot(frame, -1, 34.1);
   const einstein = span(frame, T(34.1), T(58.4), 12);
-  const coin = span(frame, T(58.5), T(74.4), 12);
+  const sCoin = shot(frame, 58.3, 74.5);
   const four = span(frame, T(74.5), T(100), 12);
+  const coin = frame >= T(58.4);
   const friend = at(frame, 16.3);
-  const angle = (frame - T(60.8)) * 0.045;
-  const squash = frame < T(60.8) ? 1 : frame < T(65.2) ? Math.max(0.03, Math.abs(Math.cos(Math.min(angle, Math.PI / 2)))) : Math.abs(Math.cos(angle));
+  const drift = ((frame * 0.03) % 3) - 1.5;
+  const swung = at(frame, 25.7);
+  const angle = frame < T(60.8) ? 0 : frame < T(65.2) ? Math.min((frame - T(60.8)) * 0.03, Math.PI / 2) : (frame - T(65.2)) * 0.04 + Math.PI / 2;
   const fold = ramp(frame, T(83.0), T(86.0));
   const EQS: [React.ReactNode, string][] = [
     [<span key="a">∇ · <Sym color={EFIELD}>E</Sym> = ρ / ε₀</span>, 'charge makes an electric field'],
@@ -59,29 +49,64 @@ export const F7 = () => {
   ];
 
   return (
-    <Shell voice={VOICE(7)} frames={F7_FRAMES}>
-      <Scene opacity={views}>
-        <div style={{ opacity: at(frame, 4.1) }}>
-          <View cx={520} moving={false} frame={frame} swing={0} />
-          <Panel opacity={1} style={{ left: 120, top: 70, width: 800, textAlign: 'center' }}>
-            <Kicker>You, standing beside the charge</Kicker>
-            <div style={{ fontSize: 32, fontWeight: 300, marginTop: 6, opacity: at(frame, 8.8) }}>
-              an <E>electric field</E>, and no magnetic field
-            </div>
-          </Panel>
+    <Shell
+      voice={VOICE(7)}
+      frames={F7_FRAMES}
+      world={
+        frame < T(74.6) ? (
+          <AbsoluteFill style={{ opacity: Math.max(sViews, sCoin) * (1 - einstein) }}>
+            <Stage3D
+              width={width}
+              height={height}
+              pose={coin ? { pos: [0, 1.2, 12], target: [0, 0.6, 0], fov: 34, focus: 12, dof: 0.03 } : { pos: [0, 1.6, 17], target: [0, 0.2, 0], fov: 34, focus: 17, dof: 0.03 }}
+              orbs={(add) => {
+                if (coin) return;
+                add(-5, 1.2, 0, 0.8, rgb(POS), at(frame, 4.1));
+                add(5 + drift, 1.2, 0, 0.8, rgb(POS), friend);
+              }}
+              glows={(add) => {
+                if (coin) {
+                  // a coin, turned from face-on to edge-on and round again
+                  const g = rgb(GOLD);
+                  const co = Math.cos(angle);
+                  const si = Math.sin(angle);
+                  for (let i = 0; i < 700; i++) {
+                    const r = 2.4 * Math.sqrt((i + 0.5) / 700);
+                    const a = i * 2.39996;
+                    add(Math.cos(a) * r * co, 0.6 + Math.sin(a) * r, Math.cos(a) * r * si, 0.16, g, 0.65);
+                  }
+                  for (let i = 0; i < 160; i++) add(Math.cos((i / 160) * 6.283) * 2.45 * co, 0.6 + Math.sin((i / 160) * 6.283) * 2.45, Math.cos((i / 160) * 6.283) * 2.45 * si, 0.2, g, 1);
+                  return;
+                }
+                // you, beside the charge: an electric field only, and a compass that does nothing
+                radial(add, -5, 1.2, frame, at(frame, 4.1));
+                drawNeedle(add, -5, -2.4, 0, 1, 0, 0, 2.2, at(frame, 13.4));
+                ring(add, -5, -2.4, 0, 'z', 1.35, 0, '#c8d4ea', 0.6 * at(frame, 13.4));
+                ring(add, 5, -2.4, 0, 'z', 1.35, 0, '#c8d4ea', 0.6 * friend);
+                // your friend, walking past: the same charge, now moving, with rings of magnetic field too
+                radial(add, 5 + drift, 1.2, frame, friend);
+                for (const dx of [-1.6, 0, 1.6]) ring(add, 5 + drift + dx, 1.2, 0, 'x', 1.9, frame, BFIELD, at(frame, 21.9));
+                drawNeedle(add, 5, -2.4, 0, Math.cos(swung * 1.1 + 0.05 * Math.sin(frame * 0.3)), Math.sin(swung * 1.1 + 0.05 * Math.sin(frame * 0.3)), 0, 2.2, friend);
+              }}
+            />
+          </AbsoluteFill>
+        ) : null
+      }
+    >
+      <Panel opacity={span(frame, T(4.1), T(34.0))} style={{ left: 120, top: 70, width: 800, textAlign: 'center' }}>
+        <Kicker>You, standing beside the charge</Kicker>
+        <div style={{ fontSize: 32, fontWeight: 300, marginTop: 6, opacity: at(frame, 8.8) }}>
+          an <E>electric field</E>, and no magnetic field
         </div>
-        <div style={{ opacity: friend }}>
-          <View cx={1400} moving frame={frame} swing={-50 * at(frame, 25.7) + 4 * Math.sin(frame * 0.3)} />
-          <Panel opacity={1} style={{ left: 1000, top: 70, width: 800, textAlign: 'center' }}>
-            <Kicker>Your friend, walking past</Kicker>
-            <div style={{ fontSize: 32, fontWeight: 300, marginTop: 6, opacity: at(frame, 21.9) }}>
-              the charge is moving: a <B>magnetic field</B> too
-            </div>
-          </Panel>
+      </Panel>
+      <Panel opacity={span(frame, T(16.3), T(34.0))} style={{ left: 1000, top: 70, width: 800, textAlign: 'center' }}>
+        <Kicker>Your friend, walking past</Kicker>
+        <div style={{ fontSize: 32, fontWeight: 300, marginTop: 6, opacity: at(frame, 21.9) }}>
+          the charge is moving: a <B>magnetic field</B> too
         </div>
-        <Cap opacity={span(frame, T(28.5), T(32.5), 8)} kicker="Who is right?" title="Is there a magnetic field or not?" />
-        <Cap opacity={span(frame, T(32.7), T(34.0), 6)} kicker="The answer" title="Both are right" />
-      </Scene>
+      </Panel>
+      <Cap opacity={span(frame, T(28.5), T(32.5), 8)} kicker="Who is right?" title="Is there a magnetic field or not?" />
+      <Cap opacity={span(frame, T(32.7), T(34.0), 6)} kicker="The answer" title="Both are right" />
 
       <Scene opacity={einstein}>
         <Panel opacity={1} style={{ left: 0, right: 0, top: 210, textAlign: 'center' }}>
@@ -96,15 +121,9 @@ export const F7 = () => {
         </Panel>
       </Scene>
 
-      <Scene opacity={coin}>
-        <svg viewBox="0 0 1920 1080" width="100%" height="100%" style={{ position: 'absolute', filter: `drop-shadow(0 0 30px ${GOLD}88)` }}>
-          <ellipse cx={960} cy={440} rx={210 * squash} ry={210} fill="rgba(255,215,130,0.25)" stroke={GOLD} strokeWidth={8} />
-          <ellipse cx={960} cy={440} rx={160 * squash} ry={160} fill="none" stroke={GOLD} strokeWidth={3} opacity={0.6} />
-        </svg>
-        <Cap opacity={span(frame, T(58.6), T(64.9))} kicker="Like looking at a coin" title="From the front you see a circle. From the edge, a line" />
-        <Cap opacity={span(frame, T(65.2), T(68.3))} kicker="The coin has not changed" title="You have" />
-        <Cap opacity={span(frame, T(68.5), T(74.4), 8)} kicker="That is why the two fields are bound so tightly" title="They were never really two" />
-      </Scene>
+      <Cap opacity={span(frame, T(58.6), T(64.9))} kicker="Like looking at a coin" title="From the front you see a circle. From the edge, a line" />
+      <Cap opacity={span(frame, T(65.2), T(68.3))} kicker="The coin has not changed" title="You have" />
+      <Cap opacity={span(frame, T(68.5), T(74.4), 8)} kicker="That is why the two fields are bound so tightly" title="They were never really two" />
 
       <Scene opacity={four}>
         <Panel opacity={1 - fold} style={{ left: 460, top: 150, width: 1000 }}>

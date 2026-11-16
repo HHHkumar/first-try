@@ -1,4 +1,4 @@
-import { useCurrentFrame } from 'remotion';
+import { AbsoluteFill, useCurrentFrame, useVideoConfig } from 'remotion';
 import voice from '../../../public/voice/fields/ch5.json';
 import { ramp, span } from '../../anim';
 import { C } from '../../theme';
@@ -6,7 +6,9 @@ import { Panel } from '../../ui/hud';
 import { Scene, Shell, T, chapterFrames } from '../../ui/Shell';
 import { Big, Center, Frac, Kicker, Sym } from '../../ui/type';
 import { BFIELD } from '../../world/magnet';
-import { at, Cap, EFIELD, GOLD, Ink, Timeline, VOICE } from './kit';
+import { rgb, Stage3D } from '../../world/Stage3D';
+import { plate } from '../induction/kit';
+import { at, Cap, EFIELD, GOLD, Timeline, VOICE } from './kit';
 
 // Chapter 5 - The speed: two bench constants, and the speed of light.
 export const F5_FRAMES = chapterFrames(voice.duration);
@@ -21,10 +23,37 @@ export const F5 = () => {
   const speed = 310740 * ramp(frame, T(46.0), T(49.6));
   const light = 314858 * ramp(frame, T(64.8), T(68.6));
   const beam = ((frame - T(56)) * 26) % 2200;
-  const bx = beam < 1100 ? 520 + beam : 520 + 2200 - beam;
+  const bx3 = -6.3 + (beam < 1100 ? beam : 2200 - beam) * (15.3 / 1100);
+  const { width, height } = useVideoConfig();
 
   return (
-    <Shell voice={VOICE(5)} frames={F5_FRAMES}>
+    <Shell
+      voice={VOICE(5)}
+      frames={F5_FRAMES}
+      world={
+        fizeau > 0 ? (
+          <AbsoluteFill style={{ opacity: fizeau }}>
+            <Stage3D
+              width={width}
+              height={height}
+              pose={{ pos: [-3 + Math.sin(frame * 0.003), 3.2, 17], target: [1, 0.2, 0], fov: 34, focus: 17.5, dof: 0.03 }}
+              glows={(add) => {
+                // a lamp, a toothed wheel spinning in front of it, and a mirror far away
+                add(-8.6, 1.7, 0, 1.6, rgb(GOLD), 0.9);
+                const g = rgb('#d7e6ff');
+                for (let i = 0; i < 48; i++) {
+                  const a = (i / 48) * 6.283 + frame * 0.04;
+                  for (let r = 1.3; r <= 2.0; r += 0.1) if (i % 2 === 0 || r < 1.5) add(-6.5, Math.cos(a) * r, Math.sin(a) * r, 0.14, g, 0.9);
+                }
+                plate(add, 9, 1.7, 0, 1.2, 1.2, 1.5, '#d7e6ff');
+                for (let x = -6.3; x <= 9; x += 0.12) add(x, 1.7, 0, 0.06, rgb(GOLD), 0.5);
+                add(bx3, 1.7, 0, 0.55, rgb(GOLD), 1);
+              }}
+            />
+          </AbsoluteFill>
+        ) : null
+      }
+    >
       <Scene opacity={consts}>
         <Panel opacity={at(frame, 6.7)} style={{ left: 0, right: 0, top: 130, display: 'flex', justifyContent: 'center', gap: 130 }}>
           <div style={{ width: 640, opacity: at(frame, 8.7) }}>
@@ -77,22 +106,8 @@ export const F5 = () => {
         <Cap opacity={span(frame, T(34.6), T(52.4))} kicker="1856 · Weber and Kohlrausch measure them" title="Maxwell puts their figures into his equations" />
       </Scene>
 
-      <Scene opacity={fizeau}>
-        <Ink>
-          {/* lamp, toothed wheel, and a mirror eight kilometres away */}
-          <circle cx={400} cy={480} r={40} fill="rgba(255,224,138,0.5)" stroke={GOLD} />
-          <g transform={`rotate(${frame * 5} 520 480)`}>
-            <circle cx={520} cy={480} r={120} strokeDasharray="14 14" strokeWidth={22} />
-            <circle cx={520} cy={480} r={96} />
-          </g>
-          <path d="M 1640 380 V 580" strokeWidth={12} />
-          <path d="M 640 640 H 1640 M 640 620 V 660 M 1640 620 V 660" strokeOpacity={0.5} />
-        </Ink>
-        <Ink color={GOLD} width={5}>
-          <path d="M 440 480 H 1634" strokeDasharray="4 16" strokeOpacity={0.6} />
-          <circle cx={Math.max(640, Math.min(1620, bx))} cy={480} r={12} fill={GOLD} />
-        </Ink>
-        <Panel opacity={1} style={{ left: 640, top: 660, width: 1000, textAlign: 'center' }}>
+      <AbsoluteFill style={{ opacity: fizeau }}>
+        <Panel opacity={1} style={{ left: 0, right: 0, top: 700, textAlign: 'center' }}>
           <div style={{ fontSize: 32, fontWeight: 300, color: C.dim }}>8 kilometres to the mirror, and back</div>
         </Panel>
         <Panel opacity={at(frame, 64.6)} style={{ left: 0, right: 0, top: 150, textAlign: 'center' }}>
@@ -101,7 +116,7 @@ export const F5 = () => {
           </div>
         </Panel>
         <Cap opacity={1} kicker="France · 1849 · Hippolyte Fizeau" title="Light through the teeth of a spinning wheel: the speed of light, timed" />
-      </Scene>
+      </AbsoluteFill>
 
       <Scene opacity={both}>
         <Panel opacity={1} style={{ left: 0, right: 0, top: 200, textAlign: 'center' }}>
