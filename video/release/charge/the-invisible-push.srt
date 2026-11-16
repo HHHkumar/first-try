@@ -1,0 +1,1167 @@
+1
+00:00:00,667 --> 00:00:03,977
+Rub a balloon on your hair and press it to a wall.
+
+2
+00:00:04,027 --> 00:00:05,057
+It stays.
+
+3
+00:00:05,147 --> 00:00:06,617
+Nothing is holding it.
+
+4
+00:00:06,747 --> 00:00:10,927
+No glue, no string, no contact at all between the charges
+
+5
+00:00:10,947 --> 00:00:12,017
+doing the work.
+
+6
+00:00:12,187 --> 00:00:15,977
+Something is reaching across empty space and pulling.
+
+7
+00:00:16,107 --> 00:00:18,647
+That something is the electric force,
+
+8
+00:00:18,667 --> 00:00:21,137
+and it is astonishingly strong.
+
+9
+00:00:21,307 --> 00:00:24,487
+Compare it with gravity for a single electron and a single
+
+10
+00:00:24,507 --> 00:00:29,057
+proton: the electric pull is stronger by a thousand billion
+
+11
+00:00:29,147 --> 00:00:31,777
+billion billion billion times.
+
+12
+00:00:31,947 --> 00:00:34,257
+So why don't we feel it everywhere?
+
+13
+00:00:34,427 --> 00:00:38,247
+Because matter is balanced, almost perfectly.
+
+14
+00:00:38,267 --> 00:00:40,847
+If you and a friend stood at arm's length,
+
+15
+00:00:40,867 --> 00:00:44,167
+and each of you had just one percent more electrons than
+
+16
+00:00:44,187 --> 00:00:47,487
+protons, the push between you would be enough to lift
+
+17
+00:00:47,507 --> 00:00:50,647
+a weight equal to the entire Earth.
+
+18
+00:00:50,667 --> 00:00:54,247
+Every wire, every motor and every circuit you will ever
+
+19
+00:00:54,267 --> 00:00:56,657
+study runs on this force.
+
+20
+00:00:56,747 --> 00:00:58,657
+So let's see where it comes from.
+
+21
+00:01:00,033 --> 00:01:03,223
+People noticed this force a very long time ago.
+
+22
+00:01:03,313 --> 00:01:07,453
+Around six hundred BC, the Greek thinker Thales recorded
+
+23
+00:01:07,473 --> 00:01:11,133
+that amber, rubbed with wool, would pull in feathers and
+
+24
+00:01:11,153 --> 00:01:12,183
+bits of straw.
+
+25
+00:01:12,593 --> 00:01:15,303
+The Greek word for amber is elektron.
+
+26
+00:01:15,633 --> 00:01:18,583
+Every word we use today, electricity,
+
+27
+00:01:18,793 --> 00:01:22,253
+electron, electronics, comes from a piece of fossil tree
+
+28
+00:01:22,273 --> 00:01:23,063
+resin.
+
+29
+00:01:23,153 --> 00:01:26,183
+For two thousand years it stayed a curiosity.
+
+30
+00:01:26,593 --> 00:01:28,813
+Then in the year sixteen hundred,
+
+31
+00:01:28,833 --> 00:01:32,423
+William Gilbert, physician to Queen Elizabeth the First,
+
+32
+00:01:32,513 --> 00:01:35,973
+tested hundreds of materials and found that glass,
+
+33
+00:01:35,993 --> 00:01:39,463
+sulphur, wax and many gems did the same thing.
+
+34
+00:01:39,713 --> 00:01:42,583
+He gave the effect its name: electric.
+
+35
+00:01:42,993 --> 00:01:46,253
+In seventeen thirty-three, the Frenchman Charles du Fay
+
+36
+00:01:46,273 --> 00:01:47,783
+found something stranger.
+
+37
+00:01:48,033 --> 00:01:50,103
+There were two kinds of electricity.
+
+38
+00:01:50,193 --> 00:01:53,693
+Objects charged the same way pushed each other apart,
+
+39
+00:01:53,713 --> 00:01:57,103
+and objects charged in different ways pulled together.
+
+40
+00:01:57,233 --> 00:02:00,413
+A few years later, Benjamin Franklin proposed that there
+
+41
+00:02:00,433 --> 00:02:02,773
+was really one electrical substance,
+
+42
+00:02:02,793 --> 00:02:06,143
+and that an object could have too much of it or too little.
+
+43
+00:02:06,193 --> 00:02:09,463
+He called the two conditions positive and negative.
+
+44
+00:02:09,713 --> 00:02:13,623
+We still use his names, and his choice of which was which.
+
+45
+00:02:15,000 --> 00:02:18,510
+The source is a property of matter called charge.
+
+46
+00:02:18,600 --> 00:02:20,990
+It is as basic as mass.
+
+47
+00:02:21,160 --> 00:02:24,910
+Mass tells you how strongly something responds to gravity.
+
+48
+00:02:25,080 --> 00:02:28,500
+Charge tells you how strongly it responds to the electric
+
+49
+00:02:28,520 --> 00:02:29,390
+force.
+
+50
+00:02:29,560 --> 00:02:33,670
+But charge comes in two kinds, and that changes everything.
+
+51
+00:02:33,800 --> 00:02:36,430
+We call them positive and negative.
+
+52
+00:02:36,920 --> 00:02:39,140
+Protons carry the positive kind,
+
+53
+00:02:39,160 --> 00:02:43,140
+electrons the negative kind, and the two amounts are exactly
+
+54
+00:02:43,160 --> 00:02:44,590
+equal in size.
+
+55
+00:02:44,760 --> 00:02:48,150
+Two charges of the same kind push each other apart.
+
+56
+00:02:48,280 --> 00:02:51,030
+Two of opposite kinds pull together.
+
+57
+00:02:51,240 --> 00:02:55,060
+An ordinary atom has as many electrons as protons,
+
+58
+00:02:55,080 --> 00:02:57,550
+so from outside it looks neutral.
+
+59
+00:02:58,280 --> 00:03:01,060
+Charging an object does not create anything.
+
+60
+00:03:01,080 --> 00:03:04,740
+It only moves electrons from one place to another.
+
+61
+00:03:04,760 --> 00:03:08,020
+When you rub the balloon, electrons leave your hair and
+
+62
+00:03:08,040 --> 00:03:09,380
+settle on the rubber.
+
+63
+00:03:09,400 --> 00:03:12,980
+The balloon ends up negative, your hair ends up positive
+
+64
+00:03:13,000 --> 00:03:16,740
+by the same amount, and the total has not changed.
+
+65
+00:03:16,760 --> 00:03:19,740
+Charge is never made and never destroyed.
+
+66
+00:03:19,760 --> 00:03:21,940
+It is only moved.
+
+67
+00:03:21,960 --> 00:03:25,060
+Franklin had to guess which way his electrical substance
+
+68
+00:03:25,080 --> 00:03:27,620
+moved, and he guessed wrong.
+
+69
+00:03:27,640 --> 00:03:30,420
+The thing that actually moves is the electron,
+
+70
+00:03:30,440 --> 00:03:31,380
+discovered by J.
+
+71
+00:03:31,400 --> 00:03:31,580
+J.
+
+72
+00:03:31,600 --> 00:03:33,860
+Thomson in eighteen ninety-seven,
+
+73
+00:03:33,880 --> 00:03:36,750
+and by Franklin's labels it is negative.
+
+74
+00:03:36,920 --> 00:03:40,420
+That is why, to this day, the current we draw in a circuit
+
+75
+00:03:40,440 --> 00:03:44,030
+points the opposite way to the electrons that carry it.
+
+76
+00:03:44,360 --> 00:03:46,790
+Charge also comes in whole steps.
+
+77
+00:03:46,840 --> 00:03:49,260
+You can have one electron's worth of charge,
+
+78
+00:03:49,280 --> 00:03:52,750
+or two, or a billion, but never half.
+
+79
+00:03:52,920 --> 00:03:55,780
+Robert Millikan showed this around nineteen ten,
+
+80
+00:03:55,800 --> 00:03:59,140
+by balancing tiny charged oil drops between two metal
+
+81
+00:03:59,160 --> 00:04:03,060
+plates and finding that their charge always came in multiples
+
+82
+00:04:03,080 --> 00:04:05,300
+of one smallest amount.
+
+83
+00:04:05,320 --> 00:04:07,540
+We measure charge in coulombs.
+
+84
+00:04:07,560 --> 00:04:10,980
+One coulomb is the charge of about six billion billion
+
+85
+00:04:11,000 --> 00:04:14,260
+electrons, and it is an enormous amount.
+
+86
+00:04:14,280 --> 00:04:17,710
+A whole lightning bolt moves only about fifteen.
+
+87
+00:04:19,067 --> 00:04:22,057
+How strong is the force between two charges?
+
+88
+00:04:22,187 --> 00:04:25,527
+In seventeen eighty-five, the French engineer Charles
+
+89
+00:04:25,547 --> 00:04:28,087
+Coulomb found a way to measure it.
+
+90
+00:04:28,107 --> 00:04:31,207
+He hung a light rod from a very fine wire,
+
+91
+00:04:31,227 --> 00:04:34,087
+with a small charged ball on one end.
+
+92
+00:04:34,107 --> 00:04:36,807
+When he brought a second charged ball close,
+
+93
+00:04:36,827 --> 00:04:40,337
+the rod turned, and the twist in the wire told him the
+
+94
+00:04:40,387 --> 00:04:41,207
+force.
+
+95
+00:04:41,227 --> 00:04:44,727
+The forces were tiny, and his balance was sensitive enough
+
+96
+00:04:44,747 --> 00:04:45,927
+to weigh them.
+
+97
+00:04:45,947 --> 00:04:48,417
+He found two simple rules.
+
+98
+00:04:48,467 --> 00:04:51,767
+First, the force grows with each charge.
+
+99
+00:04:51,787 --> 00:04:54,487
+Double one charge and the force doubles.
+
+100
+00:04:54,507 --> 00:04:58,017
+Double both and it is four times as strong.
+
+101
+00:04:58,107 --> 00:05:00,967
+Second, the force falls with distance,
+
+102
+00:05:00,987 --> 00:05:02,847
+and it falls fast.
+
+103
+00:05:02,867 --> 00:05:06,167
+Move the charges twice as far apart and the force drops
+
+104
+00:05:06,187 --> 00:05:07,407
+to a quarter.
+
+105
+00:05:07,427 --> 00:05:09,927
+Three times as far, a ninth.
+
+106
+00:05:09,947 --> 00:05:12,287
+This is an inverse square law.
+
+107
+00:05:12,307 --> 00:05:14,487
+Here is why it has that shape.
+
+108
+00:05:14,507 --> 00:05:18,007
+Picture the influence of a charge spreading outward evenly
+
+109
+00:05:18,027 --> 00:05:19,634
+in every direction.
+
+110
+00:05:19,654 --> 00:05:22,860
+At a distance r, it is spread over a sphere,
+
+111
+00:05:22,880 --> 00:05:26,087
+and the area of a sphere grows with r squared.
+
+112
+00:05:26,107 --> 00:05:29,527
+The same influence over four times the area is a quarter
+
+113
+00:05:29,547 --> 00:05:30,647
+as strong.
+
+114
+00:05:30,667 --> 00:05:34,087
+Put the two rules together and you have Coulomb's law.
+
+115
+00:05:34,107 --> 00:05:37,767
+The force equals a constant, times the first charge,
+
+116
+00:05:37,787 --> 00:05:41,247
+times the second, divided by the distance squared.
+
+117
+00:05:41,267 --> 00:05:44,887
+That constant is huge: nine billion.
+
+118
+00:05:44,907 --> 00:05:47,074
+Two charges of one coulomb each,
+
+119
+00:05:47,094 --> 00:05:50,087
+a metre apart, would push on each other with the weight
+
+120
+00:05:50,107 --> 00:05:52,487
+of nearly a million tonnes.
+
+121
+00:05:52,507 --> 00:05:55,207
+That is why you never meet a loose coulomb.
+
+122
+00:05:55,227 --> 00:05:57,420
+And when there are more than two charges,
+
+123
+00:05:57,440 --> 00:05:58,767
+nothing new is needed.
+
+124
+00:05:58,787 --> 00:06:01,367
+Work out the force from each one separately,
+
+125
+00:06:01,387 --> 00:06:03,137
+then add them as arrows.
+
+126
+00:06:04,500 --> 00:06:07,690
+Coulomb's law tells us how big the force is.
+
+127
+00:06:07,780 --> 00:06:11,040
+It does not tell us how one charge can push on another
+
+128
+00:06:11,060 --> 00:06:12,170
+without touching it.
+
+129
+00:06:12,580 --> 00:06:15,650
+How does the second charge know the first one is there?
+
+130
+00:06:15,860 --> 00:06:20,010
+The answer is one of the most powerful ideas in all of
+
+131
+00:06:20,140 --> 00:06:20,890
+physics.
+
+132
+00:06:21,060 --> 00:06:24,690
+A charge does not act on other charges directly.
+
+133
+00:06:24,820 --> 00:06:27,690
+It changes the space around itself.
+
+134
+00:06:27,860 --> 00:06:32,000
+Every point in that space now carries a kind of instruction:
+
+135
+00:06:32,020 --> 00:06:35,040
+if a charge were placed here, it would be pushed this
+
+136
+00:06:35,060 --> 00:06:37,120
+hard, in this direction.
+
+137
+00:06:37,140 --> 00:06:40,960
+That condition of space is called the electric field.
+
+138
+00:06:40,980 --> 00:06:43,120
+The idea came from Michael Faraday,
+
+139
+00:06:43,140 --> 00:06:45,520
+in the eighteen-thirties and forties.
+
+140
+00:06:45,540 --> 00:06:49,040
+Faraday was a blacksmith's son who left school at thirteen
+
+141
+00:06:49,060 --> 00:06:52,240
+to work for a bookbinder, and he never learned advanced
+
+142
+00:06:52,260 --> 00:06:53,560
+mathematics.
+
+143
+00:06:53,580 --> 00:06:55,880
+So he thought in pictures.
+
+144
+00:06:55,900 --> 00:06:59,040
+Where others saw empty space between two charges,
+
+145
+00:06:59,060 --> 00:07:02,050
+he saw it filled with lines of force.
+
+146
+00:07:02,260 --> 00:07:05,840
+Twenty years later, James Clerk Maxwell turned Faraday's
+
+147
+00:07:05,860 --> 00:07:09,760
+pictures into equations, and those equations still run
+
+148
+00:07:09,780 --> 00:07:11,970
+the whole of electrical engineering.
+
+149
+00:07:12,180 --> 00:07:15,600
+To measure it, place a small positive test charge at a
+
+150
+00:07:15,620 --> 00:07:18,130
+point and see what force it feels.
+
+151
+00:07:18,260 --> 00:07:21,530
+Then divide that force by the size of the test charge.
+
+152
+00:07:21,860 --> 00:07:24,240
+What is left belongs to the place,
+
+153
+00:07:24,260 --> 00:07:25,370
+not to the tester.
+
+154
+00:07:25,700 --> 00:07:28,080
+It is the force per unit of charge,
+
+155
+00:07:28,100 --> 00:07:30,290
+measured in newtons per coulomb.
+
+156
+00:07:30,340 --> 00:07:31,610
+We call it E.
+
+157
+00:07:32,180 --> 00:07:35,170
+Here is what textbooks rarely say plainly.
+
+158
+00:07:35,300 --> 00:07:38,600
+The field is there whether or not anything is around to
+
+159
+00:07:38,620 --> 00:07:39,640
+feel it.
+
+160
+00:07:39,660 --> 00:07:42,440
+Take the test charge away, and the field remains,
+
+161
+00:07:42,460 --> 00:07:44,960
+at every point, waiting.
+
+162
+00:07:44,980 --> 00:07:47,800
+Think of a weather map covered in wind arrows.
+
+163
+00:07:47,820 --> 00:07:50,520
+The wind is there at every spot on the map,
+
+164
+00:07:50,540 --> 00:07:53,200
+whether or not a kite happens to be flying.
+
+165
+00:07:53,220 --> 00:07:56,720
+A charge placed in a field simply feels the arrow at the
+
+166
+00:07:56,740 --> 00:07:58,240
+place where it sits.
+
+167
+00:07:58,260 --> 00:08:01,600
+The force on it is its charge times the field:
+
+168
+00:08:01,620 --> 00:08:03,770
+F equals q E.
+
+169
+00:08:03,940 --> 00:08:07,040
+For a single charge, the field points straight away from
+
+170
+00:08:07,060 --> 00:08:10,320
+it if the charge is positive, and straight in toward it
+
+171
+00:08:10,340 --> 00:08:11,560
+if negative.
+
+172
+00:08:11,580 --> 00:08:14,160
+And it weakens with the square of the distance,
+
+173
+00:08:14,180 --> 00:08:16,250
+exactly as Coulomb found.
+
+174
+00:08:17,600 --> 00:08:21,860
+Arrows at every point quickly become a crowded picture.
+
+175
+00:08:21,880 --> 00:08:24,940
+So we draw the field the way Faraday did,
+
+176
+00:08:24,960 --> 00:08:26,150
+with lines.
+
+177
+00:08:26,240 --> 00:08:27,670
+The rules are simple.
+
+178
+00:08:27,760 --> 00:08:31,420
+A field line begins on a positive charge and ends on a
+
+179
+00:08:31,440 --> 00:08:32,470
+negative one.
+
+180
+00:08:32,560 --> 00:08:35,980
+At every point, the direction of the line is the direction
+
+181
+00:08:36,000 --> 00:08:37,070
+of the field.
+
+182
+00:08:37,120 --> 00:08:40,620
+And where the lines are close together the field is strong,
+
+183
+00:08:40,640 --> 00:08:43,350
+while where they spread apart it is weak.
+
+184
+00:08:43,440 --> 00:08:46,540
+Put a positive and a negative charge side by side,
+
+185
+00:08:46,560 --> 00:08:49,150
+and the lines arc from one to the other.
+
+186
+00:08:49,200 --> 00:08:51,620
+Put two positive charges side by side,
+
+187
+00:08:51,640 --> 00:08:54,780
+and the lines swerve apart, as if the two patterns were
+
+188
+00:08:54,800 --> 00:08:55,910
+pushing on each other.
+
+189
+00:08:56,160 --> 00:08:59,900
+Field lines never cross, because at any point the field
+
+190
+00:08:59,920 --> 00:09:01,870
+can only point one way.
+
+191
+00:09:01,920 --> 00:09:03,830
+But remember what the lines are.
+
+192
+00:09:03,920 --> 00:09:07,140
+They are a drawing, like the contour lines on a map of
+
+193
+00:09:07,160 --> 00:09:07,980
+a hill.
+
+194
+00:09:08,000 --> 00:09:10,460
+The field is not only on the lines.
+
+195
+00:09:10,480 --> 00:09:13,510
+It fills all of the space between them as well.
+
+196
+00:09:14,867 --> 00:09:18,367
+One arrangement matters more than any other in electrical
+
+197
+00:09:18,387 --> 00:09:19,177
+engineering.
+
+198
+00:09:19,667 --> 00:09:23,167
+Take two flat metal plates, facing each other,
+
+199
+00:09:23,187 --> 00:09:25,737
+one charged positive and one negative.
+
+200
+00:09:26,227 --> 00:09:29,407
+Between them, the field lines run straight across,
+
+201
+00:09:29,427 --> 00:09:30,857
+evenly spaced.
+
+202
+00:09:31,027 --> 00:09:34,057
+The field has the same strength and the same direction
+
+203
+00:09:34,147 --> 00:09:35,417
+everywhere in the gap.
+
+204
+00:09:35,827 --> 00:09:39,407
+We call that a uniform field, and you will meet it again
+
+205
+00:09:39,427 --> 00:09:42,297
+in the very next video, inside a capacitor.
+
+206
+00:09:42,787 --> 00:09:46,447
+Release an electron in that gap and it accelerates steadily
+
+207
+00:09:46,467 --> 00:09:47,977
+toward the positive plate.
+
+208
+00:09:48,387 --> 00:09:50,527
+It moves against the field arrows,
+
+209
+00:09:50,547 --> 00:09:52,377
+because its charge is negative.
+
+210
+00:09:53,027 --> 00:09:55,537
+Now put a piece of metal into a field.
+
+211
+00:09:55,667 --> 00:09:59,087
+A metal is full of electrons that are free to move,
+
+212
+00:09:59,107 --> 00:09:59,897
+so they do.
+
+213
+00:10:00,387 --> 00:10:04,367
+They shift until their own field exactly cancels the field
+
+214
+00:10:04,387 --> 00:10:05,737
+inside the metal.
+
+215
+00:10:05,907 --> 00:10:09,247
+In a fraction of a second, the field inside a conductor
+
+216
+00:10:09,267 --> 00:10:13,457
+is zero, and any extra charge sits on its surface.
+
+217
+00:10:13,747 --> 00:10:17,087
+Faraday proved this in eighteen thirty-six in the most
+
+218
+00:10:17,107 --> 00:10:18,617
+direct way possible.
+
+219
+00:10:18,787 --> 00:10:22,447
+He built a wooden cube, twelve feet on each side,
+
+220
+00:10:22,467 --> 00:10:24,607
+covered it in metal foil and wire,
+
+221
+00:10:24,627 --> 00:10:28,297
+and sat inside it with his most sensitive instruments.
+
+222
+00:10:28,467 --> 00:10:32,047
+His assistants charged the outside until sparks flew from
+
+223
+00:10:32,067 --> 00:10:33,137
+its surface.
+
+224
+00:10:33,267 --> 00:10:35,817
+Inside, he could detect nothing at all.
+
+225
+00:10:36,307 --> 00:10:39,497
+We still call such an enclosure a Faraday cage.
+
+226
+00:10:39,907 --> 00:10:43,487
+It is why you are safe inside a car in a thunderstorm:
+
+227
+00:10:43,507 --> 00:10:46,247
+the metal body carries the charge around you,
+
+228
+00:10:46,267 --> 00:10:48,937
+and the field inside stays close to zero.
+
+229
+00:10:49,507 --> 00:10:53,007
+Engineers call this shielding, and it is why sensitive
+
+230
+00:10:53,027 --> 00:10:55,617
+cables are wrapped in a metal screen.
+
+231
+00:10:55,907 --> 00:10:58,017
+There is one more thing to notice.
+
+232
+00:10:58,147 --> 00:11:02,487
+On a conductor, charge crowds onto sharp points and edges,
+
+233
+00:11:02,507 --> 00:11:05,017
+and the field there becomes intense.
+
+234
+00:11:05,187 --> 00:11:06,857
+Franklin put this to use.
+
+235
+00:11:07,267 --> 00:11:10,377
+Having shown in seventeen fifty-two that lightning is
+
+236
+00:11:10,467 --> 00:11:13,647
+electricity, he fitted buildings with a pointed metal
+
+237
+00:11:13,667 --> 00:11:17,247
+rod wired to the ground, and the lightning rod has protected
+
+238
+00:11:17,267 --> 00:11:18,537
+them ever since.
+
+239
+00:11:19,027 --> 00:11:22,127
+A high-voltage line suffers from the same effect:
+
+240
+00:11:22,147 --> 00:11:25,327
+the faint glow and the crackle around a conductor at night
+
+241
+00:11:25,347 --> 00:11:28,697
+is called corona, and it is wasted energy.
+
+242
+00:11:30,067 --> 00:11:33,247
+Moving a charge against a field takes work,
+
+243
+00:11:33,267 --> 00:11:36,767
+the same way that lifting a weight against gravity does.
+
+244
+00:11:36,787 --> 00:11:38,967
+And that work is not lost.
+
+245
+00:11:38,987 --> 00:11:42,047
+It is stored, ready to be given back.
+
+246
+00:11:42,067 --> 00:11:45,247
+The work needed for each coulomb of charge is called the
+
+247
+00:11:45,267 --> 00:11:47,007
+potential difference.
+
+248
+00:11:47,027 --> 00:11:49,167
+You already know it by another name:
+
+249
+00:11:49,187 --> 00:11:50,447
+voltage.
+
+250
+00:11:50,467 --> 00:11:53,007
+The unit honours Alessandro Volta,
+
+251
+00:11:53,027 --> 00:11:56,727
+who in eighteen hundred stacked discs of zinc and copper
+
+252
+00:11:56,747 --> 00:12:00,607
+into the first battery, and gave the world its first steady
+
+253
+00:12:00,627 --> 00:12:02,767
+source of electrical push.
+
+254
+00:12:02,787 --> 00:12:07,337
+One volt means one joule of work for each coulomb moved.
+
+255
+00:12:07,387 --> 00:12:11,207
+Between our two plates, voltage and field are tied together
+
+256
+00:12:11,227 --> 00:12:12,367
+very simply.
+
+257
+00:12:12,387 --> 00:12:15,967
+The field equals the voltage divided by the gap:
+
+258
+00:12:15,987 --> 00:12:18,407
+E equals V over d.
+
+259
+00:12:18,427 --> 00:12:22,047
+So the field can also be measured in volts per metre.
+
+260
+00:12:22,067 --> 00:12:24,927
+Put one volt across a one-millimetre gap,
+
+261
+00:12:24,947 --> 00:12:27,807
+and the field is a thousand volts per metre.
+
+262
+00:12:27,827 --> 00:12:31,207
+Squeeze the same voltage into a smaller gap and the field
+
+263
+00:12:31,227 --> 00:12:32,287
+grows.
+
+264
+00:12:32,307 --> 00:12:34,687
+And every insulator has a limit.
+
+265
+00:12:34,707 --> 00:12:38,047
+For air, it is about three million volts per metre.
+
+266
+00:12:38,067 --> 00:12:41,927
+Push past that, and the air itself is torn apart and starts
+
+267
+00:12:41,947 --> 00:12:43,007
+to conduct.
+
+268
+00:12:43,027 --> 00:12:44,740
+That is a spark.
+
+269
+00:12:44,760 --> 00:12:48,047
+On a much larger scale, that is lightning.
+
+270
+00:12:48,067 --> 00:12:50,527
+This is why insulation thickness,
+
+271
+00:12:50,547 --> 00:12:53,807
+spacing between conductors and the smooth shape of high-voltage
+
+272
+00:12:53,827 --> 00:12:56,180
+equipment are never arbitrary.
+
+273
+00:12:56,200 --> 00:12:59,577
+They are all ways of keeping the field below the limit.
+
+274
+00:13:00,933 --> 00:13:02,443
+So let's put it together.
+
+275
+00:13:02,853 --> 00:13:05,153
+It began with a piece of amber,
+
+276
+00:13:05,173 --> 00:13:08,123
+and it took twenty-five centuries to understand.
+
+277
+00:13:08,533 --> 00:13:10,523
+Charge comes in two kinds.
+
+278
+00:13:10,613 --> 00:13:14,193
+Like charges repel, opposite charges attract,
+
+279
+00:13:14,213 --> 00:13:17,153
+and charge is never created or destroyed,
+
+280
+00:13:17,173 --> 00:13:18,353
+only moved.
+
+281
+00:13:18,373 --> 00:13:22,123
+The force between two charges grows with each charge and
+
+282
+00:13:22,173 --> 00:13:24,433
+falls with the square of the distance.
+
+283
+00:13:24,453 --> 00:13:28,113
+A charge fills the space around it with an electric field:
+
+284
+00:13:28,133 --> 00:13:31,153
+the force that each unit of charge would feel at every
+
+285
+00:13:31,173 --> 00:13:32,033
+point.
+
+286
+00:13:32,053 --> 00:13:36,033
+We draw that field with lines, from positive to negative,
+
+287
+00:13:36,053 --> 00:13:37,963
+crowded where it is strong.
+
+288
+00:13:38,053 --> 00:13:40,753
+Inside a conductor the field is zero.
+
+289
+00:13:40,773 --> 00:13:43,113
+Between two plates it is uniform,
+
+290
+00:13:43,133 --> 00:13:46,233
+and equal to the voltage divided by the gap.
+
+291
+00:13:46,253 --> 00:13:49,073
+Next time, we put those two plates to work,
+
+292
+00:13:49,093 --> 00:13:52,283
+and store energy in the empty space between them.
