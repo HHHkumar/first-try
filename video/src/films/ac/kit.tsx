@@ -91,11 +91,15 @@ export const ribbon = (glow: Add, x0: number, x1: number, y: (x: number) => numb
   const { z = 0, gain = 1, fill = true, axis = 0, size = 0.2 } = opts;
   if (gain <= 0.01 || x1 <= x0) return;
   const n = Math.round((x1 - x0) / 0.026);
+  let prev = y(x0);
   for (let i = 0; i <= n; i++) {
     const x = x0 + (i / n) * (x1 - x0);
     const yy = y(x);
     const c = color(x);
     glow(x, yy, z, size, c, gain);
+    // a sudden step in the wave is drawn as an edge
+    if (Math.abs(yy - prev) > 0.25) for (let k = 1, m = Math.ceil(Math.abs(yy - prev) / 0.05); k < m; k++) glow(x, prev + ((yy - prev) * k) / m, z, size, c, gain);
+    prev = yy;
     if (fill && i % 3 === 0) for (let j = 1; j < 9; j++) glow(x, axis + ((yy - axis) * j) / 9, z, 0.09, c, 0.22 * gain);
     if (i % 4 === 0) glow(x, axis, z, 0.07, [1, 1, 1], 0.45 * gain);
   }

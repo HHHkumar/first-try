@@ -21,10 +21,10 @@ export const A2 = () => {
   const stroke = Math.sin(frame * 0.14);
   const rock = Math.sin(frame * 0.12) * 0.9;
   const poses: CameraPose[] = [
-    { pos: [2.5 + sway(frame), 1.8, 9], target: [0, 0, 0], fov: 34, focus: 9.5, dof: 0.05 },
+    { pos: [2.5 + sway(frame), 1.0, 9], target: [0, -1.0, 0], fov: 34, focus: 9.5, dof: 0.05 },
     { pos: [5 + sway(frame), 3, 13], target: [0, -0.6, 0], fov: 34, focus: 14, dof: 0.04 },
     { pos: [2 + sway(frame), 3, 17], target: [0, -0.8, 0], fov: 34, focus: 17.5, dof: 0.035 },
-    { pos: [1 + sway(frame), 2.6, 19], target: [0.5, -0.4, 0], fov: 34, focus: 19.5, dof: 0.035 },
+    { pos: [1 + sway(frame), 1.6, 19], target: [0.5, -1.4, 0], fov: 34, focus: 19.5, dof: 0.035 },
   ];
 
   return (
@@ -38,7 +38,7 @@ export const A2 = () => {
           orbs={(add) => {
             if (which === 0) drawCloud(add, cloud, frame, 0.35);
             if (which === 1) for (let x = -5; x <= 5.01; x += 0.7) for (let y = -2.6; y <= -1.39; y += 0.6) for (const z of [-0.9, -0.3, 0.3, 0.9]) add(x, y, z, 0.7, rgb('#c98a5a'), 1);
-            if (which === 2) for (let i = 0; i < 22; i++) add(-9 + i * 0.86 + rock, -1 + (i % 2 ? 0.12 : -0.12), 0, 0.7, rgb(i % 2 ? PINK : CYAN), 1);
+            if (which === 2) for (let i = 0; i < 18; i++) add(-9 + i * 0.86 + rock, -1 + (i % 2 ? 0.12 : -0.12), 0, 0.7, rgb(i % 2 ? PINK : CYAN), 1);
             if (which === 3) drawCloud(add, long, frame, 0.3, -0.4);
           }}
           scene={(add) => {
@@ -54,11 +54,11 @@ export const A2 = () => {
               const bx = stroke * 2.2;
               for (let i = 0; i <= 90; i++) {
                 const x = -3.6 + i * 0.08 + bx;
-                add(x, -0.5, 0, 0.16, rgb(WHITE), 0.9);
-                add(x, -1.25 + 0.14 * Math.abs(((i * 0.5) % 1) - 0.5) * 4, 0, 0.16, rgb(WHITE), 0.9);
-                if (i % 6 === 0) for (let y = -1.2; y <= -0.5; y += 0.12) add(x, y, 0, 0.09, rgb(TEAL), 0.5);
+                add(x, -0.5, 1.0, 0.24, rgb(WHITE), 1);
+                add(x, -1.25 + 0.14 * Math.abs(((i * 0.5) % 1) - 0.5) * 4, 1.0, 0.24, rgb(WHITE), 1);
+                if (i % 6 === 0) for (let y = -1.2; y <= -0.5; y += 0.12) add(x, y, 1.0, 0.12, rgb(TEAL), 0.8);
               }
-              for (let i = 0; i < 30; i++) add(bx + 3.9 + i * 0.05, -0.2 - i * 0.02, 0, 0.2, rgb(PINK), 0.9);
+              for (let i = 0; i < 30; i++) add(bx + 3.9 + i * 0.05, -0.2 - i * 0.02, 1.0, 0.26, rgb(PINK), 1);
               // sawdust, falling on both strokes
               for (let i = 0; i < 70; i++) {
                 const life = (frame * 0.03 + i * 0.137) % 1;
@@ -67,7 +67,7 @@ export const A2 = () => {
             }
             if (which === 2) {
               // a long chain rocked at one end: the far end rocks at once, and a wheel there turns with it
-              for (let i = 0; i < 70; i++) add(10.6 + Math.cos((i / 70) * 6.283 + rock * 0.8) * 1.6, -1 + Math.sin((i / 70) * 6.283 + rock * 0.8) * 1.6, 0, i % 10 === 0 ? 0.4 : 0.16, rgb(i % 10 === 0 ? SUN : WHITE), 0.9);
+              for (let i = 0; i < 70; i++) add(8.0 + Math.cos((i / 70) * 6.283 + rock * 0.8) * 1.6, -1 + Math.sin((i / 70) * 6.283 + rock * 0.8) * 1.6, 0, i % 10 === 0 ? 0.4 : 0.16, rgb(i % 10 === 0 ? SUN : WHITE), 0.9);
               add(-9.6 + rock, -1, 0, 1.6, rgb(MINT), 0.8);
             }
             if (which === 3) {

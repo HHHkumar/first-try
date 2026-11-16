@@ -29,7 +29,7 @@ export const A3 = () => {
       frames={A3_FRAMES}
       world={
         <AStage
-          pose={{ pos: [5 + sway(frame), 2.6, 25], target: [2.2, -0.2, 0], fov: 34, focus: 25, dof: 0.025 }}
+          pose={{ pos: [3 + sway(frame), 2.4, 27], target: [0.8, -0.7, 0], fov: 34, focus: 27, dof: 0.022 }}
           orbs={(add) => poles(add, GX)}
           scene={(add) => {
             gapField(add, GX, frame);

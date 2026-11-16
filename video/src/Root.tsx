@@ -74,6 +74,13 @@ import { IThumb } from './films/induction/IThumb';
 import { A1, A1_FRAMES } from './films/ac1/A1';
 import { A2, A2_FRAMES } from './films/ac1/A2';
 import { A3, A3_FRAMES } from './films/ac1/A3';
+import { A4, A4_FRAMES } from './films/ac1/A4';
+import { A5, A5_FRAMES } from './films/ac1/A5';
+import { A6, A6_FRAMES } from './films/ac1/A6';
+import { A7, A7_FRAMES } from './films/ac1/A7';
+import { A8, A8_FRAMES } from './films/ac1/A8';
+import { A9, A9_FRAMES } from './films/ac1/A9';
+import { AThumb } from './films/ac1/AThumb';
 import { StyleAC } from './films/ac/StyleAC';
 import { IndThumb } from './films/inductance/IndThumb';
 import { MagThumb } from './films/magnetism/MagThumb';
@@ -144,6 +151,12 @@ const ac1 = [
   { id: 'A1', component: A1, frames: A1_FRAMES },
   { id: 'A2', component: A2, frames: A2_FRAMES },
   { id: 'A3', component: A3, frames: A3_FRAMES },
+  { id: 'A4', component: A4, frames: A4_FRAMES },
+  { id: 'A5', component: A5, frames: A5_FRAMES },
+  { id: 'A6', component: A6, frames: A6_FRAMES },
+  { id: 'A7', component: A7, frames: A7_FRAMES },
+  { id: 'A8', component: A8, frames: A8_FRAMES },
+  { id: 'A9', component: A9, frames: A9_FRAMES },
 ];
 const magnetism = [
   { id: 'Mag1', component: Mag1, frames: MAG1_FRAMES },
@@ -183,6 +196,7 @@ export const Root = () => (
     <Composition id="AcStyleA" component={StyleAC} defaultProps={{ look: 'A' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="AcStyleB" component={StyleAC} defaultProps={{ look: 'B' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="AcStyleC" component={StyleAC} defaultProps={{ look: 'C' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="AThumb" component={AThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IThumb" component={IThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IndThumb" component={IndThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="MagThumb" component={MagThumb} durationInFrames={1} fps={FPS} width={W} height={H} />

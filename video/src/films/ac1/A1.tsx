@@ -47,8 +47,8 @@ export const A1 = () => {
   const reversals = Math.min(100, Math.floor(Math.max(0, frame - T(19.7)) * 1.1));
   const poses: CameraPose[] = [
     { pos: lerp3([2, 0.6, 16], [0.3, 0.1, 4.6], push), target: [0, 0, 0], fov: 34, focus: lerp(16, 5, push), dof: 0.03 },
-    { pos: [4 + sway(frame, 2), 2.4, 12], target: [0, 0, 0], fov: 34, focus: 13, dof: 0.045 },
-    { pos: [3 + sway(frame), 1.8, 15], target: [0, 0.6, 0], fov: 34, focus: 15.5, dof: 0.04 },
+    { pos: [4 + sway(frame, 2), 1.6, 12], target: [0, -1.0, 0], fov: 34, focus: 13, dof: 0.045 },
+    { pos: [3 + sway(frame), 0.6, 16], target: [0, -1.3, 0], fov: 34, focus: 15.5, dof: 0.04 },
   ];
 
   return (
