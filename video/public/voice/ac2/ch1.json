@@ -1,0 +1,764 @@
+{
+ "chapter": 1,
+ "title": "Three components, one supply",
+ "characters": 723,
+ "duration": 51.800816,
+ "words": [
+  {
+   "text": "Take",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "one",
+   "start": 0.4,
+   "end": 0.64,
+   "paragraph": 0
+  },
+  {
+   "text": "alternating",
+   "start": 0.72,
+   "end": 1.28,
+   "paragraph": 0
+  },
+  {
+   "text": "supply,",
+   "start": 1.52,
+   "end": 2,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 2.08,
+   "end": 2.16,
+   "paragraph": 0
+  },
+  {
+   "text": "connect",
+   "start": 2.24,
+   "end": 2.56,
+   "paragraph": 0
+  },
+  {
+   "text": "three",
+   "start": 2.64,
+   "end": 2.8,
+   "paragraph": 0
+  },
+  {
+   "text": "things",
+   "start": 2.88,
+   "end": 3.12,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 3.2,
+   "end": 3.28,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 3.4,
+   "end": 3.52,
+   "paragraph": 0
+  },
+  {
+   "text": "in",
+   "start": 3.6,
+   "end": 3.68,
+   "paragraph": 0
+  },
+  {
+   "text": "turn.",
+   "start": 3.76,
+   "end": 4.36,
+   "paragraph": 0
+  },
+  {
+   "text": "A",
+   "start": 4.64,
+   "end": 4.72,
+   "paragraph": 0
+  },
+  {
+   "text": "resistor.",
+   "start": 4.84,
+   "end": 5.56,
+   "paragraph": 0
+  },
+  {
+   "text": "A",
+   "start": 5.76,
+   "end": 5.84,
+   "paragraph": 0
+  },
+  {
+   "text": "coil.",
+   "start": 5.92,
+   "end": 6.52,
+   "paragraph": 0
+  },
+  {
+   "text": "A",
+   "start": 6.72,
+   "end": 6.76,
+   "paragraph": 0
+  },
+  {
+   "text": "capacitor.",
+   "start": 6.8,
+   "end": 7.76,
+   "paragraph": 0
+  },
+  {
+   "text": "In",
+   "start": 8.08,
+   "end": 8.24,
+   "paragraph": 1
+  },
+  {
+   "text": "all",
+   "start": 8.32,
+   "end": 8.56,
+   "paragraph": 1
+  },
+  {
+   "text": "three,",
+   "start": 8.72,
+   "end": 9.12,
+   "paragraph": 1
+  },
+  {
+   "text": "an",
+   "start": 9.24,
+   "end": 9.36,
+   "paragraph": 1
+  },
+  {
+   "text": "alternating",
+   "start": 9.52,
+   "end": 9.92,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage",
+   "start": 10,
+   "end": 10.48,
+   "paragraph": 1
+  },
+  {
+   "text": "produces",
+   "start": 10.56,
+   "end": 11.12,
+   "paragraph": 1
+  },
+  {
+   "text": "an",
+   "start": 11.2,
+   "end": 11.36,
+   "paragraph": 1
+  },
+  {
+   "text": "alternating",
+   "start": 11.44,
+   "end": 11.92,
+   "paragraph": 1
+  },
+  {
+   "text": "current.",
+   "start": 12.08,
+   "end": 12.8,
+   "paragraph": 1
+  },
+  {
+   "text": "Same",
+   "start": 13.12,
+   "end": 13.28,
+   "paragraph": 1
+  },
+  {
+   "text": "frequency,",
+   "start": 13.36,
+   "end": 14.24,
+   "paragraph": 1
+  },
+  {
+   "text": "same",
+   "start": 14.4,
+   "end": 14.56,
+   "paragraph": 1
+  },
+  {
+   "text": "smooth",
+   "start": 14.64,
+   "end": 14.96,
+   "paragraph": 1
+  },
+  {
+   "text": "shape.",
+   "start": 15.04,
+   "end": 15.6,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 15.84,
+   "end": 15.92,
+   "paragraph": 1
+  },
+  {
+   "text": "far,",
+   "start": 16.08,
+   "end": 16.48,
+   "paragraph": 1
+  },
+  {
+   "text": "nothing",
+   "start": 16.64,
+   "end": 16.8,
+   "paragraph": 1
+  },
+  {
+   "text": "surprising.",
+   "start": 16.88,
+   "end": 17.44,
+   "paragraph": 1
+  },
+  {
+   "text": "But",
+   "start": 18,
+   "end": 18.16,
+   "paragraph": 2
+  },
+  {
+   "text": "look",
+   "start": 18.24,
+   "end": 18.4,
+   "paragraph": 2
+  },
+  {
+   "text": "at",
+   "start": 18.44,
+   "end": 18.48,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 18.56,
+   "end": 18.64,
+   "paragraph": 2
+  },
+  {
+   "text": "timing.",
+   "start": 18.72,
+   "end": 19.28,
+   "paragraph": 2
+  },
+  {
+   "text": "In",
+   "start": 19.76,
+   "end": 19.84,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 19.88,
+   "end": 19.92,
+   "paragraph": 2
+  },
+  {
+   "text": "resistor,",
+   "start": 20.04,
+   "end": 20.8,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 20.84,
+   "end": 20.88,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 20.96,
+   "end": 21.28,
+   "paragraph": 2
+  },
+  {
+   "text": "rises",
+   "start": 21.36,
+   "end": 21.84,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 21.92,
+   "end": 22,
+   "paragraph": 2
+  },
+  {
+   "text": "falls",
+   "start": 22.16,
+   "end": 22.56,
+   "paragraph": 2
+  },
+  {
+   "text": "exactly",
+   "start": 22.64,
+   "end": 23.28,
+   "paragraph": 2
+  },
+  {
+   "text": "with",
+   "start": 23.36,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 23.52,
+   "end": 23.56,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage.",
+   "start": 23.6,
+   "end": 24.16,
+   "paragraph": 2
+  },
+  {
+   "text": "In",
+   "start": 24.64,
+   "end": 24.72,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 24.8,
+   "end": 24.88,
+   "paragraph": 2
+  },
+  {
+   "text": "coil,",
+   "start": 24.96,
+   "end": 25.6,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 25.68,
+   "end": 25.76,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 25.84,
+   "end": 26.08,
+   "paragraph": 2
+  },
+  {
+   "text": "runs",
+   "start": 26.16,
+   "end": 26.48,
+   "paragraph": 2
+  },
+  {
+   "text": "late.",
+   "start": 26.64,
+   "end": 27.04,
+   "paragraph": 2
+  },
+  {
+   "text": "In",
+   "start": 27.52,
+   "end": 27.56,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 27.6,
+   "end": 27.64,
+   "paragraph": 2
+  },
+  {
+   "text": "capacitor,",
+   "start": 27.68,
+   "end": 28.56,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 28.64,
+   "end": 28.72,
+   "paragraph": 2
+  },
+  {
+   "text": "runs",
+   "start": 28.88,
+   "end": 29.04,
+   "paragraph": 2
+  },
+  {
+   "text": "early.",
+   "start": 29.12,
+   "end": 29.92,
+   "paragraph": 2
+  },
+  {
+   "text": "Last",
+   "start": 30.32,
+   "end": 30.56,
+   "paragraph": 3
+  },
+  {
+   "text": "time,",
+   "start": 30.64,
+   "end": 31.04,
+   "paragraph": 3
+  },
+  {
+   "text": "we",
+   "start": 31.12,
+   "end": 31.2,
+   "paragraph": 3
+  },
+  {
+   "text": "called",
+   "start": 31.36,
+   "end": 31.52,
+   "paragraph": 3
+  },
+  {
+   "text": "that",
+   "start": 31.6,
+   "end": 31.68,
+   "paragraph": 3
+  },
+  {
+   "text": "gap",
+   "start": 31.84,
+   "end": 32.08,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 32.12,
+   "end": 32.16,
+   "paragraph": 3
+  },
+  {
+   "text": "timing",
+   "start": 32.24,
+   "end": 32.72,
+   "paragraph": 3
+  },
+  {
+   "text": "phase.",
+   "start": 32.96,
+   "end": 33.52,
+   "paragraph": 3
+  },
+  {
+   "text": "In",
+   "start": 34,
+   "end": 34.08,
+   "paragraph": 3
+  },
+  {
+   "text": "this",
+   "start": 34.16,
+   "end": 34.32,
+   "paragraph": 3
+  },
+  {
+   "text": "video",
+   "start": 34.4,
+   "end": 34.72,
+   "paragraph": 3
+  },
+  {
+   "text": "we",
+   "start": 34.96,
+   "end": 35.12,
+   "paragraph": 3
+  },
+  {
+   "text": "find",
+   "start": 35.24,
+   "end": 35.36,
+   "paragraph": 3
+  },
+  {
+   "text": "out",
+   "start": 35.44,
+   "end": 35.6,
+   "paragraph": 3
+  },
+  {
+   "text": "where",
+   "start": 35.76,
+   "end": 35.92,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 36,
+   "end": 36.08,
+   "paragraph": 3
+  },
+  {
+   "text": "comes",
+   "start": 36.16,
+   "end": 36.32,
+   "paragraph": 3
+  },
+  {
+   "text": "from.",
+   "start": 36.4,
+   "end": 36.72,
+   "paragraph": 3
+  },
+  {
+   "text": "The",
+   "start": 37.28,
+   "end": 37.36,
+   "paragraph": 3
+  },
+  {
+   "text": "answer",
+   "start": 37.44,
+   "end": 37.76,
+   "paragraph": 3
+  },
+  {
+   "text": "explains",
+   "start": 37.84,
+   "end": 38.4,
+   "paragraph": 3
+  },
+  {
+   "text": "why",
+   "start": 38.64,
+   "end": 38.88,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 38.96,
+   "end": 39.04,
+   "paragraph": 3
+  },
+  {
+   "text": "coil",
+   "start": 39.12,
+   "end": 39.36,
+   "paragraph": 3
+  },
+  {
+   "text": "can",
+   "start": 39.44,
+   "end": 39.6,
+   "paragraph": 3
+  },
+  {
+   "text": "limit",
+   "start": 39.68,
+   "end": 39.92,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 40,
+   "end": 40.04,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 40.08,
+   "end": 40.4,
+   "paragraph": 3
+  },
+  {
+   "text": "without",
+   "start": 40.48,
+   "end": 40.88,
+   "paragraph": 3
+  },
+  {
+   "text": "getting",
+   "start": 40.96,
+   "end": 41.2,
+   "paragraph": 3
+  },
+  {
+   "text": "warm,",
+   "start": 41.28,
+   "end": 42,
+   "paragraph": 3
+  },
+  {
+   "text": "why",
+   "start": 42.08,
+   "end": 42.24,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 42.32,
+   "end": 42.4,
+   "paragraph": 3
+  },
+  {
+   "text": "capacitor",
+   "start": 42.48,
+   "end": 43.04,
+   "paragraph": 3
+  },
+  {
+   "text": "passes",
+   "start": 43.2,
+   "end": 43.52,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 43.56,
+   "end": 43.6,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 43.68,
+   "end": 44,
+   "paragraph": 3
+  },
+  {
+   "text": "although",
+   "start": 44.16,
+   "end": 44.48,
+   "paragraph": 3
+  },
+  {
+   "text": "nothing",
+   "start": 44.56,
+   "end": 44.88,
+   "paragraph": 3
+  },
+  {
+   "text": "crosses",
+   "start": 44.96,
+   "end": 45.28,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 45.36,
+   "end": 45.52,
+   "paragraph": 3
+  },
+  {
+   "text": "gap,",
+   "start": 45.6,
+   "end": 46.32,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 46.4,
+   "end": 46.48,
+   "paragraph": 3
+  },
+  {
+   "text": "why",
+   "start": 46.64,
+   "end": 46.88,
+   "paragraph": 3
+  },
+  {
+   "text": "engineers",
+   "start": 46.96,
+   "end": 47.44,
+   "paragraph": 3
+  },
+  {
+   "text": "talk",
+   "start": 47.52,
+   "end": 47.68,
+   "paragraph": 3
+  },
+  {
+   "text": "about",
+   "start": 47.76,
+   "end": 48.08,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 48.16,
+   "end": 48.24,
+   "paragraph": 3
+  },
+  {
+   "text": "second",
+   "start": 48.32,
+   "end": 48.64,
+   "paragraph": 3
+  },
+  {
+   "text": "kind",
+   "start": 48.72,
+   "end": 48.88,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 48.96,
+   "end": 49.04,
+   "paragraph": 3
+  },
+  {
+   "text": "opposition",
+   "start": 49.12,
+   "end": 49.6,
+   "paragraph": 3
+  },
+  {
+   "text": "that",
+   "start": 49.84,
+   "end": 49.92,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 50,
+   "end": 50.16,
+   "paragraph": 3
+  },
+  {
+   "text": "not",
+   "start": 50.24,
+   "end": 50.48,
+   "paragraph": 3
+  },
+  {
+   "text": "resistance",
+   "start": 50.56,
+   "end": 51.04,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 51.12,
+   "end": 51.28,
+   "paragraph": 3
+  },
+  {
+   "text": "all.",
+   "start": 51.44,
+   "end": 51.84,
+   "paragraph": 3
+  }
+ ]
+}

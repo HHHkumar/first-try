@@ -1,0 +1,1058 @@
+{
+ "chapter": 9,
+ "title": "Recap",
+ "characters": 994,
+ "duration": 68.754286,
+ "words": [
+  {
+   "text": "So",
+   "start": 0,
+   "end": 0.16,
+   "paragraph": 0
+  },
+  {
+   "text": "let's",
+   "start": 0.4,
+   "end": 0.56,
+   "paragraph": 0
+  },
+  {
+   "text": "put",
+   "start": 0.64,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 0.76,
+   "end": 0.8,
+   "paragraph": 0
+  },
+  {
+   "text": "together.",
+   "start": 0.88,
+   "end": 1.56,
+   "paragraph": 0
+  },
+  {
+   "text": "In",
+   "start": 1.84,
+   "end": 2,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 2.04,
+   "end": 2.08,
+   "paragraph": 1
+  },
+  {
+   "text": "resistor,",
+   "start": 2.2,
+   "end": 2.96,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 3,
+   "end": 3.04,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 3.2,
+   "end": 3.44,
+   "paragraph": 1
+  },
+  {
+   "text": "keeps",
+   "start": 3.6,
+   "end": 3.84,
+   "paragraph": 1
+  },
+  {
+   "text": "step",
+   "start": 3.92,
+   "end": 4.24,
+   "paragraph": 1
+  },
+  {
+   "text": "with",
+   "start": 4.32,
+   "end": 4.4,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 4.44,
+   "end": 4.48,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage,",
+   "start": 4.56,
+   "end": 5.28,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 5.4,
+   "end": 5.52,
+   "paragraph": 1
+  },
+  {
+   "text": "all",
+   "start": 5.68,
+   "end": 5.92,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 6,
+   "end": 6.08,
+   "paragraph": 1
+  },
+  {
+   "text": "energy",
+   "start": 6.16,
+   "end": 6.56,
+   "paragraph": 1
+  },
+  {
+   "text": "becomes",
+   "start": 6.64,
+   "end": 7.04,
+   "paragraph": 1
+  },
+  {
+   "text": "heat.",
+   "start": 7.12,
+   "end": 7.72,
+   "paragraph": 1
+  },
+  {
+   "text": "In",
+   "start": 8,
+   "end": 8.08,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 8.16,
+   "end": 8.24,
+   "paragraph": 2
+  },
+  {
+   "text": "coil,",
+   "start": 8.32,
+   "end": 9.04,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 9.12,
+   "end": 9.2,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 9.28,
+   "end": 9.68,
+   "paragraph": 2
+  },
+  {
+   "text": "depends",
+   "start": 9.76,
+   "end": 10.16,
+   "paragraph": 2
+  },
+  {
+   "text": "on",
+   "start": 10.24,
+   "end": 10.32,
+   "paragraph": 2
+  },
+  {
+   "text": "how",
+   "start": 10.48,
+   "end": 10.64,
+   "paragraph": 2
+  },
+  {
+   "text": "fast",
+   "start": 10.88,
+   "end": 11.2,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 11.28,
+   "end": 11.36,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 11.44,
+   "end": 11.68,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 11.76,
+   "end": 11.84,
+   "paragraph": 2
+  },
+  {
+   "text": "changing.",
+   "start": 11.92,
+   "end": 12.64,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 12.88,
+   "end": 13.12,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 13.28,
+   "end": 13.36,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 13.44,
+   "end": 13.76,
+   "paragraph": 2
+  },
+  {
+   "text": "lags",
+   "start": 14,
+   "end": 14.32,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 14.36,
+   "end": 14.4,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 14.48,
+   "end": 14.96,
+   "paragraph": 2
+  },
+  {
+   "text": "by",
+   "start": 15.04,
+   "end": 15.2,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 15.28,
+   "end": 15.36,
+   "paragraph": 2
+  },
+  {
+   "text": "quarter",
+   "start": 15.52,
+   "end": 15.68,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 15.76,
+   "end": 15.84,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 15.867,
+   "end": 15.893,
+   "paragraph": 2
+  },
+  {
+   "text": "cycle.",
+   "start": 15.92,
+   "end": 16.4,
+   "paragraph": 2
+  },
+  {
+   "text": "In",
+   "start": 16.88,
+   "end": 16.96,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 17.04,
+   "end": 17.08,
+   "paragraph": 3
+  },
+  {
+   "text": "capacitor,",
+   "start": 17.12,
+   "end": 18.08,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 18.12,
+   "end": 18.16,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 18.32,
+   "end": 18.56,
+   "paragraph": 3
+  },
+  {
+   "text": "depends",
+   "start": 18.64,
+   "end": 19.04,
+   "paragraph": 3
+  },
+  {
+   "text": "on",
+   "start": 19.12,
+   "end": 19.2,
+   "paragraph": 3
+  },
+  {
+   "text": "how",
+   "start": 19.36,
+   "end": 19.52,
+   "paragraph": 3
+  },
+  {
+   "text": "fast",
+   "start": 19.68,
+   "end": 20.08,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 20.16,
+   "end": 20.24,
+   "paragraph": 3
+  },
+  {
+   "text": "voltage",
+   "start": 20.28,
+   "end": 20.56,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 20.64,
+   "end": 20.72,
+   "paragraph": 3
+  },
+  {
+   "text": "changing.",
+   "start": 20.8,
+   "end": 21.28,
+   "paragraph": 3
+  },
+  {
+   "text": "So",
+   "start": 21.68,
+   "end": 21.92,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 22.08,
+   "end": 22.16,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 22.24,
+   "end": 22.56,
+   "paragraph": 3
+  },
+  {
+   "text": "leads",
+   "start": 22.72,
+   "end": 23.12,
+   "paragraph": 3
+  },
+  {
+   "text": "by",
+   "start": 23.2,
+   "end": 23.28,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 23.36,
+   "end": 23.44,
+   "paragraph": 3
+  },
+  {
+   "text": "quarter",
+   "start": 23.56,
+   "end": 23.68,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 23.76,
+   "end": 23.84,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 23.88,
+   "end": 23.92,
+   "paragraph": 3
+  },
+  {
+   "text": "cycle.",
+   "start": 24,
+   "end": 24.68,
+   "paragraph": 3
+  },
+  {
+   "text": "Both",
+   "start": 24.96,
+   "end": 25.28,
+   "paragraph": 4
+  },
+  {
+   "text": "oppose",
+   "start": 25.36,
+   "end": 25.76,
+   "paragraph": 4
+  },
+  {
+   "text": "alternating",
+   "start": 25.84,
+   "end": 26.4,
+   "paragraph": 4
+  },
+  {
+   "text": "current",
+   "start": 26.48,
+   "end": 26.8,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 26.88,
+   "end": 27.04,
+   "paragraph": 4
+  },
+  {
+   "text": "reactance,",
+   "start": 27.12,
+   "end": 28,
+   "paragraph": 4
+  },
+  {
+   "text": "measured",
+   "start": 28.08,
+   "end": 28.4,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 28.48,
+   "end": 28.56,
+   "paragraph": 4
+  },
+  {
+   "text": "ohms.",
+   "start": 28.64,
+   "end": 29.36,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 29.6,
+   "end": 29.68,
+   "paragraph": 4
+  },
+  {
+   "text": "coil's",
+   "start": 29.76,
+   "end": 30.08,
+   "paragraph": 4
+  },
+  {
+   "text": "reactance",
+   "start": 30.16,
+   "end": 30.72,
+   "paragraph": 4
+  },
+  {
+   "text": "rises",
+   "start": 30.88,
+   "end": 31.28,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 31.36,
+   "end": 31.44,
+   "paragraph": 4
+  },
+  {
+   "text": "frequency.",
+   "start": 31.52,
+   "end": 32.36,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 32.56,
+   "end": 32.6,
+   "paragraph": 4
+  },
+  {
+   "text": "capacitor's",
+   "start": 32.64,
+   "end": 33.44,
+   "paragraph": 4
+  },
+  {
+   "text": "falls.",
+   "start": 33.6,
+   "end": 34.32,
+   "paragraph": 4
+  },
+  {
+   "text": "And",
+   "start": 34.56,
+   "end": 34.64,
+   "paragraph": 5
+  },
+  {
+   "text": "reactance",
+   "start": 34.72,
+   "end": 35.36,
+   "paragraph": 5
+  },
+  {
+   "text": "consumes",
+   "start": 35.44,
+   "end": 35.92,
+   "paragraph": 5
+  },
+  {
+   "text": "no",
+   "start": 36.08,
+   "end": 36.24,
+   "paragraph": 5
+  },
+  {
+   "text": "energy.",
+   "start": 36.32,
+   "end": 36.8,
+   "paragraph": 5
+  },
+  {
+   "text": "It",
+   "start": 37.12,
+   "end": 37.2,
+   "paragraph": 5
+  },
+  {
+   "text": "borrows",
+   "start": 37.36,
+   "end": 37.68,
+   "paragraph": 5
+  },
+  {
+   "text": "it,",
+   "start": 37.76,
+   "end": 38.08,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 38.12,
+   "end": 38.16,
+   "paragraph": 5
+  },
+  {
+   "text": "gives",
+   "start": 38.24,
+   "end": 38.4,
+   "paragraph": 5
+  },
+  {
+   "text": "it",
+   "start": 38.48,
+   "end": 38.56,
+   "paragraph": 5
+  },
+  {
+   "text": "back.",
+   "start": 38.64,
+   "end": 39.24,
+   "paragraph": 5
+  },
+  {
+   "text": "But",
+   "start": 39.52,
+   "end": 39.68,
+   "paragraph": 6
+  },
+  {
+   "text": "real",
+   "start": 39.76,
+   "end": 40,
+   "paragraph": 6
+  },
+  {
+   "text": "circuits",
+   "start": 40.08,
+   "end": 40.56,
+   "paragraph": 6
+  },
+  {
+   "text": "are",
+   "start": 40.64,
+   "end": 40.72,
+   "paragraph": 6
+  },
+  {
+   "text": "never",
+   "start": 40.8,
+   "end": 41.04,
+   "paragraph": 6
+  },
+  {
+   "text": "just",
+   "start": 41.12,
+   "end": 41.28,
+   "paragraph": 6
+  },
+  {
+   "text": "one",
+   "start": 41.36,
+   "end": 41.44,
+   "paragraph": 6
+  },
+  {
+   "text": "of",
+   "start": 41.52,
+   "end": 41.6,
+   "paragraph": 6
+  },
+  {
+   "text": "these.",
+   "start": 41.68,
+   "end": 42.2,
+   "paragraph": 6
+  },
+  {
+   "text": "They",
+   "start": 42.4,
+   "end": 42.48,
+   "paragraph": 6
+  },
+  {
+   "text": "have",
+   "start": 42.56,
+   "end": 42.72,
+   "paragraph": 6
+  },
+  {
+   "text": "resistance,",
+   "start": 42.84,
+   "end": 43.6,
+   "paragraph": 6
+  },
+  {
+   "text": "inductance",
+   "start": 43.72,
+   "end": 44.32,
+   "paragraph": 6
+  },
+  {
+   "text": "and",
+   "start": 44.48,
+   "end": 44.64,
+   "paragraph": 6
+  },
+  {
+   "text": "capacitance",
+   "start": 44.72,
+   "end": 45.44,
+   "paragraph": 6
+  },
+  {
+   "text": "all",
+   "start": 45.6,
+   "end": 45.76,
+   "paragraph": 6
+  },
+  {
+   "text": "at",
+   "start": 45.84,
+   "end": 45.92,
+   "paragraph": 6
+  },
+  {
+   "text": "once,",
+   "start": 46,
+   "end": 46.72,
+   "paragraph": 6
+  },
+  {
+   "text": "and",
+   "start": 46.8,
+   "end": 46.88,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 46.92,
+   "end": 46.96,
+   "paragraph": 6
+  },
+  {
+   "text": "current",
+   "start": 47.04,
+   "end": 47.36,
+   "paragraph": 6
+  },
+  {
+   "text": "is",
+   "start": 47.44,
+   "end": 47.6,
+   "paragraph": 6
+  },
+  {
+   "text": "neither",
+   "start": 47.68,
+   "end": 47.92,
+   "paragraph": 6
+  },
+  {
+   "text": "in",
+   "start": 48.08,
+   "end": 48.24,
+   "paragraph": 6
+  },
+  {
+   "text": "step",
+   "start": 48.32,
+   "end": 48.64,
+   "paragraph": 6
+  },
+  {
+   "text": "nor",
+   "start": 48.96,
+   "end": 49.2,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 49.28,
+   "end": 49.36,
+   "paragraph": 6
+  },
+  {
+   "text": "full",
+   "start": 49.52,
+   "end": 49.68,
+   "paragraph": 6
+  },
+  {
+   "text": "quarter",
+   "start": 49.76,
+   "end": 50,
+   "paragraph": 6
+  },
+  {
+   "text": "cycle",
+   "start": 50.08,
+   "end": 50.4,
+   "paragraph": 6
+  },
+  {
+   "text": "out.",
+   "start": 50.48,
+   "end": 50.88,
+   "paragraph": 6
+  },
+  {
+   "text": "To",
+   "start": 51.36,
+   "end": 51.44,
+   "paragraph": 6
+  },
+  {
+   "text": "deal",
+   "start": 51.52,
+   "end": 51.68,
+   "paragraph": 6
+  },
+  {
+   "text": "with",
+   "start": 51.76,
+   "end": 51.84,
+   "paragraph": 6
+  },
+  {
+   "text": "that,",
+   "start": 51.92,
+   "end": 52.4,
+   "paragraph": 6
+  },
+  {
+   "text": "an",
+   "start": 52.48,
+   "end": 52.56,
+   "paragraph": 6
+  },
+  {
+   "text": "engineer",
+   "start": 52.64,
+   "end": 53.12,
+   "paragraph": 6
+  },
+  {
+   "text": "in",
+   "start": 53.2,
+   "end": 53.36,
+   "paragraph": 6
+  },
+  {
+   "text": "eighteen",
+   "start": 53.48,
+   "end": 53.76,
+   "paragraph": 6
+  },
+  {
+   "text": "ninety-three",
+   "start": 53.8,
+   "end": 54.4,
+   "paragraph": 6
+  },
+  {
+   "text": "found",
+   "start": 54.64,
+   "end": 54.88,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 54.96,
+   "end": 55,
+   "paragraph": 6
+  },
+  {
+   "text": "way",
+   "start": 55.04,
+   "end": 55.2,
+   "paragraph": 6
+  },
+  {
+   "text": "to",
+   "start": 55.28,
+   "end": 55.36,
+   "paragraph": 6
+  },
+  {
+   "text": "replace",
+   "start": 55.64,
+   "end": 55.92,
+   "paragraph": 6
+  },
+  {
+   "text": "every",
+   "start": 56,
+   "end": 56.32,
+   "paragraph": 6
+  },
+  {
+   "text": "wave",
+   "start": 56.4,
+   "end": 56.8,
+   "paragraph": 6
+  },
+  {
+   "text": "with",
+   "start": 56.88,
+   "end": 56.96,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 57.04,
+   "end": 57.12,
+   "paragraph": 6
+  },
+  {
+   "text": "simple",
+   "start": 57.2,
+   "end": 57.6,
+   "paragraph": 6
+  },
+  {
+   "text": "turning",
+   "start": 57.76,
+   "end": 58.08,
+   "paragraph": 6
+  },
+  {
+   "text": "arrow.",
+   "start": 58.24,
+   "end": 58.56,
+   "paragraph": 6
+  },
+  {
+   "text": "Next",
+   "start": 59.2,
+   "end": 59.36,
+   "paragraph": 6
+  },
+  {
+   "text": "time:",
+   "start": 59.44,
+   "end": 60.08,
+   "paragraph": 6
+  },
+  {
+   "text": "phasors,",
+   "start": 60.16,
+   "end": 60.96,
+   "paragraph": 6
+  },
+  {
+   "text": "and",
+   "start": 61.04,
+   "end": 61.12,
+   "paragraph": 6
+  },
+  {
+   "text": "impedance.",
+   "start": 61.2,
+   "end": 62.2,
+   "paragraph": 6
+  },
+  {
+   "text": "If",
+   "start": 62.48,
+   "end": 62.64,
+   "paragraph": 7
+  },
+  {
+   "text": "this",
+   "start": 62.72,
+   "end": 62.8,
+   "paragraph": 7
+  },
+  {
+   "text": "helped",
+   "start": 62.88,
+   "end": 63.12,
+   "paragraph": 7
+  },
+  {
+   "text": "you",
+   "start": 63.2,
+   "end": 63.36,
+   "paragraph": 7
+  },
+  {
+   "text": "see",
+   "start": 63.48,
+   "end": 63.6,
+   "paragraph": 7
+  },
+  {
+   "text": "it,",
+   "start": 63.72,
+   "end": 64,
+   "paragraph": 7
+  },
+  {
+   "text": "and",
+   "start": 64.08,
+   "end": 64.16,
+   "paragraph": 7
+  },
+  {
+   "text": "not",
+   "start": 64.24,
+   "end": 64.32,
+   "paragraph": 7
+  },
+  {
+   "text": "just",
+   "start": 64.4,
+   "end": 64.56,
+   "paragraph": 7
+  },
+  {
+   "text": "calculate",
+   "start": 64.64,
+   "end": 65.2,
+   "paragraph": 7
+  },
+  {
+   "text": "it,",
+   "start": 65.28,
+   "end": 65.76,
+   "paragraph": 7
+  },
+  {
+   "text": "please",
+   "start": 65.92,
+   "end": 66.08,
+   "paragraph": 7
+  },
+  {
+   "text": "like,",
+   "start": 66.16,
+   "end": 66.72,
+   "paragraph": 7
+  },
+  {
+   "text": "share,",
+   "start": 66.88,
+   "end": 67.12,
+   "paragraph": 7
+  },
+  {
+   "text": "and",
+   "start": 67.2,
+   "end": 67.28,
+   "paragraph": 7
+  },
+  {
+   "text": "subscribe",
+   "start": 67.36,
+   "end": 67.84,
+   "paragraph": 7
+  },
+  {
+   "text": "to",
+   "start": 67.88,
+   "end": 67.92,
+   "paragraph": 7
+  },
+  {
+   "text": "this",
+   "start": 68,
+   "end": 68.16,
+   "paragraph": 7
+  },
+  {
+   "text": "channel.",
+   "start": 68.32,
+   "end": 68.8,
+   "paragraph": 7
+  }
+ ]
+}
