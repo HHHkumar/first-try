@@ -20,6 +20,7 @@ const FILMS = {
   fields: { dir: ['fields'], voice: ['fields'], chapters: 9, lead: () => 20, name: 'two-fields-one-light' },
   induction: { dir: ['induction'], voice: ['induction'], chapters: 10, lead: () => 20, name: 'the-field-that-moves-the-world' },
   ac1: { dir: ['ac1'], voice: ['ac1'], chapters: 9, lead: () => 20, name: 'back-and-forth' },
+  ac2: { dir: ['ac2'], voice: ['ac2'], chapters: 9, lead: () => 20, name: 'out-of-step' },
 };
 const film = FILMS[process.argv[2] ?? 'resistance'];
 if (!film) throw new Error(`Unknown film "${process.argv[2]}"`);

@@ -81,6 +81,16 @@ import { A7, A7_FRAMES } from './films/ac1/A7';
 import { A8, A8_FRAMES } from './films/ac1/A8';
 import { A9, A9_FRAMES } from './films/ac1/A9';
 import { AThumb } from './films/ac1/AThumb';
+import { B1, B1_FRAMES } from './films/ac2/B1';
+import { B2, B2_FRAMES } from './films/ac2/B2';
+import { B3, B3_FRAMES } from './films/ac2/B3';
+import { B4, B4_FRAMES } from './films/ac2/B4';
+import { B5, B5_FRAMES } from './films/ac2/B5';
+import { B6, B6_FRAMES } from './films/ac2/B6';
+import { B7, B7_FRAMES } from './films/ac2/B7';
+import { B8, B8_FRAMES } from './films/ac2/B8';
+import { B9, B9_FRAMES } from './films/ac2/B9';
+import { BThumb } from './films/ac2/BThumb';
 import { StyleAC } from './films/ac/StyleAC';
 import { IndThumb } from './films/inductance/IndThumb';
 import { MagThumb } from './films/magnetism/MagThumb';
@@ -147,6 +157,17 @@ const induction = [
   { id: 'I9', component: I9, frames: I9_FRAMES },
   { id: 'I10', component: I10, frames: I10_FRAMES },
 ];
+const ac2 = [
+  { id: 'B1', component: B1, frames: B1_FRAMES },
+  { id: 'B2', component: B2, frames: B2_FRAMES },
+  { id: 'B3', component: B3, frames: B3_FRAMES },
+  { id: 'B4', component: B4, frames: B4_FRAMES },
+  { id: 'B5', component: B5, frames: B5_FRAMES },
+  { id: 'B6', component: B6, frames: B6_FRAMES },
+  { id: 'B7', component: B7, frames: B7_FRAMES },
+  { id: 'B8', component: B8, frames: B8_FRAMES },
+  { id: 'B9', component: B9, frames: B9_FRAMES },
+];
 const ac1 = [
   { id: 'A1', component: A1, frames: A1_FRAMES },
   { id: 'A2', component: A2, frames: A2_FRAMES },
@@ -185,7 +206,7 @@ const chapters = [
 
 export const Root = () => (
   <>
-    {[...chapters, ...charge, ...capacitance, ...magnetism, ...inductance, ...fields, ...induction, ...ac1].map((c) => (
+    {[...chapters, ...charge, ...capacitance, ...magnetism, ...inductance, ...fields, ...induction, ...ac1, ...ac2].map((c) => (
       <Composition key={c.id} id={c.id} component={c.component} durationInFrames={c.frames} fps={FPS} width={W} height={H} />
     ))}
     {/* style options for the rest of the series */}
@@ -196,6 +217,7 @@ export const Root = () => (
     <Composition id="AcStyleA" component={StyleAC} defaultProps={{ look: 'A' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="AcStyleB" component={StyleAC} defaultProps={{ look: 'B' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="AcStyleC" component={StyleAC} defaultProps={{ look: 'C' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="BThumb" component={BThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="AThumb" component={AThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IThumb" component={IThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IndThumb" component={IndThumb} durationInFrames={1} fps={FPS} width={W} height={H} />

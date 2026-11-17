@@ -21,6 +21,7 @@ const FILMS = {
   fields: { script: 'fields-together.md', out: ['fields'] },
   induction: { script: 'induction.md', out: ['induction'] },
   ac1: { script: 'ac-1-shape-of-ac.md', out: ['ac1'] },
+  ac2: { script: 'ac-2-out-of-step.md', out: ['ac2'] },
 };
 const film = FILMS[process.argv[2]];
 if (!film) throw new Error(`Unknown film "${process.argv[2]}". Known: ${Object.keys(FILMS).join(', ')}`);
