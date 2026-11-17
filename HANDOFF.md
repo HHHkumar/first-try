@@ -20,7 +20,7 @@ Animated explainer videos for absolute beginners in electrical engineering. The 
 | # | Title | Film key | Comp prefix | State |
 |---|---|---|---|---|
 | 1 | Back and Forth: The Shape of Alternating Current | `ac1` | `A` | Delivered (11:34) |
-| 2 | Out of Step: Resistors, Coils and Capacitors on AC | `ac2` | `B` | Script approved, narration generated, all nine chapters built and checked on still frames, thumbnail done. **Needs full render, assembly and delivery.** A cloud render was in progress at handoff and may already have been delivered; ask the owner before re-rendering. |
+| 2 | Out of Step: Resistors, Coils and Capacitors on AC | `ac2` | `B` | Script approved, narration generated, all nine chapters built and checked on still frames, thumbnail done. Rendered in the cloud and delivered to the owner. Subtitles and thumbnail are in `video/release/ac2/`; the video file itself is not in the repository. |
 | 3 | The Turning Arrow: Phasors and Impedance | `ac3` (not yet registered) | suggest `P` | Script drafted at `script/ac-3-turning-arrow.md`, about 11½ min. **Not yet approved by the owner.** |
 | 4 | Resonance | – | – | Not started |
 | 5 | Power in AC, power factor | – | – | Not started |
@@ -102,7 +102,7 @@ cp out/final/<film>/<name>.srt release/<film>/
 npx remotion still out/bundle <Thumb> release/<film>/thumbnail.png --scale=0.66667
 ```
 
-To finish video 2 right now: `scripts/render-film.sh B ac2 1 2 3 4 5 6 7 8 9`, then `node scripts/assemble.mjs ac2` (output name `out-of-step`), then the share copy and the srt copy.
+To re-render video 2 locally if ever needed: `scripts/render-film.sh B ac2 1 2 3 4 5 6 7 8 9`, then `node scripts/assemble.mjs ac2` (output name `out-of-step`), then the share copy and the srt copy.
 
 ## 8. Conventions inside a chapter file
 
@@ -126,6 +126,5 @@ To finish video 2 right now: `scripts/render-film.sh B ac2 1 2 3 4 5 6 7 8 9`, t
 
 ## 10. Next actions
 
-1. Ask the owner whether the cloud render of "Out of Step" was delivered. If not, render, assemble and deliver it (section 7), with chapter times and an honest note on what was checked.
-2. Get the owner's decision on `script/ac-3-turning-arrow.md`. On approval: register `ac3`, generate voice, build in the Aurora look with a new chapter prefix, check, render, deliver.
-3. Then draft video 4 (resonance) and continue through video 6, one script approval at a time.
+1. Get the owner's decision on `script/ac-3-turning-arrow.md`. On approval: register `ac3`, generate voice, build in the Aurora look with a new chapter prefix, check, render, deliver.
+2. Then draft video 4 (resonance) and continue through video 6, one script approval at a time.
