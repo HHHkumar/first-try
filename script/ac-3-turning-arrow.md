@@ -1,6 +1,6 @@
 # The Turning Arrow: Phasors and Impedance
 
-Narration script, draft 1. English, about 13 minutes. Series 2 (Alternating Current), video 3 of 6.
+Narration script, draft 1. English, about 11½ minutes. Series 2 (Alternating Current), video 3 of 6.
 
 Lines in plain text are spoken. Lines marked **On screen** describe the picture and are not spoken. **Hero scene** marks a showpiece shot. A timeline strip runs along the bottom of the frame, as in the earlier videos. The look is "Aurora": voltage in pink, current in cyan throughout.
 
