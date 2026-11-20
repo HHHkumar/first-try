@@ -1,0 +1,1132 @@
+<title>Electrical MCQs Lab</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Nine hands-on experiments that go with the Electrical MCQs explainer videos: resistance, charge, capacitance, magnetism, inductance, light, induction and alternating current.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a rail of nine experiments beside a wide stage (scene, controls, read-outs, quiz); the rail becomes a scrolling strip on phones.
+   One committed look, the "Aurora" stage of the videos: deep indigo, pink for voltage, cyan for current. */
+:root {
+  --bg: #0b0722;
+  --bg-2: #120b30;
+  --panel: #161038;
+  --line: #2c2460;
+  --fg: #f1eeff;
+  --dim: #a9a2d2;
+  --faint: #6f68a0;
+  --pink: #ff4fa3;
+  --cyan: #35c9ff;
+  --sun: #ffd646;
+  --mint: #7dffb0;
+  --violet: #b78bff;
+  --copper: #ffb27a;
+  --good: #7dffb0;
+  --bad: #ff6b7d;
+  --display: 'Sora', 'Segoe UI', system-ui, sans-serif;
+  --body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  --radius: 14px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background:
+    radial-gradient(ellipse 55% 40% at 8% 0%, rgba(0, 220, 200, 0.13), transparent 70%),
+    radial-gradient(ellipse 50% 45% at 100% 8%, rgba(214, 60, 255, 0.13), transparent 70%),
+    var(--bg);
+  color: var(--fg);
+  font: 400 15px/1.55 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 40px;
+}
+a { color: var(--cyan); }
+:focus-visible { outline: 2px solid var(--sun); outline-offset: 2px; }
+
+.top {
+  max-width: 1320px; margin: 0 auto;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  padding-block: 18px 14px;
+}
+.brand { font: 600 18px/1.2 var(--display); letter-spacing: -0.3px; color: var(--fg); text-decoration: none; }
+.brand span { color: var(--pink); }
+.brand b { font-weight: 300; color: var(--dim); }
+.top .spacer { flex: 1; }
+.score { font: 500 13px/1 var(--mono); color: var(--dim); padding: 8px 12px; border: 1px solid var(--line); border-radius: 999px; }
+.score strong { color: var(--sun); font-weight: 500; }
+.sub { font: 500 13px/1 var(--body); color: var(--bg); background: var(--cyan); padding: 9px 14px; border-radius: 999px; text-decoration: none; }
+.sub:hover { background: var(--fg); }
+
+.wrap { max-width: 1320px; margin: 0 auto; display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 28px; align-items: start; }
+
+nav.rail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); display: flex; flex-direction: column; gap: 18px; }
+.series h2 { font: 600 11px/1.3 var(--display); letter-spacing: 2.4px; text-transform: uppercase; color: var(--faint); margin: 0 0 6px 10px; }
+.series ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+.series button {
+  width: 100%; display: grid; grid-template-columns: 26px 1fr; gap: 4px 10px; align-items: baseline;
+  text-align: left; background: transparent; border: 1px solid transparent; border-radius: 10px;
+  color: var(--fg); padding: 8px 10px; cursor: pointer; font: inherit;
+}
+.series button:hover { background: var(--bg-2); }
+.series button[aria-current="true"] { background: var(--panel); border-color: var(--line); }
+.series .num { font: 500 12px/1 var(--mono); color: var(--faint); grid-row: span 2; padding-top: 3px; }
+.series button[aria-current="true"] .num { color: var(--sun); }
+.series .t { font: 400 14px/1.3 var(--display); }
+.series .k { font-size: 12px; color: var(--dim); }
+.series .done { color: var(--good); font-size: 11px; margin-left: 6px; }
+
+main.stage { min-width: 0; display: flex; flex-direction: column; gap: 18px; }
+.head { display: flex; flex-direction: column; gap: 6px; }
+.eyebrow { font: 600 11px/1.3 var(--display); letter-spacing: 2.4px; text-transform: uppercase; color: var(--cyan); }
+h1 { font: 600 clamp(26px, 3.4vw, 40px)/1.1 var(--display); letter-spacing: -1px; margin: 0; text-wrap: balance; }
+.blurb { color: var(--dim); max-width: 68ch; margin: 0; }
+
+.scene { position: relative; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line);
+  background: radial-gradient(ellipse 80% 70% at 50% 40%, #150d3a, #08051a); }
+.scene canvas { display: block; width: 100%; aspect-ratio: 16 / 9; touch-action: none; }
+.scene .hint { position: absolute; left: 14px; bottom: 10px; font: 400 12px/1.3 var(--body); color: var(--faint); pointer-events: none; }
+.scene .pause { position: absolute; right: 10px; top: 10px; background: rgba(11, 7, 34, 0.7); color: var(--dim); border: 1px solid var(--line); border-radius: 999px; font: 500 12px/1 var(--body); padding: 7px 12px; cursor: pointer; }
+.scene .pause:hover { color: var(--fg); }
+
+.panel { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 18px; }
+.box { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; min-width: 0; }
+.box h3 { font: 600 11px/1.3 var(--display); letter-spacing: 2.4px; text-transform: uppercase; color: var(--faint); margin: 0 0 12px; }
+
+.controls { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px 20px; }
+.ctl { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.ctl .row { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; color: var(--dim); }
+.ctl output { font: 500 13px/1.2 var(--mono); color: var(--fg); white-space: nowrap; }
+input[type="range"] { width: 100%; accent-color: var(--cyan); height: 22px; }
+select { width: 100%; background: var(--bg-2); color: var(--fg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font: inherit; font-size: 14px; }
+.check { flex-direction: row; align-items: center; gap: 10px; font-size: 14px; color: var(--fg); cursor: pointer; }
+.check input { width: 18px; height: 18px; accent-color: var(--cyan); }
+.btn { background: var(--sun); color: #1a1230; border: 0; border-radius: 10px; padding: 11px 16px; font: 600 14px/1 var(--display); cursor: pointer; align-self: start; }
+.btn:hover { background: var(--fg); }
+
+.meters { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px 18px; }
+.meter { min-width: 0; }
+.meter .l { font-size: 12px; color: var(--dim); }
+.meter .v { font: 400 22px/1.25 var(--mono); color: var(--fg); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.meter .v small { font-size: 13px; color: var(--dim); margin-left: 4px; }
+
+.quiz { display: flex; flex-direction: column; gap: 16px; }
+.q { border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.q legend { font: 400 15px/1.4 var(--display); padding: 0; margin-bottom: 4px; }
+.q .opts { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 8px; }
+.q .opt { text-align: left; background: var(--bg-2); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+.q .opt:hover:not(:disabled) { border-color: var(--cyan); }
+.q .opt:disabled { cursor: default; }
+.q .opt.right { border-color: var(--good); background: rgba(125, 255, 176, 0.1); }
+.q .opt.wrong { border-color: var(--bad); background: rgba(255, 107, 125, 0.1); }
+.q .why { font-size: 13px; color: var(--dim); margin: 0; }
+.q .why b { color: var(--good); font-weight: 500; }
+.q .why b.no { color: var(--bad); }
+.foot { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; justify-content: space-between; color: var(--dim); font-size: 13px; }
+.foot .watch { font: 600 14px/1 var(--display); color: var(--fg); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; }
+.foot .watch:hover { border-color: var(--pink); }
+.foot .nextprev { display: flex; gap: 8px; }
+.foot .nextprev button { background: transparent; border: 1px solid var(--line); color: var(--dim); border-radius: 999px; padding: 9px 14px; font: inherit; font-size: 13px; cursor: pointer; }
+.foot .nextprev button:hover:not(:disabled) { color: var(--fg); }
+.foot .nextprev button:disabled { opacity: 0.35; cursor: default; }
+
+@media (max-width: 980px) {
+  .wrap { grid-template-columns: minmax(0, 1fr); }
+  nav.rail { position: static; flex-direction: row; overflow-x: auto; gap: 14px; padding-bottom: 6px; scrollbar-width: thin; }
+  .series { flex: none; }
+  .series ol { flex-direction: row; }
+  .series button { width: 200px; }
+  .panel { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 560px) {
+  .scene canvas { aspect-ratio: 4 / 3; }
+  .meter .v { font-size: 19px; }
+}
+</style>
+
+<header class="top">
+  <a class="brand" href="https://electricalmcqs.in/">Electrical <span>MCQs</span> <b>Lab</b></a>
+  <div class="spacer"></div>
+  <div class="score" id="score" aria-live="polite">Quiz <strong>0</strong> / 27</div>
+  <a class="sub" href="https://youtube.com/@electricalmcqs" target="_blank" rel="noopener">Subscribe on YouTube</a>
+</header>
+
+<div class="wrap">
+  <nav class="rail" id="rail" aria-label="Experiments"></nav>
+  <main class="stage">
+    <div class="head">
+      <div class="eyebrow" id="eyebrow"></div>
+      <h1 id="title"></h1>
+      <p class="blurb" id="blurb"></p>
+    </div>
+    <div class="scene">
+      <canvas id="cv" role="img" aria-label=""></canvas>
+      <div class="hint" id="hint"></div>
+      <button class="pause" id="pause" type="button">Pause</button>
+    </div>
+    <div class="panel">
+      <section class="box"><h3>Try it</h3><div class="controls" id="controls"></div></section>
+      <section class="box"><h3>Read-outs</h3><div class="meters" id="meters"></div></section>
+    </div>
+    <section class="box"><h3>Check yourself</h3><div class="quiz" id="quiz"></div></section>
+    <div class="foot">
+      <a class="watch" id="watch" href="https://youtube.com/@electricalmcqs" target="_blank" rel="noopener">Watch the video</a>
+      <div class="nextprev">
+        <button type="button" id="prev">Previous</button>
+        <button type="button" id="next">Next experiment</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+'use strict';
+const TAU = Math.PI * 2;
+const COL = { bg: '#0b0722', fg: '#f1eeff', dim: '#a9a2d2', faint: '#6f68a0', line: '#2c2460', pink: '#ff4fa3', cyan: '#35c9ff', sun: '#ffd646', mint: '#7dffb0', violet: '#b78bff', copper: '#ffb27a', white: '#ffffff' };
+const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+const lerp = (a, b, t) => a + (b - a) * t;
+const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// Engineering notation: returns [number, prefixed unit].
+function eng(v, unit, digits = 3) {
+  if (!isFinite(v)) return ['∞', unit];
+  if (v === 0) return ['0', unit];
+  const P = [[1e12, 'T'], [1e9, 'G'], [1e6, 'M'], [1e3, 'k'], [1, ''], [1e-3, 'm'], [1e-6, 'µ'], [1e-9, 'n'], [1e-12, 'p'], [1e-15, 'f']];
+  const a = Math.abs(v);
+  for (const [sc, p] of P) {
+    if (a >= sc * 0.9995) {
+      const x = v / sc;
+      let s = Math.abs(x) >= Math.pow(10, digits) ? String(Math.round(x)) : x.toPrecision(digits);
+      if (s.includes('.') && !s.includes('e')) s = s.replace(/0+$/, '').replace(/\.$/, '');
+      return [s, p + unit];
+    }
+  }
+  return [v.toExponential(2), unit];
+}
+const engs = (v, unit, d) => eng(v, unit, d).join(' ');
+
+// ---------- drawing helpers ----------
+function glow(ctx, color, blur) { ctx.shadowColor = color; ctx.shadowBlur = blur; }
+function noGlow(ctx) { ctx.shadowBlur = 0; }
+function dot(ctx, x, y, r, color, alpha = 1) {
+  ctx.globalAlpha = alpha; ctx.fillStyle = color; ctx.beginPath(); ctx.arc(x, y, r, 0, TAU); ctx.fill(); ctx.globalAlpha = 1;
+}
+function line(ctx, x1, y1, x2, y2, color, width = 2, alpha = 1, dash = null) {
+  ctx.globalAlpha = alpha; ctx.strokeStyle = color; ctx.lineWidth = width; ctx.setLineDash(dash || []);
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke(); ctx.setLineDash([]); ctx.globalAlpha = 1;
+}
+function arrow(ctx, x1, y1, x2, y2, color, width = 3, head = 10, alpha = 1) {
+  const a = Math.atan2(y2 - y1, x2 - x1);
+  const len = Math.hypot(x2 - x1, y2 - y1);
+  if (len < 2) return;
+  const hh = Math.min(head, len * 0.6);
+  ctx.globalAlpha = alpha; ctx.strokeStyle = color; ctx.fillStyle = color; ctx.lineWidth = width; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2 - Math.cos(a) * hh * 0.7, y2 - Math.sin(a) * hh * 0.7); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x2, y2);
+  ctx.lineTo(x2 - Math.cos(a - 0.45) * hh, y2 - Math.sin(a - 0.45) * hh);
+  ctx.lineTo(x2 - Math.cos(a + 0.45) * hh, y2 - Math.sin(a + 0.45) * hh);
+  ctx.closePath(); ctx.fill(); ctx.globalAlpha = 1;
+}
+function label(ctx, str, x, y, o = {}) {
+  ctx.globalAlpha = o.alpha ?? 1;
+  ctx.fillStyle = o.color || COL.dim;
+  ctx.font = `${o.weight || 400} ${o.size || 13}px ${o.font || "'Inter', system-ui, sans-serif"}`;
+  ctx.textAlign = o.align || 'left'; ctx.textBaseline = o.base || 'middle';
+  ctx.fillText(str, x, y); ctx.globalAlpha = 1;
+}
+function plot(ctx, x0, x1, f, color, width = 3, alpha = 1, blur = 12) {
+  ctx.globalAlpha = alpha; ctx.strokeStyle = color; ctx.lineWidth = width; ctx.lineJoin = 'round';
+  glow(ctx, color, blur);
+  ctx.beginPath();
+  for (let x = x0; x <= x1; x += 2) { const y = f(x); x === x0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }
+  ctx.stroke(); noGlow(ctx); ctx.globalAlpha = 1;
+}
+function roundRect(ctx, x, y, w, h, r) {
+  r = Math.min(r, w / 2, h / 2);
+  ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath();
+}
+function mix(hexA, hexB, t) {
+  const p = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+  const a = p(hexA), b = p(hexB);
+  return `rgb(${a.map((v, i) => Math.round(lerp(v, b[i], t))).join(',')})`;
+}
+function nmToRGB(nm) {
+  let r = 0, g = 0, b = 0;
+  if (nm < 440) { r = (440 - nm) / 60; b = 1; } else if (nm < 490) { g = (nm - 440) / 50; b = 1; }
+  else if (nm < 510) { g = 1; b = (510 - nm) / 20; } else if (nm < 580) { r = (nm - 510) / 70; g = 1; }
+  else if (nm < 645) { r = 1; g = (645 - nm) / 65; } else { r = 1; }
+  const f = nm < 420 ? 0.4 + 0.6 * (nm - 380) / 40 : nm > 700 ? 0.4 + 0.6 * (780 - nm) / 80 : 1;
+  const c = (v) => Math.round(255 * Math.pow(clamp(v * f, 0, 1), 0.8));
+  return `rgb(${c(r)},${c(g)},${c(b)})`;
+}
+function graphAxes(ctx, x0, x1, y, color = COL.line) { line(ctx, x0, y, x1, y, color, 1.5); }
+
+// ---------- 1. resistance ----------
+const MAT = {
+  copper: { name: 'Copper', rho: 1.68e-8, alpha: 0.00393, n: 8.5e28, color: '#ffb27a' },
+  aluminium: { name: 'Aluminium', rho: 2.65e-8, alpha: 0.00429, n: 18.1e28, color: '#cfd8ea' },
+  iron: { name: 'Iron', rho: 9.71e-8, alpha: 0.00651, n: 17.0e28, color: '#9aa3b8' },
+  nichrome: { name: 'Nichrome', rho: 1.10e-6, alpha: 0.0004, n: 9.0e28, color: '#d7a6ff' },
+};
+function wireCalc(s) {
+  const m = MAT[s.mat];
+  const A = Math.PI * Math.pow(s.d * 1e-3 / 2, 2);
+  const rho = m.rho * (1 + m.alpha * (s.T - 20));
+  const R = rho * s.L / A;
+  return { m, A, rho, R, V: s.I * R, P: s.I * s.I * R, drift: s.I / (m.n * A * 1.602e-19) };
+}
+
+// ---------- 6. light ----------
+const BANDS = [
+  [0, 3e9, 'Radio'], [3e9, 3e11, 'Microwaves'], [3e11, 4e14, 'Infrared'], [4e14, 7.9e14, 'Visible light'],
+  [7.9e14, 3e16, 'Ultraviolet'], [3e16, 3e19, 'X-rays'], [3e19, Infinity, 'Gamma rays'],
+];
+const bandOf = (f) => BANDS.find(([a, b]) => f >= a && f < b)[2];
+function sizeOf(lam) {
+  if (lam >= 1e3) return 'longer than a town';
+  if (lam >= 1) return 'the size of a car or a house';
+  if (lam >= 1e-2) return 'the size of your hand';
+  if (lam >= 1e-4) return 'the size of a pinhead';
+  if (lam >= 1e-6) return 'the size of a cell';
+  if (lam >= 1e-8) return 'the size of a virus';
+  if (lam >= 1e-10) return 'the size of a molecule';
+  return 'smaller than an atom';
+}
+
+// ---------- the experiments ----------
+const LABS = [
+  {
+    id: 'wire', n: 1, series: 'basics', video: 'Inside the Wire', topic: 'Resistance',
+    blurb: 'A current flows through a wire. Change the metal, its length, thickness and temperature, and watch the resistance, the heat and the slow drift of the electrons.',
+    hint: 'Electrons (cyan) drift against the conventional current (gold).',
+    state: { mat: 'copper', L: 2, d: 0.5, T: 20, I: 2 },
+    controls: [
+      { type: 'select', key: 'mat', label: 'Metal', options: Object.entries(MAT).map(([k, m]) => [k, m.name]) },
+      { type: 'range', key: 'L', label: 'Length', min: 0.5, max: 20, step: 0.5, unit: 'm' },
+      { type: 'range', key: 'd', label: 'Diameter', min: 0.2, max: 2.5, step: 0.05, unit: 'mm' },
+      { type: 'range', key: 'T', label: 'Temperature', min: -50, max: 300, step: 5, unit: '°C' },
+      { type: 'range', key: 'I', label: 'Current', min: 0, max: 10, step: 0.1, unit: 'A' },
+    ],
+    readouts(s) {
+      const c = wireCalc(s);
+      return [
+        ['Resistance', ...eng(c.R, 'Ω')],
+        ['Voltage across the wire', ...eng(c.V, 'V')],
+        ['Heat produced', ...eng(c.P, 'W')],
+        ['Electron drift speed', (c.drift * 1000).toPrecision(2), 'mm/s'],
+      ];
+    },
+    draw(ctx, w, h, dt, s, t) {
+      const c = wireCalc(s);
+      const x0 = w * 0.06, x1 = w * 0.94, cy = h * 0.47;
+      const th = lerp(20, h * 0.4, (s.d - 0.2) / 2.3);
+      const hot = Math.max(clamp(c.P / s.L / 40, 0, 1), clamp((s.T - 120) / 180, 0, 1));
+      const body = mix(c.m.color, '#ff7a2e', hot * 0.85);
+      glow(ctx, hot > 0.05 ? '#ff7a2e' : c.m.color, 10 + 40 * hot);
+      const g = ctx.createLinearGradient(0, cy - th / 2, 0, cy + th / 2);
+      g.addColorStop(0, 'rgba(255,255,255,0.10)'); g.addColorStop(0.5, 'rgba(255,255,255,0.03)'); g.addColorStop(1, 'rgba(0,0,0,0.25)');
+      roundRect(ctx, x0, cy - th / 2, x1 - x0, th, th / 2); ctx.fillStyle = body; ctx.globalAlpha = 0.22; ctx.fill();
+      ctx.globalAlpha = 1; ctx.fillStyle = g; ctx.fill(); noGlow(ctx);
+      ctx.strokeStyle = body; ctx.lineWidth = 1.5; ctx.globalAlpha = 0.7; ctx.stroke(); ctx.globalAlpha = 1;
+      // the lattice of metal ions, shaking harder as the metal warms
+      const sp = 22, jig = 0.5 + (s.T + 50) / 350 * 4.5;
+      const rows = Math.max(1, Math.floor((th - 8) / sp));
+      for (let j = 0; j < rows; j++) {
+        const y = cy - ((rows - 1) * sp) / 2 + j * sp;
+        for (let x = x0 + th / 2, i = 0; x < x1 - th / 2; x += sp, i++) {
+          const ox = reduceMotion ? 0 : Math.sin(t * 23 + i * 1.7 + j * 2.3) * jig;
+          const oy = reduceMotion ? 0 : Math.cos(t * 19 + i * 2.9 + j * 1.1) * jig;
+          dot(ctx, x + ox, y + oy, 3.4, body, 0.65);
+        }
+      }
+      // electrons: fast random motion plus a slow drift against the current
+      if (!s.el) s.el = Array.from({ length: 170 }, () => ({ u: Math.random(), v: Math.random() - 0.5, ph: Math.random() * 100 }));
+      const vd = clamp(c.drift * 1000 * 60, 0, 300);
+      glow(ctx, COL.cyan, 8);
+      for (const e of s.el) {
+        e.u -= (vd * dt) / (x1 - x0);
+        if (e.u < 0) e.u += 1;
+        const x = x0 + th / 2 + e.u * (x1 - x0 - th) + (reduceMotion ? 0 : Math.sin(t * 31 + e.ph) * 4);
+        const y = cy + e.v * (th - 10) + (reduceMotion ? 0 : Math.cos(t * 27 + e.ph * 1.3) * 3);
+        dot(ctx, x, y, 2.6, COL.cyan, 0.9);
+      }
+      noGlow(ctx);
+      // what flows which way
+      const ya = cy - th / 2 - 34;
+      if (s.I > 0) {
+        arrow(ctx, w * 0.36, ya, w * 0.64, ya, COL.sun, 3, 12);
+        label(ctx, `conventional current, ${s.I} A`, w * 0.5, ya - 18, { align: 'center', color: COL.sun });
+        arrow(ctx, w * 0.6, cy + th / 2 + 30, w * 0.4, cy + th / 2 + 30, COL.cyan, 3, 12);
+        label(ctx, 'electrons drift this way', w * 0.5, cy + th / 2 + 50, { align: 'center', color: COL.cyan });
+      }
+      // a ruler for the length, and the thickness
+      const yr = h * 0.9;
+      line(ctx, x0, yr, x1, yr, COL.faint, 1.5);
+      for (const x of [x0, x1]) line(ctx, x, yr - 7, x, yr + 7, COL.faint, 1.5);
+      label(ctx, `${c.m.name} · ${s.L} m long · ${s.d} mm across · ${s.T} °C`, w / 2, yr - 16, { align: 'center', color: COL.dim });
+    },
+    quiz: [
+      { q: 'You double the length of a copper wire. Its resistance…', o: ['halves', 'doubles', 'stays the same', 'becomes four times larger'], a: 1, why: 'Resistance is proportional to length: twice the length, twice the obstacles in the electrons’ way.' },
+      { q: 'In a wire carrying a few amperes, the electrons drift along at about…', o: ['the speed of light', 'a few metres per second', 'a fraction of a millimetre per second', 'the speed of sound'], a: 2, why: 'The drift is very slow. The lamp lights at once because the push travels along the wire almost at the speed of light.' },
+      { q: 'A metal wire is heated. Its resistance usually…', o: ['rises', 'falls', 'stays exactly the same', 'drops to zero'], a: 0, why: 'Hotter ions shake harder and get in the electrons’ way more often.' },
+    ],
+  },
+  {
+    id: 'charge', n: 2, series: 'basics', video: 'The Invisible Push', topic: 'Charge and electric field',
+    blurb: 'Two charges in empty space. Drag them around, change their size and sign, and see the field they make and the force between them.',
+    hint: 'Drag a charge to move it.',
+    state: { q1: 2, q2: -2, view: 'lines', pts: [[0.32, 0.5], [0.68, 0.5]] },
+    controls: [
+      { type: 'range', key: 'q1', label: 'Left charge', min: -5, max: 5, step: 0.5, unit: 'µC' },
+      { type: 'range', key: 'q2', label: 'Right charge', min: -5, max: 5, step: 0.5, unit: 'µC' },
+      { type: 'select', key: 'view', label: 'Show the field as', options: [['lines', 'Field lines'], ['arrows', 'Arrows on a grid'], ['both', 'Both']] },
+    ],
+    world(s, w, h) { // canvas width is 1 metre
+      const qs = [s.q1, s.q2];
+      return s.pts.map(([u, v], i) => ({ x: u * w, y: v * h, q: qs[i] * 1e-6 }));
+    },
+    readouts(s) {
+      const cv = document.getElementById('cv');
+      const w = cv.clientWidth || 1;
+      const [a, b] = s.pts;
+      const r = Math.hypot((a[0] - b[0]) * w, (a[1] - b[1]) * (cv.clientHeight || 1)) / w; // metres
+      const F = 8.99e9 * Math.abs(s.q1 * s.q2) * 1e-12 / (r * r);
+      const kind = s.q1 * s.q2 === 0 ? 'none' : s.q1 * s.q2 > 0 ? 'push apart' : 'pull together';
+      return [['Distance apart', ...eng(r, 'm')], ['Force on each', ...eng(F, 'N')], ['They', kind, '']];
+    },
+    field(qs, x, y, w) {
+      let ex = 0, ey = 0;
+      for (const c of qs) {
+        const dx = (x - c.x) / w, dy = (y - c.y) / w;
+        const r2 = dx * dx + dy * dy + 1e-6, r = Math.sqrt(r2);
+        const k = 8.99e9 * c.q / (r2 * r);
+        ex += k * dx; ey += k * dy;
+      }
+      return [ex, ey];
+    },
+    draw(ctx, w, h, dt, s) {
+      const qs = this.world(s, w, h);
+      if (s.view !== 'lines') {
+        const st = Math.max(30, w / 30);
+        for (let y = st / 2; y < h; y += st) for (let x = st / 2; x < w; x += st) {
+          if (qs.some((c) => Math.hypot(x - c.x, y - c.y) < 22)) continue;
+          const [ex, ey] = this.field(qs, x, y, w);
+          const m = Math.hypot(ex, ey);
+          if (m < 1) continue;
+          const a = clamp((Math.log10(m) - 3.6) / 2.6, 0.08, 1);
+          const L = st * 0.38;
+          arrow(ctx, x - ex / m * L, y - ey / m * L, x + ex / m * L, y + ey / m * L, COL.violet, 1.6, 6, a);
+        }
+      }
+      if (s.view !== 'arrows') {
+        let src = qs.filter((c) => c.q > 0), dir = 1;
+        if (!src.length) { src = qs.filter((c) => c.q < 0); dir = -1; }
+        ctx.lineWidth = 1.6; ctx.strokeStyle = COL.violet; glow(ctx, COL.violet, 8);
+        for (const c of src) {
+          const n = Math.round(Math.abs(c.q) * 1e6 * 4);
+          for (let k = 0; k < n; k++) {
+            const ang = (k / n) * TAU + 0.2;
+            let x = c.x + Math.cos(ang) * 18, y = c.y + Math.sin(ang) * 18;
+            ctx.globalAlpha = 0.75; ctx.beginPath(); ctx.moveTo(x, y);
+            for (let i = 0; i < 700; i++) {
+              const [ex, ey] = this.field(qs, x, y, w);
+              const m = Math.hypot(ex, ey) || 1;
+              x += dir * ex / m * 4; y += dir * ey / m * 4;
+              ctx.lineTo(x, y);
+              if (x < -20 || y < -20 || x > w + 20 || y > h + 20) break;
+              if (qs.some((o) => o !== c && Math.hypot(x - o.x, y - o.y) < 14)) break;
+            }
+            ctx.stroke();
+          }
+        }
+        noGlow(ctx); ctx.globalAlpha = 1;
+      }
+      // the force on each charge
+      if (qs[0].q && qs[1].q) {
+        for (const [i, j] of [[0, 1], [1, 0]]) {
+          const a = qs[i], b = qs[j];
+          const dx = a.x - b.x, dy = a.y - b.y, r = Math.hypot(dx, dy) || 1;
+          const F = 8.99e9 * Math.abs(a.q * b.q) / Math.pow(r / w, 2);
+          const sgn = a.q * b.q > 0 ? 1 : -1;
+          const L = clamp(22 * (Math.log10(F) + 2.5), 14, 120);
+          arrow(ctx, a.x + sgn * dx / r * 22, a.y + sgn * dy / r * 22, a.x + sgn * dx / r * (22 + L), a.y + sgn * dy / r * (22 + L), COL.sun, 3.5, 12);
+        }
+      }
+      for (const c of qs) {
+        const col = c.q > 0 ? COL.pink : c.q < 0 ? COL.cyan : COL.faint;
+        glow(ctx, col, 26); dot(ctx, c.x, c.y, 15, col); noGlow(ctx);
+        label(ctx, c.q > 0 ? '+' : c.q < 0 ? '−' : '0', c.x, c.y + 1, { align: 'center', color: COL.bg, size: 20, weight: 600 });
+      }
+      label(ctx, 'the canvas is 1 m wide', w - 14, h - 16, { align: 'right', color: COL.faint, size: 12 });
+    },
+    pointer(type, x, y, s, w, h) {
+      if (type === 'down') {
+        const qs = this.world(s, w, h);
+        let best = -1, bd = 40;
+        qs.forEach((c, i) => { const d = Math.hypot(x - c.x, y - c.y); if (d < bd) { bd = d; best = i; } });
+        s.drag = best;
+        return best >= 0;
+      }
+      if (type === 'move' && s.drag >= 0) { s.pts[s.drag] = [clamp(x / w, 0.04, 0.96), clamp(y / h, 0.06, 0.94)]; return true; }
+      if (type === 'up') s.drag = -1;
+      return false;
+    },
+    quiz: [
+      { q: 'Two charges are moved twice as far apart. The force between them becomes…', o: ['twice as strong', 'half as strong', 'a quarter as strong', 'four times as strong'], a: 2, why: 'Coulomb’s law: force falls with the square of the distance. Twice the distance, a quarter of the force.' },
+      { q: 'Electric field lines start on…', o: ['negative charges and end on positive', 'positive charges and end on negative', 'any charge and never end', 'conductors only'], a: 1, why: 'By convention a field line shows the push on a small positive charge, so it leaves + and arrives at −.' },
+      { q: 'Inside a closed metal box, the electric field from charges outside is…', o: ['doubled', 'unchanged', 'zero', 'pointing inward'], a: 2, why: 'Charges in the metal rearrange until they cancel the field inside: the Faraday cage.' },
+    ],
+  },
+  {
+    id: 'capacitor', n: 3, series: 'basics', video: 'The Space Between', topic: 'Capacitance',
+    blurb: 'Two metal plates face each other across a gap. Change their size, the gap, the material in between and the voltage, and see how much charge and energy they hold.',
+    hint: 'Push the voltage high with a thin gap of air to make it spark.',
+    state: { A: 100, d: 1, mat: 'air', V: 50 },
+    mats: { air: ['Air', 1.0006, 3e6], paper: ['Paper', 3.5, 16e6], glass: ['Glass', 7, 10e6], water: ['Pure water', 80, 30e6] },
+    controls: [
+      { type: 'range', key: 'A', label: 'Plate area', min: 10, max: 400, step: 5, unit: 'cm²' },
+      { type: 'range', key: 'd', label: 'Gap', min: 0.1, max: 10, step: 0.1, unit: 'mm' },
+      { type: 'select', key: 'mat', label: 'In the gap', options: [['air', 'Air'], ['paper', 'Paper'], ['glass', 'Glass'], ['water', 'Pure water']] },
+      { type: 'range', key: 'V', label: 'Voltage', min: 0, max: 500, step: 5, unit: 'V' },
+    ],
+    calc(s) {
+      const [name, er, Emax] = this.mats[s.mat];
+      const C = 8.854e-12 * er * s.A * 1e-4 / (s.d * 1e-3);
+      const E = s.V / (s.d * 1e-3);
+      return { name, er, Emax, C, Q: C * s.V, U: 0.5 * C * s.V * s.V, E, spark: E > Emax };
+    },
+    readouts(s) {
+      const c = this.calc(s);
+      return [['Capacitance', ...eng(c.C, 'F')], ['Charge stored', ...eng(c.Q, 'C')], ['Energy stored', ...eng(c.U, 'J')], ['Field in the gap', ...eng(c.E, 'V/m')]];
+    },
+    draw(ctx, w, h, dt, s, t) {
+      const c = this.calc(s);
+      const cx = w / 2, cy = h * 0.43;
+      const gap = 24 + (Math.log10(s.d) + 1) / 2 * Math.min(220, w * 0.22);
+      const ph = 50 + (Math.sqrt(s.A) - Math.sqrt(10)) / (20 - Math.sqrt(10)) * (h * 0.6 - 50);
+      const xl = cx - gap / 2, xr = cx + gap / 2;
+      // dielectric
+      if (c.er > 1.01) {
+        ctx.fillStyle = s.mat === 'water' ? 'rgba(53,201,255,0.10)' : 'rgba(183,139,255,0.10)';
+        ctx.fillRect(xl, cy - ph / 2, gap, ph);
+        const align = s.V > 0 ? clamp(c.E / 2e5, 0, 1) : 0;
+        for (let y = cy - ph / 2 + 12; y < cy + ph / 2 - 6; y += 18)
+          for (let x = xl + 10; x < xr - 6; x += 18) {
+            const r0 = Math.sin(x * 12.9898 + y * 78.233) * 43758.5453;
+            const ang = (r0 - Math.floor(r0)) * TAU * (1 - align);
+            ctx.save(); ctx.translate(x, y); ctx.rotate(ang);
+            dot(ctx, -3, 0, 2.6, COL.pink, 0.7); dot(ctx, 3, 0, 2.6, COL.cyan, 0.7);
+            ctx.restore();
+          }
+      }
+      // field lines across the gap
+      const nl = s.V > 0 ? clamp(Math.round(Math.log10(c.E + 1) * 2 - 2), 0, 16) : 0;
+      for (let k = 0; k < nl; k++) {
+        const y = cy - ph / 2 + ((k + 0.5) / nl) * ph;
+        ctx.lineDashOffset = reduceMotion ? 0 : -t * 30;
+        line(ctx, xl + 6, y, xr - 6, y, COL.violet, 1.8, clamp(Math.log10(c.E + 1) / 6, 0.2, 0.9), [6, 6]);
+      }
+      ctx.lineDashOffset = 0;
+      // plates and their charge
+      glow(ctx, COL.pink, 20); ctx.fillStyle = mix('#ffffff', COL.pink, clamp(s.V / 200, 0.2, 1)); ctx.fillRect(xl - 10, cy - ph / 2, 10, ph);
+      glow(ctx, COL.cyan, 20); ctx.fillStyle = mix('#ffffff', COL.cyan, clamp(s.V / 200, 0.2, 1)); ctx.fillRect(xr, cy - ph / 2, 10, ph); noGlow(ctx);
+      const nq = c.Q > 0 ? clamp(Math.round(Math.log10(c.Q / 1e-12 + 1) * 5), 0, 30) : 0;
+      for (let k = 0; k < nq; k++) {
+        const y = cy - ph / 2 + ((k + 0.5) / nq) * ph;
+        label(ctx, '+', xl - 20, y, { align: 'center', color: COL.pink, size: 15, weight: 600 });
+        label(ctx, '−', xr + 20, y, { align: 'center', color: COL.cyan, size: 15, weight: 600 });
+      }
+      // wires and the battery
+      const yb = h * 0.86;
+      line(ctx, xl - 5, cy + ph / 2, xl - 5, yb, COL.faint, 2);
+      line(ctx, xr + 5, cy + ph / 2, xr + 5, yb, COL.faint, 2);
+      line(ctx, xl - 5, yb, cx - 10, yb, COL.faint, 2); line(ctx, cx + 10, yb, xr + 5, yb, COL.faint, 2);
+      line(ctx, cx - 10, yb - 16, cx - 10, yb + 16, COL.pink, 3); line(ctx, cx + 10, yb - 9, cx + 10, yb + 9, COL.cyan, 3);
+      label(ctx, `${s.V} V`, cx, yb + 30, { align: 'center', color: COL.fg, size: 14 });
+      label(ctx, `${s.d} mm gap · ${c.name}${c.er > 1.01 ? ` (εr ≈ ${c.er})` : ''}`, cx, cy - ph / 2 - 20, { align: 'center', color: COL.dim });
+      // too strong a field: the gap breaks down
+      if (c.spark) {
+        const flick = reduceMotion ? 1 : (Math.sin(t * 40) > -0.2 ? 1 : 0.3);
+        ctx.strokeStyle = '#fff6c8'; ctx.lineWidth = 2.5; glow(ctx, COL.sun, 30); ctx.globalAlpha = flick;
+        const y0 = cy + Math.sin(Math.floor(t * 8) * 7.1) * ph * 0.3;
+        ctx.beginPath(); ctx.moveTo(xl, y0);
+        for (let i = 1; i <= 6; i++) ctx.lineTo(xl + (gap * i) / 6, y0 + (i < 6 ? Math.sin(i * 9.7 + Math.floor(t * 10)) * 9 : 0));
+        ctx.stroke(); noGlow(ctx); ctx.globalAlpha = 1;
+        label(ctx, `Above the breakdown strength of ${c.name.toLowerCase()}: a spark jumps the gap`, cx, 24, { align: 'center', color: COL.sun, weight: 600 });
+      }
+    },
+    quiz: [
+      { q: 'Halving the gap between the plates makes the capacitance…', o: ['halve', 'double', 'stay the same', 'four times larger'], a: 1, why: 'Capacitance is inversely proportional to the gap: closer plates hold more charge for the same voltage.' },
+      { q: 'The energy in a charged capacitor is stored…', o: ['in the metal of the plates', 'in the connecting wires', 'in the electric field between the plates', 'in the battery'], a: 2, why: 'It is held in the field in the gap: that is the point of the video’s title.' },
+      { q: 'A capacitance of one farad means…', o: ['one coulomb stored for each volt', 'one volt for each coulomb', 'one ampere for each second', 'one joule for each volt'], a: 0, why: 'C = Q ÷ V. One farad stores one coulomb per volt, which is a very large capacitance.' },
+    ],
+  },
+  {
+    id: 'magnet', n: 4, series: 'basics', video: 'The Second Field', topic: 'Magnetism',
+    blurb: 'A long straight wire comes out of the screen, surrounded by compass needles. Turn up the current and reverse it, and move the probe to measure the field.',
+    hint: 'Move the pointer over the scene, or drag on a phone, to place the probe.',
+    state: { I: 10, earth: true, probe: [0.68, 0.5] },
+    controls: [
+      { type: 'range', key: 'I', label: 'Current in the wire', min: -20, max: 20, step: 0.5, unit: 'A' },
+      { type: 'toggle', key: 'earth', label: 'Include Earth’s field (pointing up the screen)' },
+    ],
+    // canvas width is 40 cm
+    B(s, x, y, w, h) {
+      const cx = w / 2, cy = h / 2;
+      const dx = x - cx, dy = y - cy, r = Math.hypot(dx, dy) / w * 0.4 || 1e-3;
+      const mag = 2e-7 * s.I / r;
+      const rp = Math.hypot(dx, dy) || 1;
+      let bx = (dy / rp) * mag, by = (-dx / rp) * mag;
+      if (s.earth) by -= 50e-6;
+      return [bx, by, r];
+    },
+    readouts(s) {
+      const cv = document.getElementById('cv');
+      const w = cv.clientWidth || 1, h = cv.clientHeight || 1;
+      const [bx, by, r] = this.B(s, s.probe[0] * w, s.probe[1] * h, w, h);
+      const B = Math.hypot(bx, by);
+      return [['Field at the probe', ...eng(B, 'T')], ['Probe distance from the wire', ...eng(r, 'm')], ['Compared with Earth’s field', (B / 50e-6).toFixed(1), '×'],
+        ['Current', s.I === 0 ? 'off' : s.I > 0 ? 'out of the screen' : 'into the screen', '']];
+    },
+    draw(ctx, w, h, dt, s, t) {
+      const cx = w / 2, cy = h / 2;
+      // rings of field
+      for (const f of [0.07, 0.13, 0.21, 0.31, 0.43]) {
+        const R = f * w;
+        const B = 2e-7 * Math.abs(s.I) / (f * 0.4);
+        const a = s.I ? clamp((Math.log10(B) + 6) / 2.6, 0.1, 0.9) : 0;
+        ctx.lineDashOffset = reduceMotion ? 0 : -Math.sign(s.I) * t * 40;
+        ctx.strokeStyle = COL.mint; ctx.lineWidth = 1.8; ctx.globalAlpha = a; ctx.setLineDash([8, 10]);
+        ctx.beginPath(); ctx.arc(cx, cy, R, 0, TAU); ctx.stroke();
+        ctx.setLineDash([]); ctx.globalAlpha = 1;
+      }
+      ctx.lineDashOffset = 0;
+      // compass needles, each turning towards the field where it sits
+      if (!s.needles) s.needles = [];
+      const st = Math.max(58, w / 14);
+      let k = 0;
+      for (let y = st * 0.6; y < h; y += st) for (let x = st * 0.6; x < w; x += st) {
+        if (Math.hypot(x - cx, y - cy) < 40) continue;
+        const [bx, by] = this.B(s, x, y, w, h);
+        const target = Math.atan2(by, bx);
+        const n = s.needles[k] || (s.needles[k] = { a: -Math.PI / 2, v: 0 });
+        if (Math.hypot(bx, by) > 1e-9) {
+          let d = target - n.a; d = Math.atan2(Math.sin(d), Math.cos(d));
+          if (reduceMotion) n.a = target; else { n.v += (d * 40 - n.v * 6) * dt; n.a += n.v * dt; }
+        }
+        const L = st * 0.32;
+        const ex = Math.cos(n.a) * L, ey = Math.sin(n.a) * L;
+        ctx.lineCap = 'round';
+        line(ctx, x, y, x + ex, y + ey, COL.pink, 4);
+        line(ctx, x, y, x - ex, y - ey, '#d9d4f5', 4, 0.6);
+        dot(ctx, x, y, 2.6, COL.bg);
+        k++;
+      }
+      // the wire itself
+      glow(ctx, COL.copper, 28); dot(ctx, cx, cy, 22, COL.copper); noGlow(ctx);
+      dot(ctx, cx, cy, 17, '#3a2410');
+      if (s.I > 0) dot(ctx, cx, cy, 5, COL.sun);
+      else if (s.I < 0) { line(ctx, cx - 8, cy - 8, cx + 8, cy + 8, COL.sun, 3); line(ctx, cx - 8, cy + 8, cx + 8, cy - 8, COL.sun, 3); }
+      // probe
+      const px = s.probe[0] * w, py = s.probe[1] * h;
+      const [bx, by] = this.B(s, px, py, w, h);
+      const m = Math.hypot(bx, by) || 1;
+      ctx.strokeStyle = COL.sun; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(px, py, 12, 0, TAU); ctx.stroke();
+      arrow(ctx, px, py, px + bx / m * 34, py + by / m * 34, COL.sun, 2.5, 9);
+      label(ctx, 'probe', px, py + 26, { align: 'center', color: COL.sun, size: 12 });
+      label(ctx, 'the canvas is 40 cm wide', w - 14, h - 16, { align: 'right', color: COL.faint, size: 12 });
+    },
+    pointer(type, x, y, s, w, h) {
+      if (type === 'down' || type === 'move' || type === 'hover') { s.probe = [clamp(x / w, 0.02, 0.98), clamp(y / h, 0.03, 0.97)]; return type !== 'hover'; }
+      return false;
+    },
+    quiz: [
+      { q: 'The magnetic field around a long straight wire forms…', o: ['straight lines along the wire', 'circles around the wire', 'lines radiating outwards', 'no pattern at all'], a: 1, why: 'Oersted’s compass needle lined up along circles centred on the wire.' },
+      { q: 'You cut a bar magnet in half. You get…', o: ['a north piece and a south piece', 'two pieces with no magnetism', 'two smaller magnets, each with a north and a south pole', 'one magnet and one plain piece of iron'], a: 2, why: 'Poles always come in pairs. Every piece of a magnet is itself a complete magnet.' },
+      { q: 'The SI unit of magnetic field (flux density) is the…', o: ['henry', 'tesla', 'farad', 'ohm'], a: 1, why: 'Named after Nikola Tesla. Earth’s field is about 50 microtesla.' },
+    ],
+  },
+  {
+    id: 'inductor', n: 5, series: 'basics', video: 'The Current That Won’t Stop', topic: 'Inductance',
+    blurb: 'A 12 V battery, a resistor and a coil. Close the switch and the current takes time to build. Open it and the coil tries to keep it going.',
+    hint: 'Close the switch, wait, then open it.',
+    state: { R: 10, L: 1, closed: false, i: 0, hist: [], t0: 0, simT: 0, spark: 0, vPeak: 0 },
+    controls: [
+      { type: 'range', key: 'R', label: 'Resistance', min: 1, max: 100, step: 1, unit: 'Ω' },
+      { type: 'range', key: 'L', label: 'Inductance', min: 0.05, max: 5, step: 0.05, unit: 'H' },
+      { type: 'button', label: (s) => (s.closed ? 'Open the switch' : 'Close the switch'), action(s) {
+        s.closed = !s.closed; s.t0 = s.simT; s.hist = [];
+        if (!s.closed) { s.vPeak = s.i * 2000; s.spark = clamp(s.i / (12 / s.R), 0, 1); }
+      } },
+    ],
+    readouts(s) {
+      return [['Time constant L ÷ R', ...eng(s.L / s.R, 's')], ['Final current', ...eng(12 / s.R, 'A')], ['Current now', ...eng(s.i, 'A')],
+        ['Energy in the field', ...eng(0.5 * s.L * s.i * s.i, 'J')], ['Voltage across the opening switch', ...eng(s.vPeak, 'V')]];
+    },
+    step(s, dt) {
+      const tau = s.L / s.R;
+      const sim = (dt * 5 * tau) / 3.5;
+      if (s.closed) { const If = 12 / s.R; s.i = If + (s.i - If) * Math.exp(-sim / tau); }
+      else s.i *= Math.exp(-sim * (s.R + 2000) / s.L);
+      if (s.i < 1e-6) s.i = 0;
+      s.simT += sim;
+      const u = (s.simT - s.t0) / (5 * tau);
+      if (u <= 1) s.hist.push([u, s.i]);
+      s.spark = Math.max(0, s.spark - dt * 2.5);
+    },
+    draw(ctx, w, h, dt, s, t) {
+      this.step(s, dt);
+      const If = 12 / s.R;
+      // circuit, left
+      const x0 = w * 0.06, x1 = w * 0.4, y0 = h * 0.2, y1 = h * 0.8;
+      const xs = lerp(x0, x1, 0.32), xsw = 46;
+      line(ctx, x0, y0, xs, y0, COL.faint, 2.5);
+      line(ctx, xs + xsw, y0, x1, y0, COL.faint, 2.5);
+      line(ctx, x1, y0, x1, h * 0.36, COL.faint, 2.5); line(ctx, x1, h * 0.66, x1, y1, COL.faint, 2.5);
+      line(ctx, x1, y1, x0, y1, COL.faint, 2.5);
+      line(ctx, x0, y1, x0, h * 0.56, COL.faint, 2.5); line(ctx, x0, h * 0.44, x0, y0, COL.faint, 2.5);
+      // battery
+      line(ctx, x0 - 18, h * 0.44, x0 + 18, h * 0.44, COL.pink, 3.5); line(ctx, x0 - 10, h * 0.56, x0 + 10, h * 0.56, COL.cyan, 3.5);
+      label(ctx, '12 V', x0 + 26, h * 0.5, { color: COL.fg });
+      // switch
+      const open = s.closed ? 0 : 0.6;
+      dot(ctx, xs, y0, 4, COL.fg); dot(ctx, xs + xsw, y0, 4, COL.fg);
+      line(ctx, xs, y0, xs + Math.cos(-open) * xsw, y0 + Math.sin(-open) * xsw, COL.fg, 3);
+      if (s.spark > 0.02) {
+        glow(ctx, COL.sun, 30); ctx.strokeStyle = '#fff6c8'; ctx.lineWidth = 2; ctx.globalAlpha = s.spark;
+        ctx.beginPath(); ctx.moveTo(xs + xsw, y0);
+        for (let k = 1; k <= 4; k++) ctx.lineTo(xs + xsw - k * 7, y0 - k * 6 + Math.sin(t * 60 + k) * 5);
+        ctx.stroke(); noGlow(ctx); ctx.globalAlpha = 1;
+        dot(ctx, xs + xsw - 12, y0 - 10, 26 * s.spark, COL.sun, 0.25);
+      }
+      // resistor
+      const xr = lerp(xs + xsw, x1, 0.5);
+      ctx.fillStyle = COL.bg; ctx.fillRect(xr - 26, y0 - 10, 52, 20);
+      ctx.strokeStyle = COL.violet; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.moveTo(xr - 26, y0);
+      for (let k = 0; k < 6; k++) ctx.lineTo(xr - 22 + k * 8.8, y0 + (k % 2 ? 8 : -8));
+      ctx.lineTo(xr + 26, y0); ctx.stroke();
+      label(ctx, `${s.R} Ω`, xr, y0 - 22, { align: 'center', color: COL.fg });
+      // coil and its field
+      const fill = If > 0 ? clamp(s.i / If, 0, 1) : 0;
+      for (let k = 1; k <= 3; k++) {
+        ctx.strokeStyle = COL.mint; ctx.lineWidth = 1.6; ctx.globalAlpha = 0.6 * fill;
+        ctx.beginPath(); ctx.ellipse(x1, h * 0.51, 22 + k * 16, 70 + k * 12, 0, 0, TAU); ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = COL.copper; ctx.lineWidth = 3; glow(ctx, COL.copper, 10);
+      for (let k = 0; k < 7; k++) { ctx.beginPath(); ctx.ellipse(x1, h * 0.38 + k * 0.045 * h, 15, 6, 0, 0, TAU); ctx.stroke(); }
+      noGlow(ctx);
+      label(ctx, `${s.L} H`, x1 + 26, h * 0.32, { color: COL.fg });
+      // charge moving round the loop
+      const per = 2 * (x1 - x0) + 2 * (y1 - y0);
+      s.flow = ((s.flow || 0) + dt * (s.i / 12) * 260) % per;
+      for (let d = s.flow; d < per; d += 34) {
+        let u = d, px, py;
+        if (u < x1 - x0) { px = x0 + u; py = y0; } else if ((u -= x1 - x0) < y1 - y0) { px = x1; py = y0 + u; }
+        else if ((u -= y1 - y0) < x1 - x0) { px = x1 - u; py = y1; } else { u -= x1 - x0; px = x0; py = y1 - u; }
+        if (s.i > 1e-4) dot(ctx, px, py, 3, COL.sun, 0.9);
+      }
+      // graph, right
+      const g0 = w * 0.5, g1 = w * 0.95, gt = h * 0.16, gb = h * 0.82;
+      const top = 12 / s.R * 1.15;
+      line(ctx, g0, gt, g0, gb, COL.line, 1.5); graphAxes(ctx, g0, g1, gb);
+      label(ctx, 'current', g0, gt - 14, { color: COL.cyan });
+      label(ctx, `time → (window: 5 × L/R = ${engs(5 * s.L / s.R, 's', 2)})`, g1, gb + 18, { align: 'right', color: COL.dim, size: 12 });
+      const yF = gb - (If / top) * (gb - gt);
+      if (s.closed) { line(ctx, g0, yF, g1, yF, COL.sun, 1.5, 0.7, [6, 6]); label(ctx, `12 V ÷ ${s.R} Ω = ${engs(If, 'A', 3)}`, g1, yF - 12, { align: 'right', color: COL.sun, size: 12 }); }
+      const xt = lerp(g0, g1, 0.2);
+      line(ctx, xt, gt, xt, gb, COL.faint, 1, 0.7, [3, 5]); label(ctx, 'one time constant', xt + 6, gt + 8, { color: COL.faint, size: 12 });
+      if (s.hist.length > 1) {
+        ctx.strokeStyle = COL.cyan; ctx.lineWidth = 3; glow(ctx, COL.cyan, 12); ctx.beginPath();
+        s.hist.forEach(([u, i], k) => { const x = lerp(g0, g1, u), y = gb - (i / top) * (gb - gt); k ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+        ctx.stroke(); noGlow(ctx);
+      }
+    },
+    quiz: [
+      { q: 'An inductor opposes…', o: ['any current at all', 'a change in current', 'a steady voltage', 'resistance'], a: 1, why: 'A steady current passes freely; it is the change that the coil pushes back against.' },
+      { q: 'The time constant of a resistor and coil in series is…', o: ['R ÷ L', 'L × R', 'L ÷ R', '1 ÷ (L × R)'], a: 2, why: 'τ = L ÷ R. After one time constant the current has reached about 63 % of its final value.' },
+      { q: 'Why does a spark jump when a switch to a coil is opened?', o: ['The battery suddenly doubles its voltage', 'The coil’s collapsing field drives the current on, and a high voltage builds across the gap', 'The resistor overheats', 'Air conducts better when a switch moves'], a: 1, why: 'The coil’s stored energy has to go somewhere. It forces the current across the opening gap.' },
+    ],
+  },
+  {
+    id: 'light', n: 6, series: 'basics', video: 'Two Fields, One Light', topic: 'Electromagnetic waves',
+    blurb: 'An electric field and a magnetic field, each making the other, travelling through empty space. Slide the frequency from radio to gamma rays.',
+    hint: 'Wavelengths are drawn on a log scale so they all fit.',
+    state: { lf: 14.75 },
+    controls: [
+      { type: 'range', key: 'lf', label: 'Frequency', min: 3, max: 20, step: 0.01, fmt: (v) => engs(Math.pow(10, v), 'Hz') },
+    ],
+    readouts(s) {
+      const f = Math.pow(10, s.lf), lam = 299792458 / f;
+      return [['Wavelength', ...eng(lam, 'm')], ['Band', bandOf(f), ''], ['A wave is about', sizeOf(lam), ''], ['Speed in empty space', '299 792', 'km/s'], ['Energy of one photon', ...eng(4.1357e-15 * f, 'eV')]];
+    },
+    draw(ctx, w, h, dt, s, t) {
+      const f = Math.pow(10, s.lf), lam = 299792458 / f;
+      const band = bandOf(f);
+      const nm = lam * 1e9;
+      const ecol = band === 'Visible light' ? nmToRGB(nm) : COL.violet;
+      const x0 = w * 0.05, x1 = w * 0.95, cy = h * 0.4, A = h * 0.2;
+      const lpx = lerp(14, w * 0.9, (Math.log10(lam) + 11.5) / 17);
+      const k = TAU / lpx, ph = reduceMotion ? 0 : t * 160 * k;
+      line(ctx, x0, cy, x1, cy, COL.faint, 1.5);
+      // magnetic field, at right angles, drawn going into the picture
+      ctx.strokeStyle = COL.mint; ctx.lineWidth = 2; ctx.globalAlpha = 0.75; ctx.beginPath();
+      for (let x = x0; x <= x1; x += 2) { const b = Math.sin(k * x - ph) * A * 0.75; const X = x + b * 0.5, Y = cy + b * 0.3; x === x0 ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y); }
+      ctx.stroke(); ctx.globalAlpha = 1;
+      // electric field, up and down, with stems to the axis
+      const stemGap = Math.max(4, lpx / 14);
+      for (let x = x0; x <= x1; x += stemGap) line(ctx, x, cy, x, cy - Math.sin(k * x - ph) * A, ecol, 1.2, 0.35);
+      plot(ctx, x0, x1, (x) => cy - Math.sin(k * x - ph) * A, ecol, 3, 1, 14);
+      label(ctx, 'electric field', x0, cy - A - 18, { color: ecol, size: 13 });
+      label(ctx, 'magnetic field', x0 + 120, cy - A - 18, { color: COL.mint, size: 13 });
+      // spectrum bar
+      const by = h * 0.82, bh = 14, bx0 = w * 0.05, bx1 = w * 0.95;
+      const pos = (lf) => lerp(bx0, bx1, (lf - 3) / 17);
+      const cols = { Radio: '#5b4bb5', Microwaves: '#7b4bc8', Infrared: '#b2456c', Ultraviolet: '#6b4bff', 'X-rays': '#3e7fb3', 'Gamma rays': '#2e9b9b' };
+      for (const [a, b, name] of BANDS) {
+        const xa = pos(Math.log10(Math.max(a, 1e3))), xb = pos(Math.log10(Math.min(b, 1e20)));
+        if (name === 'Visible light') {
+          const g = ctx.createLinearGradient(xa, 0, xb, 0);
+          for (let q = 0; q <= 1.0001; q += 0.2) g.addColorStop(q, nmToRGB(lerp(740, 380, q)));
+          ctx.fillStyle = g;
+        } else ctx.fillStyle = cols[name];
+        ctx.fillRect(xa, by, xb - xa, bh);
+        if (name !== 'Visible light' || w > 700) label(ctx, name === 'Visible light' ? 'Light' : name, (xa + xb) / 2, by + bh + 16, { align: 'center', color: name === band ? COL.fg : COL.dim, size: w < 600 ? 10 : 12 });
+      }
+      const mx = pos(s.lf);
+      arrow(ctx, mx, by - 30, mx, by - 4, COL.sun, 3, 10);
+      label(ctx, 'lower frequency, longer waves', bx0, by - 14, { color: COL.faint, size: 12 });
+      label(ctx, 'higher frequency, shorter waves', bx1, by - 14, { align: 'right', color: COL.faint, size: 12 });
+    },
+    quiz: [
+      { q: 'Radio waves and visible light differ in…', o: ['their speed in empty space', 'their wavelength and frequency', 'light being electric and radio being magnetic', 'light needing air to travel'], a: 1, why: 'They are the same kind of wave. Only the wavelength, and so the frequency, differs.' },
+      { q: 'Who first made and detected radio waves in a laboratory, in 1887?', o: ['James Clerk Maxwell', 'Guglielmo Marconi', 'Heinrich Hertz', 'Michael Faraday'], a: 2, why: 'Maxwell predicted the waves; Hertz made them with a spark gap and caught them with a loop of wire.' },
+      { q: 'Maxwell’s missing piece: a changing electric field produces…', o: ['a magnetic field', 'electric charge', 'heat', 'a steady current'], a: 0, why: 'With it, each field can make the other, and the pair travels on its own as a wave.' },
+    ],
+  },
+  {
+    id: 'generator', n: 7, series: 'basics', video: 'The Field That Moves the World', topic: 'Electromagnetic induction',
+    blurb: 'A coil turning between the poles of a magnet. The changing flux through it makes a voltage. Set the speed, the turns and the field.',
+    hint: 'Shown slowed down so you can follow each turn.',
+    state: { rpm: 1500, N: 50, B: 0.4, A: 100, th: 0 },
+    controls: [
+      { type: 'range', key: 'rpm', label: 'Speed', min: 0, max: 3000, step: 50, unit: 'rpm' },
+      { type: 'range', key: 'N', label: 'Turns of wire', min: 1, max: 200, step: 1, unit: '' },
+      { type: 'range', key: 'B', label: 'Magnetic field', min: 0.05, max: 1, step: 0.05, unit: 'T' },
+      { type: 'range', key: 'A', label: 'Area of the coil', min: 20, max: 400, step: 10, unit: 'cm²' },
+    ],
+    peak(s) { return s.N * s.B * s.A * 1e-4 * TAU * s.rpm / 60; },
+    readouts(s) {
+      const p = this.peak(s);
+      return [['Frequency', ...eng(s.rpm / 60, 'Hz')], ['Peak voltage', ...eng(p, 'V')], ['RMS voltage', ...eng(p / Math.SQRT2, 'V')], ['Voltage now', ...eng(p * Math.sin(s.th), 'V')]];
+    },
+    draw(ctx, w, h, dt, s, t) {
+      const disp = s.rpm / 3000 * 0.8;
+      if (!reduceMotion) s.th += TAU * disp * dt;
+      const p = this.peak(s);
+      const cx = w * 0.42, cy = h * 0.36;
+      const a = Math.min(w * 0.11, h * 0.2), b = h * 0.2;
+      const pw = Math.min(w * 0.09, 80);
+      // poles
+      glow(ctx, COL.pink, 24); ctx.fillStyle = COL.pink; roundRect(ctx, cx - a * 1.9 - pw, cy - b * 1.2, pw, b * 2.4, 8); ctx.fill();
+      glow(ctx, COL.cyan, 24); ctx.fillStyle = COL.cyan; roundRect(ctx, cx + a * 1.9, cy - b * 1.2, pw, b * 2.4, 8); ctx.fill(); noGlow(ctx);
+      label(ctx, 'N', cx - a * 1.9 - pw / 2, cy, { align: 'center', color: COL.bg, size: 26, weight: 600, font: "'Sora', sans-serif" });
+      label(ctx, 'S', cx + a * 1.9 + pw / 2, cy, { align: 'center', color: COL.bg, size: 26, weight: 600, font: "'Sora', sans-serif" });
+      // field across the gap
+      ctx.lineDashOffset = reduceMotion ? 0 : -t * 30;
+      for (let k = -2; k <= 2; k++) line(ctx, cx - a * 1.9, cy + k * b * 0.45, cx + a * 1.9, cy + k * b * 0.45, COL.mint, 1.6, 0.25 + s.B * 0.5, [6, 8]);
+      ctx.lineDashOffset = 0;
+      // the turning coil
+      const u = [-Math.sin(s.th), Math.cos(s.th)];
+      const P = (sx, sy) => { const X = sx * a * u[0], Z = sx * a * u[1], k = 1 / (1 - Z / (a * 7)); return [cx + X * k, cy + sy * b * k, Z]; };
+      const c = [P(-1, -1), P(1, -1), P(1, 1), P(-1, 1)];
+      const cw = 2 + Math.log10(s.N + 1) * 2;
+      for (let i = 0; i < 4; i++) {
+        const A = c[i], B = c[(i + 1) % 4];
+        const front = (A[2] + B[2]) / 2 >= 0;
+        glow(ctx, COL.copper, front ? 14 : 0);
+        line(ctx, A[0], A[1], B[0], B[1], COL.copper, cw, front ? 1 : 0.45);
+      }
+      noGlow(ctx);
+      line(ctx, cx, cy - b * 1.45, cx, cy + b * 1.45, COL.faint, 2);
+      // lamp
+      const lx = w * 0.86, ly = cy;
+      const bright = clamp(Math.pow(p * Math.abs(Math.sin(s.th)) / 325, 2), 0, 1);
+      dot(ctx, lx, ly, 70, COL.sun, 0.25 * bright);
+      glow(ctx, COL.sun, 40 * bright); dot(ctx, lx, ly, 18, mix('#3a3350', '#fff3b0', bright)); noGlow(ctx);
+      label(ctx, 'lamp', lx, ly + 34, { align: 'center', color: COL.dim, size: 12 });
+      // the voltage it makes
+      const g0 = w * 0.06, g1 = w * 0.94, gy = h * 0.8, gh = h * 0.12;
+      const amp = clamp(Math.log10(p + 1) / Math.log10(2600), 0, 1) * gh;
+      graphAxes(ctx, g0, g1, gy);
+      const kG = (TAU * 2.5) / (g1 - g0);
+      plot(ctx, g0, g1, (x) => gy - amp * Math.sin(s.th - (g1 - x) * kG), COL.pink, 3);
+      dot(ctx, g1, gy - amp * Math.sin(s.th), 6, COL.pink);
+      label(ctx, `voltage: peaks of ±${engs(p, 'V')}`, g0, gy - gh - 12, { color: COL.pink });
+      label(ctx, `slowed down to ${disp.toFixed(2)} turns a second`, g1, gy - gh - 12, { align: 'right', color: COL.faint, size: 12 });
+    },
+    quiz: [
+      { q: 'Faraday’s law: the induced voltage is proportional to…', o: ['the flux itself', 'how fast the flux changes', 'the resistance of the coil', 'the current already flowing'], a: 1, why: 'A steady flux induces nothing. It is the rate of change that matters.' },
+      { q: 'Lenz’s law says the induced current…', o: ['always flows clockwise', 'adds to the change that caused it', 'opposes the change that caused it', 'is always zero in a closed loop'], a: 2, why: 'If it helped the change, you would get energy for nothing.' },
+      { q: 'A transformer only works on alternating current because…', o: ['DC voltage is too high', 'it needs a changing flux in its core', 'iron blocks direct current', 'AC carries more power'], a: 1, why: 'A steady current makes a steady flux, and a steady flux induces no voltage in the second coil.' },
+    ],
+  },
+  {
+    id: 'ac', n: 8, series: 'ac', video: 'Back and Forth', topic: 'The shape of alternating current',
+    blurb: 'A turning arrow draws the sine wave of the mains. Pick a country’s supply, or set your own, and see the peak, the RMS value and the timing.',
+    hint: 'Shown slowed down: the real wave turns 50 or 60 times a second.',
+    state: { preset: 'in', Vrms: 230, f: 50, rms: false, th: 0 },
+    presets: { in: ['India, Europe, Australia: 230 V, 50 Hz', 230, 50], us: ['North America: 120 V, 60 Hz', 120, 60], je: ['Eastern Japan: 100 V, 50 Hz', 100, 50], jw: ['Western Japan: 100 V, 60 Hz', 100, 60], custom: ['Your own', null, null] },
+    controls: [
+      { type: 'select', key: 'preset', label: 'Supply', options: [['in', 'India, Europe, Australia: 230 V, 50 Hz'], ['us', 'North America: 120 V, 60 Hz'], ['je', 'Eastern Japan: 100 V, 50 Hz'], ['jw', 'Western Japan: 100 V, 60 Hz'], ['custom', 'Your own']] },
+      { type: 'range', key: 'Vrms', label: 'RMS voltage', min: 10, max: 400, step: 5, unit: 'V' },
+      { type: 'range', key: 'f', label: 'Frequency', min: 1, max: 100, step: 1, unit: 'Hz' },
+      { type: 'toggle', key: 'rms', label: 'Show how RMS is worked out' },
+    ],
+    changed(s, key) {
+      if (key === 'preset' && s.preset !== 'custom') { const p = this.presets[s.preset]; s.Vrms = p[1]; s.f = p[2]; }
+      if (key === 'Vrms' || key === 'f') s.preset = 'custom';
+    },
+    readouts(s) {
+      return [['RMS (what the label says)', ...eng(s.Vrms, 'V')], ['Peak', ...eng(s.Vrms * Math.SQRT2, 'V')], ['Peak to peak', ...eng(2 * s.Vrms * Math.SQRT2, 'V')],
+        ['Period', ...eng(1 / s.f, 's')], ['Reversals each second', String(2 * s.f), '']];
+    },
+    draw(ctx, w, h, dt, s) {
+      if (!reduceMotion) s.th += TAU * 0.5 * (s.f / 50) * dt;
+      const Vp = s.Vrms * Math.SQRT2;
+      const pcx = w * 0.15, cy = h * 0.5;
+      const Rmax = Math.min(h * 0.36, w * 0.12);
+      const len = Vp / 600 * Rmax;
+      const x0 = w * 0.37, x1 = w * 0.96;
+      ctx.strokeStyle = COL.line; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(pcx, cy, len, 0, TAU); ctx.stroke();
+      const tx = pcx + Math.cos(s.th) * len, ty = cy - Math.sin(s.th) * len;
+      line(ctx, tx, ty, x0, ty, COL.fg, 1, 0.5, [4, 5]);
+      arrow(ctx, pcx, cy, tx, ty, COL.pink, 3.5, 12);
+      graphAxes(ctx, x0, x1, cy);
+      const k = (TAU * 2.5) / (x1 - x0);
+      const y = (x) => cy - len * Math.sin(s.th - (x - x0) * k);
+      line(ctx, x0, cy - len, x1, cy - len, COL.pink, 1.4, 0.7, [6, 6]); line(ctx, x0, cy + len, x1, cy + len, COL.pink, 1.4, 0.4, [6, 6]);
+      line(ctx, x0, cy - len * 0.7071, x1, cy - len * 0.7071, COL.sun, 1.4, 0.8, [6, 6]);
+      label(ctx, `peak ${Math.round(Vp)} V`, x0 - 10, cy - len, { align: 'right', color: COL.pink, size: 12 });
+      label(ctx, `RMS ${s.Vrms} V`, x0 - 10, cy - len * 0.7071 + (len < 60 ? 14 : 0), { align: 'right', color: COL.sun, size: 12 });
+      if (s.rms) {
+        const sq = (x) => cy - len * Math.pow(Math.sin(s.th - (x - x0) * k), 2);
+        ctx.globalAlpha = 0.12; ctx.fillStyle = COL.sun; ctx.beginPath(); ctx.moveTo(x0, cy);
+        for (let x = x0; x <= x1; x += 3) ctx.lineTo(x, sq(x));
+        ctx.lineTo(x1, cy); ctx.closePath(); ctx.fill(); ctx.globalAlpha = 1;
+        plot(ctx, x0, x1, sq, COL.sun, 2, 0.9, 6);
+        line(ctx, x0, cy - len / 2, x1, cy - len / 2, COL.fg, 1.4, 0.8, [3, 4]);
+        label(ctx, 'squared wave (gold): always positive. Its mean is half the peak squared, so the root is 0.707 × peak.', w / 2, h - 18, { align: 'center', color: COL.fg, size: w < 600 ? 10 : 12 });
+      }
+      plot(ctx, x0, x1, y, COL.pink, 3.2);
+      dot(ctx, x0, ty, 6, COL.pink);
+      label(ctx, `one cycle = ${engs(1 / s.f, 's', 3)}`, x0, 24, { color: COL.dim, size: 12 });
+    },
+    quiz: [
+      { q: 'A 230 V (RMS) supply reaches a peak of about…', o: ['230 V', '163 V', '325 V', '460 V'], a: 2, why: 'Peak = RMS × √2, and 230 × 1.414 ≈ 325 V.' },
+      { q: 'At 50 Hz, one cycle lasts…', o: ['50 ms', '20 ms', '2 ms', '0.5 s'], a: 1, why: 'Period = 1 ÷ frequency = 1 ÷ 50 s = 20 ms.' },
+      { q: 'How many times a second does a 50 Hz current change direction?', o: ['25', '50', '100', '200'], a: 2, why: 'It reverses twice in every cycle: 2 × 50 = 100.' },
+    ],
+  },
+  {
+    id: 'rlc', n: 9, series: 'ac', video: 'Out of Step', topic: 'R, L and C on alternating current',
+    blurb: 'Put a resistor, a coil or a capacitor on a 230 V supply. Change its size and the frequency, and watch the current fall into step, lag or lead.',
+    hint: 'Left: the voltage and current as turning arrows. Right: the waves they draw.',
+    state: { kind: 'L', R: 50, Lh: 0.1, Cf: 1e-4, f: 50, th: 0 },
+    controls: [
+      { type: 'select', key: 'kind', label: 'Component', options: [['R', 'Resistor'], ['L', 'Coil'], ['C', 'Capacitor']] },
+      { type: 'log', key: 'R', label: 'Resistance', min: 1, max: 1000, unit: 'Ω', show: (s) => s.kind === 'R' },
+      { type: 'log', key: 'Lh', label: 'Inductance', min: 1e-3, max: 2, unit: 'H', show: (s) => s.kind === 'L' },
+      { type: 'log', key: 'Cf', label: 'Capacitance', min: 1e-6, max: 1e-3, unit: 'F', show: (s) => s.kind === 'C' },
+      { type: 'log', key: 'f', label: 'Frequency', min: 1, max: 10000, unit: 'Hz' },
+    ],
+    calc(s) {
+      const X = s.kind === 'R' ? s.R : s.kind === 'L' ? TAU * s.f * s.Lh : 1 / (TAU * s.f * s.Cf);
+      const phi = s.kind === 'R' ? 0 : s.kind === 'L' ? Math.PI / 2 : -Math.PI / 2;
+      const I = 230 / X;
+      return { X, phi, I, P: 230 * I * Math.cos(phi), Q: 230 * I * Math.sin(phi) };
+    },
+    readouts(s) {
+      const c = this.calc(s);
+      return [[s.kind === 'R' ? 'Resistance' : 'Reactance', ...eng(c.X, 'Ω')], ['Current (RMS)', ...eng(c.I, 'A')],
+        ['Timing', s.kind === 'R' ? 'in step' : s.kind === 'L' ? 'current lags 90°' : 'current leads 90°', ''],
+        ['Average power', ...eng(Math.abs(c.P) < 1e-9 ? 0 : c.P, 'W')], ['Power borrowed and returned', ...eng(Math.abs(c.Q), 'VAR')]];
+    },
+    draw(ctx, w, h, dt, s) {
+      if (!reduceMotion) s.th += TAU * 0.4 * dt;
+      const c = this.calc(s);
+      const pcx = w * 0.15, cy = h * 0.42, r = Math.min(h * 0.28, w * 0.11);
+      ctx.strokeStyle = COL.line; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(pcx, cy, r, 0, TAU); ctx.stroke();
+      arrow(ctx, pcx, cy, pcx + Math.cos(s.th) * r, cy - Math.sin(s.th) * r, COL.pink, 3.5, 12);
+      arrow(ctx, pcx, cy, pcx + Math.cos(s.th - c.phi) * r * 0.72, cy - Math.sin(s.th - c.phi) * r * 0.72, COL.cyan, 3.5, 12);
+      label(ctx, 'voltage', pcx - r, cy + r + 22, { color: COL.pink, size: 12 });
+      label(ctx, 'current', pcx + r, cy + r + 22, { align: 'right', color: COL.cyan, size: 12 });
+      const name = { R: 'Resistor', L: 'Coil', C: 'Capacitor' }[s.kind];
+      label(ctx, name, pcx, 22, { align: 'center', color: s.kind === 'L' ? COL.copper : s.kind === 'C' ? COL.violet : COL.fg, size: 15, font: "'Sora', sans-serif" });
+      const x0 = w * 0.32, x1 = w * 0.96, hv = h * 0.2, cy2 = h * 0.8, hp = h * 0.13;
+      const k = (TAU * 2) / (x1 - x0);
+      const a = (x) => s.th - (x - x0) * k;
+      graphAxes(ctx, x0, x1, cy); graphAxes(ctx, x0, x1, cy2);
+      plot(ctx, x0, x1, (x) => cy - hv * Math.sin(a(x)), COL.pink, 3);
+      plot(ctx, x0, x1, (x) => cy - hv * 0.72 * Math.sin(a(x) - c.phi), COL.cyan, 3);
+      plot(ctx, x0, x1, (x) => cy2 - hp * Math.sin(a(x)) * Math.sin(a(x) - c.phi), COL.sun, 2.6);
+      line(ctx, x0, cy2 - hp * 0.5 * Math.cos(c.phi), x1, cy2 - hp * 0.5 * Math.cos(c.phi), COL.sun, 1.4, 0.9, [6, 6]);
+      label(ctx, 'power (dashed: its average)', x0, cy2 - hp - 14, { color: COL.sun, size: 12 });
+      label(ctx, `${engs(s.f, 'Hz')}, shown slowed down`, x1, h - 16, { align: 'right', color: COL.faint, size: 12 });
+    },
+    quiz: [
+      { q: 'In a pure inductor on AC, the current…', o: ['is in step with the voltage', 'leads the voltage by 90°', 'lags the voltage by 90°', 'is 180° out of step'], a: 2, why: 'The coil’s voltage depends on how fast the current changes, so the current peaks a quarter cycle later.' },
+      { q: 'You double the frequency. A capacitor’s reactance…', o: ['doubles', 'halves', 'stays the same', 'drops to zero'], a: 1, why: 'X_C = 1 ÷ (2πfC): it falls as the frequency rises.' },
+      { q: 'The average power taken by an ideal coil on AC is…', o: ['V × I', 'I² × X', 'zero', 'the same as a resistor of equal ohms'], a: 2, why: 'It borrows energy for its field and gives it all back each cycle.' },
+    ],
+  },
+];
+
+// ---------- app ----------
+const $ = (id) => document.getElementById(id);
+const cv = $('cv'), ctx = cv.getContext('2d');
+let cur = LABS[0], paused = false, last = performance.now(), time = 0;
+const store = { get() { try { return JSON.parse(localStorage.getItem('emcq-lab') || '{}'); } catch (e) { return {}; } }, set(v) { try { localStorage.setItem('emcq-lab', JSON.stringify(v)); } catch (e) { /* storage unavailable */ } } };
+let answers = store.get();
+
+function buildRail() {
+  const groups = [['basics', 'Electricity from the ground up'], ['ac', 'Alternating current']];
+  $('rail').innerHTML = groups.map(([g, name]) => `<div class="series"><h2>${name}</h2><ol>${LABS.filter((l) => l.series === g).map((l) =>
+    `<li><button type="button" data-id="${l.id}"><span class="num">${String(l.n).padStart(2, '0')}</span><span class="t">${l.video}<span class="done" data-done="${l.id}"></span></span><span class="k">${l.topic}</span></button></li>`).join('')}</ol></div>`).join('');
+  $('rail').addEventListener('click', (e) => { const b = e.target.closest('button[data-id]'); if (b) location.hash = b.dataset.id; });
+}
+
+function sliderPos(spec, v) { return spec.type === 'log' ? Math.round(1000 * Math.log(v / spec.min) / Math.log(spec.max / spec.min)) : v; }
+function sliderVal(spec, p) { return spec.type === 'log' ? spec.min * Math.pow(spec.max / spec.min, p / 1000) : parseFloat(p); }
+function fmtVal(spec, v) {
+  if (spec.fmt) return spec.fmt(v);
+  if (spec.type === 'log') return engs(v, spec.unit, 3);
+  const d = (String(spec.step).split('.')[1] || '').length;
+  return `${v.toFixed(d)}${spec.unit ? ' ' + spec.unit : ''}`;
+}
+
+function buildControls() {
+  const box = $('controls'); box.innerHTML = '';
+  const s = cur.state;
+  cur.controls.forEach((spec, i) => {
+    const id = `c-${cur.id}-${i}`;
+    const el = document.createElement('div'); el.className = 'ctl'; el.dataset.i = i;
+    if (spec.type === 'range' || spec.type === 'log') {
+      el.innerHTML = `<div class="row"><label for="${id}">${spec.label}</label><output for="${id}"></output></div><input type="range" id="${id}">`;
+      const inp = el.querySelector('input');
+      if (spec.type === 'log') { inp.min = 0; inp.max = 1000; inp.step = 1; } else { inp.min = spec.min; inp.max = spec.max; inp.step = spec.step; }
+      inp.addEventListener('input', () => { s[spec.key] = sliderVal(spec, inp.value); cur.changed?.(s, spec.key); sync(); });
+    } else if (spec.type === 'select') {
+      el.innerHTML = `<label for="${id}" class="row">${spec.label}</label><select id="${id}">${spec.options.map(([v, t]) => `<option value="${v}">${t}</option>`).join('')}</select>`;
+      el.querySelector('select').addEventListener('change', (e) => { s[spec.key] = e.target.value; cur.changed?.(s, spec.key); sync(); });
+    } else if (spec.type === 'toggle') {
+      el.className = 'ctl check'; el.innerHTML = `<input type="checkbox" id="${id}"><label for="${id}">${spec.label}</label>`;
+      el.querySelector('input').addEventListener('change', (e) => { s[spec.key] = e.target.checked; sync(); });
+    } else if (spec.type === 'button') {
+      el.innerHTML = `<button type="button" class="btn" id="${id}"></button>`;
+      el.querySelector('button').addEventListener('click', () => { spec.action(s); sync(); });
+    }
+    box.appendChild(el);
+  });
+  sync();
+}
+function sync() {
+  const s = cur.state;
+  cur.controls.forEach((spec, i) => {
+    const el = $('controls').querySelector(`[data-i="${i}"]`);
+    if (!el) return;
+    el.hidden = spec.show ? !spec.show(s) : false;
+    if (spec.type === 'range' || spec.type === 'log') { el.querySelector('input').value = sliderPos(spec, s[spec.key]); el.querySelector('output').textContent = fmtVal(spec, s[spec.key]); }
+    else if (spec.type === 'select') el.querySelector('select').value = s[spec.key];
+    else if (spec.type === 'toggle') el.querySelector('input').checked = !!s[spec.key];
+    else if (spec.type === 'button') el.querySelector('button').textContent = spec.label(s);
+  });
+  updateMeters(true);
+}
+let meterKey = '';
+function updateMeters(force) {
+  const rows = cur.readouts(cur.state);
+  const key = JSON.stringify(rows);
+  if (!force && key === meterKey) return;
+  meterKey = key;
+  $('meters').innerHTML = rows.map(([l, v, u]) => `<div class="meter"><div class="l">${l}</div><div class="v">${v}${u ? `<small>${u}</small>` : ''}</div></div>`).join('');
+}
+
+function buildQuiz() {
+  const a = answers[cur.id] || {};
+  $('quiz').innerHTML = cur.quiz.map((q, i) => `<fieldset class="q" data-q="${i}"><legend>${i + 1}. ${q.q}</legend><div class="opts">${q.o.map((o, j) =>
+    `<button type="button" class="opt" data-j="${j}">${o}</button>`).join('')}</div><p class="why" hidden></p></fieldset>`).join('');
+  cur.quiz.forEach((q, i) => { if (a[i] !== undefined) markQuestion(i, a[i]); });
+}
+function markQuestion(i, j) {
+  const q = cur.quiz[i];
+  const fs = $('quiz').querySelector(`[data-q="${i}"]`);
+  fs.querySelectorAll('.opt').forEach((b) => {
+    b.disabled = true;
+    const k = +b.dataset.j;
+    if (k === q.a) b.classList.add('right'); else if (k === j) b.classList.add('wrong');
+  });
+  const why = fs.querySelector('.why');
+  why.innerHTML = `<b class="${j === q.a ? '' : 'no'}">${j === q.a ? 'Correct.' : 'Not quite.'}</b> ${q.why}`;
+  why.hidden = false;
+}
+$('quiz').addEventListener('click', (e) => {
+  const b = e.target.closest('.opt'); if (!b || b.disabled) return;
+  const i = +b.closest('.q').dataset.q, j = +b.dataset.j;
+  answers[cur.id] = answers[cur.id] || {}; answers[cur.id][i] = j; store.set(answers);
+  markQuestion(i, j); updateScore();
+});
+function updateScore() {
+  let right = 0;
+  for (const l of LABS) {
+    const a = answers[l.id] || {};
+    let n = 0;
+    l.quiz.forEach((q, i) => { if (a[i] === q.a) { right++; n++; } });
+    const d = document.querySelector(`[data-done="${l.id}"]`);
+    if (d) d.textContent = Object.keys(a).length === l.quiz.length ? `${n}/3` : '';
+  }
+  $('score').innerHTML = `Quiz <strong>${right}</strong> / ${LABS.length * 3}`;
+}
+
+function show(id) {
+  cur = LABS.find((l) => l.id === id) || LABS[0];
+  document.querySelectorAll('.series button').forEach((b) => b.setAttribute('aria-current', b.dataset.id === cur.id ? 'true' : 'false'));
+  $('eyebrow').textContent = `Video ${cur.n} · ${cur.topic}`;
+  $('title').textContent = cur.video;
+  $('blurb').textContent = cur.blurb;
+  $('hint').textContent = cur.hint || '';
+  cv.setAttribute('aria-label', `${cur.video}: interactive scene. ${cur.blurb}`);
+  $('watch').href = `https://www.youtube.com/@electricalmcqs/search?query=${encodeURIComponent(cur.video)}`;
+  $('watch').textContent = `Watch “${cur.video}” on YouTube`;
+  $('prev').disabled = cur.n === 1; $('next').disabled = cur.n === LABS.length;
+  document.title = `${cur.video} · Electrical MCQs Lab`;
+  buildControls(); buildQuiz(); updateScore();
+}
+$('prev').addEventListener('click', () => { location.hash = LABS[cur.n - 2].id; });
+$('next').addEventListener('click', () => { location.hash = LABS[cur.n].id; window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' }); });
+$('pause').addEventListener('click', () => { paused = !paused; $('pause').textContent = paused ? 'Play' : 'Pause'; });
+window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+
+function local(e) { const r = cv.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top]; }
+cv.addEventListener('pointerdown', (e) => { if (!cur.pointer) return; const [x, y] = local(e); if (cur.pointer('down', x, y, cur.state, cv.clientWidth, cv.clientHeight)) { cv.setPointerCapture(e.pointerId); e.preventDefault(); } });
+cv.addEventListener('pointermove', (e) => { if (!cur.pointer) return; const [x, y] = local(e); cur.pointer(e.buttons ? 'move' : 'hover', x, y, cur.state, cv.clientWidth, cv.clientHeight); });
+cv.addEventListener('pointerup', (e) => { if (!cur.pointer) return; const [x, y] = local(e); cur.pointer('up', x, y, cur.state, cv.clientWidth, cv.clientHeight); });
+
+function frame(now) {
+  const dt = Math.min(0.05, (now - last) / 1000); last = now;
+  const w = cv.clientWidth, h = cv.clientHeight, dpr = Math.min(2, window.devicePixelRatio || 1);
+  if (cv.width !== Math.round(w * dpr) || cv.height !== Math.round(h * dpr)) { cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr); }
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, w, h);
+  const step = paused ? 0 : dt;
+  time += step;
+  try { cur.draw(ctx, w, h, step, cur.state, time); } catch (err) { console.error(err); }
+  updateMeters(false);
+  requestAnimationFrame(frame);
+}
+
+buildRail();
+show(location.hash.slice(1) || 'wire');
+requestAnimationFrame(frame);
+</script>
