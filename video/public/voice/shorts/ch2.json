@@ -1,0 +1,1118 @@
+{
+ "chapter": 2,
+ "title": "Rub a balloon, bend a stream of water",
+ "characters": 1052,
+ "duration": 72.045714,
+ "words": [
+  {
+   "text": "Rub",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 0.32,
+   "end": 0.36,
+   "paragraph": 0
+  },
+  {
+   "text": "balloon",
+   "start": 0.4,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "on",
+   "start": 0.8,
+   "end": 0.88,
+   "paragraph": 0
+  },
+  {
+   "text": "your",
+   "start": 0.96,
+   "end": 1.04,
+   "paragraph": 0
+  },
+  {
+   "text": "hair,",
+   "start": 1.12,
+   "end": 1.84,
+   "paragraph": 0
+  },
+  {
+   "text": "hold",
+   "start": 1.92,
+   "end": 2.16,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 2.24,
+   "end": 2.32,
+   "paragraph": 0
+  },
+  {
+   "text": "near",
+   "start": 2.4,
+   "end": 2.56,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 2.64,
+   "end": 2.72,
+   "paragraph": 0
+  },
+  {
+   "text": "thin",
+   "start": 2.8,
+   "end": 2.96,
+   "paragraph": 0
+  },
+  {
+   "text": "stream",
+   "start": 3.04,
+   "end": 3.36,
+   "paragraph": 0
+  },
+  {
+   "text": "of",
+   "start": 3.44,
+   "end": 3.52,
+   "paragraph": 0
+  },
+  {
+   "text": "water,",
+   "start": 3.6,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 4.4,
+   "end": 4.48,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 4.52,
+   "end": 4.56,
+   "paragraph": 0
+  },
+  {
+   "text": "water",
+   "start": 4.64,
+   "end": 4.96,
+   "paragraph": 0
+  },
+  {
+   "text": "bends",
+   "start": 5.2,
+   "end": 5.52,
+   "paragraph": 0
+  },
+  {
+   "text": "towards",
+   "start": 5.56,
+   "end": 5.84,
+   "paragraph": 0
+  },
+  {
+   "text": "it.",
+   "start": 5.92,
+   "end": 6.16,
+   "paragraph": 0
+  },
+  {
+   "text": "Nothing",
+   "start": 6.64,
+   "end": 6.96,
+   "paragraph": 0
+  },
+  {
+   "text": "touches",
+   "start": 7.04,
+   "end": 7.36,
+   "paragraph": 0
+  },
+  {
+   "text": "it.",
+   "start": 7.48,
+   "end": 7.88,
+   "paragraph": 0
+  },
+  {
+   "text": "So",
+   "start": 8.16,
+   "end": 8.32,
+   "paragraph": 1
+  },
+  {
+   "text": "what",
+   "start": 8.56,
+   "end": 8.72,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 8.8,
+   "end": 8.88,
+   "paragraph": 1
+  },
+  {
+   "text": "pulling?",
+   "start": 8.96,
+   "end": 9.36,
+   "paragraph": 1
+  },
+  {
+   "text": "Electric",
+   "start": 9.76,
+   "end": 10.24,
+   "paragraph": 2
+  },
+  {
+   "text": "charge.",
+   "start": 10.32,
+   "end": 11.08,
+   "paragraph": 2
+  },
+  {
+   "text": "Rubbing",
+   "start": 11.36,
+   "end": 11.76,
+   "paragraph": 2
+  },
+  {
+   "text": "moves",
+   "start": 11.92,
+   "end": 12.08,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 12.16,
+   "end": 12.32,
+   "paragraph": 2
+  },
+  {
+   "text": "few",
+   "start": 12.4,
+   "end": 12.56,
+   "paragraph": 2
+  },
+  {
+   "text": "electrons",
+   "start": 12.72,
+   "end": 13.2,
+   "paragraph": 2
+  },
+  {
+   "text": "from",
+   "start": 13.28,
+   "end": 13.44,
+   "paragraph": 2
+  },
+  {
+   "text": "your",
+   "start": 13.52,
+   "end": 13.6,
+   "paragraph": 2
+  },
+  {
+   "text": "hair",
+   "start": 13.68,
+   "end": 14,
+   "paragraph": 2
+  },
+  {
+   "text": "onto",
+   "start": 14.08,
+   "end": 14.32,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 14.36,
+   "end": 14.4,
+   "paragraph": 2
+  },
+  {
+   "text": "balloon,",
+   "start": 14.48,
+   "end": 15.28,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 15.36,
+   "end": 15.44,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 15.6,
+   "end": 16,
+   "paragraph": 2
+  },
+  {
+   "text": "pushes",
+   "start": 16.16,
+   "end": 16.64,
+   "paragraph": 2
+  },
+  {
+   "text": "or",
+   "start": 16.72,
+   "end": 16.8,
+   "paragraph": 2
+  },
+  {
+   "text": "pulls",
+   "start": 17.04,
+   "end": 17.28,
+   "paragraph": 2
+  },
+  {
+   "text": "on",
+   "start": 17.36,
+   "end": 17.52,
+   "paragraph": 2
+  },
+  {
+   "text": "other",
+   "start": 17.64,
+   "end": 17.76,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 17.84,
+   "end": 18.24,
+   "paragraph": 2
+  },
+  {
+   "text": "across",
+   "start": 18.32,
+   "end": 18.64,
+   "paragraph": 2
+  },
+  {
+   "text": "empty",
+   "start": 18.72,
+   "end": 18.96,
+   "paragraph": 2
+  },
+  {
+   "text": "space.",
+   "start": 19.04,
+   "end": 19.76,
+   "paragraph": 2
+  },
+  {
+   "text": "Like",
+   "start": 20,
+   "end": 20.24,
+   "paragraph": 2
+  },
+  {
+   "text": "charges",
+   "start": 20.32,
+   "end": 20.8,
+   "paragraph": 2
+  },
+  {
+   "text": "push",
+   "start": 20.88,
+   "end": 21.04,
+   "paragraph": 2
+  },
+  {
+   "text": "apart.",
+   "start": 21.12,
+   "end": 21.6,
+   "paragraph": 2
+  },
+  {
+   "text": "Opposite",
+   "start": 22,
+   "end": 22.4,
+   "paragraph": 2
+  },
+  {
+   "text": "charges",
+   "start": 22.48,
+   "end": 22.96,
+   "paragraph": 2
+  },
+  {
+   "text": "pull",
+   "start": 23.12,
+   "end": 23.28,
+   "paragraph": 2
+  },
+  {
+   "text": "together.",
+   "start": 23.36,
+   "end": 23.96,
+   "paragraph": 2
+  },
+  {
+   "text": "And",
+   "start": 24.16,
+   "end": 24.24,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 24.32,
+   "end": 24.4,
+   "paragraph": 3
+  },
+  {
+   "text": "force",
+   "start": 24.48,
+   "end": 24.8,
+   "paragraph": 3
+  },
+  {
+   "text": "gets",
+   "start": 24.88,
+   "end": 25.12,
+   "paragraph": 3
+  },
+  {
+   "text": "weaker",
+   "start": 25.28,
+   "end": 25.6,
+   "paragraph": 3
+  },
+  {
+   "text": "fast.",
+   "start": 25.76,
+   "end": 26.44,
+   "paragraph": 3
+  },
+  {
+   "text": "Twice",
+   "start": 26.64,
+   "end": 26.96,
+   "paragraph": 3
+  },
+  {
+   "text": "as",
+   "start": 27.04,
+   "end": 27.12,
+   "paragraph": 3
+  },
+  {
+   "text": "far",
+   "start": 27.2,
+   "end": 27.36,
+   "paragraph": 3
+  },
+  {
+   "text": "away,",
+   "start": 27.44,
+   "end": 27.92,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 28,
+   "end": 28.08,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 28.16,
+   "end": 28.24,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 28.32,
+   "end": 28.4,
+   "paragraph": 3
+  },
+  {
+   "text": "only",
+   "start": 28.48,
+   "end": 28.72,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 28.8,
+   "end": 28.88,
+   "paragraph": 3
+  },
+  {
+   "text": "quarter",
+   "start": 29.04,
+   "end": 29.36,
+   "paragraph": 3
+  },
+  {
+   "text": "as",
+   "start": 29.44,
+   "end": 29.52,
+   "paragraph": 3
+  },
+  {
+   "text": "strong.",
+   "start": 29.6,
+   "end": 30.08,
+   "paragraph": 3
+  },
+  {
+   "text": "Three",
+   "start": 30.48,
+   "end": 30.64,
+   "paragraph": 3
+  },
+  {
+   "text": "times",
+   "start": 30.72,
+   "end": 30.96,
+   "paragraph": 3
+  },
+  {
+   "text": "as",
+   "start": 31.04,
+   "end": 31.12,
+   "paragraph": 3
+  },
+  {
+   "text": "far,",
+   "start": 31.2,
+   "end": 31.76,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 31.8,
+   "end": 31.84,
+   "paragraph": 3
+  },
+  {
+   "text": "ninth.",
+   "start": 32,
+   "end": 32.72,
+   "paragraph": 3
+  },
+  {
+   "text": "Charles",
+   "start": 32.96,
+   "end": 33.28,
+   "paragraph": 3
+  },
+  {
+   "text": "Coulomb",
+   "start": 33.36,
+   "end": 33.84,
+   "paragraph": 3
+  },
+  {
+   "text": "measured",
+   "start": 33.92,
+   "end": 34.24,
+   "paragraph": 3
+  },
+  {
+   "text": "this",
+   "start": 34.32,
+   "end": 34.48,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 34.56,
+   "end": 34.72,
+   "paragraph": 3
+  },
+  {
+   "text": "seventeen",
+   "start": 34.8,
+   "end": 35.2,
+   "paragraph": 3
+  },
+  {
+   "text": "eighty-five",
+   "start": 35.36,
+   "end": 36,
+   "paragraph": 3
+  },
+  {
+   "text": "with",
+   "start": 36.16,
+   "end": 36.24,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 36.32,
+   "end": 36.4,
+   "paragraph": 3
+  },
+  {
+   "text": "twisted",
+   "start": 36.48,
+   "end": 36.88,
+   "paragraph": 3
+  },
+  {
+   "text": "silver",
+   "start": 37.04,
+   "end": 37.28,
+   "paragraph": 3
+  },
+  {
+   "text": "wire.",
+   "start": 37.36,
+   "end": 37.76,
+   "paragraph": 3
+  },
+  {
+   "text": "But",
+   "start": 38.16,
+   "end": 38.32,
+   "paragraph": 4
+  },
+  {
+   "text": "how",
+   "start": 38.56,
+   "end": 38.72,
+   "paragraph": 4
+  },
+  {
+   "text": "does",
+   "start": 38.84,
+   "end": 38.96,
+   "paragraph": 4
+  },
+  {
+   "text": "one",
+   "start": 39.12,
+   "end": 39.28,
+   "paragraph": 4
+  },
+  {
+   "text": "charge",
+   "start": 39.36,
+   "end": 39.76,
+   "paragraph": 4
+  },
+  {
+   "text": "feel",
+   "start": 39.84,
+   "end": 40.08,
+   "paragraph": 4
+  },
+  {
+   "text": "another",
+   "start": 40.32,
+   "end": 40.56,
+   "paragraph": 4
+  },
+  {
+   "text": "across",
+   "start": 40.64,
+   "end": 40.96,
+   "paragraph": 4
+  },
+  {
+   "text": "empty",
+   "start": 41.04,
+   "end": 41.28,
+   "paragraph": 4
+  },
+  {
+   "text": "space?",
+   "start": 41.36,
+   "end": 41.92,
+   "paragraph": 4
+  },
+  {
+   "text": "Michael",
+   "start": 42.32,
+   "end": 42.64,
+   "paragraph": 4
+  },
+  {
+   "text": "Faraday's",
+   "start": 42.72,
+   "end": 43.2,
+   "paragraph": 4
+  },
+  {
+   "text": "answer",
+   "start": 43.44,
+   "end": 43.68,
+   "paragraph": 4
+  },
+  {
+   "text": "was",
+   "start": 43.84,
+   "end": 44,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 44.08,
+   "end": 44.16,
+   "paragraph": 4
+  },
+  {
+   "text": "field.",
+   "start": 44.32,
+   "end": 44.96,
+   "paragraph": 4
+  },
+  {
+   "text": "Every",
+   "start": 45.2,
+   "end": 45.52,
+   "paragraph": 4
+  },
+  {
+   "text": "charge",
+   "start": 45.6,
+   "end": 46,
+   "paragraph": 4
+  },
+  {
+   "text": "fills",
+   "start": 46.16,
+   "end": 46.4,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 46.48,
+   "end": 46.56,
+   "paragraph": 4
+  },
+  {
+   "text": "space",
+   "start": 46.72,
+   "end": 46.88,
+   "paragraph": 4
+  },
+  {
+   "text": "around",
+   "start": 46.96,
+   "end": 47.2,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 47.28,
+   "end": 47.36,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 47.44,
+   "end": 47.6,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 47.64,
+   "end": 47.68,
+   "paragraph": 4
+  },
+  {
+   "text": "field,",
+   "start": 47.84,
+   "end": 48.48,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 48.56,
+   "end": 48.72,
+   "paragraph": 4
+  },
+  {
+   "text": "anything",
+   "start": 48.8,
+   "end": 49.2,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 49.28,
+   "end": 49.44,
+   "paragraph": 4
+  },
+  {
+   "text": "enters",
+   "start": 49.52,
+   "end": 49.92,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 50,
+   "end": 50.16,
+   "paragraph": 4
+  },
+  {
+   "text": "feels",
+   "start": 50.32,
+   "end": 50.56,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 50.64,
+   "end": 50.72,
+   "paragraph": 4
+  },
+  {
+   "text": "push.",
+   "start": 50.8,
+   "end": 51.2,
+   "paragraph": 4
+  },
+  {
+   "text": "These",
+   "start": 51.6,
+   "end": 51.84,
+   "paragraph": 4
+  },
+  {
+   "text": "glowing",
+   "start": 51.92,
+   "end": 52.24,
+   "paragraph": 4
+  },
+  {
+   "text": "lines",
+   "start": 52.32,
+   "end": 52.72,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 52.8,
+   "end": 52.88,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 52.92,
+   "end": 52.96,
+   "paragraph": 4
+  },
+  {
+   "text": "map",
+   "start": 53.12,
+   "end": 53.36,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 53.4,
+   "end": 53.44,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 53.52,
+   "end": 53.68,
+   "paragraph": 4
+  },
+  {
+   "text": "field.",
+   "start": 53.76,
+   "end": 54.16,
+   "paragraph": 4
+  },
+  {
+   "text": "They",
+   "start": 54.56,
+   "end": 54.64,
+   "paragraph": 4
+  },
+  {
+   "text": "leave",
+   "start": 54.72,
+   "end": 54.96,
+   "paragraph": 4
+  },
+  {
+   "text": "positive",
+   "start": 55.04,
+   "end": 55.36,
+   "paragraph": 4
+  },
+  {
+   "text": "charges",
+   "start": 55.52,
+   "end": 56,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 56.08,
+   "end": 56.32,
+   "paragraph": 4
+  },
+  {
+   "text": "end",
+   "start": 56.4,
+   "end": 56.72,
+   "paragraph": 4
+  },
+  {
+   "text": "on",
+   "start": 56.8,
+   "end": 56.88,
+   "paragraph": 4
+  },
+  {
+   "text": "negative",
+   "start": 56.96,
+   "end": 57.28,
+   "paragraph": 4
+  },
+  {
+   "text": "ones.",
+   "start": 57.36,
+   "end": 57.96,
+   "paragraph": 4
+  },
+  {
+   "text": "Where",
+   "start": 58.16,
+   "end": 58.32,
+   "paragraph": 4
+  },
+  {
+   "text": "they",
+   "start": 58.4,
+   "end": 58.48,
+   "paragraph": 4
+  },
+  {
+   "text": "crowd",
+   "start": 58.6,
+   "end": 58.8,
+   "paragraph": 4
+  },
+  {
+   "text": "together,",
+   "start": 58.88,
+   "end": 59.52,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 59.56,
+   "end": 59.6,
+   "paragraph": 4
+  },
+  {
+   "text": "push",
+   "start": 59.76,
+   "end": 60.08,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 60.16,
+   "end": 60.24,
+   "paragraph": 4
+  },
+  {
+   "text": "strong.",
+   "start": 60.52,
+   "end": 61,
+   "paragraph": 4
+  },
+  {
+   "text": "That",
+   "start": 61.2,
+   "end": 61.36,
+   "paragraph": 5
+  },
+  {
+   "text": "field",
+   "start": 61.52,
+   "end": 61.76,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 61.84,
+   "end": 61.92,
+   "paragraph": 5
+  },
+  {
+   "text": "behind",
+   "start": 62,
+   "end": 62.32,
+   "paragraph": 5
+  },
+  {
+   "text": "lightning,",
+   "start": 62.4,
+   "end": 63.2,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 63.24,
+   "end": 63.28,
+   "paragraph": 5
+  },
+  {
+   "text": "screen",
+   "start": 63.36,
+   "end": 63.68,
+   "paragraph": 5
+  },
+  {
+   "text": "you",
+   "start": 63.76,
+   "end": 63.84,
+   "paragraph": 5
+  },
+  {
+   "text": "are",
+   "start": 63.88,
+   "end": 63.92,
+   "paragraph": 5
+  },
+  {
+   "text": "reading,",
+   "start": 64.12,
+   "end": 64.56,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 64.64,
+   "end": 64.72,
+   "paragraph": 5
+  },
+  {
+   "text": "every",
+   "start": 64.96,
+   "end": 65.28,
+   "paragraph": 5
+  },
+  {
+   "text": "circuit",
+   "start": 65.36,
+   "end": 65.76,
+   "paragraph": 5
+  },
+  {
+   "text": "you",
+   "start": 65.84,
+   "end": 65.92,
+   "paragraph": 5
+  },
+  {
+   "text": "have",
+   "start": 66.04,
+   "end": 66.16,
+   "paragraph": 5
+  },
+  {
+   "text": "ever",
+   "start": 66.24,
+   "end": 66.48,
+   "paragraph": 5
+  },
+  {
+   "text": "used.",
+   "start": 66.56,
+   "end": 66.96,
+   "paragraph": 5
+  },
+  {
+   "text": "Watch",
+   "start": 67.44,
+   "end": 67.68,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 67.72,
+   "end": 67.76,
+   "paragraph": 6
+  },
+  {
+   "text": "full",
+   "start": 67.92,
+   "end": 68.08,
+   "paragraph": 6
+  },
+  {
+   "text": "video,",
+   "start": 68.16,
+   "end": 68.72,
+   "paragraph": 6
+  },
+  {
+   "text": "The",
+   "start": 68.76,
+   "end": 68.8,
+   "paragraph": 6
+  },
+  {
+   "text": "Invisible",
+   "start": 68.96,
+   "end": 69.44,
+   "paragraph": 6
+  },
+  {
+   "text": "Push,",
+   "start": 69.6,
+   "end": 70,
+   "paragraph": 6
+  },
+  {
+   "text": "on",
+   "start": 70.08,
+   "end": 70.16,
+   "paragraph": 6
+  },
+  {
+   "text": "our",
+   "start": 70.24,
+   "end": 70.32,
+   "paragraph": 6
+  },
+  {
+   "text": "channel.",
+   "start": 70.48,
+   "end": 70.72,
+   "paragraph": 6
+  },
+  {
+   "text": "Follow",
+   "start": 71.12,
+   "end": 71.36,
+   "paragraph": 6
+  },
+  {
+   "text": "for",
+   "start": 71.44,
+   "end": 71.52,
+   "paragraph": 6
+  },
+  {
+   "text": "more.",
+   "start": 71.6,
+   "end": 72.08,
+   "paragraph": 6
+  }
+ ]
+}

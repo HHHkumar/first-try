@@ -91,6 +91,16 @@ import { B7, B7_FRAMES } from './films/ac2/B7';
 import { B8, B8_FRAMES } from './films/ac2/B8';
 import { B9, B9_FRAMES } from './films/ac2/B9';
 import { BThumb } from './films/ac2/BThumb';
+import { S1, S1_FRAMES } from './films/shorts/S1';
+import { S2, S2_FRAMES } from './films/shorts/S2';
+import { S3, S3_FRAMES } from './films/shorts/S3';
+import { S4, S4_FRAMES } from './films/shorts/S4';
+import { S5, S5_FRAMES } from './films/shorts/S5';
+import { S6, S6_FRAMES } from './films/shorts/S6';
+import { S7, S7_FRAMES } from './films/shorts/S7';
+import { S8, S8_FRAMES } from './films/shorts/S8';
+import { S9, S9_FRAMES } from './films/shorts/S9';
+// SHORTS-IMPORTS
 import { StyleAC } from './films/ac/StyleAC';
 import { IndThumb } from './films/inductance/IndThumb';
 import { MagThumb } from './films/magnetism/MagThumb';
@@ -217,6 +227,16 @@ export const Root = () => (
     <Composition id="AcStyleA" component={StyleAC} defaultProps={{ look: 'A' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="AcStyleB" component={StyleAC} defaultProps={{ look: 'B' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="AcStyleC" component={StyleAC} defaultProps={{ look: 'C' as const }} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="S1" component={S1} durationInFrames={S1_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S2" component={S2} durationInFrames={S2_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S3" component={S3} durationInFrames={S3_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S4" component={S4} durationInFrames={S4_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S5" component={S5} durationInFrames={S5_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S6" component={S6} durationInFrames={S6_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S7" component={S7} durationInFrames={S7_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S8" component={S8} durationInFrames={S8_FRAMES} fps={FPS} width={1080} height={1920} />
+    <Composition id="S9" component={S9} durationInFrames={S9_FRAMES} fps={FPS} width={1080} height={1920} />
+    {/* SHORTS */}
     <Composition id="BThumb" component={BThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="AThumb" component={AThumb} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="IThumb" component={IThumb} durationInFrames={1} fps={FPS} width={W} height={H} />

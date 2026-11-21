@@ -22,6 +22,7 @@ const FILMS = {
   induction: { script: 'induction.md', out: ['induction'] },
   ac1: { script: 'ac-1-shape-of-ac.md', out: ['ac1'] },
   ac2: { script: 'ac-2-out-of-step.md', out: ['ac2'] },
+  shorts: { script: 'shorts.md', out: ['shorts'] },
 };
 const film = FILMS[process.argv[2]];
 if (!film) throw new Error(`Unknown film "${process.argv[2]}". Known: ${Object.keys(FILMS).join(', ')}`);
