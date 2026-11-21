@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { AbsoluteFill, Audio, Easing, interpolate, Sequence, staticFile, useCurrentFrame } from 'remotion';
+import { AbsoluteFill, Audio, Easing, getInputProps, interpolate, Sequence, staticFile, useCurrentFrame } from 'remotion';
 import { ramp } from '../../anim';
 import { sora } from '../../fonts';
 import type { Add } from '../../world/Stage3D';
@@ -105,7 +105,8 @@ export const ShortShell = ({ n, voice, headline, endAt, world, children }: { n: 
   const info = SHORTS[n - 1];
   const total = shortFrames(voice.duration);
   const end = ramp(frame, st(endAt) - 4, st(endAt) + 10);
-  const hookBig = 1 - ramp(frame, st(3.2), st(3.9), Easing.inOut(Easing.cubic));
+  const cover = Boolean((getInputProps() as { cover?: boolean }).cover);
+  const hookBig = cover ? 1 : 1 - ramp(frame, st(3.2), st(3.9), Easing.inOut(Easing.cubic));
   const fadeOut = ramp(frame, total - 10, total - 1);
   return (
     <AbsoluteFill style={{ backgroundColor: BG, fontFamily: sora, color: '#fff' }}>
@@ -119,8 +120,16 @@ export const ShortShell = ({ n, voice, headline, endAt, world, children }: { n: 
         <div style={{ fontSize: 30, fontWeight: 600, letterSpacing: 7, color: TEAL, textTransform: 'uppercase', marginBottom: 14 }}>Electrical MCQs · in 90 seconds</div>
         <div style={{ fontSize: interpolate(hookBig, [0, 1], [62, 104]), fontWeight: 700, lineHeight: 1.04, letterSpacing: -2, textShadow: '0 0 40px rgba(11,7,34,0.9), 0 4px 0 rgba(0,0,0,0.45)' }}>{headline}</div>
       </div>
-      <AbsoluteFill style={{ opacity: 1 - end }}>{children}</AbsoluteFill>
-      <Captions words={voice.words} frame={frame} until={endAt - 0.05} />
+      {cover ? (
+        <div style={{ position: 'absolute', left: 0, right: 0, top: 1420, textAlign: 'center' }}>
+          <span style={{ fontSize: 44, fontWeight: 700, color: BG, background: SUN, borderRadius: 999, padding: '16px 40px' }}>{info.film}</span>
+        </div>
+      ) : (
+        <>
+          <AbsoluteFill style={{ opacity: 1 - end }}>{children}</AbsoluteFill>
+          <Captions words={voice.words} frame={frame} until={endAt - 0.05} />
+        </>
+      )}
       {/* the closing card */}
       {end > 0.01 ? (
         <AbsoluteFill style={{ alignItems: 'center', justifyContent: 'center', padding: '0 90px', opacity: end, textAlign: 'center' }}>
