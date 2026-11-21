@@ -16,7 +16,7 @@ export const S6 = () => {
   const waveMode = frame >= st(18.9);
   const swap = frame >= st(11.6);
   const pulse = 0.6 + 0.4 * Math.sin(frame * 0.12);
-  const front = keys(frame, [[0, -8], [22.4, -8], [33.2, 8], [90, 8]]);
+  const front = keys(frame, [[0, -2], [18.9, -2], [30.2, 8.6], [90, 8.6]]);
   const k = keys(frame, [[0, 1.3], [51.8, 1.3], [53.8, 0.55], [56.8, 0.55], [59, 2.6], [61, 6], [64, 6], [66, 1.6]]);
   const band = k < 0.8 ? 'radio · Wi-Fi' : k < 2 ? 'infrared' : k < 4 ? 'visible light' : k < 5.6 ? 'ultraviolet' : 'X-rays';
 
