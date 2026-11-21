@@ -1,0 +1,1790 @@
+{
+ "chapter": 6,
+ "title": "Hertz",
+ "characters": 1616,
+ "duration": 111.56898,
+ "words": [
+  {
+   "text": "But",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 0.32,
+   "end": 0.4,
+   "paragraph": 0
+  },
+  {
+   "text": "was",
+   "start": 0.48,
+   "end": 0.56,
+   "paragraph": 0
+  },
+  {
+   "text": "still",
+   "start": 0.76,
+   "end": 0.96,
+   "paragraph": 0
+  },
+  {
+   "text": "only",
+   "start": 1.04,
+   "end": 1.28,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 1.36,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "prediction.",
+   "start": 1.76,
+   "end": 2.16,
+   "paragraph": 0
+  },
+  {
+   "text": "Maxwell",
+   "start": 2.64,
+   "end": 3.2,
+   "paragraph": 0
+  },
+  {
+   "text": "died",
+   "start": 3.24,
+   "end": 3.52,
+   "paragraph": 0
+  },
+  {
+   "text": "in",
+   "start": 3.6,
+   "end": 3.68,
+   "paragraph": 0
+  },
+  {
+   "text": "eighteen",
+   "start": 3.76,
+   "end": 4,
+   "paragraph": 0
+  },
+  {
+   "text": "seventy-nine,",
+   "start": 4.16,
+   "end": 5.12,
+   "paragraph": 0
+  },
+  {
+   "text": "without",
+   "start": 5.32,
+   "end": 5.52,
+   "paragraph": 0
+  },
+  {
+   "text": "seeing",
+   "start": 5.6,
+   "end": 5.76,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 5.84,
+   "end": 5.92,
+   "paragraph": 0
+  },
+  {
+   "text": "tested.",
+   "start": 6,
+   "end": 6.96,
+   "paragraph": 0
+  },
+  {
+   "text": "The",
+   "start": 7.04,
+   "end": 7.2,
+   "paragraph": 0
+  },
+  {
+   "text": "proof",
+   "start": 7.36,
+   "end": 7.52,
+   "paragraph": 0
+  },
+  {
+   "text": "came",
+   "start": 7.6,
+   "end": 7.92,
+   "paragraph": 0
+  },
+  {
+   "text": "eight",
+   "start": 8,
+   "end": 8.16,
+   "paragraph": 0
+  },
+  {
+   "text": "years",
+   "start": 8.24,
+   "end": 8.48,
+   "paragraph": 0
+  },
+  {
+   "text": "later,",
+   "start": 8.56,
+   "end": 9.12,
+   "paragraph": 0
+  },
+  {
+   "text": "from",
+   "start": 9.2,
+   "end": 9.28,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 9.36,
+   "end": 9.44,
+   "paragraph": 0
+  },
+  {
+   "text": "young",
+   "start": 9.52,
+   "end": 9.76,
+   "paragraph": 0
+  },
+  {
+   "text": "German",
+   "start": 9.84,
+   "end": 10.16,
+   "paragraph": 0
+  },
+  {
+   "text": "professor,",
+   "start": 10.28,
+   "end": 11.04,
+   "paragraph": 0
+  },
+  {
+   "text": "Heinrich",
+   "start": 11.12,
+   "end": 11.52,
+   "paragraph": 0
+  },
+  {
+   "text": "Hertz.",
+   "start": 11.6,
+   "end": 12.44,
+   "paragraph": 0
+  },
+  {
+   "text": "If",
+   "start": 12.8,
+   "end": 12.96,
+   "paragraph": 1
+  },
+  {
+   "text": "Maxwell",
+   "start": 13.04,
+   "end": 13.44,
+   "paragraph": 1
+  },
+  {
+   "text": "was",
+   "start": 13.56,
+   "end": 13.68,
+   "paragraph": 1
+  },
+  {
+   "text": "right,",
+   "start": 13.88,
+   "end": 14.4,
+   "paragraph": 1
+  },
+  {
+   "text": "then",
+   "start": 14.52,
+   "end": 14.64,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 14.84,
+   "end": 15.04,
+   "paragraph": 1
+  },
+  {
+   "text": "rushing",
+   "start": 15.12,
+   "end": 15.52,
+   "paragraph": 1
+  },
+  {
+   "text": "back",
+   "start": 15.6,
+   "end": 15.68,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 15.76,
+   "end": 15.92,
+   "paragraph": 1
+  },
+  {
+   "text": "forth",
+   "start": 16.16,
+   "end": 16.4,
+   "paragraph": 1
+  },
+  {
+   "text": "should",
+   "start": 16.52,
+   "end": 16.64,
+   "paragraph": 1
+  },
+  {
+   "text": "send",
+   "start": 16.76,
+   "end": 16.88,
+   "paragraph": 1
+  },
+  {
+   "text": "out",
+   "start": 17,
+   "end": 17.12,
+   "paragraph": 1
+  },
+  {
+   "text": "waves.",
+   "start": 17.36,
+   "end": 18.16,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 18.32,
+   "end": 18.48,
+   "paragraph": 1
+  },
+  {
+   "text": "on",
+   "start": 18.56,
+   "end": 18.72,
+   "paragraph": 1
+  },
+  {
+   "text": "one",
+   "start": 18.8,
+   "end": 18.96,
+   "paragraph": 1
+  },
+  {
+   "text": "side",
+   "start": 19.04,
+   "end": 19.2,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 19.28,
+   "end": 19.36,
+   "paragraph": 1
+  },
+  {
+   "text": "his",
+   "start": 19.4,
+   "end": 19.44,
+   "paragraph": 1
+  },
+  {
+   "text": "laboratory,",
+   "start": 19.52,
+   "end": 20.48,
+   "paragraph": 1
+  },
+  {
+   "text": "Hertz",
+   "start": 20.56,
+   "end": 20.88,
+   "paragraph": 1
+  },
+  {
+   "text": "set",
+   "start": 20.96,
+   "end": 21.04,
+   "paragraph": 1
+  },
+  {
+   "text": "up",
+   "start": 21.12,
+   "end": 21.36,
+   "paragraph": 1
+  },
+  {
+   "text": "two",
+   "start": 21.44,
+   "end": 21.52,
+   "paragraph": 1
+  },
+  {
+   "text": "brass",
+   "start": 21.6,
+   "end": 22,
+   "paragraph": 1
+  },
+  {
+   "text": "rods",
+   "start": 22.08,
+   "end": 22.48,
+   "paragraph": 1
+  },
+  {
+   "text": "with",
+   "start": 22.56,
+   "end": 22.64,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 22.72,
+   "end": 22.8,
+   "paragraph": 1
+  },
+  {
+   "text": "small",
+   "start": 23,
+   "end": 23.2,
+   "paragraph": 1
+  },
+  {
+   "text": "gap",
+   "start": 23.36,
+   "end": 23.6,
+   "paragraph": 1
+  },
+  {
+   "text": "between",
+   "start": 23.8,
+   "end": 24,
+   "paragraph": 1
+  },
+  {
+   "text": "them,",
+   "start": 24.12,
+   "end": 24.64,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 24.72,
+   "end": 24.8,
+   "paragraph": 1
+  },
+  {
+   "text": "made",
+   "start": 24.88,
+   "end": 24.96,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 25.04,
+   "end": 25.12,
+   "paragraph": 1
+  },
+  {
+   "text": "spark",
+   "start": 25.4,
+   "end": 25.68,
+   "paragraph": 1
+  },
+  {
+   "text": "leap",
+   "start": 25.76,
+   "end": 26.08,
+   "paragraph": 1
+  },
+  {
+   "text": "back",
+   "start": 26.2,
+   "end": 26.32,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 26.4,
+   "end": 26.48,
+   "paragraph": 1
+  },
+  {
+   "text": "forth",
+   "start": 26.56,
+   "end": 26.8,
+   "paragraph": 1
+  },
+  {
+   "text": "across",
+   "start": 26.88,
+   "end": 27.2,
+   "paragraph": 1
+  },
+  {
+   "text": "it,",
+   "start": 27.28,
+   "end": 27.76,
+   "paragraph": 1
+  },
+  {
+   "text": "many",
+   "start": 27.84,
+   "end": 28.08,
+   "paragraph": 1
+  },
+  {
+   "text": "millions",
+   "start": 28.32,
+   "end": 28.72,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 28.8,
+   "end": 28.88,
+   "paragraph": 1
+  },
+  {
+   "text": "times",
+   "start": 29,
+   "end": 29.12,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 29.2,
+   "end": 29.28,
+   "paragraph": 1
+  },
+  {
+   "text": "second.",
+   "start": 29.48,
+   "end": 30.32,
+   "paragraph": 1
+  },
+  {
+   "text": "On",
+   "start": 30.4,
+   "end": 30.48,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 30.56,
+   "end": 30.64,
+   "paragraph": 2
+  },
+  {
+   "text": "other",
+   "start": 30.72,
+   "end": 30.88,
+   "paragraph": 2
+  },
+  {
+   "text": "side",
+   "start": 30.96,
+   "end": 31.12,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 31.2,
+   "end": 31.28,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 31.32,
+   "end": 31.36,
+   "paragraph": 2
+  },
+  {
+   "text": "room,",
+   "start": 31.48,
+   "end": 31.92,
+   "paragraph": 2
+  },
+  {
+   "text": "he",
+   "start": 32,
+   "end": 32.16,
+   "paragraph": 2
+  },
+  {
+   "text": "held",
+   "start": 32.28,
+   "end": 32.4,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 32.48,
+   "end": 32.64,
+   "paragraph": 2
+  },
+  {
+   "text": "simple",
+   "start": 32.84,
+   "end": 33.04,
+   "paragraph": 2
+  },
+  {
+   "text": "loop",
+   "start": 33.12,
+   "end": 33.28,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 33.36,
+   "end": 33.44,
+   "paragraph": 2
+  },
+  {
+   "text": "wire",
+   "start": 33.52,
+   "end": 33.92,
+   "paragraph": 2
+  },
+  {
+   "text": "with",
+   "start": 34,
+   "end": 34.08,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 34.16,
+   "end": 34.32,
+   "paragraph": 2
+  },
+  {
+   "text": "tiny",
+   "start": 34.52,
+   "end": 34.72,
+   "paragraph": 2
+  },
+  {
+   "text": "gap",
+   "start": 34.8,
+   "end": 34.96,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 35.04,
+   "end": 35.12,
+   "paragraph": 2
+  },
+  {
+   "text": "its",
+   "start": 35.2,
+   "end": 35.28,
+   "paragraph": 2
+  },
+  {
+   "text": "own.",
+   "start": 35.36,
+   "end": 36.08,
+   "paragraph": 2
+  },
+  {
+   "text": "It",
+   "start": 36.12,
+   "end": 36.16,
+   "paragraph": 2
+  },
+  {
+   "text": "was",
+   "start": 36.24,
+   "end": 36.4,
+   "paragraph": 2
+  },
+  {
+   "text": "connected",
+   "start": 36.64,
+   "end": 36.88,
+   "paragraph": 2
+  },
+  {
+   "text": "to",
+   "start": 36.96,
+   "end": 37.12,
+   "paragraph": 2
+  },
+  {
+   "text": "nothing.",
+   "start": 37.32,
+   "end": 37.92,
+   "paragraph": 2
+  },
+  {
+   "text": "No",
+   "start": 38,
+   "end": 38.08,
+   "paragraph": 2
+  },
+  {
+   "text": "battery,",
+   "start": 38.16,
+   "end": 38.88,
+   "paragraph": 2
+  },
+  {
+   "text": "no",
+   "start": 38.96,
+   "end": 39.04,
+   "paragraph": 2
+  },
+  {
+   "text": "wires.",
+   "start": 39.12,
+   "end": 40.16,
+   "paragraph": 2
+  },
+  {
+   "text": "When",
+   "start": 40.24,
+   "end": 40.32,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 40.4,
+   "end": 40.56,
+   "paragraph": 3
+  },
+  {
+   "text": "first",
+   "start": 40.72,
+   "end": 40.88,
+   "paragraph": 3
+  },
+  {
+   "text": "spark",
+   "start": 40.96,
+   "end": 41.36,
+   "paragraph": 3
+  },
+  {
+   "text": "fired,",
+   "start": 41.44,
+   "end": 42.16,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 42.24,
+   "end": 42.4,
+   "paragraph": 3
+  },
+  {
+   "text": "faint",
+   "start": 42.48,
+   "end": 42.8,
+   "paragraph": 3
+  },
+  {
+   "text": "spark",
+   "start": 42.88,
+   "end": 43.28,
+   "paragraph": 3
+  },
+  {
+   "text": "appeared",
+   "start": 43.36,
+   "end": 43.76,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 43.8,
+   "end": 43.84,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 43.92,
+   "end": 44,
+   "paragraph": 3
+  },
+  {
+   "text": "gap",
+   "start": 44.08,
+   "end": 44.24,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 44.32,
+   "end": 44.4,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 44.44,
+   "end": 44.48,
+   "paragraph": 3
+  },
+  {
+   "text": "loop.",
+   "start": 44.56,
+   "end": 45.36,
+   "paragraph": 3
+  },
+  {
+   "text": "Something",
+   "start": 45.44,
+   "end": 45.92,
+   "paragraph": 4
+  },
+  {
+   "text": "had",
+   "start": 46,
+   "end": 46.24,
+   "paragraph": 4
+  },
+  {
+   "text": "crossed",
+   "start": 46.36,
+   "end": 46.56,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 46.64,
+   "end": 46.72,
+   "paragraph": 4
+  },
+  {
+   "text": "room.",
+   "start": 46.88,
+   "end": 47.76,
+   "paragraph": 4
+  },
+  {
+   "text": "Hertz",
+   "start": 47.8,
+   "end": 48.08,
+   "paragraph": 4
+  },
+  {
+   "text": "went",
+   "start": 48.16,
+   "end": 48.32,
+   "paragraph": 4
+  },
+  {
+   "text": "on",
+   "start": 48.4,
+   "end": 48.48,
+   "paragraph": 4
+  },
+  {
+   "text": "to",
+   "start": 48.56,
+   "end": 48.64,
+   "paragraph": 4
+  },
+  {
+   "text": "test",
+   "start": 48.72,
+   "end": 48.96,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 49.08,
+   "end": 49.2,
+   "paragraph": 4
+  },
+  {
+   "text": "as",
+   "start": 49.28,
+   "end": 49.36,
+   "paragraph": 4
+  },
+  {
+   "text": "you",
+   "start": 49.4,
+   "end": 49.44,
+   "paragraph": 4
+  },
+  {
+   "text": "would",
+   "start": 49.52,
+   "end": 49.68,
+   "paragraph": 4
+  },
+  {
+   "text": "test",
+   "start": 49.8,
+   "end": 49.92,
+   "paragraph": 4
+  },
+  {
+   "text": "light.",
+   "start": 50,
+   "end": 50.8,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 50.88,
+   "end": 50.96,
+   "paragraph": 4
+  },
+  {
+   "text": "metal",
+   "start": 51.12,
+   "end": 51.28,
+   "paragraph": 4
+  },
+  {
+   "text": "sheet",
+   "start": 51.36,
+   "end": 51.68,
+   "paragraph": 4
+  },
+  {
+   "text": "reflected",
+   "start": 51.8,
+   "end": 52.24,
+   "paragraph": 4
+  },
+  {
+   "text": "it,",
+   "start": 52.32,
+   "end": 52.613,
+   "paragraph": 4
+  },
+  {
+   "text": "like",
+   "start": 52.667,
+   "end": 52.72,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 52.76,
+   "end": 52.8,
+   "paragraph": 4
+  },
+  {
+   "text": "mirror.",
+   "start": 52.88,
+   "end": 53.6,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 53.72,
+   "end": 53.84,
+   "paragraph": 4
+  },
+  {
+   "text": "curved",
+   "start": 53.92,
+   "end": 54.16,
+   "paragraph": 4
+  },
+  {
+   "text": "one",
+   "start": 54.24,
+   "end": 54.56,
+   "paragraph": 4
+  },
+  {
+   "text": "focused",
+   "start": 54.64,
+   "end": 55.04,
+   "paragraph": 4
+  },
+  {
+   "text": "it.",
+   "start": 55.12,
+   "end": 55.68,
+   "paragraph": 4
+  },
+  {
+   "text": "And",
+   "start": 55.76,
+   "end": 55.84,
+   "paragraph": 4
+  },
+  {
+   "text": "when",
+   "start": 55.92,
+   "end": 56,
+   "paragraph": 4
+  },
+  {
+   "text": "he",
+   "start": 56.08,
+   "end": 56.16,
+   "paragraph": 4
+  },
+  {
+   "text": "measured",
+   "start": 56.24,
+   "end": 56.48,
+   "paragraph": 4
+  },
+  {
+   "text": "its",
+   "start": 56.56,
+   "end": 56.72,
+   "paragraph": 4
+  },
+  {
+   "text": "speed,",
+   "start": 56.92,
+   "end": 57.6,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 57.68,
+   "end": 57.76,
+   "paragraph": 4
+  },
+  {
+   "text": "was",
+   "start": 57.84,
+   "end": 57.92,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 58,
+   "end": 58.16,
+   "paragraph": 4
+  },
+  {
+   "text": "speed",
+   "start": 58.32,
+   "end": 58.48,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 58.56,
+   "end": 58.64,
+   "paragraph": 4
+  },
+  {
+   "text": "light.",
+   "start": 58.72,
+   "end": 59.76,
+   "paragraph": 4
+  },
+  {
+   "text": "Asked",
+   "start": 59.96,
+   "end": 60.16,
+   "paragraph": 5
+  },
+  {
+   "text": "what",
+   "start": 60.24,
+   "end": 60.48,
+   "paragraph": 5
+  },
+  {
+   "text": "use",
+   "start": 60.56,
+   "end": 60.8,
+   "paragraph": 5
+  },
+  {
+   "text": "his",
+   "start": 60.88,
+   "end": 60.96,
+   "paragraph": 5
+  },
+  {
+   "text": "discovery",
+   "start": 61.04,
+   "end": 61.52,
+   "paragraph": 5
+  },
+  {
+   "text": "might",
+   "start": 61.64,
+   "end": 61.76,
+   "paragraph": 5
+  },
+  {
+   "text": "be,",
+   "start": 61.84,
+   "end": 62.36,
+   "paragraph": 5
+  },
+  {
+   "text": "he",
+   "start": 62.4,
+   "end": 62.48,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 62.56,
+   "end": 62.64,
+   "paragraph": 5
+  },
+  {
+   "text": "said",
+   "start": 62.72,
+   "end": 62.8,
+   "paragraph": 5
+  },
+  {
+   "text": "to",
+   "start": 62.88,
+   "end": 62.96,
+   "paragraph": 5
+  },
+  {
+   "text": "have",
+   "start": 63,
+   "end": 63.04,
+   "paragraph": 5
+  },
+  {
+   "text": "replied:",
+   "start": 63.12,
+   "end": 64.08,
+   "paragraph": 5
+  },
+  {
+   "text": "none",
+   "start": 64.16,
+   "end": 64.32,
+   "paragraph": 5
+  },
+  {
+   "text": "at",
+   "start": 64.36,
+   "end": 64.4,
+   "paragraph": 5
+  },
+  {
+   "text": "all.",
+   "start": 64.48,
+   "end": 65.36,
+   "paragraph": 5
+  },
+  {
+   "text": "He",
+   "start": 65.44,
+   "end": 65.52,
+   "paragraph": 5
+  },
+  {
+   "text": "was",
+   "start": 65.6,
+   "end": 65.76,
+   "paragraph": 5
+  },
+  {
+   "text": "wrong",
+   "start": 65.88,
+   "end": 66,
+   "paragraph": 5
+  },
+  {
+   "text": "about",
+   "start": 66.16,
+   "end": 66.32,
+   "paragraph": 5
+  },
+  {
+   "text": "that.",
+   "start": 66.48,
+   "end": 67.12,
+   "paragraph": 5
+  },
+  {
+   "text": "In",
+   "start": 67.2,
+   "end": 67.28,
+   "paragraph": 5
+  },
+  {
+   "text": "nineteen",
+   "start": 67.36,
+   "end": 67.68,
+   "paragraph": 5
+  },
+  {
+   "text": "hundred",
+   "start": 67.76,
+   "end": 68,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 68.12,
+   "end": 68.24,
+   "paragraph": 5
+  },
+  {
+   "text": "one,",
+   "start": 68.32,
+   "end": 68.8,
+   "paragraph": 5
+  },
+  {
+   "text": "Guglielmo",
+   "start": 68.88,
+   "end": 69.36,
+   "paragraph": 5
+  },
+  {
+   "text": "Marconi",
+   "start": 69.44,
+   "end": 70.16,
+   "paragraph": 5
+  },
+  {
+   "text": "sent",
+   "start": 70.28,
+   "end": 70.4,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 70.48,
+   "end": 70.56,
+   "paragraph": 5
+  },
+  {
+   "text": "signal",
+   "start": 70.76,
+   "end": 70.96,
+   "paragraph": 5
+  },
+  {
+   "text": "across",
+   "start": 71.04,
+   "end": 71.36,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 71.44,
+   "end": 71.48,
+   "paragraph": 5
+  },
+  {
+   "text": "Atlantic.",
+   "start": 71.52,
+   "end": 72.6,
+   "paragraph": 5
+  },
+  {
+   "text": "Today",
+   "start": 72.64,
+   "end": 73.04,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 73.12,
+   "end": 73.2,
+   "paragraph": 5
+  },
+  {
+   "text": "unit",
+   "start": 73.28,
+   "end": 73.44,
+   "paragraph": 5
+  },
+  {
+   "text": "of",
+   "start": 73.52,
+   "end": 73.6,
+   "paragraph": 5
+  },
+  {
+   "text": "frequency,",
+   "start": 73.68,
+   "end": 74.6,
+   "paragraph": 5
+  },
+  {
+   "text": "one",
+   "start": 74.64,
+   "end": 74.8,
+   "paragraph": 5
+  },
+  {
+   "text": "cycle",
+   "start": 74.88,
+   "end": 75.28,
+   "paragraph": 5
+  },
+  {
+   "text": "each",
+   "start": 75.36,
+   "end": 75.52,
+   "paragraph": 5
+  },
+  {
+   "text": "second,",
+   "start": 75.6,
+   "end": 76.28,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 76.32,
+   "end": 76.48,
+   "paragraph": 5
+  },
+  {
+   "text": "called",
+   "start": 76.68,
+   "end": 76.88,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 76.96,
+   "end": 77.04,
+   "paragraph": 5
+  },
+  {
+   "text": "hertz.",
+   "start": 77.08,
+   "end": 78.16,
+   "paragraph": 5
+  },
+  {
+   "text": "Hertz's",
+   "start": 78.2,
+   "end": 78.72,
+   "paragraph": 6
+  },
+  {
+   "text": "waves",
+   "start": 78.92,
+   "end": 79.12,
+   "paragraph": 6
+  },
+  {
+   "text": "were",
+   "start": 79.2,
+   "end": 79.28,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 79.44,
+   "end": 79.52,
+   "paragraph": 6
+  },
+  {
+   "text": "few",
+   "start": 79.6,
+   "end": 79.68,
+   "paragraph": 6
+  },
+  {
+   "text": "metres",
+   "start": 79.76,
+   "end": 80.16,
+   "paragraph": 6
+  },
+  {
+   "text": "long.",
+   "start": 80.24,
+   "end": 81,
+   "paragraph": 6
+  },
+  {
+   "text": "Light",
+   "start": 81.04,
+   "end": 81.28,
+   "paragraph": 6
+  },
+  {
+   "text": "waves",
+   "start": 81.36,
+   "end": 81.68,
+   "paragraph": 6
+  },
+  {
+   "text": "are",
+   "start": 81.76,
+   "end": 81.84,
+   "paragraph": 6
+  },
+  {
+   "text": "less",
+   "start": 81.96,
+   "end": 82.08,
+   "paragraph": 6
+  },
+  {
+   "text": "than",
+   "start": 82.16,
+   "end": 82.24,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 82.36,
+   "end": 82.48,
+   "paragraph": 6
+  },
+  {
+   "text": "thousandth",
+   "start": 82.56,
+   "end": 83,
+   "paragraph": 6
+  },
+  {
+   "text": "of",
+   "start": 83.04,
+   "end": 83.12,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 83.16,
+   "end": 83.2,
+   "paragraph": 6
+  },
+  {
+   "text": "millimetre",
+   "start": 83.28,
+   "end": 83.68,
+   "paragraph": 6
+  },
+  {
+   "text": "long.",
+   "start": 84.04,
+   "end": 84.48,
+   "paragraph": 6
+  },
+  {
+   "text": "That",
+   "start": 84.64,
+   "end": 84.8,
+   "paragraph": 6
+  },
+  {
+   "text": "is",
+   "start": 84.88,
+   "end": 84.96,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 85.04,
+   "end": 85.28,
+   "paragraph": 6
+  },
+  {
+   "text": "only",
+   "start": 85.36,
+   "end": 85.68,
+   "paragraph": 6
+  },
+  {
+   "text": "difference",
+   "start": 85.88,
+   "end": 86.08,
+   "paragraph": 6
+  },
+  {
+   "text": "between",
+   "start": 86.24,
+   "end": 86.4,
+   "paragraph": 6
+  },
+  {
+   "text": "them.",
+   "start": 86.48,
+   "end": 87.32,
+   "paragraph": 6
+  },
+  {
+   "text": "Radio",
+   "start": 87.36,
+   "end": 87.68,
+   "paragraph": 7
+  },
+  {
+   "text": "waves,",
+   "start": 87.76,
+   "end": 88.373,
+   "paragraph": 7
+  },
+  {
+   "text": "as",
+   "start": 88.427,
+   "end": 88.48,
+   "paragraph": 7
+  },
+  {
+   "text": "long",
+   "start": 88.56,
+   "end": 88.72,
+   "paragraph": 7
+  },
+  {
+   "text": "as",
+   "start": 88.76,
+   "end": 88.8,
+   "paragraph": 7
+  },
+  {
+   "text": "a",
+   "start": 88.96,
+   "end": 89,
+   "paragraph": 7
+  },
+  {
+   "text": "building.",
+   "start": 89.04,
+   "end": 89.96,
+   "paragraph": 7
+  },
+  {
+   "text": "Microwaves,",
+   "start": 90,
+   "end": 90.933,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 90.987,
+   "end": 91.04,
+   "paragraph": 7
+  },
+  {
+   "text": "size",
+   "start": 91.16,
+   "end": 91.28,
+   "paragraph": 7
+  },
+  {
+   "text": "of",
+   "start": 91.36,
+   "end": 91.44,
+   "paragraph": 7
+  },
+  {
+   "text": "your",
+   "start": 91.52,
+   "end": 91.6,
+   "paragraph": 7
+  },
+  {
+   "text": "hand,",
+   "start": 91.92,
+   "end": 92.28,
+   "paragraph": 7
+  },
+  {
+   "text": "which",
+   "start": 92.32,
+   "end": 92.4,
+   "paragraph": 7
+  },
+  {
+   "text": "is",
+   "start": 92.48,
+   "end": 92.56,
+   "paragraph": 7
+  },
+  {
+   "text": "why",
+   "start": 92.68,
+   "end": 92.8,
+   "paragraph": 7
+  },
+  {
+   "text": "they",
+   "start": 92.88,
+   "end": 92.96,
+   "paragraph": 7
+  },
+  {
+   "text": "fit",
+   "start": 93.04,
+   "end": 93.12,
+   "paragraph": 7
+  },
+  {
+   "text": "inside",
+   "start": 93.28,
+   "end": 93.44,
+   "paragraph": 7
+  },
+  {
+   "text": "an",
+   "start": 93.52,
+   "end": 93.6,
+   "paragraph": 7
+  },
+  {
+   "text": "oven.",
+   "start": 93.68,
+   "end": 94.44,
+   "paragraph": 7
+  },
+  {
+   "text": "Infrared,",
+   "start": 94.48,
+   "end": 95.333,
+   "paragraph": 7
+  },
+  {
+   "text": "which",
+   "start": 95.387,
+   "end": 95.44,
+   "paragraph": 7
+  },
+  {
+   "text": "you",
+   "start": 95.52,
+   "end": 95.68,
+   "paragraph": 7
+  },
+  {
+   "text": "feel",
+   "start": 95.84,
+   "end": 96,
+   "paragraph": 7
+  },
+  {
+   "text": "as",
+   "start": 96.12,
+   "end": 96.24,
+   "paragraph": 7
+  },
+  {
+   "text": "warmth.",
+   "start": 96.4,
+   "end": 97.093,
+   "paragraph": 7
+  },
+  {
+   "text": "The",
+   "start": 97.147,
+   "end": 97.2,
+   "paragraph": 7
+  },
+  {
+   "text": "narrow",
+   "start": 97.24,
+   "end": 97.52,
+   "paragraph": 7
+  },
+  {
+   "text": "band",
+   "start": 97.68,
+   "end": 97.84,
+   "paragraph": 7
+  },
+  {
+   "text": "that",
+   "start": 97.92,
+   "end": 98,
+   "paragraph": 7
+  },
+  {
+   "text": "your",
+   "start": 98.12,
+   "end": 98.24,
+   "paragraph": 7
+  },
+  {
+   "text": "eyes",
+   "start": 98.4,
+   "end": 98.56,
+   "paragraph": 7
+  },
+  {
+   "text": "can",
+   "start": 98.64,
+   "end": 98.72,
+   "paragraph": 7
+  },
+  {
+   "text": "detect.",
+   "start": 99.16,
+   "end": 99.64,
+   "paragraph": 7
+  },
+  {
+   "text": "Ultraviolet.",
+   "start": 99.68,
+   "end": 100.96,
+   "paragraph": 7
+  },
+  {
+   "text": "X-rays,",
+   "start": 101.04,
+   "end": 101.947,
+   "paragraph": 7
+  },
+  {
+   "text": "smaller",
+   "start": 102.053,
+   "end": 102.32,
+   "paragraph": 7
+  },
+  {
+   "text": "than",
+   "start": 102.4,
+   "end": 102.48,
+   "paragraph": 7
+  },
+  {
+   "text": "an",
+   "start": 102.56,
+   "end": 102.64,
+   "paragraph": 7
+  },
+  {
+   "text": "atom.",
+   "start": 102.72,
+   "end": 103.56,
+   "paragraph": 7
+  },
+  {
+   "text": "They",
+   "start": 103.6,
+   "end": 103.68,
+   "paragraph": 7
+  },
+  {
+   "text": "are",
+   "start": 103.76,
+   "end": 104,
+   "paragraph": 7
+  },
+  {
+   "text": "all",
+   "start": 104.08,
+   "end": 104.32,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 104.4,
+   "end": 104.56,
+   "paragraph": 7
+  },
+  {
+   "text": "same",
+   "start": 104.72,
+   "end": 104.88,
+   "paragraph": 7
+  },
+  {
+   "text": "thing:",
+   "start": 104.96,
+   "end": 105.64,
+   "paragraph": 7
+  },
+  {
+   "text": "electric",
+   "start": 105.68,
+   "end": 106.24,
+   "paragraph": 7
+  },
+  {
+   "text": "and",
+   "start": 106.32,
+   "end": 106.48,
+   "paragraph": 7
+  },
+  {
+   "text": "magnetic",
+   "start": 106.667,
+   "end": 107.04,
+   "paragraph": 7
+  },
+  {
+   "text": "fields,",
+   "start": 107.12,
+   "end": 107.8,
+   "paragraph": 7
+  },
+  {
+   "text": "each",
+   "start": 107.84,
+   "end": 108.08,
+   "paragraph": 7
+  },
+  {
+   "text": "creating",
+   "start": 108.16,
+   "end": 108.56,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 108.64,
+   "end": 108.72,
+   "paragraph": 7
+  },
+  {
+   "text": "other,",
+   "start": 109.04,
+   "end": 109.44,
+   "paragraph": 7
+  },
+  {
+   "text": "crossing",
+   "start": 109.52,
+   "end": 109.76,
+   "paragraph": 7
+  },
+  {
+   "text": "space",
+   "start": 109.84,
+   "end": 110.24,
+   "paragraph": 7
+  },
+  {
+   "text": "at",
+   "start": 110.32,
+   "end": 110.4,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 110.52,
+   "end": 110.64,
+   "paragraph": 7
+  },
+  {
+   "text": "same",
+   "start": 110.8,
+   "end": 110.96,
+   "paragraph": 7
+  },
+  {
+   "text": "speed.",
+   "start": 111.04,
+   "end": 111.6,
+   "paragraph": 7
+  }
+ ]
+}

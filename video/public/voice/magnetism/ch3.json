@@ -1,0 +1,482 @@
+{
+ "chapter": 3,
+ "title": "Poles, and why they come in pairs",
+ "characters": 422,
+ "duration": 31.555918,
+ "words": [
+  {
+   "text": "Every",
+   "start": 0,
+   "end": 0.32,
+   "paragraph": 0
+  },
+  {
+   "text": "magnet",
+   "start": 0.4,
+   "end": 0.88,
+   "paragraph": 0
+  },
+  {
+   "text": "has",
+   "start": 1,
+   "end": 1.12,
+   "paragraph": 0
+  },
+  {
+   "text": "two",
+   "start": 1.28,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "poles,",
+   "start": 1.52,
+   "end": 2.32,
+   "paragraph": 0
+  },
+  {
+   "text": "north",
+   "start": 2.4,
+   "end": 2.8,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 2.96,
+   "end": 3.12,
+   "paragraph": 0
+  },
+  {
+   "text": "south.",
+   "start": 3.2,
+   "end": 3.88,
+   "paragraph": 0
+  },
+  {
+   "text": "And",
+   "start": 4.16,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "here",
+   "start": 4.4,
+   "end": 4.72,
+   "paragraph": 0
+  },
+  {
+   "text": "magnetism",
+   "start": 4.96,
+   "end": 5.6,
+   "paragraph": 0
+  },
+  {
+   "text": "differs",
+   "start": 5.68,
+   "end": 6.08,
+   "paragraph": 0
+  },
+  {
+   "text": "sharply",
+   "start": 6.24,
+   "end": 6.72,
+   "paragraph": 0
+  },
+  {
+   "text": "from",
+   "start": 6.8,
+   "end": 6.88,
+   "paragraph": 0
+  },
+  {
+   "text": "electricity.",
+   "start": 6.96,
+   "end": 7.68,
+   "paragraph": 0
+  },
+  {
+   "text": "A",
+   "start": 8.16,
+   "end": 8.32,
+   "paragraph": 1
+  },
+  {
+   "text": "positive",
+   "start": 8.4,
+   "end": 8.8,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 8.88,
+   "end": 9.2,
+   "paragraph": 1
+  },
+  {
+   "text": "can",
+   "start": 9.28,
+   "end": 9.44,
+   "paragraph": 1
+  },
+  {
+   "text": "exist",
+   "start": 9.52,
+   "end": 9.84,
+   "paragraph": 1
+  },
+  {
+   "text": "alone.",
+   "start": 9.92,
+   "end": 10.64,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 10.88,
+   "end": 11.04,
+   "paragraph": 1
+  },
+  {
+   "text": "can",
+   "start": 11.12,
+   "end": 11.2,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 11.28,
+   "end": 11.32,
+   "paragraph": 1
+  },
+  {
+   "text": "negative",
+   "start": 11.36,
+   "end": 11.68,
+   "paragraph": 1
+  },
+  {
+   "text": "one.",
+   "start": 11.76,
+   "end": 12.08,
+   "paragraph": 1
+  },
+  {
+   "text": "But",
+   "start": 12.56,
+   "end": 12.72,
+   "paragraph": 1
+  },
+  {
+   "text": "nobody",
+   "start": 12.88,
+   "end": 13.28,
+   "paragraph": 1
+  },
+  {
+   "text": "has",
+   "start": 13.36,
+   "end": 13.6,
+   "paragraph": 1
+  },
+  {
+   "text": "ever",
+   "start": 13.68,
+   "end": 13.92,
+   "paragraph": 1
+  },
+  {
+   "text": "found",
+   "start": 14,
+   "end": 14.24,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 14.32,
+   "end": 14.4,
+   "paragraph": 1
+  },
+  {
+   "text": "north",
+   "start": 14.48,
+   "end": 14.8,
+   "paragraph": 1
+  },
+  {
+   "text": "pole",
+   "start": 14.88,
+   "end": 15.12,
+   "paragraph": 1
+  },
+  {
+   "text": "on",
+   "start": 15.2,
+   "end": 15.28,
+   "paragraph": 1
+  },
+  {
+   "text": "its",
+   "start": 15.36,
+   "end": 15.44,
+   "paragraph": 1
+  },
+  {
+   "text": "own.",
+   "start": 15.52,
+   "end": 16.08,
+   "paragraph": 1
+  },
+  {
+   "text": "Cut",
+   "start": 16.4,
+   "end": 16.56,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 16.6,
+   "end": 16.64,
+   "paragraph": 1
+  },
+  {
+   "text": "magnet",
+   "start": 16.72,
+   "end": 17.12,
+   "paragraph": 1
+  },
+  {
+   "text": "as",
+   "start": 17.28,
+   "end": 17.44,
+   "paragraph": 1
+  },
+  {
+   "text": "small",
+   "start": 17.52,
+   "end": 17.76,
+   "paragraph": 1
+  },
+  {
+   "text": "as",
+   "start": 17.84,
+   "end": 17.92,
+   "paragraph": 1
+  },
+  {
+   "text": "you",
+   "start": 18,
+   "end": 18.08,
+   "paragraph": 1
+  },
+  {
+   "text": "like,",
+   "start": 18.24,
+   "end": 18.72,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 18.84,
+   "end": 18.96,
+   "paragraph": 1
+  },
+  {
+   "text": "each",
+   "start": 19.04,
+   "end": 19.28,
+   "paragraph": 1
+  },
+  {
+   "text": "piece",
+   "start": 19.36,
+   "end": 19.68,
+   "paragraph": 1
+  },
+  {
+   "text": "still",
+   "start": 19.92,
+   "end": 20.16,
+   "paragraph": 1
+  },
+  {
+   "text": "has",
+   "start": 20.24,
+   "end": 20.48,
+   "paragraph": 1
+  },
+  {
+   "text": "both.",
+   "start": 20.56,
+   "end": 20.96,
+   "paragraph": 1
+  },
+  {
+   "text": "That",
+   "start": 21.52,
+   "end": 21.76,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 21.84,
+   "end": 21.92,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 22,
+   "end": 22.08,
+   "paragraph": 2
+  },
+  {
+   "text": "clue.",
+   "start": 22.16,
+   "end": 22.48,
+   "paragraph": 2
+  },
+  {
+   "text": "It",
+   "start": 22.96,
+   "end": 23.12,
+   "paragraph": 2
+  },
+  {
+   "text": "tells",
+   "start": 23.16,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "us",
+   "start": 23.52,
+   "end": 23.68,
+   "paragraph": 2
+  },
+  {
+   "text": "that",
+   "start": 23.76,
+   "end": 23.92,
+   "paragraph": 2
+  },
+  {
+   "text": "magnetism",
+   "start": 24,
+   "end": 24.64,
+   "paragraph": 2
+  },
+  {
+   "text": "does",
+   "start": 24.8,
+   "end": 24.96,
+   "paragraph": 2
+  },
+  {
+   "text": "not",
+   "start": 25.12,
+   "end": 25.36,
+   "paragraph": 2
+  },
+  {
+   "text": "come",
+   "start": 25.44,
+   "end": 25.6,
+   "paragraph": 2
+  },
+  {
+   "text": "from",
+   "start": 25.68,
+   "end": 25.84,
+   "paragraph": 2
+  },
+  {
+   "text": "some",
+   "start": 25.92,
+   "end": 26.08,
+   "paragraph": 2
+  },
+  {
+   "text": "kind",
+   "start": 26.16,
+   "end": 26.32,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 26.4,
+   "end": 26.48,
+   "paragraph": 2
+  },
+  {
+   "text": "magnetic",
+   "start": 26.56,
+   "end": 27.04,
+   "paragraph": 2
+  },
+  {
+   "text": "charge.",
+   "start": 27.12,
+   "end": 27.68,
+   "paragraph": 2
+  },
+  {
+   "text": "It",
+   "start": 28.08,
+   "end": 28.16,
+   "paragraph": 2
+  },
+  {
+   "text": "comes",
+   "start": 28.24,
+   "end": 28.48,
+   "paragraph": 2
+  },
+  {
+   "text": "from",
+   "start": 28.56,
+   "end": 28.64,
+   "paragraph": 2
+  },
+  {
+   "text": "something",
+   "start": 28.8,
+   "end": 29.12,
+   "paragraph": 2
+  },
+  {
+   "text": "else.",
+   "start": 29.2,
+   "end": 29.68,
+   "paragraph": 2
+  },
+  {
+   "text": "Hold",
+   "start": 30.24,
+   "end": 30.4,
+   "paragraph": 2
+  },
+  {
+   "text": "on",
+   "start": 30.48,
+   "end": 30.56,
+   "paragraph": 2
+  },
+  {
+   "text": "to",
+   "start": 30.64,
+   "end": 30.72,
+   "paragraph": 2
+  },
+  {
+   "text": "that",
+   "start": 30.8,
+   "end": 30.88,
+   "paragraph": 2
+  },
+  {
+   "text": "question.",
+   "start": 30.96,
+   "end": 31.6,
+   "paragraph": 2
+  }
+ ]
+}

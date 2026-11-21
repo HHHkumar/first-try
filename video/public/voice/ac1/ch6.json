@@ -1,0 +1,1832 @@
+{
+ "chapter": 6,
+ "title": "The number that matters",
+ "characters": 1653,
+ "duration": 112.84898,
+ "words": [
+  {
+   "text": "What",
+   "start": 0,
+   "end": 0.32,
+   "paragraph": 0
+  },
+  {
+   "text": "single",
+   "start": 0.4,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "number",
+   "start": 0.8,
+   "end": 1.12,
+   "paragraph": 0
+  },
+  {
+   "text": "should",
+   "start": 1.28,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "we",
+   "start": 1.52,
+   "end": 1.6,
+   "paragraph": 0
+  },
+  {
+   "text": "use",
+   "start": 1.68,
+   "end": 1.92,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 1.96,
+   "end": 2,
+   "paragraph": 0
+  },
+  {
+   "text": "describe",
+   "start": 2.24,
+   "end": 2.48,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 2.52,
+   "end": 2.56,
+   "paragraph": 0
+  },
+  {
+   "text": "voltage",
+   "start": 2.64,
+   "end": 3.2,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 3.28,
+   "end": 3.44,
+   "paragraph": 0
+  },
+  {
+   "text": "never",
+   "start": 3.6,
+   "end": 3.84,
+   "paragraph": 0
+  },
+  {
+   "text": "stands",
+   "start": 3.92,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "still?",
+   "start": 4.52,
+   "end": 5,
+   "paragraph": 0
+  },
+  {
+   "text": "The",
+   "start": 5.28,
+   "end": 5.44,
+   "paragraph": 1
+  },
+  {
+   "text": "obvious",
+   "start": 5.52,
+   "end": 5.84,
+   "paragraph": 1
+  },
+  {
+   "text": "choice",
+   "start": 6.04,
+   "end": 6.24,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 6.32,
+   "end": 6.4,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 6.48,
+   "end": 6.56,
+   "paragraph": 1
+  },
+  {
+   "text": "average.",
+   "start": 6.64,
+   "end": 7.2,
+   "paragraph": 1
+  },
+  {
+   "text": "But",
+   "start": 7.68,
+   "end": 7.76,
+   "paragraph": 1
+  },
+  {
+   "text": "look.",
+   "start": 7.84,
+   "end": 8.16,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 8.64,
+   "end": 8.72,
+   "paragraph": 1
+  },
+  {
+   "text": "wave",
+   "start": 8.8,
+   "end": 9.04,
+   "paragraph": 1
+  },
+  {
+   "text": "spends",
+   "start": 9.12,
+   "end": 9.52,
+   "paragraph": 1
+  },
+  {
+   "text": "exactly",
+   "start": 9.68,
+   "end": 10.16,
+   "paragraph": 1
+  },
+  {
+   "text": "as",
+   "start": 10.32,
+   "end": 10.56,
+   "paragraph": 1
+  },
+  {
+   "text": "much",
+   "start": 10.64,
+   "end": 10.8,
+   "paragraph": 1
+  },
+  {
+   "text": "time",
+   "start": 10.88,
+   "end": 11.04,
+   "paragraph": 1
+  },
+  {
+   "text": "below",
+   "start": 11.2,
+   "end": 11.44,
+   "paragraph": 1
+  },
+  {
+   "text": "zero",
+   "start": 11.52,
+   "end": 11.84,
+   "paragraph": 1
+  },
+  {
+   "text": "as",
+   "start": 12,
+   "end": 12.16,
+   "paragraph": 1
+  },
+  {
+   "text": "above",
+   "start": 12.32,
+   "end": 12.48,
+   "paragraph": 1
+  },
+  {
+   "text": "it.",
+   "start": 12.56,
+   "end": 12.72,
+   "paragraph": 1
+  },
+  {
+   "text": "Its",
+   "start": 13.2,
+   "end": 13.44,
+   "paragraph": 1
+  },
+  {
+   "text": "average",
+   "start": 13.52,
+   "end": 14,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 14.08,
+   "end": 14.24,
+   "paragraph": 1
+  },
+  {
+   "text": "zero.",
+   "start": 14.32,
+   "end": 14.72,
+   "paragraph": 1
+  },
+  {
+   "text": "That",
+   "start": 15.2,
+   "end": 15.36,
+   "paragraph": 1
+  },
+  {
+   "text": "cannot",
+   "start": 15.44,
+   "end": 15.68,
+   "paragraph": 1
+  },
+  {
+   "text": "be",
+   "start": 15.72,
+   "end": 15.76,
+   "paragraph": 1
+  },
+  {
+   "text": "right.",
+   "start": 15.84,
+   "end": 16.16,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 16.64,
+   "end": 16.72,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage",
+   "start": 16.8,
+   "end": 17.2,
+   "paragraph": 1
+  },
+  {
+   "text": "whose",
+   "start": 17.28,
+   "end": 17.44,
+   "paragraph": 1
+  },
+  {
+   "text": "average",
+   "start": 17.52,
+   "end": 17.84,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 17.92,
+   "end": 18,
+   "paragraph": 1
+  },
+  {
+   "text": "zero",
+   "start": 18.08,
+   "end": 18.4,
+   "paragraph": 1
+  },
+  {
+   "text": "still",
+   "start": 18.64,
+   "end": 18.96,
+   "paragraph": 1
+  },
+  {
+   "text": "boils",
+   "start": 19.04,
+   "end": 19.28,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 19.36,
+   "end": 19.4,
+   "paragraph": 1
+  },
+  {
+   "text": "kettle.",
+   "start": 19.44,
+   "end": 19.84,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 20.48,
+   "end": 20.64,
+   "paragraph": 2
+  },
+  {
+   "text": "try",
+   "start": 20.88,
+   "end": 21.04,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 21.08,
+   "end": 21.12,
+   "paragraph": 2
+  },
+  {
+   "text": "different",
+   "start": 21.2,
+   "end": 21.52,
+   "paragraph": 2
+  },
+  {
+   "text": "test.",
+   "start": 21.6,
+   "end": 22,
+   "paragraph": 2
+  },
+  {
+   "text": "Do",
+   "start": 22.48,
+   "end": 22.56,
+   "paragraph": 2
+  },
+  {
+   "text": "not",
+   "start": 22.64,
+   "end": 22.8,
+   "paragraph": 2
+  },
+  {
+   "text": "ask",
+   "start": 22.88,
+   "end": 23.12,
+   "paragraph": 2
+  },
+  {
+   "text": "what",
+   "start": 23.2,
+   "end": 23.28,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 23.36,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 23.52,
+   "end": 23.92,
+   "paragraph": 2
+  },
+  {
+   "text": "is.",
+   "start": 24.08,
+   "end": 24.48,
+   "paragraph": 2
+  },
+  {
+   "text": "Ask",
+   "start": 24.88,
+   "end": 25.2,
+   "paragraph": 2
+  },
+  {
+   "text": "what",
+   "start": 25.44,
+   "end": 25.6,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 25.68,
+   "end": 25.76,
+   "paragraph": 2
+  },
+  {
+   "text": "can",
+   "start": 25.84,
+   "end": 26,
+   "paragraph": 2
+  },
+  {
+   "text": "do.",
+   "start": 26.16,
+   "end": 26.76,
+   "paragraph": 2
+  },
+  {
+   "text": "Take",
+   "start": 27.12,
+   "end": 27.36,
+   "paragraph": 3
+  },
+  {
+   "text": "two",
+   "start": 27.44,
+   "end": 27.6,
+   "paragraph": 3
+  },
+  {
+   "text": "identical",
+   "start": 27.76,
+   "end": 28.32,
+   "paragraph": 3
+  },
+  {
+   "text": "heaters.",
+   "start": 28.4,
+   "end": 28.96,
+   "paragraph": 3
+  },
+  {
+   "text": "Run",
+   "start": 29.36,
+   "end": 29.6,
+   "paragraph": 3
+  },
+  {
+   "text": "one",
+   "start": 29.76,
+   "end": 30,
+   "paragraph": 3
+  },
+  {
+   "text": "from",
+   "start": 30.08,
+   "end": 30.24,
+   "paragraph": 3
+  },
+  {
+   "text": "alternating",
+   "start": 30.32,
+   "end": 30.88,
+   "paragraph": 3
+  },
+  {
+   "text": "current.",
+   "start": 30.96,
+   "end": 31.36,
+   "paragraph": 3
+  },
+  {
+   "text": "Run",
+   "start": 31.84,
+   "end": 32,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 32.08,
+   "end": 32.16,
+   "paragraph": 3
+  },
+  {
+   "text": "other",
+   "start": 32.24,
+   "end": 32.56,
+   "paragraph": 3
+  },
+  {
+   "text": "from",
+   "start": 32.64,
+   "end": 32.8,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 32.84,
+   "end": 32.88,
+   "paragraph": 3
+  },
+  {
+   "text": "steady,",
+   "start": 32.96,
+   "end": 33.6,
+   "paragraph": 3
+  },
+  {
+   "text": "direct",
+   "start": 33.8,
+   "end": 34,
+   "paragraph": 3
+  },
+  {
+   "text": "voltage,",
+   "start": 34.08,
+   "end": 34.64,
+   "paragraph": 3
+  },
+  {
+   "text": "like",
+   "start": 34.72,
+   "end": 34.8,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 34.88,
+   "end": 34.92,
+   "paragraph": 3
+  },
+  {
+   "text": "battery,",
+   "start": 34.96,
+   "end": 35.84,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 35.92,
+   "end": 36,
+   "paragraph": 3
+  },
+  {
+   "text": "adjust",
+   "start": 36.24,
+   "end": 36.48,
+   "paragraph": 3
+  },
+  {
+   "text": "that",
+   "start": 36.56,
+   "end": 36.64,
+   "paragraph": 3
+  },
+  {
+   "text": "voltage",
+   "start": 36.72,
+   "end": 37.2,
+   "paragraph": 3
+  },
+  {
+   "text": "until",
+   "start": 37.28,
+   "end": 37.6,
+   "paragraph": 3
+  },
+  {
+   "text": "both",
+   "start": 37.76,
+   "end": 38,
+   "paragraph": 3
+  },
+  {
+   "text": "heaters",
+   "start": 38.04,
+   "end": 38.48,
+   "paragraph": 3
+  },
+  {
+   "text": "give",
+   "start": 38.56,
+   "end": 38.64,
+   "paragraph": 3
+  },
+  {
+   "text": "out",
+   "start": 38.72,
+   "end": 38.88,
+   "paragraph": 3
+  },
+  {
+   "text": "heat",
+   "start": 39.04,
+   "end": 39.2,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 39.28,
+   "end": 39.44,
+   "paragraph": 3
+  },
+  {
+   "text": "exactly",
+   "start": 39.52,
+   "end": 40.16,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 40.24,
+   "end": 40.32,
+   "paragraph": 3
+  },
+  {
+   "text": "same",
+   "start": 40.4,
+   "end": 40.56,
+   "paragraph": 3
+  },
+  {
+   "text": "rate.",
+   "start": 40.64,
+   "end": 41.2,
+   "paragraph": 3
+  },
+  {
+   "text": "Whatever",
+   "start": 41.52,
+   "end": 41.92,
+   "paragraph": 4
+  },
+  {
+   "text": "steady",
+   "start": 42.08,
+   "end": 42.24,
+   "paragraph": 4
+  },
+  {
+   "text": "voltage",
+   "start": 42.32,
+   "end": 42.72,
+   "paragraph": 4
+  },
+  {
+   "text": "does",
+   "start": 42.84,
+   "end": 42.96,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 43.04,
+   "end": 43.36,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 43.52,
+   "end": 43.68,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 43.76,
+   "end": 43.92,
+   "paragraph": 4
+  },
+  {
+   "text": "fair",
+   "start": 44.04,
+   "end": 44.16,
+   "paragraph": 4
+  },
+  {
+   "text": "measure",
+   "start": 44.24,
+   "end": 44.56,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 44.64,
+   "end": 44.72,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 44.8,
+   "end": 44.88,
+   "paragraph": 4
+  },
+  {
+   "text": "alternating",
+   "start": 44.96,
+   "end": 45.44,
+   "paragraph": 4
+  },
+  {
+   "text": "one.",
+   "start": 45.52,
+   "end": 46.16,
+   "paragraph": 4
+  },
+  {
+   "text": "We",
+   "start": 46.24,
+   "end": 46.4,
+   "paragraph": 4
+  },
+  {
+   "text": "call",
+   "start": 46.48,
+   "end": 46.56,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 46.64,
+   "end": 46.88,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 46.92,
+   "end": 46.96,
+   "paragraph": 4
+  },
+  {
+   "text": "effective",
+   "start": 47.12,
+   "end": 47.6,
+   "paragraph": 4
+  },
+  {
+   "text": "value.",
+   "start": 47.68,
+   "end": 48.56,
+   "paragraph": 4
+  },
+  {
+   "text": "We",
+   "start": 48.6,
+   "end": 48.64,
+   "paragraph": 5
+  },
+  {
+   "text": "can",
+   "start": 48.72,
+   "end": 48.8,
+   "paragraph": 5
+  },
+  {
+   "text": "work",
+   "start": 48.88,
+   "end": 48.96,
+   "paragraph": 5
+  },
+  {
+   "text": "it",
+   "start": 49.04,
+   "end": 49.12,
+   "paragraph": 5
+  },
+  {
+   "text": "out.",
+   "start": 49.24,
+   "end": 49.92,
+   "paragraph": 5
+  },
+  {
+   "text": "The",
+   "start": 50,
+   "end": 50.08,
+   "paragraph": 5
+  },
+  {
+   "text": "heat",
+   "start": 50.2,
+   "end": 50.32,
+   "paragraph": 5
+  },
+  {
+   "text": "in",
+   "start": 50.4,
+   "end": 50.48,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 50.52,
+   "end": 50.56,
+   "paragraph": 5
+  },
+  {
+   "text": "resistor",
+   "start": 50.64,
+   "end": 51.2,
+   "paragraph": 5
+  },
+  {
+   "text": "depends",
+   "start": 51.4,
+   "end": 51.6,
+   "paragraph": 5
+  },
+  {
+   "text": "on",
+   "start": 51.68,
+   "end": 51.76,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 51.8,
+   "end": 51.84,
+   "paragraph": 5
+  },
+  {
+   "text": "voltage",
+   "start": 51.92,
+   "end": 52.32,
+   "paragraph": 5
+  },
+  {
+   "text": "squared.",
+   "start": 52.4,
+   "end": 53.28,
+   "paragraph": 5
+  },
+  {
+   "text": "So",
+   "start": 53.36,
+   "end": 53.52,
+   "paragraph": 5
+  },
+  {
+   "text": "square",
+   "start": 53.84,
+   "end": 54.16,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 54.24,
+   "end": 54.28,
+   "paragraph": 5
+  },
+  {
+   "text": "wave.",
+   "start": 54.32,
+   "end": 55.2,
+   "paragraph": 5
+  },
+  {
+   "text": "Squaring",
+   "start": 55.28,
+   "end": 55.76,
+   "paragraph": 5
+  },
+  {
+   "text": "makes",
+   "start": 55.84,
+   "end": 56.16,
+   "paragraph": 5
+  },
+  {
+   "text": "every",
+   "start": 56.24,
+   "end": 56.56,
+   "paragraph": 5
+  },
+  {
+   "text": "part",
+   "start": 56.64,
+   "end": 56.72,
+   "paragraph": 5
+  },
+  {
+   "text": "of",
+   "start": 56.8,
+   "end": 56.88,
+   "paragraph": 5
+  },
+  {
+   "text": "it",
+   "start": 56.96,
+   "end": 57.04,
+   "paragraph": 5
+  },
+  {
+   "text": "positive,",
+   "start": 57.28,
+   "end": 57.84,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 57.92,
+   "end": 58,
+   "paragraph": 5
+  },
+  {
+   "text": "dips",
+   "start": 58.08,
+   "end": 58.48,
+   "paragraph": 5
+  },
+  {
+   "text": "as",
+   "start": 58.56,
+   "end": 58.64,
+   "paragraph": 5
+  },
+  {
+   "text": "well",
+   "start": 58.72,
+   "end": 58.8,
+   "paragraph": 5
+  },
+  {
+   "text": "as",
+   "start": 58.88,
+   "end": 58.96,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 59.04,
+   "end": 59.08,
+   "paragraph": 5
+  },
+  {
+   "text": "crests,",
+   "start": 59.12,
+   "end": 59.84,
+   "paragraph": 5
+  },
+  {
+   "text": "which",
+   "start": 59.92,
+   "end": 60,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 60.08,
+   "end": 60.16,
+   "paragraph": 5
+  },
+  {
+   "text": "exactly",
+   "start": 60.24,
+   "end": 60.8,
+   "paragraph": 5
+  },
+  {
+   "text": "right,",
+   "start": 60.88,
+   "end": 61.44,
+   "paragraph": 5
+  },
+  {
+   "text": "because",
+   "start": 61.56,
+   "end": 61.68,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 61.76,
+   "end": 61.84,
+   "paragraph": 5
+  },
+  {
+   "text": "heater",
+   "start": 61.88,
+   "end": 62.24,
+   "paragraph": 5
+  },
+  {
+   "text": "warms",
+   "start": 62.32,
+   "end": 62.56,
+   "paragraph": 5
+  },
+  {
+   "text": "up",
+   "start": 62.72,
+   "end": 62.88,
+   "paragraph": 5
+  },
+  {
+   "text": "whichever",
+   "start": 62.92,
+   "end": 63.36,
+   "paragraph": 5
+  },
+  {
+   "text": "way",
+   "start": 63.44,
+   "end": 63.6,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 63.68,
+   "end": 63.76,
+   "paragraph": 5
+  },
+  {
+   "text": "current",
+   "start": 63.88,
+   "end": 64,
+   "paragraph": 5
+  },
+  {
+   "text": "flows.",
+   "start": 64.08,
+   "end": 65.04,
+   "paragraph": 5
+  },
+  {
+   "text": "Now",
+   "start": 65.12,
+   "end": 65.36,
+   "paragraph": 6
+  },
+  {
+   "text": "take",
+   "start": 65.52,
+   "end": 65.68,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 65.76,
+   "end": 65.92,
+   "paragraph": 6
+  },
+  {
+   "text": "average,",
+   "start": 66.2,
+   "end": 66.72,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 66.76,
+   "end": 66.8,
+   "paragraph": 6
+  },
+  {
+   "text": "mean,",
+   "start": 66.96,
+   "end": 67.44,
+   "paragraph": 6
+  },
+  {
+   "text": "of",
+   "start": 67.52,
+   "end": 67.6,
+   "paragraph": 6
+  },
+  {
+   "text": "that",
+   "start": 67.68,
+   "end": 67.76,
+   "paragraph": 6
+  },
+  {
+   "text": "squared",
+   "start": 67.84,
+   "end": 68.16,
+   "paragraph": 6
+  },
+  {
+   "text": "wave.",
+   "start": 68.24,
+   "end": 69.12,
+   "paragraph": 6
+  },
+  {
+   "text": "Then",
+   "start": 69.24,
+   "end": 69.36,
+   "paragraph": 6
+  },
+  {
+   "text": "take",
+   "start": 69.52,
+   "end": 69.68,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 69.76,
+   "end": 69.8,
+   "paragraph": 6
+  },
+  {
+   "text": "square",
+   "start": 69.84,
+   "end": 70.16,
+   "paragraph": 6
+  },
+  {
+   "text": "root,",
+   "start": 70.24,
+   "end": 70.64,
+   "paragraph": 6
+  },
+  {
+   "text": "to",
+   "start": 70.68,
+   "end": 70.72,
+   "paragraph": 6
+  },
+  {
+   "text": "undo",
+   "start": 70.88,
+   "end": 71.12,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 71.2,
+   "end": 71.24,
+   "paragraph": 6
+  },
+  {
+   "text": "squaring.",
+   "start": 71.28,
+   "end": 72,
+   "paragraph": 6
+  },
+  {
+   "text": "Root,",
+   "start": 72.24,
+   "end": 72.68,
+   "paragraph": 7
+  },
+  {
+   "text": "of",
+   "start": 72.8,
+   "end": 72.96,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 73.04,
+   "end": 73.12,
+   "paragraph": 7
+  },
+  {
+   "text": "mean,",
+   "start": 73.2,
+   "end": 73.68,
+   "paragraph": 7
+  },
+  {
+   "text": "of",
+   "start": 73.76,
+   "end": 73.84,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 73.92,
+   "end": 74,
+   "paragraph": 7
+  },
+  {
+   "text": "square.",
+   "start": 74.24,
+   "end": 74.76,
+   "paragraph": 7
+  },
+  {
+   "text": "That",
+   "start": 75.04,
+   "end": 75.2,
+   "paragraph": 7
+  },
+  {
+   "text": "is",
+   "start": 75.28,
+   "end": 75.36,
+   "paragraph": 7
+  },
+  {
+   "text": "where",
+   "start": 75.44,
+   "end": 75.52,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 75.6,
+   "end": 75.64,
+   "paragraph": 7
+  },
+  {
+   "text": "name",
+   "start": 75.68,
+   "end": 75.84,
+   "paragraph": 7
+  },
+  {
+   "text": "comes",
+   "start": 75.92,
+   "end": 76.16,
+   "paragraph": 7
+  },
+  {
+   "text": "from:",
+   "start": 76.24,
+   "end": 76.8,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 76.84,
+   "end": 76.88,
+   "paragraph": 7
+  },
+  {
+   "text": "R",
+   "start": 77.12,
+   "end": 77.28,
+   "paragraph": 7
+  },
+  {
+   "text": "M",
+   "start": 77.36,
+   "end": 77.44,
+   "paragraph": 7
+  },
+  {
+   "text": "S",
+   "start": 77.52,
+   "end": 77.6,
+   "paragraph": 7
+  },
+  {
+   "text": "value.",
+   "start": 77.68,
+   "end": 78.24,
+   "paragraph": 7
+  },
+  {
+   "text": "For",
+   "start": 78.48,
+   "end": 78.64,
+   "paragraph": 8
+  },
+  {
+   "text": "a",
+   "start": 78.68,
+   "end": 78.72,
+   "paragraph": 8
+  },
+  {
+   "text": "sine",
+   "start": 78.8,
+   "end": 79.04,
+   "paragraph": 8
+  },
+  {
+   "text": "wave,",
+   "start": 79.12,
+   "end": 79.52,
+   "paragraph": 8
+  },
+  {
+   "text": "it",
+   "start": 79.6,
+   "end": 79.76,
+   "paragraph": 8
+  },
+  {
+   "text": "always",
+   "start": 79.84,
+   "end": 80.24,
+   "paragraph": 8
+  },
+  {
+   "text": "comes",
+   "start": 80.32,
+   "end": 80.48,
+   "paragraph": 8
+  },
+  {
+   "text": "out",
+   "start": 80.56,
+   "end": 80.72,
+   "paragraph": 8
+  },
+  {
+   "text": "the",
+   "start": 80.8,
+   "end": 80.88,
+   "paragraph": 8
+  },
+  {
+   "text": "same",
+   "start": 81,
+   "end": 81.12,
+   "paragraph": 8
+  },
+  {
+   "text": "way.",
+   "start": 81.2,
+   "end": 81.44,
+   "paragraph": 8
+  },
+  {
+   "text": "The",
+   "start": 81.84,
+   "end": 81.92,
+   "paragraph": 8
+  },
+  {
+   "text": "RMS",
+   "start": 82.08,
+   "end": 82.48,
+   "paragraph": 8
+  },
+  {
+   "text": "value",
+   "start": 82.56,
+   "end": 82.88,
+   "paragraph": 8
+  },
+  {
+   "text": "is",
+   "start": 82.96,
+   "end": 83.12,
+   "paragraph": 8
+  },
+  {
+   "text": "the",
+   "start": 83.2,
+   "end": 83.28,
+   "paragraph": 8
+  },
+  {
+   "text": "peak",
+   "start": 83.36,
+   "end": 83.68,
+   "paragraph": 8
+  },
+  {
+   "text": "divided",
+   "start": 83.92,
+   "end": 84.32,
+   "paragraph": 8
+  },
+  {
+   "text": "by",
+   "start": 84.4,
+   "end": 84.56,
+   "paragraph": 8
+  },
+  {
+   "text": "the",
+   "start": 84.64,
+   "end": 84.72,
+   "paragraph": 8
+  },
+  {
+   "text": "square",
+   "start": 84.88,
+   "end": 85.04,
+   "paragraph": 8
+  },
+  {
+   "text": "root",
+   "start": 85.12,
+   "end": 85.28,
+   "paragraph": 8
+  },
+  {
+   "text": "of",
+   "start": 85.32,
+   "end": 85.36,
+   "paragraph": 8
+  },
+  {
+   "text": "two:",
+   "start": 85.52,
+   "end": 86.08,
+   "paragraph": 8
+  },
+  {
+   "text": "about",
+   "start": 86.24,
+   "end": 86.4,
+   "paragraph": 8
+  },
+  {
+   "text": "seventy",
+   "start": 86.56,
+   "end": 86.88,
+   "paragraph": 8
+  },
+  {
+   "text": "percent",
+   "start": 86.96,
+   "end": 87.2,
+   "paragraph": 8
+  },
+  {
+   "text": "of",
+   "start": 87.28,
+   "end": 87.36,
+   "paragraph": 8
+  },
+  {
+   "text": "the",
+   "start": 87.4,
+   "end": 87.44,
+   "paragraph": 8
+  },
+  {
+   "text": "peak.",
+   "start": 87.52,
+   "end": 87.84,
+   "paragraph": 8
+  },
+  {
+   "text": "So",
+   "start": 88.4,
+   "end": 88.56,
+   "paragraph": 9
+  },
+  {
+   "text": "two",
+   "start": 88.8,
+   "end": 88.88,
+   "paragraph": 9
+  },
+  {
+   "text": "hundred",
+   "start": 88.96,
+   "end": 89.2,
+   "paragraph": 9
+  },
+  {
+   "text": "and",
+   "start": 89.32,
+   "end": 89.44,
+   "paragraph": 9
+  },
+  {
+   "text": "thirty",
+   "start": 89.52,
+   "end": 89.68,
+   "paragraph": 9
+  },
+  {
+   "text": "volts",
+   "start": 89.76,
+   "end": 90.16,
+   "paragraph": 9
+  },
+  {
+   "text": "is",
+   "start": 90.24,
+   "end": 90.32,
+   "paragraph": 9
+  },
+  {
+   "text": "an",
+   "start": 90.4,
+   "end": 90.48,
+   "paragraph": 9
+  },
+  {
+   "text": "RMS",
+   "start": 90.64,
+   "end": 91.04,
+   "paragraph": 9
+  },
+  {
+   "text": "value.",
+   "start": 91.12,
+   "end": 91.52,
+   "paragraph": 9
+  },
+  {
+   "text": "It",
+   "start": 91.84,
+   "end": 92,
+   "paragraph": 9
+  },
+  {
+   "text": "means:",
+   "start": 92.08,
+   "end": 92.48,
+   "paragraph": 9
+  },
+  {
+   "text": "this",
+   "start": 92.88,
+   "end": 93.04,
+   "paragraph": 9
+  },
+  {
+   "text": "supply",
+   "start": 93.28,
+   "end": 93.52,
+   "paragraph": 9
+  },
+  {
+   "text": "heats",
+   "start": 93.6,
+   "end": 93.84,
+   "paragraph": 9
+  },
+  {
+   "text": "a",
+   "start": 93.92,
+   "end": 93.96,
+   "paragraph": 9
+  },
+  {
+   "text": "resistor",
+   "start": 94,
+   "end": 94.56,
+   "paragraph": 9
+  },
+  {
+   "text": "exactly",
+   "start": 94.64,
+   "end": 95.36,
+   "paragraph": 9
+  },
+  {
+   "text": "as",
+   "start": 95.44,
+   "end": 95.52,
+   "paragraph": 9
+  },
+  {
+   "text": "a",
+   "start": 95.6,
+   "end": 95.68,
+   "paragraph": 9
+  },
+  {
+   "text": "steady",
+   "start": 95.76,
+   "end": 96.16,
+   "paragraph": 9
+  },
+  {
+   "text": "two",
+   "start": 96.32,
+   "end": 96.4,
+   "paragraph": 9
+  },
+  {
+   "text": "hundred",
+   "start": 96.48,
+   "end": 96.72,
+   "paragraph": 9
+  },
+  {
+   "text": "and",
+   "start": 96.8,
+   "end": 96.88,
+   "paragraph": 9
+  },
+  {
+   "text": "thirty",
+   "start": 96.96,
+   "end": 97.12,
+   "paragraph": 9
+  },
+  {
+   "text": "volts",
+   "start": 97.28,
+   "end": 97.6,
+   "paragraph": 9
+  },
+  {
+   "text": "would.",
+   "start": 97.76,
+   "end": 98.16,
+   "paragraph": 9
+  },
+  {
+   "text": "When",
+   "start": 98.4,
+   "end": 98.48,
+   "paragraph": 9
+  },
+  {
+   "text": "an",
+   "start": 98.56,
+   "end": 98.64,
+   "paragraph": 9
+  },
+  {
+   "text": "engineer",
+   "start": 98.72,
+   "end": 99.12,
+   "paragraph": 9
+  },
+  {
+   "text": "quotes",
+   "start": 99.2,
+   "end": 99.44,
+   "paragraph": 9
+  },
+  {
+   "text": "an",
+   "start": 99.52,
+   "end": 99.6,
+   "paragraph": 9
+  },
+  {
+   "text": "alternating",
+   "start": 99.68,
+   "end": 100.24,
+   "paragraph": 9
+  },
+  {
+   "text": "voltage",
+   "start": 100.32,
+   "end": 100.72,
+   "paragraph": 9
+  },
+  {
+   "text": "or",
+   "start": 100.8,
+   "end": 100.88,
+   "paragraph": 9
+  },
+  {
+   "text": "current,",
+   "start": 100.96,
+   "end": 101.44,
+   "paragraph": 9
+  },
+  {
+   "text": "and",
+   "start": 101.52,
+   "end": 101.6,
+   "paragraph": 9
+  },
+  {
+   "text": "says",
+   "start": 101.72,
+   "end": 101.84,
+   "paragraph": 9
+  },
+  {
+   "text": "nothing",
+   "start": 101.92,
+   "end": 102.16,
+   "paragraph": 9
+  },
+  {
+   "text": "else,",
+   "start": 102.24,
+   "end": 102.96,
+   "paragraph": 9
+  },
+  {
+   "text": "RMS",
+   "start": 103.04,
+   "end": 103.6,
+   "paragraph": 9
+  },
+  {
+   "text": "is",
+   "start": 103.68,
+   "end": 103.76,
+   "paragraph": 9
+  },
+  {
+   "text": "what",
+   "start": 103.84,
+   "end": 104,
+   "paragraph": 9
+  },
+  {
+   "text": "they",
+   "start": 104.08,
+   "end": 104.16,
+   "paragraph": 9
+  },
+  {
+   "text": "mean.",
+   "start": 104.24,
+   "end": 104.72,
+   "paragraph": 9
+  },
+  {
+   "text": "But",
+   "start": 104.96,
+   "end": 105.04,
+   "paragraph": 10
+  },
+  {
+   "text": "remember",
+   "start": 105.12,
+   "end": 105.52,
+   "paragraph": 10
+  },
+  {
+   "text": "the",
+   "start": 105.76,
+   "end": 105.84,
+   "paragraph": 10
+  },
+  {
+   "text": "peak",
+   "start": 106,
+   "end": 106.32,
+   "paragraph": 10
+  },
+  {
+   "text": "is",
+   "start": 106.4,
+   "end": 106.56,
+   "paragraph": 10
+  },
+  {
+   "text": "still",
+   "start": 106.72,
+   "end": 106.88,
+   "paragraph": 10
+  },
+  {
+   "text": "there.",
+   "start": 106.96,
+   "end": 107.44,
+   "paragraph": 10
+  },
+  {
+   "text": "Insulation",
+   "start": 107.68,
+   "end": 108.32,
+   "paragraph": 10
+  },
+  {
+   "text": "has",
+   "start": 108.4,
+   "end": 108.56,
+   "paragraph": 10
+  },
+  {
+   "text": "to",
+   "start": 108.64,
+   "end": 108.68,
+   "paragraph": 10
+  },
+  {
+   "text": "withstand",
+   "start": 108.72,
+   "end": 109.2,
+   "paragraph": 10
+  },
+  {
+   "text": "three",
+   "start": 109.36,
+   "end": 109.52,
+   "paragraph": 10
+  },
+  {
+   "text": "hundred",
+   "start": 109.6,
+   "end": 109.84,
+   "paragraph": 10
+  },
+  {
+   "text": "and",
+   "start": 109.96,
+   "end": 110.08,
+   "paragraph": 10
+  },
+  {
+   "text": "twenty-five",
+   "start": 110.2,
+   "end": 110.64,
+   "paragraph": 10
+  },
+  {
+   "text": "volts,",
+   "start": 110.8,
+   "end": 111.44,
+   "paragraph": 10
+  },
+  {
+   "text": "not",
+   "start": 111.52,
+   "end": 111.68,
+   "paragraph": 10
+  },
+  {
+   "text": "two",
+   "start": 111.76,
+   "end": 111.84,
+   "paragraph": 10
+  },
+  {
+   "text": "hundred",
+   "start": 111.92,
+   "end": 112.08,
+   "paragraph": 10
+  },
+  {
+   "text": "and",
+   "start": 112.16,
+   "end": 112.32,
+   "paragraph": 10
+  },
+  {
+   "text": "thirty.",
+   "start": 112.427,
+   "end": 112.8,
+   "paragraph": 10
+  }
+ ]
+}

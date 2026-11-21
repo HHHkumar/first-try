@@ -1,0 +1,1004 @@
+{
+ "chapter": 6,
+ "title": "Capacitive reactance",
+ "characters": 966,
+ "duration": 66.847347,
+ "words": [
+  {
+   "text": "A",
+   "start": 0,
+   "end": 0.04,
+   "paragraph": 0
+  },
+  {
+   "text": "capacitor",
+   "start": 0.08,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "has",
+   "start": 0.8,
+   "end": 0.987,
+   "paragraph": 0
+  },
+  {
+   "text": "reactance",
+   "start": 1.04,
+   "end": 1.6,
+   "paragraph": 0
+  },
+  {
+   "text": "too.",
+   "start": 1.68,
+   "end": 2,
+   "paragraph": 0
+  },
+  {
+   "text": "But",
+   "start": 2.48,
+   "end": 2.64,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 2.8,
+   "end": 2.88,
+   "paragraph": 0
+  },
+  {
+   "text": "behaves",
+   "start": 2.96,
+   "end": 3.28,
+   "paragraph": 0
+  },
+  {
+   "text": "in",
+   "start": 3.36,
+   "end": 3.44,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 3.52,
+   "end": 3.6,
+   "paragraph": 0
+  },
+  {
+   "text": "opposite",
+   "start": 3.68,
+   "end": 4.08,
+   "paragraph": 0
+  },
+  {
+   "text": "way.",
+   "start": 4.2,
+   "end": 4.64,
+   "paragraph": 0
+  },
+  {
+   "text": "Raise",
+   "start": 4.96,
+   "end": 5.2,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 5.28,
+   "end": 5.32,
+   "paragraph": 1
+  },
+  {
+   "text": "frequency,",
+   "start": 5.36,
+   "end": 6.24,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 6.32,
+   "end": 6.4,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 6.453,
+   "end": 6.507,
+   "paragraph": 1
+  },
+  {
+   "text": "plates",
+   "start": 6.56,
+   "end": 6.88,
+   "paragraph": 1
+  },
+  {
+   "text": "are",
+   "start": 7,
+   "end": 7.12,
+   "paragraph": 1
+  },
+  {
+   "text": "charged",
+   "start": 7.36,
+   "end": 7.6,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 7.68,
+   "end": 7.76,
+   "paragraph": 1
+  },
+  {
+   "text": "discharged",
+   "start": 7.88,
+   "end": 8.4,
+   "paragraph": 1
+  },
+  {
+   "text": "more",
+   "start": 8.56,
+   "end": 8.8,
+   "paragraph": 1
+  },
+  {
+   "text": "often",
+   "start": 9,
+   "end": 9.2,
+   "paragraph": 1
+  },
+  {
+   "text": "every",
+   "start": 9.28,
+   "end": 9.6,
+   "paragraph": 1
+  },
+  {
+   "text": "second.",
+   "start": 9.8,
+   "end": 10.56,
+   "paragraph": 1
+  },
+  {
+   "text": "More",
+   "start": 10.64,
+   "end": 10.8,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 10.88,
+   "end": 11.2,
+   "paragraph": 1
+  },
+  {
+   "text": "moves",
+   "start": 11.28,
+   "end": 11.6,
+   "paragraph": 1
+  },
+  {
+   "text": "each",
+   "start": 11.68,
+   "end": 11.84,
+   "paragraph": 1
+  },
+  {
+   "text": "second,",
+   "start": 11.92,
+   "end": 12.48,
+   "paragraph": 1
+  },
+  {
+   "text": "so",
+   "start": 12.56,
+   "end": 12.64,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 12.72,
+   "end": 12.8,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 12.88,
+   "end": 13.12,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 13.2,
+   "end": 13.36,
+   "paragraph": 1
+  },
+  {
+   "text": "larger.",
+   "start": 13.44,
+   "end": 14.4,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 14.48,
+   "end": 14.56,
+   "paragraph": 1
+  },
+  {
+   "text": "larger",
+   "start": 14.68,
+   "end": 14.88,
+   "paragraph": 1
+  },
+  {
+   "text": "capacitor",
+   "start": 14.96,
+   "end": 15.6,
+   "paragraph": 1
+  },
+  {
+   "text": "holds",
+   "start": 15.8,
+   "end": 16,
+   "paragraph": 1
+  },
+  {
+   "text": "more",
+   "start": 16.08,
+   "end": 16.32,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 16.48,
+   "end": 16.64,
+   "paragraph": 1
+  },
+  {
+   "text": "for",
+   "start": 16.72,
+   "end": 16.8,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 16.88,
+   "end": 16.96,
+   "paragraph": 1
+  },
+  {
+   "text": "same",
+   "start": 17.04,
+   "end": 17.2,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage,",
+   "start": 17.28,
+   "end": 18.08,
+   "paragraph": 1
+  },
+  {
+   "text": "so",
+   "start": 18.16,
+   "end": 18.24,
+   "paragraph": 1
+  },
+  {
+   "text": "again",
+   "start": 18.56,
+   "end": 18.88,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 18.96,
+   "end": 19.12,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 19.28,
+   "end": 19.44,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 19.52,
+   "end": 19.68,
+   "paragraph": 1
+  },
+  {
+   "text": "larger.",
+   "start": 19.76,
+   "end": 20.8,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 20.84,
+   "end": 20.88,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 20.96,
+   "end": 21.04,
+   "paragraph": 2
+  },
+  {
+   "text": "reactance",
+   "start": 21.24,
+   "end": 21.6,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 21.64,
+   "end": 21.68,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 21.76,
+   "end": 21.8,
+   "paragraph": 2
+  },
+  {
+   "text": "capacitor",
+   "start": 21.84,
+   "end": 22.56,
+   "paragraph": 2
+  },
+  {
+   "text": "goes",
+   "start": 22.6,
+   "end": 22.96,
+   "paragraph": 2
+  },
+  {
+   "text": "down",
+   "start": 23.2,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "as",
+   "start": 23.52,
+   "end": 23.6,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 23.68,
+   "end": 23.72,
+   "paragraph": 2
+  },
+  {
+   "text": "frequency",
+   "start": 23.76,
+   "end": 24.32,
+   "paragraph": 2
+  },
+  {
+   "text": "goes",
+   "start": 24.4,
+   "end": 24.64,
+   "paragraph": 2
+  },
+  {
+   "text": "up.",
+   "start": 24.72,
+   "end": 25.36,
+   "paragraph": 2
+  },
+  {
+   "text": "It",
+   "start": 25.44,
+   "end": 25.52,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 25.6,
+   "end": 25.76,
+   "paragraph": 2
+  },
+  {
+   "text": "one,",
+   "start": 25.84,
+   "end": 26.32,
+   "paragraph": 2
+  },
+  {
+   "text": "divided",
+   "start": 26.4,
+   "end": 26.72,
+   "paragraph": 2
+  },
+  {
+   "text": "by",
+   "start": 26.8,
+   "end": 27.04,
+   "paragraph": 2
+  },
+  {
+   "text": "two",
+   "start": 27.08,
+   "end": 27.12,
+   "paragraph": 2
+  },
+  {
+   "text": "pi,",
+   "start": 27.28,
+   "end": 27.84,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 28,
+   "end": 28.16,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 28.2,
+   "end": 28.24,
+   "paragraph": 2
+  },
+  {
+   "text": "frequency,",
+   "start": 28.32,
+   "end": 29.12,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 29.28,
+   "end": 29.44,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 29.48,
+   "end": 29.52,
+   "paragraph": 2
+  },
+  {
+   "text": "capacitance.",
+   "start": 29.6,
+   "end": 30.6,
+   "paragraph": 2
+  },
+  {
+   "text": "A",
+   "start": 30.88,
+   "end": 30.96,
+   "paragraph": 3
+  },
+  {
+   "text": "capacitor",
+   "start": 31.04,
+   "end": 31.6,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 31.68,
+   "end": 31.76,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 31.84,
+   "end": 31.92,
+   "paragraph": 3
+  },
+  {
+   "text": "hundred",
+   "start": 32,
+   "end": 32.24,
+   "paragraph": 3
+  },
+  {
+   "text": "microfarads,",
+   "start": 32.32,
+   "end": 33.28,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 33.36,
+   "end": 33.44,
+   "paragraph": 3
+  },
+  {
+   "text": "fifty",
+   "start": 33.6,
+   "end": 33.84,
+   "paragraph": 3
+  },
+  {
+   "text": "hertz,",
+   "start": 33.92,
+   "end": 34.48,
+   "paragraph": 3
+  },
+  {
+   "text": "has",
+   "start": 34.56,
+   "end": 34.64,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 34.72,
+   "end": 34.76,
+   "paragraph": 3
+  },
+  {
+   "text": "reactance",
+   "start": 34.8,
+   "end": 35.36,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 35.44,
+   "end": 35.52,
+   "paragraph": 3
+  },
+  {
+   "text": "about",
+   "start": 35.68,
+   "end": 35.84,
+   "paragraph": 3
+  },
+  {
+   "text": "thirty-two",
+   "start": 36,
+   "end": 36.48,
+   "paragraph": 3
+  },
+  {
+   "text": "ohms.",
+   "start": 36.64,
+   "end": 37.52,
+   "paragraph": 3
+  },
+  {
+   "text": "At",
+   "start": 37.6,
+   "end": 37.68,
+   "paragraph": 3
+  },
+  {
+   "text": "five",
+   "start": 37.84,
+   "end": 38,
+   "paragraph": 3
+  },
+  {
+   "text": "thousand",
+   "start": 38.08,
+   "end": 38.4,
+   "paragraph": 3
+  },
+  {
+   "text": "hertz,",
+   "start": 38.48,
+   "end": 39.04,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 39.12,
+   "end": 39.24,
+   "paragraph": 3
+  },
+  {
+   "text": "third",
+   "start": 39.36,
+   "end": 39.6,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 39.64,
+   "end": 39.68,
+   "paragraph": 3
+  },
+  {
+   "text": "an",
+   "start": 39.76,
+   "end": 39.84,
+   "paragraph": 3
+  },
+  {
+   "text": "ohm.",
+   "start": 39.92,
+   "end": 40.64,
+   "paragraph": 3
+  },
+  {
+   "text": "And",
+   "start": 40.72,
+   "end": 40.8,
+   "paragraph": 3
+  },
+  {
+   "text": "for",
+   "start": 40.88,
+   "end": 40.96,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 41.013,
+   "end": 41.067,
+   "paragraph": 3
+  },
+  {
+   "text": "steady",
+   "start": 41.12,
+   "end": 41.36,
+   "paragraph": 3
+  },
+  {
+   "text": "voltage,",
+   "start": 41.44,
+   "end": 42.08,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 42.16,
+   "end": 42.24,
+   "paragraph": 3
+  },
+  {
+   "text": "zero",
+   "start": 42.4,
+   "end": 42.56,
+   "paragraph": 3
+  },
+  {
+   "text": "frequency,",
+   "start": 42.64,
+   "end": 43.6,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 43.72,
+   "end": 43.84,
+   "paragraph": 3
+  },
+  {
+   "text": "reactance",
+   "start": 44.04,
+   "end": 44.48,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 44.56,
+   "end": 44.72,
+   "paragraph": 3
+  },
+  {
+   "text": "beyond",
+   "start": 44.8,
+   "end": 45.2,
+   "paragraph": 3
+  },
+  {
+   "text": "measure:",
+   "start": 45.28,
+   "end": 46.08,
+   "paragraph": 3
+  },
+  {
+   "text": "no",
+   "start": 46.16,
+   "end": 46.24,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 46.4,
+   "end": 46.64,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 46.72,
+   "end": 46.88,
+   "paragraph": 3
+  },
+  {
+   "text": "all.",
+   "start": 46.96,
+   "end": 47.44,
+   "paragraph": 3
+  },
+  {
+   "text": "A",
+   "start": 47.68,
+   "end": 47.76,
+   "paragraph": 3
+  },
+  {
+   "text": "capacitor",
+   "start": 47.84,
+   "end": 48.48,
+   "paragraph": 3
+  },
+  {
+   "text": "blocks",
+   "start": 48.56,
+   "end": 48.96,
+   "paragraph": 3
+  },
+  {
+   "text": "direct",
+   "start": 49.16,
+   "end": 49.36,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 49.44,
+   "end": 49.76,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 49.92,
+   "end": 50.16,
+   "paragraph": 3
+  },
+  {
+   "text": "passes",
+   "start": 50.4,
+   "end": 50.64,
+   "paragraph": 3
+  },
+  {
+   "text": "alternating",
+   "start": 50.72,
+   "end": 51.28,
+   "paragraph": 3
+  },
+  {
+   "text": "current.",
+   "start": 51.36,
+   "end": 51.76,
+   "paragraph": 3
+  },
+  {
+   "text": "Set",
+   "start": 52.32,
+   "end": 52.48,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 52.56,
+   "end": 52.64,
+   "paragraph": 4
+  },
+  {
+   "text": "two",
+   "start": 52.72,
+   "end": 52.88,
+   "paragraph": 4
+  },
+  {
+   "text": "side",
+   "start": 52.96,
+   "end": 53.2,
+   "paragraph": 4
+  },
+  {
+   "text": "by",
+   "start": 53.28,
+   "end": 53.36,
+   "paragraph": 4
+  },
+  {
+   "text": "side.",
+   "start": 53.44,
+   "end": 54,
+   "paragraph": 4
+  },
+  {
+   "text": "As",
+   "start": 54.24,
+   "end": 54.4,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 54.44,
+   "end": 54.48,
+   "paragraph": 4
+  },
+  {
+   "text": "frequency",
+   "start": 54.56,
+   "end": 55.04,
+   "paragraph": 4
+  },
+  {
+   "text": "rises,",
+   "start": 55.12,
+   "end": 55.92,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 56,
+   "end": 56.08,
+   "paragraph": 4
+  },
+  {
+   "text": "coil's",
+   "start": 56.16,
+   "end": 56.48,
+   "paragraph": 4
+  },
+  {
+   "text": "reactance",
+   "start": 56.56,
+   "end": 57.04,
+   "paragraph": 4
+  },
+  {
+   "text": "climbs",
+   "start": 57.12,
+   "end": 57.6,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 57.76,
+   "end": 57.84,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 57.92,
+   "end": 57.96,
+   "paragraph": 4
+  },
+  {
+   "text": "capacitor's",
+   "start": 58,
+   "end": 58.72,
+   "paragraph": 4
+  },
+  {
+   "text": "falls.",
+   "start": 58.8,
+   "end": 59.36,
+   "paragraph": 4
+  },
+  {
+   "text": "At",
+   "start": 59.76,
+   "end": 59.92,
+   "paragraph": 4
+  },
+  {
+   "text": "one",
+   "start": 60,
+   "end": 60.16,
+   "paragraph": 4
+  },
+  {
+   "text": "particular",
+   "start": 60.24,
+   "end": 60.64,
+   "paragraph": 4
+  },
+  {
+   "text": "frequency",
+   "start": 60.72,
+   "end": 61.28,
+   "paragraph": 4
+  },
+  {
+   "text": "they",
+   "start": 61.44,
+   "end": 61.6,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 61.68,
+   "end": 61.76,
+   "paragraph": 4
+  },
+  {
+   "text": "equal.",
+   "start": 61.84,
+   "end": 62.56,
+   "paragraph": 4
+  },
+  {
+   "text": "Something",
+   "start": 62.88,
+   "end": 63.28,
+   "paragraph": 4
+  },
+  {
+   "text": "remarkable",
+   "start": 63.52,
+   "end": 63.92,
+   "paragraph": 4
+  },
+  {
+   "text": "happens",
+   "start": 64,
+   "end": 64.32,
+   "paragraph": 4
+  },
+  {
+   "text": "there,",
+   "start": 64.4,
+   "end": 64.96,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 65.04,
+   "end": 65.12,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 65.16,
+   "end": 65.2,
+   "paragraph": 4
+  },
+  {
+   "text": "has",
+   "start": 65.28,
+   "end": 65.44,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 65.48,
+   "end": 65.52,
+   "paragraph": 4
+  },
+  {
+   "text": "video",
+   "start": 65.6,
+   "end": 65.92,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 66,
+   "end": 66.08,
+   "paragraph": 4
+  },
+  {
+   "text": "its",
+   "start": 66.2,
+   "end": 66.32,
+   "paragraph": 4
+  },
+  {
+   "text": "own.",
+   "start": 66.44,
+   "end": 66.88,
+   "paragraph": 4
+  }
+ ]
+}

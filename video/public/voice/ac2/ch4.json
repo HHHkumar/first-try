@@ -1,0 +1,1262 @@
+{
+ "chapter": 4,
+ "title": "Reactance",
+ "characters": 1177,
+ "duration": 80.195918,
+ "words": [
+  {
+   "text": "A",
+   "start": 0,
+   "end": 0.16,
+   "paragraph": 0
+  },
+  {
+   "text": "coil",
+   "start": 0.24,
+   "end": 0.56,
+   "paragraph": 0
+  },
+  {
+   "text": "on",
+   "start": 0.68,
+   "end": 0.8,
+   "paragraph": 0
+  },
+  {
+   "text": "alternating",
+   "start": 0.96,
+   "end": 1.36,
+   "paragraph": 0
+  },
+  {
+   "text": "current",
+   "start": 1.44,
+   "end": 1.84,
+   "paragraph": 0
+  },
+  {
+   "text": "limits",
+   "start": 2.08,
+   "end": 2.4,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 2.48,
+   "end": 2.52,
+   "paragraph": 0
+  },
+  {
+   "text": "current,",
+   "start": 2.56,
+   "end": 3.28,
+   "paragraph": 0
+  },
+  {
+   "text": "just",
+   "start": 3.36,
+   "end": 3.52,
+   "paragraph": 0
+  },
+  {
+   "text": "as",
+   "start": 3.6,
+   "end": 3.68,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 3.72,
+   "end": 3.76,
+   "paragraph": 0
+  },
+  {
+   "text": "resistor",
+   "start": 3.84,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "would.",
+   "start": 4.44,
+   "end": 5.12,
+   "paragraph": 0
+  },
+  {
+   "text": "But",
+   "start": 5.24,
+   "end": 5.36,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 5.52,
+   "end": 5.68,
+   "paragraph": 0
+  },
+  {
+   "text": "does",
+   "start": 5.8,
+   "end": 5.92,
+   "paragraph": 0
+  },
+  {
+   "text": "so",
+   "start": 6,
+   "end": 6.24,
+   "paragraph": 0
+  },
+  {
+   "text": "in",
+   "start": 6.28,
+   "end": 6.32,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 6.4,
+   "end": 6.48,
+   "paragraph": 0
+  },
+  {
+   "text": "completely",
+   "start": 6.64,
+   "end": 7.12,
+   "paragraph": 0
+  },
+  {
+   "text": "different",
+   "start": 7.28,
+   "end": 7.68,
+   "paragraph": 0
+  },
+  {
+   "text": "way,",
+   "start": 7.76,
+   "end": 8.32,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 8.4,
+   "end": 8.48,
+   "paragraph": 0
+  },
+  {
+   "text": "we",
+   "start": 8.56,
+   "end": 8.64,
+   "paragraph": 0
+  },
+  {
+   "text": "give",
+   "start": 8.72,
+   "end": 8.8,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 8.88,
+   "end": 8.96,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 9.04,
+   "end": 9.12,
+   "paragraph": 0
+  },
+  {
+   "text": "different",
+   "start": 9.2,
+   "end": 9.52,
+   "paragraph": 0
+  },
+  {
+   "text": "name:",
+   "start": 9.6,
+   "end": 10.32,
+   "paragraph": 0
+  },
+  {
+   "text": "reactance.",
+   "start": 10.4,
+   "end": 11.52,
+   "paragraph": 0
+  },
+  {
+   "text": "How",
+   "start": 11.84,
+   "end": 12,
+   "paragraph": 1
+  },
+  {
+   "text": "large",
+   "start": 12.16,
+   "end": 12.4,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 12.44,
+   "end": 12.48,
+   "paragraph": 1
+  },
+  {
+   "text": "it?",
+   "start": 12.56,
+   "end": 13.04,
+   "paragraph": 1
+  },
+  {
+   "text": "Think",
+   "start": 13.36,
+   "end": 13.52,
+   "paragraph": 1
+  },
+  {
+   "text": "about",
+   "start": 13.6,
+   "end": 13.76,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 13.84,
+   "end": 13.88,
+   "paragraph": 1
+  },
+  {
+   "text": "frequency.",
+   "start": 13.92,
+   "end": 14.64,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 15.2,
+   "end": 15.36,
+   "paragraph": 1
+  },
+  {
+   "text": "faster",
+   "start": 15.44,
+   "end": 15.84,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 15.88,
+   "end": 15.92,
+   "paragraph": 1
+  },
+  {
+   "text": "supply",
+   "start": 16,
+   "end": 16.32,
+   "paragraph": 1
+  },
+  {
+   "text": "alternates,",
+   "start": 16.4,
+   "end": 17.28,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 17.32,
+   "end": 17.36,
+   "paragraph": 1
+  },
+  {
+   "text": "faster",
+   "start": 17.52,
+   "end": 17.92,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 18,
+   "end": 18.08,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 18.16,
+   "end": 18.48,
+   "paragraph": 1
+  },
+  {
+   "text": "has",
+   "start": 18.56,
+   "end": 18.64,
+   "paragraph": 1
+  },
+  {
+   "text": "to",
+   "start": 18.72,
+   "end": 18.8,
+   "paragraph": 1
+  },
+  {
+   "text": "change,",
+   "start": 18.88,
+   "end": 19.44,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 19.52,
+   "end": 19.6,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 19.68,
+   "end": 19.76,
+   "paragraph": 1
+  },
+  {
+   "text": "harder",
+   "start": 19.84,
+   "end": 20.24,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 20.28,
+   "end": 20.32,
+   "paragraph": 1
+  },
+  {
+   "text": "coil",
+   "start": 20.4,
+   "end": 20.64,
+   "paragraph": 1
+  },
+  {
+   "text": "pushes",
+   "start": 20.72,
+   "end": 21.04,
+   "paragraph": 1
+  },
+  {
+   "text": "back.",
+   "start": 21.12,
+   "end": 21.76,
+   "paragraph": 1
+  },
+  {
+   "text": "Double",
+   "start": 22.08,
+   "end": 22.32,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 22.4,
+   "end": 22.44,
+   "paragraph": 1
+  },
+  {
+   "text": "frequency,",
+   "start": 22.48,
+   "end": 23.28,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 23.36,
+   "end": 23.44,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 23.48,
+   "end": 23.52,
+   "paragraph": 1
+  },
+  {
+   "text": "reactance",
+   "start": 23.72,
+   "end": 24.16,
+   "paragraph": 1
+  },
+  {
+   "text": "doubles.",
+   "start": 24.32,
+   "end": 25.04,
+   "paragraph": 1
+  },
+  {
+   "text": "And",
+   "start": 25.28,
+   "end": 25.36,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 25.44,
+   "end": 25.52,
+   "paragraph": 1
+  },
+  {
+   "text": "larger",
+   "start": 25.6,
+   "end": 25.92,
+   "paragraph": 1
+  },
+  {
+   "text": "inductance",
+   "start": 26,
+   "end": 26.56,
+   "paragraph": 1
+  },
+  {
+   "text": "pushes",
+   "start": 26.64,
+   "end": 26.96,
+   "paragraph": 1
+  },
+  {
+   "text": "back",
+   "start": 27.04,
+   "end": 27.28,
+   "paragraph": 1
+  },
+  {
+   "text": "harder",
+   "start": 27.36,
+   "end": 27.68,
+   "paragraph": 1
+  },
+  {
+   "text": "still.",
+   "start": 27.76,
+   "end": 28.48,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 28.8,
+   "end": 29.04,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 29.28,
+   "end": 29.36,
+   "paragraph": 2
+  },
+  {
+   "text": "reactance",
+   "start": 29.56,
+   "end": 29.92,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 29.96,
+   "end": 30,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 30.08,
+   "end": 30.16,
+   "paragraph": 2
+  },
+  {
+   "text": "coil",
+   "start": 30.24,
+   "end": 30.56,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 30.72,
+   "end": 30.88,
+   "paragraph": 2
+  },
+  {
+   "text": "two",
+   "start": 31.04,
+   "end": 31.12,
+   "paragraph": 2
+  },
+  {
+   "text": "pi,",
+   "start": 31.28,
+   "end": 31.76,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 31.88,
+   "end": 32,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 32.08,
+   "end": 32.12,
+   "paragraph": 2
+  },
+  {
+   "text": "frequency,",
+   "start": 32.16,
+   "end": 33.04,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 33.16,
+   "end": 33.28,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 33.36,
+   "end": 33.44,
+   "paragraph": 2
+  },
+  {
+   "text": "inductance.",
+   "start": 33.52,
+   "end": 34.52,
+   "paragraph": 2
+  },
+  {
+   "text": "It",
+   "start": 34.8,
+   "end": 34.88,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 34.92,
+   "end": 34.96,
+   "paragraph": 3
+  },
+  {
+   "text": "measured",
+   "start": 35.04,
+   "end": 35.36,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 35.44,
+   "end": 35.52,
+   "paragraph": 3
+  },
+  {
+   "text": "ohms,",
+   "start": 35.6,
+   "end": 36.24,
+   "paragraph": 3
+  },
+  {
+   "text": "because",
+   "start": 36.44,
+   "end": 36.64,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 36.72,
+   "end": 36.8,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 36.84,
+   "end": 36.88,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 36.96,
+   "end": 37.04,
+   "paragraph": 3
+  },
+  {
+   "text": "voltage",
+   "start": 37.12,
+   "end": 37.6,
+   "paragraph": 3
+  },
+  {
+   "text": "divided",
+   "start": 37.68,
+   "end": 38.08,
+   "paragraph": 3
+  },
+  {
+   "text": "by",
+   "start": 38.16,
+   "end": 38.24,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 38.32,
+   "end": 38.4,
+   "paragraph": 3
+  },
+  {
+   "text": "current.",
+   "start": 38.48,
+   "end": 39.2,
+   "paragraph": 3
+  },
+  {
+   "text": "A",
+   "start": 39.52,
+   "end": 39.6,
+   "paragraph": 3
+  },
+  {
+   "text": "coil",
+   "start": 39.68,
+   "end": 39.92,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 40,
+   "end": 40.08,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 40.16,
+   "end": 40.24,
+   "paragraph": 3
+  },
+  {
+   "text": "tenth",
+   "start": 40.32,
+   "end": 40.64,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 40.68,
+   "end": 40.72,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 40.76,
+   "end": 40.8,
+   "paragraph": 3
+  },
+  {
+   "text": "henry,",
+   "start": 40.88,
+   "end": 41.44,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 41.52,
+   "end": 41.6,
+   "paragraph": 3
+  },
+  {
+   "text": "fifty",
+   "start": 41.76,
+   "end": 42,
+   "paragraph": 3
+  },
+  {
+   "text": "hertz,",
+   "start": 42.08,
+   "end": 42.64,
+   "paragraph": 3
+  },
+  {
+   "text": "has",
+   "start": 42.72,
+   "end": 42.8,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 42.84,
+   "end": 42.88,
+   "paragraph": 3
+  },
+  {
+   "text": "reactance",
+   "start": 43.08,
+   "end": 43.52,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 43.56,
+   "end": 43.6,
+   "paragraph": 3
+  },
+  {
+   "text": "about",
+   "start": 43.68,
+   "end": 43.92,
+   "paragraph": 3
+  },
+  {
+   "text": "thirty-one",
+   "start": 44.08,
+   "end": 44.56,
+   "paragraph": 3
+  },
+  {
+   "text": "ohms.",
+   "start": 44.72,
+   "end": 45.2,
+   "paragraph": 3
+  },
+  {
+   "text": "At",
+   "start": 45.68,
+   "end": 45.76,
+   "paragraph": 3
+  },
+  {
+   "text": "five",
+   "start": 45.92,
+   "end": 46.08,
+   "paragraph": 3
+  },
+  {
+   "text": "thousand",
+   "start": 46.24,
+   "end": 46.48,
+   "paragraph": 3
+  },
+  {
+   "text": "hertz,",
+   "start": 46.56,
+   "end": 47.04,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 47.12,
+   "end": 47.28,
+   "paragraph": 3
+  },
+  {
+   "text": "same",
+   "start": 47.4,
+   "end": 47.52,
+   "paragraph": 3
+  },
+  {
+   "text": "coil",
+   "start": 47.6,
+   "end": 47.92,
+   "paragraph": 3
+  },
+  {
+   "text": "has",
+   "start": 48,
+   "end": 48.24,
+   "paragraph": 3
+  },
+  {
+   "text": "three",
+   "start": 48.4,
+   "end": 48.48,
+   "paragraph": 3
+  },
+  {
+   "text": "thousand",
+   "start": 48.64,
+   "end": 48.88,
+   "paragraph": 3
+  },
+  {
+   "text": "ohms.",
+   "start": 49.04,
+   "end": 49.52,
+   "paragraph": 3
+  },
+  {
+   "text": "And",
+   "start": 50,
+   "end": 50.08,
+   "paragraph": 3
+  },
+  {
+   "text": "for",
+   "start": 50.16,
+   "end": 50.24,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 50.28,
+   "end": 50.32,
+   "paragraph": 3
+  },
+  {
+   "text": "steady",
+   "start": 50.4,
+   "end": 50.72,
+   "paragraph": 3
+  },
+  {
+   "text": "current,",
+   "start": 50.8,
+   "end": 51.28,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 51.36,
+   "end": 51.44,
+   "paragraph": 3
+  },
+  {
+   "text": "zero",
+   "start": 51.6,
+   "end": 51.76,
+   "paragraph": 3
+  },
+  {
+   "text": "frequency,",
+   "start": 51.84,
+   "end": 52.72,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 52.8,
+   "end": 52.88,
+   "paragraph": 3
+  },
+  {
+   "text": "has",
+   "start": 53,
+   "end": 53.12,
+   "paragraph": 3
+  },
+  {
+   "text": "none.",
+   "start": 53.2,
+   "end": 53.84,
+   "paragraph": 3
+  },
+  {
+   "text": "That",
+   "start": 54.16,
+   "end": 54.32,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 54.4,
+   "end": 54.48,
+   "paragraph": 3
+  },
+  {
+   "text": "why",
+   "start": 54.56,
+   "end": 54.8,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 54.88,
+   "end": 54.96,
+   "paragraph": 3
+  },
+  {
+   "text": "coil",
+   "start": 55.04,
+   "end": 55.28,
+   "paragraph": 3
+  },
+  {
+   "text": "passes",
+   "start": 55.36,
+   "end": 55.76,
+   "paragraph": 3
+  },
+  {
+   "text": "direct",
+   "start": 55.84,
+   "end": 56.16,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 56.24,
+   "end": 56.56,
+   "paragraph": 3
+  },
+  {
+   "text": "freely",
+   "start": 56.64,
+   "end": 57.04,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 57.28,
+   "end": 57.44,
+   "paragraph": 3
+  },
+  {
+   "text": "holds",
+   "start": 57.52,
+   "end": 57.84,
+   "paragraph": 3
+  },
+  {
+   "text": "back",
+   "start": 57.92,
+   "end": 58.16,
+   "paragraph": 3
+  },
+  {
+   "text": "alternating",
+   "start": 58.24,
+   "end": 58.72,
+   "paragraph": 3
+  },
+  {
+   "text": "current.",
+   "start": 58.8,
+   "end": 59.52,
+   "paragraph": 3
+  },
+  {
+   "text": "But",
+   "start": 59.84,
+   "end": 60,
+   "paragraph": 4
+  },
+  {
+   "text": "these",
+   "start": 60.08,
+   "end": 60.24,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 60.32,
+   "end": 60.4,
+   "paragraph": 4
+  },
+  {
+   "text": "not",
+   "start": 60.48,
+   "end": 60.72,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 60.8,
+   "end": 60.88,
+   "paragraph": 4
+  },
+  {
+   "text": "ohms",
+   "start": 60.96,
+   "end": 61.2,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 61.24,
+   "end": 61.28,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 61.36,
+   "end": 61.4,
+   "paragraph": 4
+  },
+  {
+   "text": "resistor.",
+   "start": 61.44,
+   "end": 62.24,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 62.48,
+   "end": 62.52,
+   "paragraph": 4
+  },
+  {
+   "text": "resistor",
+   "start": 62.56,
+   "end": 63.04,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 63.12,
+   "end": 63.28,
+   "paragraph": 4
+  },
+  {
+   "text": "thirty-one",
+   "start": 63.36,
+   "end": 63.76,
+   "paragraph": 4
+  },
+  {
+   "text": "ohms",
+   "start": 63.92,
+   "end": 64.24,
+   "paragraph": 4
+  },
+  {
+   "text": "gets",
+   "start": 64.32,
+   "end": 64.56,
+   "paragraph": 4
+  },
+  {
+   "text": "hot.",
+   "start": 64.64,
+   "end": 65.2,
+   "paragraph": 4
+  },
+  {
+   "text": "An",
+   "start": 65.44,
+   "end": 65.6,
+   "paragraph": 4
+  },
+  {
+   "text": "ideal",
+   "start": 65.68,
+   "end": 66.08,
+   "paragraph": 4
+  },
+  {
+   "text": "coil",
+   "start": 66.16,
+   "end": 66.4,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 66.48,
+   "end": 66.56,
+   "paragraph": 4
+  },
+  {
+   "text": "thirty-one",
+   "start": 66.64,
+   "end": 67.04,
+   "paragraph": 4
+  },
+  {
+   "text": "ohms",
+   "start": 67.12,
+   "end": 67.44,
+   "paragraph": 4
+  },
+  {
+   "text": "does",
+   "start": 67.6,
+   "end": 67.76,
+   "paragraph": 4
+  },
+  {
+   "text": "not.",
+   "start": 67.84,
+   "end": 68.4,
+   "paragraph": 4
+  },
+  {
+   "text": "We",
+   "start": 68.64,
+   "end": 68.72,
+   "paragraph": 4
+  },
+  {
+   "text": "will",
+   "start": 68.8,
+   "end": 68.88,
+   "paragraph": 4
+  },
+  {
+   "text": "see",
+   "start": 68.96,
+   "end": 69.04,
+   "paragraph": 4
+  },
+  {
+   "text": "why",
+   "start": 69.2,
+   "end": 69.44,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 69.52,
+   "end": 69.6,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 69.68,
+   "end": 69.72,
+   "paragraph": 4
+  },
+  {
+   "text": "moment.",
+   "start": 69.76,
+   "end": 70.16,
+   "paragraph": 4
+  },
+  {
+   "text": "The",
+   "start": 70.8,
+   "end": 70.88,
+   "paragraph": 5
+  },
+  {
+   "text": "word",
+   "start": 70.96,
+   "end": 71.2,
+   "paragraph": 5
+  },
+  {
+   "text": "reactance",
+   "start": 71.28,
+   "end": 72,
+   "paragraph": 5
+  },
+  {
+   "text": "was",
+   "start": 72.12,
+   "end": 72.24,
+   "paragraph": 5
+  },
+  {
+   "text": "proposed",
+   "start": 72.32,
+   "end": 72.72,
+   "paragraph": 5
+  },
+  {
+   "text": "in",
+   "start": 72.8,
+   "end": 72.88,
+   "paragraph": 5
+  },
+  {
+   "text": "eighteen",
+   "start": 72.96,
+   "end": 73.2,
+   "paragraph": 5
+  },
+  {
+   "text": "ninety-three,",
+   "start": 73.36,
+   "end": 74.24,
+   "paragraph": 5
+  },
+  {
+   "text": "by",
+   "start": 74.32,
+   "end": 74.4,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 74.48,
+   "end": 74.56,
+   "paragraph": 5
+  },
+  {
+   "text": "French",
+   "start": 74.72,
+   "end": 74.88,
+   "paragraph": 5
+  },
+  {
+   "text": "engineer,",
+   "start": 75.04,
+   "end": 75.6,
+   "paragraph": 5
+  },
+  {
+   "text": "Édouard",
+   "start": 75.64,
+   "end": 76.08,
+   "paragraph": 5
+  },
+  {
+   "text": "Hospitalier,",
+   "start": 76.16,
+   "end": 77.2,
+   "paragraph": 5
+  },
+  {
+   "text": "as",
+   "start": 77.28,
+   "end": 77.44,
+   "paragraph": 5
+  },
+  {
+   "text": "alternating",
+   "start": 77.52,
+   "end": 78,
+   "paragraph": 5
+  },
+  {
+   "text": "current",
+   "start": 78.08,
+   "end": 78.4,
+   "paragraph": 5
+  },
+  {
+   "text": "was",
+   "start": 78.52,
+   "end": 78.64,
+   "paragraph": 5
+  },
+  {
+   "text": "first",
+   "start": 78.8,
+   "end": 79.04,
+   "paragraph": 5
+  },
+  {
+   "text": "being",
+   "start": 79.12,
+   "end": 79.28,
+   "paragraph": 5
+  },
+  {
+   "text": "put",
+   "start": 79.36,
+   "end": 79.52,
+   "paragraph": 5
+  },
+  {
+   "text": "to",
+   "start": 79.6,
+   "end": 79.68,
+   "paragraph": 5
+  },
+  {
+   "text": "work.",
+   "start": 79.76,
+   "end": 80.24,
+   "paragraph": 5
+  }
+ ]
+}

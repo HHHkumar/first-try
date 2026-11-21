@@ -1,0 +1,1052 @@
+{
+ "chapter": 4,
+ "title": "A compass needle twitched in 1820",
+ "characters": 950,
+ "duration": 66.35102,
+ "words": [
+  {
+   "text": "In",
+   "start": 0,
+   "end": 0.16,
+   "paragraph": 0
+  },
+  {
+   "text": "eighteen",
+   "start": 0.24,
+   "end": 0.48,
+   "paragraph": 0
+  },
+  {
+   "text": "twenty,",
+   "start": 0.64,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "during",
+   "start": 1.6,
+   "end": 1.76,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 1.8,
+   "end": 1.84,
+   "paragraph": 0
+  },
+  {
+   "text": "lecture,",
+   "start": 1.92,
+   "end": 2.72,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 2.76,
+   "end": 2.8,
+   "paragraph": 0
+  },
+  {
+   "text": "compass",
+   "start": 2.88,
+   "end": 3.36,
+   "paragraph": 0
+  },
+  {
+   "text": "needle",
+   "start": 3.44,
+   "end": 3.76,
+   "paragraph": 0
+  },
+  {
+   "text": "twitched.",
+   "start": 3.84,
+   "end": 4.4,
+   "paragraph": 0
+  },
+  {
+   "text": "And",
+   "start": 4.88,
+   "end": 5.04,
+   "paragraph": 0
+  },
+  {
+   "text": "physics",
+   "start": 5.12,
+   "end": 5.6,
+   "paragraph": 0
+  },
+  {
+   "text": "changed",
+   "start": 5.84,
+   "end": 6.16,
+   "paragraph": 0
+  },
+  {
+   "text": "for",
+   "start": 6.24,
+   "end": 6.32,
+   "paragraph": 0
+  },
+  {
+   "text": "good.",
+   "start": 6.48,
+   "end": 6.8,
+   "paragraph": 0
+  },
+  {
+   "text": "Hans",
+   "start": 7.36,
+   "end": 7.6,
+   "paragraph": 1
+  },
+  {
+   "text": "Christian",
+   "start": 7.68,
+   "end": 8.08,
+   "paragraph": 1
+  },
+  {
+   "text": "Oersted",
+   "start": 8.16,
+   "end": 8.72,
+   "paragraph": 1
+  },
+  {
+   "text": "had",
+   "start": 8.8,
+   "end": 8.88,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 8.92,
+   "end": 8.96,
+   "paragraph": 1
+  },
+  {
+   "text": "compass",
+   "start": 9.04,
+   "end": 9.44,
+   "paragraph": 1
+  },
+  {
+   "text": "on",
+   "start": 9.48,
+   "end": 9.52,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 9.6,
+   "end": 9.68,
+   "paragraph": 1
+  },
+  {
+   "text": "bench",
+   "start": 9.76,
+   "end": 10.08,
+   "paragraph": 1
+  },
+  {
+   "text": "beside",
+   "start": 10.2,
+   "end": 10.48,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 10.52,
+   "end": 10.56,
+   "paragraph": 1
+  },
+  {
+   "text": "wire.",
+   "start": 10.64,
+   "end": 11.04,
+   "paragraph": 1
+  },
+  {
+   "text": "When",
+   "start": 11.52,
+   "end": 11.68,
+   "paragraph": 1
+  },
+  {
+   "text": "he",
+   "start": 11.76,
+   "end": 11.84,
+   "paragraph": 1
+  },
+  {
+   "text": "switched",
+   "start": 11.96,
+   "end": 12.16,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 12.2,
+   "end": 12.24,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 12.32,
+   "end": 12.64,
+   "paragraph": 1
+  },
+  {
+   "text": "on,",
+   "start": 12.72,
+   "end": 13.28,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 13.32,
+   "end": 13.36,
+   "paragraph": 1
+  },
+  {
+   "text": "needle",
+   "start": 13.44,
+   "end": 13.76,
+   "paragraph": 1
+  },
+  {
+   "text": "swung.",
+   "start": 13.92,
+   "end": 14.4,
+   "paragraph": 1
+  },
+  {
+   "text": "Switch",
+   "start": 14.88,
+   "end": 15.12,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 15.16,
+   "end": 15.2,
+   "paragraph": 1
+  },
+  {
+   "text": "off,",
+   "start": 15.28,
+   "end": 15.84,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 15.92,
+   "end": 16,
+   "paragraph": 1
+  },
+  {
+   "text": "swung",
+   "start": 16.08,
+   "end": 16.32,
+   "paragraph": 1
+  },
+  {
+   "text": "back.",
+   "start": 16.4,
+   "end": 16.8,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 17.28,
+   "end": 17.36,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 17.52,
+   "end": 17.92,
+   "paragraph": 2
+  },
+  {
+   "text": "makes",
+   "start": 18.08,
+   "end": 18.32,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 18.4,
+   "end": 18.48,
+   "paragraph": 2
+  },
+  {
+   "text": "magnetic",
+   "start": 18.56,
+   "end": 19.04,
+   "paragraph": 2
+  },
+  {
+   "text": "field.",
+   "start": 19.2,
+   "end": 19.84,
+   "paragraph": 2
+  },
+  {
+   "text": "And",
+   "start": 20.08,
+   "end": 20.16,
+   "paragraph": 3
+  },
+  {
+   "text": "look",
+   "start": 20.24,
+   "end": 20.32,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 20.4,
+   "end": 20.44,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 20.48,
+   "end": 20.64,
+   "paragraph": 3
+  },
+  {
+   "text": "shape.",
+   "start": 20.72,
+   "end": 21.12,
+   "paragraph": 3
+  },
+  {
+   "text": "The",
+   "start": 21.6,
+   "end": 21.76,
+   "paragraph": 3
+  },
+  {
+   "text": "field",
+   "start": 21.92,
+   "end": 22.08,
+   "paragraph": 3
+  },
+  {
+   "text": "does",
+   "start": 22.16,
+   "end": 22.32,
+   "paragraph": 3
+  },
+  {
+   "text": "not",
+   "start": 22.48,
+   "end": 22.72,
+   "paragraph": 3
+  },
+  {
+   "text": "point",
+   "start": 22.8,
+   "end": 23.04,
+   "paragraph": 3
+  },
+  {
+   "text": "along",
+   "start": 23.12,
+   "end": 23.36,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 23.4,
+   "end": 23.44,
+   "paragraph": 3
+  },
+  {
+   "text": "wire.",
+   "start": 23.52,
+   "end": 24.08,
+   "paragraph": 3
+  },
+  {
+   "text": "It",
+   "start": 24.24,
+   "end": 24.4,
+   "paragraph": 3
+  },
+  {
+   "text": "wraps",
+   "start": 24.56,
+   "end": 24.88,
+   "paragraph": 3
+  },
+  {
+   "text": "around",
+   "start": 25.04,
+   "end": 25.2,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 25.28,
+   "end": 25.36,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 25.44,
+   "end": 25.6,
+   "paragraph": 3
+  },
+  {
+   "text": "circles.",
+   "start": 25.76,
+   "end": 26.52,
+   "paragraph": 3
+  },
+  {
+   "text": "Every",
+   "start": 26.8,
+   "end": 27.12,
+   "paragraph": 3
+  },
+  {
+   "text": "compass",
+   "start": 27.2,
+   "end": 27.6,
+   "paragraph": 3
+  },
+  {
+   "text": "around",
+   "start": 27.68,
+   "end": 28,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 28.08,
+   "end": 28.12,
+   "paragraph": 3
+  },
+  {
+   "text": "wire",
+   "start": 28.16,
+   "end": 28.48,
+   "paragraph": 3
+  },
+  {
+   "text": "turns",
+   "start": 28.64,
+   "end": 29.04,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 29.08,
+   "end": 29.12,
+   "paragraph": 3
+  },
+  {
+   "text": "follow",
+   "start": 29.28,
+   "end": 29.52,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 29.6,
+   "end": 29.68,
+   "paragraph": 3
+  },
+  {
+   "text": "circle.",
+   "start": 29.76,
+   "end": 30.44,
+   "paragraph": 3
+  },
+  {
+   "text": "Reverse",
+   "start": 30.72,
+   "end": 31.04,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 31.12,
+   "end": 31.2,
+   "paragraph": 3
+  },
+  {
+   "text": "current,",
+   "start": 31.4,
+   "end": 31.84,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 31.96,
+   "end": 32.08,
+   "paragraph": 3
+  },
+  {
+   "text": "every",
+   "start": 32.16,
+   "end": 32.48,
+   "paragraph": 3
+  },
+  {
+   "text": "needle",
+   "start": 32.56,
+   "end": 32.8,
+   "paragraph": 3
+  },
+  {
+   "text": "spins",
+   "start": 32.88,
+   "end": 33.28,
+   "paragraph": 3
+  },
+  {
+   "text": "round",
+   "start": 33.36,
+   "end": 33.68,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 33.76,
+   "end": 33.92,
+   "paragraph": 3
+  },
+  {
+   "text": "point",
+   "start": 34.04,
+   "end": 34.16,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 34.24,
+   "end": 34.32,
+   "paragraph": 3
+  },
+  {
+   "text": "other",
+   "start": 34.4,
+   "end": 34.56,
+   "paragraph": 3
+  },
+  {
+   "text": "way.",
+   "start": 34.64,
+   "end": 35.08,
+   "paragraph": 3
+  },
+  {
+   "text": "Now",
+   "start": 35.36,
+   "end": 35.52,
+   "paragraph": 4
+  },
+  {
+   "text": "wind",
+   "start": 35.6,
+   "end": 35.92,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 36,
+   "end": 36.08,
+   "paragraph": 4
+  },
+  {
+   "text": "wire",
+   "start": 36.16,
+   "end": 36.48,
+   "paragraph": 4
+  },
+  {
+   "text": "into",
+   "start": 36.56,
+   "end": 36.8,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 36.84,
+   "end": 36.88,
+   "paragraph": 4
+  },
+  {
+   "text": "coil.",
+   "start": 37.04,
+   "end": 37.68,
+   "paragraph": 4
+  },
+  {
+   "text": "All",
+   "start": 37.92,
+   "end": 38.16,
+   "paragraph": 4
+  },
+  {
+   "text": "those",
+   "start": 38.28,
+   "end": 38.4,
+   "paragraph": 4
+  },
+  {
+   "text": "circles",
+   "start": 38.48,
+   "end": 38.96,
+   "paragraph": 4
+  },
+  {
+   "text": "add",
+   "start": 39.04,
+   "end": 39.2,
+   "paragraph": 4
+  },
+  {
+   "text": "up",
+   "start": 39.28,
+   "end": 39.36,
+   "paragraph": 4
+  },
+  {
+   "text": "inside",
+   "start": 39.44,
+   "end": 39.84,
+   "paragraph": 4
+  },
+  {
+   "text": "it,",
+   "start": 39.92,
+   "end": 40.32,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 40.4,
+   "end": 40.48,
+   "paragraph": 4
+  },
+  {
+   "text": "you",
+   "start": 40.56,
+   "end": 40.64,
+   "paragraph": 4
+  },
+  {
+   "text": "get",
+   "start": 40.72,
+   "end": 40.8,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 40.88,
+   "end": 40.96,
+   "paragraph": 4
+  },
+  {
+   "text": "magnet",
+   "start": 41.04,
+   "end": 41.52,
+   "paragraph": 4
+  },
+  {
+   "text": "you",
+   "start": 41.6,
+   "end": 41.68,
+   "paragraph": 4
+  },
+  {
+   "text": "can",
+   "start": 41.76,
+   "end": 41.84,
+   "paragraph": 4
+  },
+  {
+   "text": "switch",
+   "start": 41.92,
+   "end": 42.16,
+   "paragraph": 4
+  },
+  {
+   "text": "on",
+   "start": 42.32,
+   "end": 42.56,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 42.64,
+   "end": 42.72,
+   "paragraph": 4
+  },
+  {
+   "text": "off.",
+   "start": 42.8,
+   "end": 43.36,
+   "paragraph": 4
+  },
+  {
+   "text": "Put",
+   "start": 43.6,
+   "end": 43.68,
+   "paragraph": 4
+  },
+  {
+   "text": "an",
+   "start": 43.76,
+   "end": 43.92,
+   "paragraph": 4
+  },
+  {
+   "text": "iron",
+   "start": 44,
+   "end": 44.24,
+   "paragraph": 4
+  },
+  {
+   "text": "core",
+   "start": 44.32,
+   "end": 44.48,
+   "paragraph": 4
+  },
+  {
+   "text": "inside,",
+   "start": 44.56,
+   "end": 45.2,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 45.24,
+   "end": 45.28,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 45.36,
+   "end": 45.44,
+   "paragraph": 4
+  },
+  {
+   "text": "gets",
+   "start": 45.52,
+   "end": 45.76,
+   "paragraph": 4
+  },
+  {
+   "text": "hundreds",
+   "start": 45.84,
+   "end": 46.24,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 46.32,
+   "end": 46.4,
+   "paragraph": 4
+  },
+  {
+   "text": "times",
+   "start": 46.48,
+   "end": 46.72,
+   "paragraph": 4
+  },
+  {
+   "text": "stronger.",
+   "start": 46.8,
+   "end": 47.56,
+   "paragraph": 4
+  },
+  {
+   "text": "That",
+   "start": 47.84,
+   "end": 48.16,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 48.32,
+   "end": 48.4,
+   "paragraph": 5
+  },
+  {
+   "text": "an",
+   "start": 48.48,
+   "end": 48.64,
+   "paragraph": 5
+  },
+  {
+   "text": "electromagnet.",
+   "start": 48.84,
+   "end": 49.92,
+   "paragraph": 5
+  },
+  {
+   "text": "It",
+   "start": 50.16,
+   "end": 50.24,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 50.32,
+   "end": 50.4,
+   "paragraph": 5
+  },
+  {
+   "text": "in",
+   "start": 50.52,
+   "end": 50.64,
+   "paragraph": 5
+  },
+  {
+   "text": "every",
+   "start": 50.8,
+   "end": 50.96,
+   "paragraph": 5
+  },
+  {
+   "text": "motor,",
+   "start": 51.04,
+   "end": 51.68,
+   "paragraph": 5
+  },
+  {
+   "text": "every",
+   "start": 51.8,
+   "end": 51.92,
+   "paragraph": 5
+  },
+  {
+   "text": "speaker,",
+   "start": 52.08,
+   "end": 52.8,
+   "paragraph": 5
+  },
+  {
+   "text": "every",
+   "start": 52.96,
+   "end": 53.12,
+   "paragraph": 5
+  },
+  {
+   "text": "relay",
+   "start": 53.2,
+   "end": 53.68,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 53.84,
+   "end": 54,
+   "paragraph": 5
+  },
+  {
+   "text": "every",
+   "start": 54.16,
+   "end": 54.4,
+   "paragraph": 5
+  },
+  {
+   "text": "doorbell.",
+   "start": 54.56,
+   "end": 55.12,
+   "paragraph": 5
+  },
+  {
+   "text": "And",
+   "start": 55.52,
+   "end": 55.68,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 55.72,
+   "end": 55.76,
+   "paragraph": 5
+  },
+  {
+   "text": "field",
+   "start": 55.84,
+   "end": 56.08,
+   "paragraph": 5
+  },
+  {
+   "text": "it",
+   "start": 56.16,
+   "end": 56.24,
+   "paragraph": 5
+  },
+  {
+   "text": "makes",
+   "start": 56.32,
+   "end": 56.64,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 56.72,
+   "end": 56.88,
+   "paragraph": 5
+  },
+  {
+   "text": "measured",
+   "start": 56.96,
+   "end": 57.28,
+   "paragraph": 5
+  },
+  {
+   "text": "in",
+   "start": 57.36,
+   "end": 57.44,
+   "paragraph": 5
+  },
+  {
+   "text": "teslas.",
+   "start": 57.6,
+   "end": 58.48,
+   "paragraph": 5
+  },
+  {
+   "text": "Earth's",
+   "start": 58.72,
+   "end": 59.04,
+   "paragraph": 5
+  },
+  {
+   "text": "field",
+   "start": 59.12,
+   "end": 59.44,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 59.52,
+   "end": 59.6,
+   "paragraph": 5
+  },
+  {
+   "text": "about",
+   "start": 59.76,
+   "end": 59.92,
+   "paragraph": 5
+  },
+  {
+   "text": "fifty",
+   "start": 60,
+   "end": 60.32,
+   "paragraph": 5
+  },
+  {
+   "text": "millionths",
+   "start": 60.56,
+   "end": 61.04,
+   "paragraph": 5
+  },
+  {
+   "text": "of",
+   "start": 61.12,
+   "end": 61.2,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 61.24,
+   "end": 61.28,
+   "paragraph": 5
+  },
+  {
+   "text": "tesla.",
+   "start": 61.4,
+   "end": 62.04,
+   "paragraph": 5
+  },
+  {
+   "text": "The",
+   "start": 62.32,
+   "end": 62.4,
+   "paragraph": 6
+  },
+  {
+   "text": "full",
+   "start": 62.48,
+   "end": 62.64,
+   "paragraph": 6
+  },
+  {
+   "text": "video",
+   "start": 62.72,
+   "end": 63.04,
+   "paragraph": 6
+  },
+  {
+   "text": "is",
+   "start": 63.2,
+   "end": 63.28,
+   "paragraph": 6
+  },
+  {
+   "text": "The",
+   "start": 63.36,
+   "end": 63.44,
+   "paragraph": 6
+  },
+  {
+   "text": "Second",
+   "start": 63.52,
+   "end": 63.84,
+   "paragraph": 6
+  },
+  {
+   "text": "Field,",
+   "start": 63.92,
+   "end": 64.4,
+   "paragraph": 6
+  },
+  {
+   "text": "on",
+   "start": 64.44,
+   "end": 64.48,
+   "paragraph": 6
+  },
+  {
+   "text": "our",
+   "start": 64.56,
+   "end": 64.64,
+   "paragraph": 6
+  },
+  {
+   "text": "channel.",
+   "start": 64.72,
+   "end": 65.44,
+   "paragraph": 6
+  },
+  {
+   "text": "Follow",
+   "start": 65.56,
+   "end": 65.68,
+   "paragraph": 6
+  },
+  {
+   "text": "for",
+   "start": 65.76,
+   "end": 65.84,
+   "paragraph": 6
+  },
+  {
+   "text": "more.",
+   "start": 65.92,
+   "end": 66.4,
+   "paragraph": 6
+  }
+ ]
+}

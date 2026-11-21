@@ -1,0 +1,911 @@
+1
+00:00:01,200 --> 00:00:04,460
+Flip a switch, and the lamp is on before your finger has
+
+2
+00:00:04,480 --> 00:00:05,700
+left the button.
+
+3
+00:00:05,720 --> 00:00:08,700
+So the electrons must race through the wire.
+
+4
+00:00:08,720 --> 00:00:09,270
+Right?
+
+5
+00:00:09,360 --> 00:00:10,910
+Let's go inside and look.
+
+6
+00:00:11,040 --> 00:00:11,990
+Here they are.
+
+7
+00:00:12,080 --> 00:00:13,750
+And they are barely moving.
+
+8
+00:00:14,080 --> 00:00:17,100
+In an ordinary copper wire carrying one ampere,
+
+9
+00:00:17,120 --> 00:00:20,060
+the electrons drift forward at less than a tenth of a
+
+10
+00:00:20,080 --> 00:00:22,150
+millimetre every second.
+
+11
+00:00:22,240 --> 00:00:25,270
+A snail is more than ten times faster.
+
+12
+00:00:25,360 --> 00:00:27,860
+To travel a single metre of this wire,
+
+13
+00:00:27,880 --> 00:00:30,950
+an electron needs nearly four hours.
+
+14
+00:00:31,000 --> 00:00:33,620
+So how does the lamp light instantly?
+
+15
+00:00:33,640 --> 00:00:36,780
+And what is holding the electrons back so badly?
+
+16
+00:00:36,800 --> 00:00:39,420
+The answer to both is one idea:
+
+17
+00:00:39,440 --> 00:00:40,807
+resistance.
+
+18
+00:00:40,827 --> 00:00:43,660
+By the end of this video you will be able to see it,
+
+19
+00:00:43,680 --> 00:00:45,190
+not just calculate it.
+
+20
+00:00:47,500 --> 00:00:51,850
+This is copper, magnified a hundred million times.
+
+21
+00:00:51,980 --> 00:00:54,160
+The copper atoms sit in a neat,
+
+22
+00:00:54,180 --> 00:00:56,690
+repeating grid called a lattice.
+
+23
+00:00:56,860 --> 00:01:00,050
+Each atom has let go of one outer electron.
+
+24
+00:01:00,460 --> 00:01:04,010
+Those freed electrons belong to no atom in particular.
+
+25
+00:01:04,140 --> 00:01:07,160
+They wander through the whole metal like a gas,
+
+26
+00:01:07,180 --> 00:01:09,730
+and there is an enormous number of them:
+
+27
+00:01:09,780 --> 00:01:13,330
+about eighty-five billion billion in a speck of copper
+
+28
+00:01:13,420 --> 00:01:14,970
+one millimetre wide.
+
+29
+00:01:15,100 --> 00:01:16,770
+And they are not resting.
+
+30
+00:01:16,860 --> 00:01:18,920
+Even with no battery connected,
+
+31
+00:01:18,940 --> 00:01:22,120
+every electron is flying around at more than a thousand
+
+32
+00:01:22,140 --> 00:01:23,770
+kilometres per second.
+
+33
+00:01:23,900 --> 00:01:25,650
+But the directions are random.
+
+34
+00:01:25,900 --> 00:01:28,050
+For every electron heading left,
+
+35
+00:01:28,140 --> 00:01:29,690
+another is heading right.
+
+36
+00:01:29,820 --> 00:01:32,770
+Add them all up and the net flow is zero.
+
+37
+00:01:32,860 --> 00:01:34,010
+No current.
+
+38
+00:01:34,220 --> 00:01:35,970
+Now connect a battery.
+
+39
+00:01:36,060 --> 00:01:38,880
+It sets up an electric field along the wire,
+
+40
+00:01:38,900 --> 00:01:43,000
+and every electron feels a gentle push in one direction.
+
+41
+00:01:43,020 --> 00:01:46,240
+The frantic random motion carries on as before,
+
+42
+00:01:46,260 --> 00:01:50,040
+but now the whole crowd leans, ever so slightly,
+
+43
+00:01:50,060 --> 00:01:51,080
+one way.
+
+44
+00:01:51,100 --> 00:01:54,040
+That slow lean is called drift.
+
+45
+00:01:54,060 --> 00:01:56,280
+And drift is the current.
+
+46
+00:01:56,300 --> 00:01:58,520
+This also solves our paradox.
+
+47
+00:01:58,540 --> 00:02:01,080
+The wire is already full of electrons,
+
+48
+00:02:01,100 --> 00:02:02,600
+from end to end.
+
+49
+00:02:02,620 --> 00:02:05,800
+Push at one end, and the push is passed along at close
+
+50
+00:02:05,820 --> 00:02:07,400
+to the speed of light.
+
+51
+00:02:07,420 --> 00:02:10,200
+Think of a pipe that is already full of water.
+
+52
+00:02:10,220 --> 00:02:14,000
+Open the tap, and water comes out of the far end at once,
+
+53
+00:02:14,020 --> 00:02:17,650
+even though the water that just entered is still far behind.
+
+54
+00:02:17,740 --> 00:02:19,250
+The electrons crawl.
+
+55
+00:02:19,420 --> 00:02:21,250
+The message flies.
+
+56
+00:02:22,633 --> 00:02:26,093
+If the field keeps pushing, why don't the electrons keep
+
+57
+00:02:26,113 --> 00:02:27,303
+getting faster?
+
+58
+00:02:27,433 --> 00:02:29,863
+Because they keep being interrupted.
+
+59
+00:02:29,993 --> 00:02:32,893
+The lattice is never perfectly still.
+
+60
+00:02:32,913 --> 00:02:36,613
+Its atoms tremble with heat, and here and there sits an
+
+61
+00:02:36,633 --> 00:02:38,533
+impurity or a flaw.
+
+62
+00:02:38,553 --> 00:02:41,493
+An electron picks up a little speed from the field,
+
+63
+00:02:41,513 --> 00:02:44,613
+then scatters off one of these disturbances and flies
+
+64
+00:02:44,633 --> 00:02:46,533
+off in a random direction.
+
+65
+00:02:46,553 --> 00:02:48,813
+Its forward progress is wiped out,
+
+66
+00:02:48,833 --> 00:02:50,853
+and it has to start again.
+
+67
+00:02:50,873 --> 00:02:53,333
+Gain, scatter, reset.
+
+68
+00:02:53,353 --> 00:02:55,773
+Gain, scatter, reset.
+
+69
+00:02:55,793 --> 00:02:59,143
+Tens of trillions of times every second.
+
+70
+00:02:59,273 --> 00:03:02,053
+Here is something most textbooks leave out.
+
+71
+00:03:02,073 --> 00:03:05,503
+The electrons are not simply bumping into the atoms.
+
+72
+00:03:05,593 --> 00:03:09,013
+A perfectly regular, perfectly still lattice would let
+
+73
+00:03:09,033 --> 00:03:10,703
+them glide straight through.
+
+74
+00:03:10,873 --> 00:03:13,453
+What scatters them is the disorder:
+
+75
+00:03:13,473 --> 00:03:15,423
+the trembling, and the flaws.
+
+76
+00:03:15,833 --> 00:03:16,853
+Keep that in mind.
+
+77
+00:03:16,873 --> 00:03:18,183
+It matters later.
+
+78
+00:03:18,313 --> 00:03:21,463
+This constant interruption is resistance.
+
+79
+00:03:21,513 --> 00:03:25,263
+It is how hard a conductor makes it to keep charge flowing.
+
+80
+00:03:25,593 --> 00:03:28,613
+We measure it by asking a simple question:
+
+81
+00:03:28,633 --> 00:03:32,023
+how much push do I need for each unit of flow?
+
+82
+00:03:32,153 --> 00:03:34,973
+The push is voltage, in volts.
+
+83
+00:03:34,993 --> 00:03:37,813
+The flow is current, in amperes.
+
+84
+00:03:37,833 --> 00:03:40,693
+Divide one by the other and you get resistance,
+
+85
+00:03:40,713 --> 00:03:42,013
+in ohms.
+
+86
+00:03:42,033 --> 00:03:45,973
+If one volt drives one ampere, that is one ohm.
+
+87
+00:03:45,993 --> 00:03:48,613
+If you need ten volts for that same ampere,
+
+88
+00:03:48,633 --> 00:03:50,383
+that is ten ohms.
+
+89
+00:03:50,433 --> 00:03:54,623
+This is Ohm's law: V equals I times R.
+
+90
+00:03:55,967 --> 00:03:59,157
+Now let's change the wire and watch what happens.
+
+91
+00:03:59,487 --> 00:04:01,637
+First, make it twice as long.
+
+92
+00:04:01,967 --> 00:04:05,427
+Every electron must now get through twice as much lattice,
+
+93
+00:04:05,447 --> 00:04:08,357
+and is interrupted twice as many times along the way.
+
+94
+00:04:08,607 --> 00:04:11,477
+For the same current, you need twice the push.
+
+95
+00:04:11,807 --> 00:04:14,197
+Double the length, double the resistance.
+
+96
+00:04:14,607 --> 00:04:18,227
+Next, go back, and make the wire thicker instead,
+
+97
+00:04:18,247 --> 00:04:20,037
+with twice the cross-section.
+
+98
+00:04:20,127 --> 00:04:23,387
+Now there are twice as many electrons side by side,
+
+99
+00:04:23,407 --> 00:04:26,427
+all drifting together, like a road that has gone from
+
+100
+00:04:26,447 --> 00:04:27,987
+two lanes to four.
+
+101
+00:04:28,007 --> 00:04:30,787
+The same push moves twice the charge.
+
+102
+00:04:30,807 --> 00:04:33,467
+Double the area, half the resistance.
+
+103
+00:04:33,487 --> 00:04:35,787
+Notice that it is the area that counts,
+
+104
+00:04:35,807 --> 00:04:37,147
+not the diameter.
+
+105
+00:04:37,167 --> 00:04:40,667
+Double the diameter and the area becomes four times bigger,
+
+106
+00:04:40,687 --> 00:04:43,147
+so the resistance falls to a quarter.
+
+107
+00:04:43,167 --> 00:04:45,227
+So resistance grows with length,
+
+108
+00:04:45,247 --> 00:04:47,877
+L, and shrinks with area, A.
+
+109
+00:04:48,207 --> 00:04:50,347
+Engineers use this every day.
+
+110
+00:04:50,367 --> 00:04:53,707
+A thin extension cord warms up under a heavy load,
+
+111
+00:04:53,727 --> 00:04:55,747
+while a thick one stays cool.
+
+112
+00:04:55,767 --> 00:04:58,707
+And a strain gauge, the sensor that weighs trucks and
+
+113
+00:04:58,727 --> 00:05:02,117
+watches over bridges, is just a very fine wire.
+
+114
+00:05:02,207 --> 00:05:05,067
+Stretch it, and it becomes longer and thinner,
+
+115
+00:05:05,087 --> 00:05:08,357
+so its resistance rises by an amount you can measure.
+
+116
+00:05:09,733 --> 00:05:13,083
+But length and area are not the whole story.
+
+117
+00:05:13,253 --> 00:05:16,353
+Take two wires of exactly the same size,
+
+118
+00:05:16,373 --> 00:05:19,393
+one made of copper and one of nichrome,
+
+119
+00:05:19,413 --> 00:05:21,563
+the alloy inside a heater coil.
+
+120
+00:05:21,733 --> 00:05:25,523
+The nichrome has about sixty-five times the resistance.
+
+121
+00:05:25,653 --> 00:05:26,643
+Same shape.
+
+122
+00:05:26,693 --> 00:05:27,803
+Different material.
+
+123
+00:05:28,213 --> 00:05:31,553
+So we need a number that describes the material alone,
+
+124
+00:05:31,573 --> 00:05:33,083
+with the shape taken out.
+
+125
+00:05:33,413 --> 00:05:36,923
+That number is resistivity, written with the Greek letter
+
+126
+00:05:37,013 --> 00:05:37,563
+rho.
+
+127
+00:05:37,893 --> 00:05:40,593
+And now the formula is complete:
+
+128
+00:05:40,613 --> 00:05:43,723
+R equals rho, times L over A.
+
+129
+00:05:44,133 --> 00:05:45,163
+Read it like this.
+
+130
+00:05:45,573 --> 00:05:48,043
+Rho is what the material contributes.
+
+131
+00:05:48,133 --> 00:05:50,843
+L over A is what the shape contributes.
+
+132
+00:05:51,413 --> 00:05:53,163
+What is rho, physically?
+
+133
+00:05:53,653 --> 00:05:55,633
+Picture a cube of the material,
+
+134
+00:05:55,653 --> 00:05:57,243
+one metre on each side.
+
+135
+00:05:57,573 --> 00:06:00,873
+The resistance from one face to the opposite face is its
+
+136
+00:06:00,893 --> 00:06:01,803
+resistivity.
+
+137
+00:06:02,133 --> 00:06:05,083
+That is why its unit is the ohm metre.
+
+138
+00:06:05,253 --> 00:06:07,083
+Here is the distinction to remember.
+
+139
+00:06:07,413 --> 00:06:09,873
+Resistance belongs to an object:
+
+140
+00:06:09,893 --> 00:06:11,643
+this wire, this coil.
+
+141
+00:06:11,973 --> 00:06:14,753
+Resistivity belongs to a substance:
+
+142
+00:06:14,773 --> 00:06:17,243
+copper, anywhere, in any shape.
+
+143
+00:06:17,573 --> 00:06:19,403
+You will also meet its inverse,
+
+144
+00:06:19,493 --> 00:06:21,403
+conductivity, written sigma.
+
+145
+00:06:21,893 --> 00:06:23,243
+Now look at the range.
+
+146
+00:06:23,573 --> 00:06:27,313
+Silver is the best conductor, with copper just behind,
+
+147
+00:06:27,333 --> 00:06:29,403
+then gold and aluminium.
+
+148
+00:06:29,573 --> 00:06:32,443
+Nichrome is about sixty-five times copper.
+
+149
+00:06:32,853 --> 00:06:36,603
+Pure silicon is more than a hundred billion times copper.
+
+150
+00:06:36,933 --> 00:06:40,033
+And glass: a billion billion times,
+
+151
+00:06:40,053 --> 00:06:41,003
+and beyond.
+
+152
+00:06:41,493 --> 00:06:45,163
+Few properties in all of physics span a range this wide.
+
+153
+00:06:45,413 --> 00:06:47,553
+And it comes down to two things:
+
+154
+00:06:47,573 --> 00:06:49,873
+how many electrons are free to move,
+
+155
+00:06:49,893 --> 00:06:52,043
+and how easily they get through.
+
+156
+00:06:53,400 --> 00:06:56,020
+Resistivity is not fixed, though.
+
+157
+00:06:56,040 --> 00:06:59,790
+It changes with temperature, and you already know why.
+
+158
+00:06:59,960 --> 00:07:03,870
+Heat a metal and its lattice trembles more violently.
+
+159
+00:07:04,040 --> 00:07:06,340
+More trembling means more scattering,
+
+160
+00:07:06,360 --> 00:07:09,070
+so the electrons are interrupted more often.
+
+161
+00:07:09,160 --> 00:07:10,990
+Resistance goes up.
+
+162
+00:07:11,160 --> 00:07:14,660
+For copper, it rises about four tenths of a percent for
+
+163
+00:07:14,680 --> 00:07:16,430
+every degree Celsius.
+
+164
+00:07:16,600 --> 00:07:19,910
+A tungsten lamp filament shows this dramatically.
+
+165
+00:07:20,040 --> 00:07:23,020
+Glowing at well over two thousand degrees,
+
+166
+00:07:23,040 --> 00:07:26,100
+its resistance is more than ten times what it was when
+
+167
+00:07:26,120 --> 00:07:26,670
+cold.
+
+168
+00:07:27,080 --> 00:07:30,460
+That is why a filament bulb draws a surge of current at
+
+169
+00:07:30,480 --> 00:07:32,350
+the instant you switch it on.
+
+170
+00:07:32,520 --> 00:07:35,510
+Engineers turn this effect into a thermometer.
+
+171
+00:07:35,640 --> 00:07:40,420
+A platinum sensor called a PT100 has exactly one hundred
+
+172
+00:07:40,440 --> 00:07:41,950
+ohms at zero degrees.
+
+173
+00:07:42,280 --> 00:07:44,990
+Measure its resistance and you know its temperature.
+
+174
+00:07:45,400 --> 00:07:48,340
+Generators and large motors have these buried in their
+
+175
+00:07:48,360 --> 00:07:49,150
+windings.
+
+176
+00:07:49,640 --> 00:07:52,590
+Semiconductors such as silicon do the opposite.
+
+177
+00:07:52,920 --> 00:07:55,420
+Heat shakes more electrons free,
+
+178
+00:07:55,440 --> 00:07:58,340
+and that gain outweighs the extra scattering,
+
+179
+00:07:58,360 --> 00:08:00,950
+so their resistance falls as they warm.
+
+180
+00:08:01,080 --> 00:08:03,500
+And cool certain materials far enough,
+
+181
+00:08:03,520 --> 00:08:06,590
+and the resistance drops to exactly zero.
+
+182
+00:08:06,760 --> 00:08:10,660
+That is superconductivity, and it is a story for another
+
+183
+00:08:10,680 --> 00:08:11,310
+day.
+
+184
+00:08:12,667 --> 00:08:14,417
+One question is left.
+
+185
+00:08:14,587 --> 00:08:16,847
+Every time an electron scatters,
+
+186
+00:08:16,867 --> 00:08:20,407
+it loses the energy the field has just given it.
+
+187
+00:08:20,427 --> 00:08:21,857
+Where does that energy go?
+
+188
+00:08:22,267 --> 00:08:23,857
+Into the lattice.
+
+189
+00:08:24,027 --> 00:08:27,767
+Each scattering makes the atoms tremble a little harder,
+
+190
+00:08:27,787 --> 00:08:30,647
+and trembling atoms are, quite literally,
+
+191
+00:08:30,667 --> 00:08:31,537
+heat.
+
+192
+00:08:31,707 --> 00:08:35,337
+So every conductor that carries a current warms up.
+
+193
+00:08:35,467 --> 00:08:38,647
+The power turned into heat is the current squared,
+
+194
+00:08:38,667 --> 00:08:39,857
+times the resistance.
+
+195
+00:08:40,187 --> 00:08:42,417
+P equals I squared R.
+
+196
+00:08:42,827 --> 00:08:45,697
+Sometimes that heat is the whole point.
+
+197
+00:08:46,027 --> 00:08:49,767
+A heater, a toaster and a lamp filament are made from
+
+198
+00:08:49,787 --> 00:08:53,697
+high-resistivity material so that they get hot on purpose.
+
+199
+00:08:54,027 --> 00:08:57,607
+A fuse is a thin wire designed to melt when the current
+
+200
+00:08:57,627 --> 00:09:00,967
+is too high, breaking the circuit before anything else
+
+201
+00:09:00,987 --> 00:09:02,097
+is damaged.
+
+202
+00:09:02,267 --> 00:09:05,817
+But in a power line, that heat is pure loss.
+
+203
+00:09:05,947 --> 00:09:07,297
+And notice the square.
+
+204
+00:09:07,627 --> 00:09:10,857
+Halve the current and the loss falls to a quarter.
+
+205
+00:09:10,987 --> 00:09:14,247
+That is why electricity crosses the country at hundreds
+
+206
+00:09:14,267 --> 00:09:16,017
+of thousands of volts.
+
+207
+00:09:16,107 --> 00:09:19,687
+For the same power, ten times the voltage needs only one
+
+208
+00:09:19,707 --> 00:09:23,287
+tenth of the current, and loses just one hundredth as
+
+209
+00:09:23,307 --> 00:09:24,257
+much as heat.
+
+210
+00:09:24,587 --> 00:09:28,017
+It is also why every cable has a current rating.
+
+211
+00:09:28,107 --> 00:09:30,487
+Push more through it than it was sized for,
+
+212
+00:09:30,507 --> 00:09:32,737
+and the heat has nowhere to go.
+
+213
+00:09:34,100 --> 00:09:36,130
+So let's put it all together.
+
+214
+00:09:36,260 --> 00:09:38,970
+A metal is full of free electrons,
+
+215
+00:09:39,100 --> 00:09:40,490
+always in motion.
+
+216
+00:09:40,580 --> 00:09:42,690
+A voltage makes them drift.
+
+217
+00:09:42,740 --> 00:09:46,200
+The disorder of the lattice keeps interrupting that drift,
+
+218
+00:09:46,220 --> 00:09:48,010
+and that is resistance.
+
+219
+00:09:48,180 --> 00:09:50,210
+A longer path raises it.
+
+220
+00:09:50,260 --> 00:09:52,170
+A wider path lowers it.
+
+221
+00:09:52,340 --> 00:09:55,730
+The material sets the scale, through its resistivity.
+
+222
+00:09:55,780 --> 00:09:58,480
+In metals, heat raises it further.
+
+223
+00:09:58,500 --> 00:10:02,330
+And every interruption turns electrical energy into heat.
+
+224
+00:10:02,660 --> 00:10:06,240
+All of that, in one line: R equals rho,
+
+225
+00:10:06,260 --> 00:10:07,370
+L over A.
+
+226
+00:10:07,700 --> 00:10:09,480
+Next time you meet that formula,
+
+227
+00:10:09,500 --> 00:10:10,570
+don't just read it.
+
+228
+00:10:10,980 --> 00:10:12,250
+See the wire.

@@ -1,0 +1,1388 @@
+{
+ "chapter": 7,
+ "title": "One field, two faces",
+ "characters": 1273,
+ "duration": 90.67102,
+ "words": [
+  {
+   "text": "There",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 0.32,
+   "end": 0.4,
+   "paragraph": 0
+  },
+  {
+   "text": "one",
+   "start": 0.56,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "more",
+   "start": 0.8,
+   "end": 0.96,
+   "paragraph": 0
+  },
+  {
+   "text": "step,",
+   "start": 1.16,
+   "end": 1.68,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 1.84,
+   "end": 2,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 2.16,
+   "end": 2.24,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 2.32,
+   "end": 2.4,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 2.44,
+   "end": 2.48,
+   "paragraph": 0
+  },
+  {
+   "text": "strangest.",
+   "start": 2.64,
+   "end": 3.44,
+   "paragraph": 0
+  },
+  {
+   "text": "Picture",
+   "start": 4.08,
+   "end": 4.4,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 4.44,
+   "end": 4.48,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 4.64,
+   "end": 5.04,
+   "paragraph": 1
+  },
+  {
+   "text": "sitting",
+   "start": 5.2,
+   "end": 5.44,
+   "paragraph": 1
+  },
+  {
+   "text": "on",
+   "start": 5.52,
+   "end": 5.6,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 5.653,
+   "end": 5.707,
+   "paragraph": 1
+  },
+  {
+   "text": "table.",
+   "start": 5.76,
+   "end": 6.16,
+   "paragraph": 1
+  },
+  {
+   "text": "You",
+   "start": 6.64,
+   "end": 6.8,
+   "paragraph": 1
+  },
+  {
+   "text": "are",
+   "start": 6.88,
+   "end": 7.04,
+   "paragraph": 1
+  },
+  {
+   "text": "standing",
+   "start": 7.24,
+   "end": 7.44,
+   "paragraph": 1
+  },
+  {
+   "text": "beside",
+   "start": 7.52,
+   "end": 7.84,
+   "paragraph": 1
+  },
+  {
+   "text": "it.",
+   "start": 7.92,
+   "end": 8.24,
+   "paragraph": 1
+  },
+  {
+   "text": "Around",
+   "start": 8.8,
+   "end": 9.12,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 9.2,
+   "end": 9.36,
+   "paragraph": 1
+  },
+  {
+   "text": "there",
+   "start": 9.52,
+   "end": 9.6,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 9.68,
+   "end": 9.76,
+   "paragraph": 1
+  },
+  {
+   "text": "an",
+   "start": 9.84,
+   "end": 9.92,
+   "paragraph": 1
+  },
+  {
+   "text": "electric",
+   "start": 10,
+   "end": 10.4,
+   "paragraph": 1
+  },
+  {
+   "text": "field,",
+   "start": 10.48,
+   "end": 11.12,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 11.24,
+   "end": 11.36,
+   "paragraph": 1
+  },
+  {
+   "text": "no",
+   "start": 11.52,
+   "end": 11.68,
+   "paragraph": 1
+  },
+  {
+   "text": "magnetic",
+   "start": 11.76,
+   "end": 12.16,
+   "paragraph": 1
+  },
+  {
+   "text": "field",
+   "start": 12.24,
+   "end": 12.48,
+   "paragraph": 1
+  },
+  {
+   "text": "at",
+   "start": 12.56,
+   "end": 12.64,
+   "paragraph": 1
+  },
+  {
+   "text": "all.",
+   "start": 12.76,
+   "end": 12.96,
+   "paragraph": 1
+  },
+  {
+   "text": "A",
+   "start": 13.44,
+   "end": 13.52,
+   "paragraph": 1
+  },
+  {
+   "text": "compass",
+   "start": 13.6,
+   "end": 14,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 14.04,
+   "end": 14.08,
+   "paragraph": 1
+  },
+  {
+   "text": "your",
+   "start": 14.16,
+   "end": 14.24,
+   "paragraph": 1
+  },
+  {
+   "text": "hand",
+   "start": 14.4,
+   "end": 14.56,
+   "paragraph": 1
+  },
+  {
+   "text": "does",
+   "start": 14.72,
+   "end": 14.96,
+   "paragraph": 1
+  },
+  {
+   "text": "nothing.",
+   "start": 15.12,
+   "end": 15.6,
+   "paragraph": 1
+  },
+  {
+   "text": "Now",
+   "start": 16.32,
+   "end": 16.56,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 16.72,
+   "end": 16.88,
+   "paragraph": 2
+  },
+  {
+   "text": "friend",
+   "start": 16.96,
+   "end": 17.28,
+   "paragraph": 2
+  },
+  {
+   "text": "walks",
+   "start": 17.36,
+   "end": 17.6,
+   "paragraph": 2
+  },
+  {
+   "text": "past",
+   "start": 17.68,
+   "end": 17.92,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 17.96,
+   "end": 18,
+   "paragraph": 2
+  },
+  {
+   "text": "table.",
+   "start": 18.08,
+   "end": 18.48,
+   "paragraph": 2
+  },
+  {
+   "text": "From",
+   "start": 18.96,
+   "end": 19.12,
+   "paragraph": 2
+  },
+  {
+   "text": "where",
+   "start": 19.2,
+   "end": 19.36,
+   "paragraph": 2
+  },
+  {
+   "text": "they",
+   "start": 19.44,
+   "end": 19.6,
+   "paragraph": 2
+  },
+  {
+   "text": "are,",
+   "start": 19.68,
+   "end": 20.08,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 20.16,
+   "end": 20.24,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 20.32,
+   "end": 20.64,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 20.72,
+   "end": 20.8,
+   "paragraph": 2
+  },
+  {
+   "text": "moving.",
+   "start": 20.96,
+   "end": 21.44,
+   "paragraph": 2
+  },
+  {
+   "text": "And",
+   "start": 21.92,
+   "end": 22,
+   "paragraph": 2
+  },
+  {
+   "text": "we",
+   "start": 22.08,
+   "end": 22.16,
+   "paragraph": 2
+  },
+  {
+   "text": "learned",
+   "start": 22.24,
+   "end": 22.56,
+   "paragraph": 2
+  },
+  {
+   "text": "that",
+   "start": 22.64,
+   "end": 22.72,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 22.8,
+   "end": 22.88,
+   "paragraph": 2
+  },
+  {
+   "text": "moving",
+   "start": 22.96,
+   "end": 23.28,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 23.36,
+   "end": 23.76,
+   "paragraph": 2
+  },
+  {
+   "text": "makes",
+   "start": 23.92,
+   "end": 24.08,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 24.16,
+   "end": 24.2,
+   "paragraph": 2
+  },
+  {
+   "text": "magnetic",
+   "start": 24.24,
+   "end": 24.72,
+   "paragraph": 2
+  },
+  {
+   "text": "field.",
+   "start": 24.8,
+   "end": 25.2,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 25.68,
+   "end": 25.92,
+   "paragraph": 2
+  },
+  {
+   "text": "your",
+   "start": 26,
+   "end": 26.16,
+   "paragraph": 2
+  },
+  {
+   "text": "friend's",
+   "start": 26.24,
+   "end": 26.56,
+   "paragraph": 2
+  },
+  {
+   "text": "compass",
+   "start": 26.64,
+   "end": 27.04,
+   "paragraph": 2
+  },
+  {
+   "text": "should",
+   "start": 27.12,
+   "end": 27.36,
+   "paragraph": 2
+  },
+  {
+   "text": "swing.",
+   "start": 27.44,
+   "end": 28.16,
+   "paragraph": 2
+  },
+  {
+   "text": "Who",
+   "start": 28.48,
+   "end": 28.56,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 28.64,
+   "end": 28.72,
+   "paragraph": 3
+  },
+  {
+   "text": "right?",
+   "start": 28.8,
+   "end": 29.36,
+   "paragraph": 3
+  },
+  {
+   "text": "Is",
+   "start": 29.6,
+   "end": 29.76,
+   "paragraph": 3
+  },
+  {
+   "text": "there",
+   "start": 29.84,
+   "end": 29.92,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 29.96,
+   "end": 30,
+   "paragraph": 3
+  },
+  {
+   "text": "magnetic",
+   "start": 30.08,
+   "end": 30.48,
+   "paragraph": 3
+  },
+  {
+   "text": "field",
+   "start": 30.56,
+   "end": 30.88,
+   "paragraph": 3
+  },
+  {
+   "text": "or",
+   "start": 31.04,
+   "end": 31.12,
+   "paragraph": 3
+  },
+  {
+   "text": "not?",
+   "start": 31.2,
+   "end": 32.12,
+   "paragraph": 3
+  },
+  {
+   "text": "Both",
+   "start": 32.72,
+   "end": 33.04,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 33.12,
+   "end": 33.2,
+   "paragraph": 4
+  },
+  {
+   "text": "right.",
+   "start": 33.36,
+   "end": 33.6,
+   "paragraph": 4
+  },
+  {
+   "text": "In",
+   "start": 34.16,
+   "end": 34.32,
+   "paragraph": 4
+  },
+  {
+   "text": "nineteen",
+   "start": 34.4,
+   "end": 34.72,
+   "paragraph": 4
+  },
+  {
+   "text": "hundred",
+   "start": 34.8,
+   "end": 35.04,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 35.16,
+   "end": 35.28,
+   "paragraph": 4
+  },
+  {
+   "text": "five,",
+   "start": 35.44,
+   "end": 35.92,
+   "paragraph": 4
+  },
+  {
+   "text": "Albert",
+   "start": 36,
+   "end": 36.32,
+   "paragraph": 4
+  },
+  {
+   "text": "Einstein",
+   "start": 36.4,
+   "end": 36.88,
+   "paragraph": 4
+  },
+  {
+   "text": "opened",
+   "start": 37.04,
+   "end": 37.36,
+   "paragraph": 4
+  },
+  {
+   "text": "his",
+   "start": 37.48,
+   "end": 37.6,
+   "paragraph": 4
+  },
+  {
+   "text": "most",
+   "start": 37.76,
+   "end": 38,
+   "paragraph": 4
+  },
+  {
+   "text": "famous",
+   "start": 38.16,
+   "end": 38.48,
+   "paragraph": 4
+  },
+  {
+   "text": "paper",
+   "start": 38.56,
+   "end": 38.96,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 39.12,
+   "end": 39.36,
+   "paragraph": 4
+  },
+  {
+   "text": "exactly",
+   "start": 39.44,
+   "end": 40.08,
+   "paragraph": 4
+  },
+  {
+   "text": "this",
+   "start": 40.24,
+   "end": 40.4,
+   "paragraph": 4
+  },
+  {
+   "text": "puzzle.",
+   "start": 40.48,
+   "end": 41.12,
+   "paragraph": 4
+  },
+  {
+   "text": "His",
+   "start": 41.44,
+   "end": 41.6,
+   "paragraph": 4
+  },
+  {
+   "text": "answer",
+   "start": 41.68,
+   "end": 42,
+   "paragraph": 4
+  },
+  {
+   "text": "was",
+   "start": 42.16,
+   "end": 42.32,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 42.4,
+   "end": 42.48,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 42.56,
+   "end": 42.64,
+   "paragraph": 4
+  },
+  {
+   "text": "electric",
+   "start": 42.72,
+   "end": 43.12,
+   "paragraph": 4
+  },
+  {
+   "text": "field",
+   "start": 43.28,
+   "end": 43.6,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 43.76,
+   "end": 44,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 44.04,
+   "end": 44.08,
+   "paragraph": 4
+  },
+  {
+   "text": "magnetic",
+   "start": 44.16,
+   "end": 44.56,
+   "paragraph": 4
+  },
+  {
+   "text": "field",
+   "start": 44.72,
+   "end": 44.96,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 45.2,
+   "end": 45.44,
+   "paragraph": 4
+  },
+  {
+   "text": "not",
+   "start": 45.6,
+   "end": 45.76,
+   "paragraph": 4
+  },
+  {
+   "text": "two",
+   "start": 45.84,
+   "end": 45.92,
+   "paragraph": 4
+  },
+  {
+   "text": "separate",
+   "start": 46.08,
+   "end": 46.48,
+   "paragraph": 4
+  },
+  {
+   "text": "things.",
+   "start": 46.68,
+   "end": 47.36,
+   "paragraph": 4
+  },
+  {
+   "text": "They",
+   "start": 47.44,
+   "end": 47.52,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 47.64,
+   "end": 47.76,
+   "paragraph": 4
+  },
+  {
+   "text": "two",
+   "start": 47.84,
+   "end": 47.92,
+   "paragraph": 4
+  },
+  {
+   "text": "faces",
+   "start": 48.08,
+   "end": 48.56,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 48.64,
+   "end": 48.88,
+   "paragraph": 4
+  },
+  {
+   "text": "one",
+   "start": 48.96,
+   "end": 49.12,
+   "paragraph": 4
+  },
+  {
+   "text": "thing,",
+   "start": 49.2,
+   "end": 49.84,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 49.92,
+   "end": 50,
+   "paragraph": 4
+  },
+  {
+   "text": "electromagnetic",
+   "start": 50.08,
+   "end": 51.04,
+   "paragraph": 4
+  },
+  {
+   "text": "field.",
+   "start": 51.12,
+   "end": 52.08,
+   "paragraph": 4
+  },
+  {
+   "text": "How",
+   "start": 52.16,
+   "end": 52.32,
+   "paragraph": 4
+  },
+  {
+   "text": "much",
+   "start": 52.4,
+   "end": 52.48,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 52.56,
+   "end": 52.64,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 52.72,
+   "end": 52.8,
+   "paragraph": 4
+  },
+  {
+   "text": "appears",
+   "start": 52.92,
+   "end": 53.2,
+   "paragraph": 4
+  },
+  {
+   "text": "as",
+   "start": 53.28,
+   "end": 53.36,
+   "paragraph": 4
+  },
+  {
+   "text": "electric,",
+   "start": 53.68,
+   "end": 54.16,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 54.24,
+   "end": 54.4,
+   "paragraph": 4
+  },
+  {
+   "text": "how",
+   "start": 54.56,
+   "end": 54.64,
+   "paragraph": 4
+  },
+  {
+   "text": "much",
+   "start": 54.72,
+   "end": 54.88,
+   "paragraph": 4
+  },
+  {
+   "text": "as",
+   "start": 54.96,
+   "end": 55.04,
+   "paragraph": 4
+  },
+  {
+   "text": "magnetic,",
+   "start": 55.12,
+   "end": 56,
+   "paragraph": 4
+  },
+  {
+   "text": "depends",
+   "start": 56.24,
+   "end": 56.48,
+   "paragraph": 4
+  },
+  {
+   "text": "on",
+   "start": 56.56,
+   "end": 56.72,
+   "paragraph": 4
+  },
+  {
+   "text": "how",
+   "start": 56.8,
+   "end": 56.96,
+   "paragraph": 4
+  },
+  {
+   "text": "you",
+   "start": 57.12,
+   "end": 57.28,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 57.36,
+   "end": 57.44,
+   "paragraph": 4
+  },
+  {
+   "text": "moving.",
+   "start": 57.64,
+   "end": 58.48,
+   "paragraph": 4
+  },
+  {
+   "text": "It",
+   "start": 58.52,
+   "end": 58.56,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 58.64,
+   "end": 58.72,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 58.76,
+   "end": 58.8,
+   "paragraph": 5
+  },
+  {
+   "text": "little",
+   "start": 58.92,
+   "end": 59.04,
+   "paragraph": 5
+  },
+  {
+   "text": "like",
+   "start": 59.12,
+   "end": 59.36,
+   "paragraph": 5
+  },
+  {
+   "text": "looking",
+   "start": 59.44,
+   "end": 59.68,
+   "paragraph": 5
+  },
+  {
+   "text": "at",
+   "start": 59.72,
+   "end": 59.76,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 59.84,
+   "end": 59.92,
+   "paragraph": 5
+  },
+  {
+   "text": "coin.",
+   "start": 60,
+   "end": 60.72,
+   "paragraph": 5
+  },
+  {
+   "text": "From",
+   "start": 60.8,
+   "end": 60.88,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 60.92,
+   "end": 60.96,
+   "paragraph": 5
+  },
+  {
+   "text": "front",
+   "start": 61.12,
+   "end": 61.52,
+   "paragraph": 5
+  },
+  {
+   "text": "you",
+   "start": 61.68,
+   "end": 61.76,
+   "paragraph": 5
+  },
+  {
+   "text": "see",
+   "start": 61.84,
+   "end": 61.92,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 62,
+   "end": 62.08,
+   "paragraph": 5
+  },
+  {
+   "text": "circle.",
+   "start": 62.32,
+   "end": 62.96,
+   "paragraph": 5
+  },
+  {
+   "text": "From",
+   "start": 63.04,
+   "end": 63.12,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 63.16,
+   "end": 63.2,
+   "paragraph": 5
+  },
+  {
+   "text": "edge",
+   "start": 63.36,
+   "end": 63.84,
+   "paragraph": 5
+  },
+  {
+   "text": "you",
+   "start": 63.92,
+   "end": 64,
+   "paragraph": 5
+  },
+  {
+   "text": "see",
+   "start": 64.08,
+   "end": 64.16,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 64.24,
+   "end": 64.28,
+   "paragraph": 5
+  },
+  {
+   "text": "line.",
+   "start": 64.32,
+   "end": 64.8,
+   "paragraph": 5
+  },
+  {
+   "text": "The",
+   "start": 65.28,
+   "end": 65.36,
+   "paragraph": 5
+  },
+  {
+   "text": "coin",
+   "start": 65.52,
+   "end": 65.76,
+   "paragraph": 5
+  },
+  {
+   "text": "has",
+   "start": 65.84,
+   "end": 66,
+   "paragraph": 5
+  },
+  {
+   "text": "not",
+   "start": 66.08,
+   "end": 66.16,
+   "paragraph": 5
+  },
+  {
+   "text": "changed.",
+   "start": 66.24,
+   "end": 66.96,
+   "paragraph": 5
+  },
+  {
+   "text": "You",
+   "start": 67.2,
+   "end": 67.36,
+   "paragraph": 5
+  },
+  {
+   "text": "have.",
+   "start": 67.52,
+   "end": 68.16,
+   "paragraph": 5
+  },
+  {
+   "text": "That",
+   "start": 68.48,
+   "end": 68.64,
+   "paragraph": 6
+  },
+  {
+   "text": "is",
+   "start": 68.72,
+   "end": 68.8,
+   "paragraph": 6
+  },
+  {
+   "text": "why",
+   "start": 68.92,
+   "end": 69.04,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 69.12,
+   "end": 69.28,
+   "paragraph": 6
+  },
+  {
+   "text": "two",
+   "start": 69.36,
+   "end": 69.44,
+   "paragraph": 6
+  },
+  {
+   "text": "fields",
+   "start": 69.6,
+   "end": 69.92,
+   "paragraph": 6
+  },
+  {
+   "text": "are",
+   "start": 70,
+   "end": 70.16,
+   "paragraph": 6
+  },
+  {
+   "text": "bound",
+   "start": 70.32,
+   "end": 70.48,
+   "paragraph": 6
+  },
+  {
+   "text": "so",
+   "start": 70.72,
+   "end": 70.88,
+   "paragraph": 6
+  },
+  {
+   "text": "tightly",
+   "start": 71.04,
+   "end": 71.44,
+   "paragraph": 6
+  },
+  {
+   "text": "together.",
+   "start": 71.52,
+   "end": 72.16,
+   "paragraph": 6
+  },
+  {
+   "text": "They",
+   "start": 72.4,
+   "end": 72.48,
+   "paragraph": 6
+  },
+  {
+   "text": "were",
+   "start": 72.56,
+   "end": 72.72,
+   "paragraph": 6
+  },
+  {
+   "text": "never",
+   "start": 72.84,
+   "end": 72.96,
+   "paragraph": 6
+  },
+  {
+   "text": "really",
+   "start": 73.04,
+   "end": 73.28,
+   "paragraph": 6
+  },
+  {
+   "text": "two.",
+   "start": 73.44,
+   "end": 73.76,
+   "paragraph": 6
+  },
+  {
+   "text": "The",
+   "start": 74.72,
+   "end": 74.8,
+   "paragraph": 7
+  },
+  {
+   "text": "equations",
+   "start": 74.88,
+   "end": 75.44,
+   "paragraph": 7
+  },
+  {
+   "text": "that",
+   "start": 75.52,
+   "end": 75.6,
+   "paragraph": 7
+  },
+  {
+   "text": "describe",
+   "start": 75.84,
+   "end": 76.08,
+   "paragraph": 7
+  },
+  {
+   "text": "this",
+   "start": 76.16,
+   "end": 76.32,
+   "paragraph": 7
+  },
+  {
+   "text": "single",
+   "start": 76.4,
+   "end": 76.72,
+   "paragraph": 7
+  },
+  {
+   "text": "field",
+   "start": 76.88,
+   "end": 77.2,
+   "paragraph": 7
+  },
+  {
+   "text": "were",
+   "start": 77.28,
+   "end": 77.52,
+   "paragraph": 7
+  },
+  {
+   "text": "tidied",
+   "start": 77.64,
+   "end": 77.92,
+   "paragraph": 7
+  },
+  {
+   "text": "into",
+   "start": 78.04,
+   "end": 78.16,
+   "paragraph": 7
+  },
+  {
+   "text": "the",
+   "start": 78.2,
+   "end": 78.24,
+   "paragraph": 7
+  },
+  {
+   "text": "form",
+   "start": 78.32,
+   "end": 78.56,
+   "paragraph": 7
+  },
+  {
+   "text": "we",
+   "start": 78.64,
+   "end": 78.72,
+   "paragraph": 7
+  },
+  {
+   "text": "use",
+   "start": 78.8,
+   "end": 79.04,
+   "paragraph": 7
+  },
+  {
+   "text": "today",
+   "start": 79.24,
+   "end": 79.44,
+   "paragraph": 7
+  },
+  {
+   "text": "by",
+   "start": 79.6,
+   "end": 79.76,
+   "paragraph": 7
+  },
+  {
+   "text": "Oliver",
+   "start": 79.84,
+   "end": 80.24,
+   "paragraph": 7
+  },
+  {
+   "text": "Heaviside,",
+   "start": 80.32,
+   "end": 81.04,
+   "paragraph": 7
+  },
+  {
+   "text": "in",
+   "start": 81.12,
+   "end": 81.2,
+   "paragraph": 7
+  },
+  {
+   "text": "eighteen",
+   "start": 81.28,
+   "end": 81.6,
+   "paragraph": 7
+  },
+  {
+   "text": "eighty-four.",
+   "start": 81.76,
+   "end": 82.88,
+   "paragraph": 7
+  },
+  {
+   "text": "He",
+   "start": 82.96,
+   "end": 83.04,
+   "paragraph": 7
+  },
+  {
+   "text": "reduced",
+   "start": 83.12,
+   "end": 83.52,
+   "paragraph": 7
+  },
+  {
+   "text": "Maxwell's",
+   "start": 83.6,
+   "end": 84.24,
+   "paragraph": 7
+  },
+  {
+   "text": "twenty",
+   "start": 84.44,
+   "end": 84.64,
+   "paragraph": 7
+  },
+  {
+   "text": "equations",
+   "start": 84.72,
+   "end": 85.36,
+   "paragraph": 7
+  },
+  {
+   "text": "to",
+   "start": 85.52,
+   "end": 85.6,
+   "paragraph": 7
+  },
+  {
+   "text": "four",
+   "start": 85.76,
+   "end": 86,
+   "paragraph": 7
+  },
+  {
+   "text": "short",
+   "start": 86.16,
+   "end": 86.4,
+   "paragraph": 7
+  },
+  {
+   "text": "lines.",
+   "start": 86.48,
+   "end": 87.04,
+   "paragraph": 7
+  },
+  {
+   "text": "Every",
+   "start": 87.52,
+   "end": 87.84,
+   "paragraph": 7
+  },
+  {
+   "text": "electrical",
+   "start": 87.92,
+   "end": 88.4,
+   "paragraph": 7
+  },
+  {
+   "text": "machine",
+   "start": 88.48,
+   "end": 88.8,
+   "paragraph": 7
+  },
+  {
+   "text": "ever",
+   "start": 89.04,
+   "end": 89.28,
+   "paragraph": 7
+  },
+  {
+   "text": "built",
+   "start": 89.36,
+   "end": 89.68,
+   "paragraph": 7
+  },
+  {
+   "text": "obeys",
+   "start": 89.84,
+   "end": 90.24,
+   "paragraph": 7
+  },
+  {
+   "text": "them.",
+   "start": 90.36,
+   "end": 90.72,
+   "paragraph": 7
+  }
+ ]
+}

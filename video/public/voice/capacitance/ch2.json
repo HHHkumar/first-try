@@ -1,0 +1,728 @@
+{
+ "chapter": 2,
+ "title": "Storing charge",
+ "characters": 696,
+ "duration": 47.386122,
+ "words": [
+  {
+   "text": "Take",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 0.32,
+   "end": 0.4,
+   "paragraph": 0
+  },
+  {
+   "text": "two",
+   "start": 0.48,
+   "end": 0.64,
+   "paragraph": 0
+  },
+  {
+   "text": "metal",
+   "start": 0.72,
+   "end": 0.96,
+   "paragraph": 0
+  },
+  {
+   "text": "plates",
+   "start": 1.04,
+   "end": 1.36,
+   "paragraph": 0
+  },
+  {
+   "text": "from",
+   "start": 1.44,
+   "end": 1.52,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 1.56,
+   "end": 1.6,
+   "paragraph": 0
+  },
+  {
+   "text": "last",
+   "start": 1.68,
+   "end": 1.92,
+   "paragraph": 0
+  },
+  {
+   "text": "video,",
+   "start": 2,
+   "end": 2.64,
+   "paragraph": 0
+  },
+  {
+   "text": "facing",
+   "start": 2.72,
+   "end": 3.12,
+   "paragraph": 0
+  },
+  {
+   "text": "each",
+   "start": 3.2,
+   "end": 3.36,
+   "paragraph": 0
+  },
+  {
+   "text": "other",
+   "start": 3.48,
+   "end": 3.6,
+   "paragraph": 0
+  },
+  {
+   "text": "across",
+   "start": 3.68,
+   "end": 4,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 4.08,
+   "end": 4.16,
+   "paragraph": 0
+  },
+  {
+   "text": "gap,",
+   "start": 4.24,
+   "end": 4.88,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 4.96,
+   "end": 5.04,
+   "paragraph": 0
+  },
+  {
+   "text": "connect",
+   "start": 5.12,
+   "end": 5.44,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 5.52,
+   "end": 5.6,
+   "paragraph": 0
+  },
+  {
+   "text": "battery",
+   "start": 5.68,
+   "end": 6.08,
+   "paragraph": 0
+  },
+  {
+   "text": "between",
+   "start": 6.24,
+   "end": 6.4,
+   "paragraph": 0
+  },
+  {
+   "text": "them.",
+   "start": 6.48,
+   "end": 7.04,
+   "paragraph": 0
+  },
+  {
+   "text": "The",
+   "start": 7.36,
+   "end": 7.44,
+   "paragraph": 1
+  },
+  {
+   "text": "battery",
+   "start": 7.64,
+   "end": 7.84,
+   "paragraph": 1
+  },
+  {
+   "text": "does",
+   "start": 7.92,
+   "end": 8.08,
+   "paragraph": 1
+  },
+  {
+   "text": "not",
+   "start": 8.24,
+   "end": 8.4,
+   "paragraph": 1
+  },
+  {
+   "text": "create",
+   "start": 8.48,
+   "end": 8.8,
+   "paragraph": 1
+  },
+  {
+   "text": "charge.",
+   "start": 8.88,
+   "end": 9.48,
+   "paragraph": 1
+  },
+  {
+   "text": "It",
+   "start": 9.68,
+   "end": 9.84,
+   "paragraph": 1
+  },
+  {
+   "text": "moves",
+   "start": 10,
+   "end": 10.32,
+   "paragraph": 1
+  },
+  {
+   "text": "it.",
+   "start": 10.4,
+   "end": 10.64,
+   "paragraph": 1
+  },
+  {
+   "text": "Electrons",
+   "start": 11.2,
+   "end": 11.76,
+   "paragraph": 1
+  },
+  {
+   "text": "are",
+   "start": 11.88,
+   "end": 12,
+   "paragraph": 1
+  },
+  {
+   "text": "pulled",
+   "start": 12.08,
+   "end": 12.24,
+   "paragraph": 1
+  },
+  {
+   "text": "off",
+   "start": 12.36,
+   "end": 12.48,
+   "paragraph": 1
+  },
+  {
+   "text": "one",
+   "start": 12.56,
+   "end": 12.72,
+   "paragraph": 1
+  },
+  {
+   "text": "plate,",
+   "start": 12.8,
+   "end": 13.44,
+   "paragraph": 1
+  },
+  {
+   "text": "pushed",
+   "start": 13.56,
+   "end": 13.76,
+   "paragraph": 1
+  },
+  {
+   "text": "through",
+   "start": 13.84,
+   "end": 14,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 14.04,
+   "end": 14.08,
+   "paragraph": 1
+  },
+  {
+   "text": "wire,",
+   "start": 14.16,
+   "end": 14.72,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 14.8,
+   "end": 14.88,
+   "paragraph": 1
+  },
+  {
+   "text": "piled",
+   "start": 15.04,
+   "end": 15.36,
+   "paragraph": 1
+  },
+  {
+   "text": "onto",
+   "start": 15.44,
+   "end": 15.68,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 15.72,
+   "end": 15.76,
+   "paragraph": 1
+  },
+  {
+   "text": "other.",
+   "start": 15.84,
+   "end": 16.48,
+   "paragraph": 1
+  },
+  {
+   "text": "One",
+   "start": 16.8,
+   "end": 16.96,
+   "paragraph": 1
+  },
+  {
+   "text": "plate",
+   "start": 17.04,
+   "end": 17.36,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 17.44,
+   "end": 17.52,
+   "paragraph": 1
+  },
+  {
+   "text": "left",
+   "start": 17.6,
+   "end": 17.76,
+   "paragraph": 1
+  },
+  {
+   "text": "positive.",
+   "start": 17.92,
+   "end": 18.48,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 18.88,
+   "end": 18.96,
+   "paragraph": 1
+  },
+  {
+   "text": "other",
+   "start": 19.04,
+   "end": 19.28,
+   "paragraph": 1
+  },
+  {
+   "text": "becomes",
+   "start": 19.36,
+   "end": 19.76,
+   "paragraph": 1
+  },
+  {
+   "text": "negative",
+   "start": 19.84,
+   "end": 20.32,
+   "paragraph": 1
+  },
+  {
+   "text": "by",
+   "start": 20.4,
+   "end": 20.56,
+   "paragraph": 1
+  },
+  {
+   "text": "exactly",
+   "start": 20.64,
+   "end": 21.28,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 21.36,
+   "end": 21.44,
+   "paragraph": 1
+  },
+  {
+   "text": "same",
+   "start": 21.52,
+   "end": 21.68,
+   "paragraph": 1
+  },
+  {
+   "text": "amount.",
+   "start": 21.88,
+   "end": 22.16,
+   "paragraph": 1
+  },
+  {
+   "text": "As",
+   "start": 22.72,
+   "end": 22.88,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 22.92,
+   "end": 22.96,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 23.04,
+   "end": 23.36,
+   "paragraph": 2
+  },
+  {
+   "text": "builds,",
+   "start": 23.44,
+   "end": 24.16,
+   "paragraph": 2
+  },
+  {
+   "text": "so",
+   "start": 24.28,
+   "end": 24.4,
+   "paragraph": 2
+  },
+  {
+   "text": "does",
+   "start": 24.48,
+   "end": 24.64,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 24.68,
+   "end": 24.72,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 24.88,
+   "end": 25.2,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 25.24,
+   "end": 25.28,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 25.36,
+   "end": 25.4,
+   "paragraph": 2
+  },
+  {
+   "text": "gap,",
+   "start": 25.44,
+   "end": 26.08,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 26.16,
+   "end": 26.24,
+   "paragraph": 2
+  },
+  {
+   "text": "with",
+   "start": 26.32,
+   "end": 26.48,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 26.56,
+   "end": 26.72,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 26.96,
+   "end": 27.04,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 27.2,
+   "end": 27.68,
+   "paragraph": 2
+  },
+  {
+   "text": "between",
+   "start": 27.76,
+   "end": 28.08,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 28.12,
+   "end": 28.16,
+   "paragraph": 2
+  },
+  {
+   "text": "plates.",
+   "start": 28.24,
+   "end": 29,
+   "paragraph": 2
+  },
+  {
+   "text": "That",
+   "start": 29.28,
+   "end": 29.44,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 29.52,
+   "end": 30,
+   "paragraph": 2
+  },
+  {
+   "text": "pushes",
+   "start": 30.16,
+   "end": 30.48,
+   "paragraph": 2
+  },
+  {
+   "text": "back",
+   "start": 30.64,
+   "end": 30.88,
+   "paragraph": 2
+  },
+  {
+   "text": "against",
+   "start": 31.04,
+   "end": 31.2,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 31.24,
+   "end": 31.28,
+   "paragraph": 2
+  },
+  {
+   "text": "battery.",
+   "start": 31.36,
+   "end": 32,
+   "paragraph": 2
+  },
+  {
+   "text": "When",
+   "start": 32.24,
+   "end": 32.32,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 32.4,
+   "end": 32.48,
+   "paragraph": 2
+  },
+  {
+   "text": "equals",
+   "start": 32.56,
+   "end": 32.96,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 33,
+   "end": 33.04,
+   "paragraph": 2
+  },
+  {
+   "text": "battery's",
+   "start": 33.12,
+   "end": 33.6,
+   "paragraph": 2
+  },
+  {
+   "text": "own",
+   "start": 33.68,
+   "end": 33.76,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage,",
+   "start": 33.84,
+   "end": 34.56,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 34.6,
+   "end": 34.64,
+   "paragraph": 2
+  },
+  {
+   "text": "flow",
+   "start": 34.72,
+   "end": 34.96,
+   "paragraph": 2
+  },
+  {
+   "text": "stops.",
+   "start": 35.04,
+   "end": 35.6,
+   "paragraph": 2
+  },
+  {
+   "text": "Now",
+   "start": 36.16,
+   "end": 36.4,
+   "paragraph": 3
+  },
+  {
+   "text": "disconnect",
+   "start": 36.56,
+   "end": 37.04,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 37.08,
+   "end": 37.12,
+   "paragraph": 3
+  },
+  {
+   "text": "battery.",
+   "start": 37.2,
+   "end": 37.88,
+   "paragraph": 3
+  },
+  {
+   "text": "Nothing",
+   "start": 38.16,
+   "end": 38.48,
+   "paragraph": 3
+  },
+  {
+   "text": "changes.",
+   "start": 38.56,
+   "end": 39.24,
+   "paragraph": 3
+  },
+  {
+   "text": "The",
+   "start": 39.44,
+   "end": 39.52,
+   "paragraph": 3
+  },
+  {
+   "text": "charges",
+   "start": 39.6,
+   "end": 40.08,
+   "paragraph": 3
+  },
+  {
+   "text": "stay",
+   "start": 40.24,
+   "end": 40.4,
+   "paragraph": 3
+  },
+  {
+   "text": "where",
+   "start": 40.48,
+   "end": 40.64,
+   "paragraph": 3
+  },
+  {
+   "text": "they",
+   "start": 40.72,
+   "end": 40.8,
+   "paragraph": 3
+  },
+  {
+   "text": "are,",
+   "start": 40.88,
+   "end": 41.44,
+   "paragraph": 3
+  },
+  {
+   "text": "each",
+   "start": 41.52,
+   "end": 41.68,
+   "paragraph": 3
+  },
+  {
+   "text": "plate",
+   "start": 41.76,
+   "end": 42.08,
+   "paragraph": 3
+  },
+  {
+   "text": "holding",
+   "start": 42.16,
+   "end": 42.48,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 42.56,
+   "end": 42.64,
+   "paragraph": 3
+  },
+  {
+   "text": "other's",
+   "start": 42.72,
+   "end": 43.12,
+   "paragraph": 3
+  },
+  {
+   "text": "charge",
+   "start": 43.28,
+   "end": 43.44,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 43.52,
+   "end": 43.6,
+   "paragraph": 3
+  },
+  {
+   "text": "place",
+   "start": 43.76,
+   "end": 44.08,
+   "paragraph": 3
+  },
+  {
+   "text": "across",
+   "start": 44.16,
+   "end": 44.56,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 44.6,
+   "end": 44.64,
+   "paragraph": 3
+  },
+  {
+   "text": "gap.",
+   "start": 44.72,
+   "end": 45.28,
+   "paragraph": 3
+  },
+  {
+   "text": "Electricity,",
+   "start": 45.52,
+   "end": 46.32,
+   "paragraph": 3
+  },
+  {
+   "text": "stored.",
+   "start": 46.72,
+   "end": 47.44,
+   "paragraph": 3
+  }
+ ]
+}
