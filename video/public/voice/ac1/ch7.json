@@ -1,0 +1,1316 @@
+{
+ "chapter": 7,
+ "title": "Fifty, or sixty?",
+ "characters": 1277,
+ "duration": 87.719184,
+ "words": [
+  {
+   "text": "Why",
+   "start": 0,
+   "end": 0.32,
+   "paragraph": 0
+  },
+  {
+   "text": "fifty",
+   "start": 0.48,
+   "end": 0.8,
+   "paragraph": 0
+  },
+  {
+   "text": "hertz?",
+   "start": 0.88,
+   "end": 1.36,
+   "paragraph": 0
+  },
+  {
+   "text": "Or,",
+   "start": 1.76,
+   "end": 2.08,
+   "paragraph": 0
+  },
+  {
+   "text": "if",
+   "start": 2.24,
+   "end": 2.32,
+   "paragraph": 0
+  },
+  {
+   "text": "you",
+   "start": 2.4,
+   "end": 2.44,
+   "paragraph": 0
+  },
+  {
+   "text": "live",
+   "start": 2.48,
+   "end": 2.56,
+   "paragraph": 0
+  },
+  {
+   "text": "in",
+   "start": 2.64,
+   "end": 2.68,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 2.72,
+   "end": 2.76,
+   "paragraph": 0
+  },
+  {
+   "text": "Americas,",
+   "start": 2.8,
+   "end": 3.44,
+   "paragraph": 0
+  },
+  {
+   "text": "why",
+   "start": 3.76,
+   "end": 3.92,
+   "paragraph": 0
+  },
+  {
+   "text": "sixty?",
+   "start": 4.08,
+   "end": 5.04,
+   "paragraph": 0
+  },
+  {
+   "text": "There",
+   "start": 5.12,
+   "end": 5.2,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 5.28,
+   "end": 5.36,
+   "paragraph": 1
+  },
+  {
+   "text": "no",
+   "start": 5.44,
+   "end": 5.6,
+   "paragraph": 1
+  },
+  {
+   "text": "deep",
+   "start": 5.76,
+   "end": 6,
+   "paragraph": 1
+  },
+  {
+   "text": "law",
+   "start": 6.08,
+   "end": 6.24,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 6.32,
+   "end": 6.4,
+   "paragraph": 1
+  },
+  {
+   "text": "nature",
+   "start": 6.48,
+   "end": 6.72,
+   "paragraph": 1
+  },
+  {
+   "text": "behind",
+   "start": 6.8,
+   "end": 7.12,
+   "paragraph": 1
+  },
+  {
+   "text": "it.",
+   "start": 7.2,
+   "end": 7.6,
+   "paragraph": 1
+  },
+  {
+   "text": "In",
+   "start": 7.84,
+   "end": 7.92,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 7.96,
+   "end": 8,
+   "paragraph": 1
+  },
+  {
+   "text": "early",
+   "start": 8.08,
+   "end": 8.32,
+   "paragraph": 1
+  },
+  {
+   "text": "days,",
+   "start": 8.4,
+   "end": 8.96,
+   "paragraph": 1
+  },
+  {
+   "text": "every",
+   "start": 9.04,
+   "end": 9.36,
+   "paragraph": 1
+  },
+  {
+   "text": "company",
+   "start": 9.44,
+   "end": 9.76,
+   "paragraph": 1
+  },
+  {
+   "text": "picked",
+   "start": 9.92,
+   "end": 10.08,
+   "paragraph": 1
+  },
+  {
+   "text": "its",
+   "start": 10.16,
+   "end": 10.32,
+   "paragraph": 1
+  },
+  {
+   "text": "own.",
+   "start": 10.4,
+   "end": 10.88,
+   "paragraph": 1
+  },
+  {
+   "text": "There",
+   "start": 11.12,
+   "end": 11.2,
+   "paragraph": 1
+  },
+  {
+   "text": "were",
+   "start": 11.28,
+   "end": 11.36,
+   "paragraph": 1
+  },
+  {
+   "text": "systems",
+   "start": 11.6,
+   "end": 11.84,
+   "paragraph": 1
+  },
+  {
+   "text": "at",
+   "start": 11.92,
+   "end": 12,
+   "paragraph": 1
+  },
+  {
+   "text": "sixteen",
+   "start": 12.08,
+   "end": 12.56,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 12.64,
+   "end": 12.8,
+   "paragraph": 1
+  },
+  {
+   "text": "two",
+   "start": 12.84,
+   "end": 12.88,
+   "paragraph": 1
+  },
+  {
+   "text": "thirds,",
+   "start": 13.04,
+   "end": 13.68,
+   "paragraph": 1
+  },
+  {
+   "text": "at",
+   "start": 13.76,
+   "end": 13.84,
+   "paragraph": 1
+  },
+  {
+   "text": "twenty-five,",
+   "start": 13.92,
+   "end": 14.96,
+   "paragraph": 1
+  },
+  {
+   "text": "forty,",
+   "start": 15.12,
+   "end": 15.68,
+   "paragraph": 1
+  },
+  {
+   "text": "fifty,",
+   "start": 15.72,
+   "end": 16.4,
+   "paragraph": 1
+  },
+  {
+   "text": "sixty,",
+   "start": 16.56,
+   "end": 17.2,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 17.32,
+   "end": 17.44,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 17.52,
+   "end": 17.6,
+   "paragraph": 1
+  },
+  {
+   "text": "hundred",
+   "start": 17.68,
+   "end": 17.92,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 18,
+   "end": 18.08,
+   "paragraph": 1
+  },
+  {
+   "text": "thirty-three",
+   "start": 18.16,
+   "end": 18.64,
+   "paragraph": 1
+  },
+  {
+   "text": "cycles",
+   "start": 18.72,
+   "end": 19.12,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 19.16,
+   "end": 19.2,
+   "paragraph": 1
+  },
+  {
+   "text": "second.",
+   "start": 19.28,
+   "end": 19.68,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 20.24,
+   "end": 20.32,
+   "paragraph": 2
+  },
+  {
+   "text": "choice",
+   "start": 20.4,
+   "end": 20.8,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 20.88,
+   "end": 20.96,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 21.04,
+   "end": 21.08,
+   "paragraph": 2
+  },
+  {
+   "text": "compromise.",
+   "start": 21.12,
+   "end": 22.08,
+   "paragraph": 2
+  },
+  {
+   "text": "Go",
+   "start": 22.32,
+   "end": 22.4,
+   "paragraph": 2
+  },
+  {
+   "text": "too",
+   "start": 22.56,
+   "end": 22.64,
+   "paragraph": 2
+  },
+  {
+   "text": "low,",
+   "start": 22.72,
+   "end": 23.28,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 23.36,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "lamps",
+   "start": 23.52,
+   "end": 23.84,
+   "paragraph": 2
+  },
+  {
+   "text": "flicker",
+   "start": 24,
+   "end": 24.32,
+   "paragraph": 2
+  },
+  {
+   "text": "visibly,",
+   "start": 24.4,
+   "end": 25.12,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 25.2,
+   "end": 25.28,
+   "paragraph": 2
+  },
+  {
+   "text": "transformers",
+   "start": 25.56,
+   "end": 26.08,
+   "paragraph": 2
+  },
+  {
+   "text": "have",
+   "start": 26.16,
+   "end": 26.24,
+   "paragraph": 2
+  },
+  {
+   "text": "to",
+   "start": 26.28,
+   "end": 26.32,
+   "paragraph": 2
+  },
+  {
+   "text": "be",
+   "start": 26.4,
+   "end": 26.48,
+   "paragraph": 2
+  },
+  {
+   "text": "large",
+   "start": 26.56,
+   "end": 26.96,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 27.04,
+   "end": 27.12,
+   "paragraph": 2
+  },
+  {
+   "text": "heavy.",
+   "start": 27.2,
+   "end": 27.8,
+   "paragraph": 2
+  },
+  {
+   "text": "Go",
+   "start": 28.08,
+   "end": 28.16,
+   "paragraph": 2
+  },
+  {
+   "text": "too",
+   "start": 28.24,
+   "end": 28.4,
+   "paragraph": 2
+  },
+  {
+   "text": "high,",
+   "start": 28.48,
+   "end": 29.12,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 29.16,
+   "end": 29.2,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 29.28,
+   "end": 29.36,
+   "paragraph": 2
+  },
+  {
+   "text": "losses",
+   "start": 29.44,
+   "end": 29.84,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 29.92,
+   "end": 30,
+   "paragraph": 2
+  },
+  {
+   "text": "lines",
+   "start": 30.08,
+   "end": 30.48,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 30.56,
+   "end": 30.64,
+   "paragraph": 2
+  },
+  {
+   "text": "machines",
+   "start": 30.76,
+   "end": 31.12,
+   "paragraph": 2
+  },
+  {
+   "text": "climb.",
+   "start": 31.28,
+   "end": 31.76,
+   "paragraph": 2
+  },
+  {
+   "text": "Somewhere",
+   "start": 32.32,
+   "end": 32.72,
+   "paragraph": 2
+  },
+  {
+   "text": "between",
+   "start": 32.88,
+   "end": 33.04,
+   "paragraph": 2
+  },
+  {
+   "text": "forty",
+   "start": 33.2,
+   "end": 33.6,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 33.68,
+   "end": 33.92,
+   "paragraph": 2
+  },
+  {
+   "text": "sixty",
+   "start": 34.08,
+   "end": 34.4,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 34.48,
+   "end": 34.64,
+   "paragraph": 2
+  },
+  {
+   "text": "comfortable.",
+   "start": 34.8,
+   "end": 35.28,
+   "paragraph": 2
+  },
+  {
+   "text": "In",
+   "start": 35.84,
+   "end": 35.92,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 35.96,
+   "end": 36,
+   "paragraph": 3
+  },
+  {
+   "text": "United",
+   "start": 36.08,
+   "end": 36.4,
+   "paragraph": 3
+  },
+  {
+   "text": "States,",
+   "start": 36.48,
+   "end": 37.12,
+   "paragraph": 3
+  },
+  {
+   "text": "Westinghouse",
+   "start": 37.2,
+   "end": 37.92,
+   "paragraph": 3
+  },
+  {
+   "text": "settled",
+   "start": 38.04,
+   "end": 38.32,
+   "paragraph": 3
+  },
+  {
+   "text": "on",
+   "start": 38.4,
+   "end": 38.48,
+   "paragraph": 3
+  },
+  {
+   "text": "sixty.",
+   "start": 38.64,
+   "end": 39.52,
+   "paragraph": 3
+  },
+  {
+   "text": "In",
+   "start": 39.6,
+   "end": 39.68,
+   "paragraph": 3
+  },
+  {
+   "text": "Germany,",
+   "start": 39.76,
+   "end": 40.48,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 40.56,
+   "end": 40.6,
+   "paragraph": 3
+  },
+  {
+   "text": "firm",
+   "start": 40.64,
+   "end": 40.88,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 40.96,
+   "end": 41.04,
+   "paragraph": 3
+  },
+  {
+   "text": "AEG",
+   "start": 41.2,
+   "end": 41.84,
+   "paragraph": 3
+  },
+  {
+   "text": "chose",
+   "start": 41.92,
+   "end": 42.24,
+   "paragraph": 3
+  },
+  {
+   "text": "fifty,",
+   "start": 42.32,
+   "end": 43.04,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 43.08,
+   "end": 43.12,
+   "paragraph": 3
+  },
+  {
+   "text": "rounder",
+   "start": 43.2,
+   "end": 43.52,
+   "paragraph": 3
+  },
+  {
+   "text": "number",
+   "start": 43.6,
+   "end": 43.84,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 43.92,
+   "end": 44,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 44.04,
+   "end": 44.08,
+   "paragraph": 3
+  },
+  {
+   "text": "metric",
+   "start": 44.28,
+   "end": 44.48,
+   "paragraph": 3
+  },
+  {
+   "text": "country.",
+   "start": 44.68,
+   "end": 45.2,
+   "paragraph": 3
+  },
+  {
+   "text": "Each",
+   "start": 45.52,
+   "end": 45.76,
+   "paragraph": 3
+  },
+  {
+   "text": "sold",
+   "start": 45.88,
+   "end": 46,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 46.08,
+   "end": 46.16,
+   "paragraph": 3
+  },
+  {
+   "text": "equipment",
+   "start": 46.24,
+   "end": 46.72,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 46.76,
+   "end": 46.8,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 46.88,
+   "end": 46.96,
+   "paragraph": 3
+  },
+  {
+   "text": "neighbours,",
+   "start": 47.04,
+   "end": 47.76,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 47.84,
+   "end": 47.92,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 47.96,
+   "end": 48,
+   "paragraph": 3
+  },
+  {
+   "text": "world",
+   "start": 48.08,
+   "end": 48.4,
+   "paragraph": 3
+  },
+  {
+   "text": "divided",
+   "start": 48.56,
+   "end": 48.96,
+   "paragraph": 3
+  },
+  {
+   "text": "between",
+   "start": 49.04,
+   "end": 49.36,
+   "paragraph": 3
+  },
+  {
+   "text": "them.",
+   "start": 49.48,
+   "end": 49.92,
+   "paragraph": 3
+  },
+  {
+   "text": "One",
+   "start": 50.24,
+   "end": 50.4,
+   "paragraph": 4
+  },
+  {
+   "text": "country",
+   "start": 50.48,
+   "end": 50.88,
+   "paragraph": 4
+  },
+  {
+   "text": "still",
+   "start": 51.04,
+   "end": 51.28,
+   "paragraph": 4
+  },
+  {
+   "text": "shows",
+   "start": 51.36,
+   "end": 51.6,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 51.68,
+   "end": 51.72,
+   "paragraph": 4
+  },
+  {
+   "text": "join.",
+   "start": 51.76,
+   "end": 52.48,
+   "paragraph": 4
+  },
+  {
+   "text": "In",
+   "start": 52.8,
+   "end": 52.96,
+   "paragraph": 4
+  },
+  {
+   "text": "eighteen",
+   "start": 53.04,
+   "end": 53.2,
+   "paragraph": 4
+  },
+  {
+   "text": "ninety-five,",
+   "start": 53.36,
+   "end": 54.32,
+   "paragraph": 4
+  },
+  {
+   "text": "Tokyo",
+   "start": 54.4,
+   "end": 54.8,
+   "paragraph": 4
+  },
+  {
+   "text": "bought",
+   "start": 54.88,
+   "end": 55.04,
+   "paragraph": 4
+  },
+  {
+   "text": "its",
+   "start": 55.12,
+   "end": 55.2,
+   "paragraph": 4
+  },
+  {
+   "text": "generators",
+   "start": 55.28,
+   "end": 55.84,
+   "paragraph": 4
+  },
+  {
+   "text": "from",
+   "start": 55.92,
+   "end": 56.08,
+   "paragraph": 4
+  },
+  {
+   "text": "AEG,",
+   "start": 56.24,
+   "end": 56.8,
+   "paragraph": 4
+  },
+  {
+   "text": "at",
+   "start": 57.04,
+   "end": 57.12,
+   "paragraph": 4
+  },
+  {
+   "text": "fifty",
+   "start": 57.28,
+   "end": 57.52,
+   "paragraph": 4
+  },
+  {
+   "text": "hertz.",
+   "start": 57.6,
+   "end": 58.2,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 58.4,
+   "end": 58.48,
+   "paragraph": 4
+  },
+  {
+   "text": "year",
+   "start": 58.56,
+   "end": 58.72,
+   "paragraph": 4
+  },
+  {
+   "text": "later,",
+   "start": 58.8,
+   "end": 59.44,
+   "paragraph": 4
+  },
+  {
+   "text": "Osaka",
+   "start": 59.56,
+   "end": 60,
+   "paragraph": 4
+  },
+  {
+   "text": "bought",
+   "start": 60.08,
+   "end": 60.24,
+   "paragraph": 4
+  },
+  {
+   "text": "from",
+   "start": 60.32,
+   "end": 60.48,
+   "paragraph": 4
+  },
+  {
+   "text": "General",
+   "start": 60.56,
+   "end": 60.88,
+   "paragraph": 4
+  },
+  {
+   "text": "Electric,",
+   "start": 60.96,
+   "end": 61.6,
+   "paragraph": 4
+  },
+  {
+   "text": "at",
+   "start": 61.68,
+   "end": 61.84,
+   "paragraph": 4
+  },
+  {
+   "text": "sixty.",
+   "start": 61.92,
+   "end": 62.88,
+   "paragraph": 4
+  },
+  {
+   "text": "Japan",
+   "start": 62.96,
+   "end": 63.36,
+   "paragraph": 4
+  },
+  {
+   "text": "has",
+   "start": 63.44,
+   "end": 63.52,
+   "paragraph": 4
+  },
+  {
+   "text": "run",
+   "start": 63.6,
+   "end": 63.76,
+   "paragraph": 4
+  },
+  {
+   "text": "on",
+   "start": 63.88,
+   "end": 64,
+   "paragraph": 4
+  },
+  {
+   "text": "two",
+   "start": 64.08,
+   "end": 64.16,
+   "paragraph": 4
+  },
+  {
+   "text": "frequencies",
+   "start": 64.24,
+   "end": 64.88,
+   "paragraph": 4
+  },
+  {
+   "text": "ever",
+   "start": 64.96,
+   "end": 65.12,
+   "paragraph": 4
+  },
+  {
+   "text": "since,",
+   "start": 65.2,
+   "end": 65.84,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 65.92,
+   "end": 66,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 66.08,
+   "end": 66.16,
+   "paragraph": 4
+  },
+  {
+   "text": "two",
+   "start": 66.24,
+   "end": 66.32,
+   "paragraph": 4
+  },
+  {
+   "text": "halves",
+   "start": 66.4,
+   "end": 66.64,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 66.72,
+   "end": 66.8,
+   "paragraph": 4
+  },
+  {
+   "text": "its",
+   "start": 66.88,
+   "end": 66.96,
+   "paragraph": 4
+  },
+  {
+   "text": "grid",
+   "start": 67.04,
+   "end": 67.28,
+   "paragraph": 4
+  },
+  {
+   "text": "can",
+   "start": 67.6,
+   "end": 67.68,
+   "paragraph": 4
+  },
+  {
+   "text": "exchange",
+   "start": 67.76,
+   "end": 68.16,
+   "paragraph": 4
+  },
+  {
+   "text": "power",
+   "start": 68.24,
+   "end": 68.56,
+   "paragraph": 4
+  },
+  {
+   "text": "only",
+   "start": 68.8,
+   "end": 69.12,
+   "paragraph": 4
+  },
+  {
+   "text": "through",
+   "start": 69.2,
+   "end": 69.36,
+   "paragraph": 4
+  },
+  {
+   "text": "special",
+   "start": 69.44,
+   "end": 69.84,
+   "paragraph": 4
+  },
+  {
+   "text": "converter",
+   "start": 69.92,
+   "end": 70.32,
+   "paragraph": 4
+  },
+  {
+   "text": "stations.",
+   "start": 70.4,
+   "end": 71.28,
+   "paragraph": 4
+  },
+  {
+   "text": "Other",
+   "start": 71.6,
+   "end": 71.76,
+   "paragraph": 5
+  },
+  {
+   "text": "choices",
+   "start": 71.84,
+   "end": 72.32,
+   "paragraph": 5
+  },
+  {
+   "text": "survive",
+   "start": 72.4,
+   "end": 72.8,
+   "paragraph": 5
+  },
+  {
+   "text": "where",
+   "start": 72.88,
+   "end": 72.96,
+   "paragraph": 5
+  },
+  {
+   "text": "they",
+   "start": 73.04,
+   "end": 73.12,
+   "paragraph": 5
+  },
+  {
+   "text": "suit",
+   "start": 73.2,
+   "end": 73.36,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 73.44,
+   "end": 73.52,
+   "paragraph": 5
+  },
+  {
+   "text": "job.",
+   "start": 73.6,
+   "end": 73.92,
+   "paragraph": 5
+  },
+  {
+   "text": "Some",
+   "start": 74.4,
+   "end": 74.64,
+   "paragraph": 5
+  },
+  {
+   "text": "railways",
+   "start": 74.76,
+   "end": 75.2,
+   "paragraph": 5
+  },
+  {
+   "text": "still",
+   "start": 75.36,
+   "end": 75.52,
+   "paragraph": 5
+  },
+  {
+   "text": "use",
+   "start": 75.6,
+   "end": 75.76,
+   "paragraph": 5
+  },
+  {
+   "text": "sixteen",
+   "start": 75.84,
+   "end": 76.24,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 76.32,
+   "end": 76.4,
+   "paragraph": 5
+  },
+  {
+   "text": "two",
+   "start": 76.44,
+   "end": 76.48,
+   "paragraph": 5
+  },
+  {
+   "text": "thirds.",
+   "start": 76.64,
+   "end": 77.04,
+   "paragraph": 5
+  },
+  {
+   "text": "Aircraft",
+   "start": 77.44,
+   "end": 78,
+   "paragraph": 5
+  },
+  {
+   "text": "use",
+   "start": 78.08,
+   "end": 78.32,
+   "paragraph": 5
+  },
+  {
+   "text": "four",
+   "start": 78.4,
+   "end": 78.56,
+   "paragraph": 5
+  },
+  {
+   "text": "hundred",
+   "start": 78.64,
+   "end": 78.8,
+   "paragraph": 5
+  },
+  {
+   "text": "hertz,",
+   "start": 78.96,
+   "end": 79.52,
+   "paragraph": 5
+  },
+  {
+   "text": "because",
+   "start": 79.6,
+   "end": 79.84,
+   "paragraph": 5
+  },
+  {
+   "text": "at",
+   "start": 79.92,
+   "end": 80,
+   "paragraph": 5
+  },
+  {
+   "text": "a",
+   "start": 80.04,
+   "end": 80.08,
+   "paragraph": 5
+  },
+  {
+   "text": "high",
+   "start": 80.16,
+   "end": 80.32,
+   "paragraph": 5
+  },
+  {
+   "text": "frequency",
+   "start": 80.4,
+   "end": 80.96,
+   "paragraph": 5
+  },
+  {
+   "text": "transformers",
+   "start": 81.28,
+   "end": 82,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 82.08,
+   "end": 82.16,
+   "paragraph": 5
+  },
+  {
+   "text": "motors",
+   "start": 82.24,
+   "end": 82.72,
+   "paragraph": 5
+  },
+  {
+   "text": "can",
+   "start": 82.8,
+   "end": 82.88,
+   "paragraph": 5
+  },
+  {
+   "text": "be",
+   "start": 82.92,
+   "end": 82.96,
+   "paragraph": 5
+  },
+  {
+   "text": "made",
+   "start": 83.04,
+   "end": 83.28,
+   "paragraph": 5
+  },
+  {
+   "text": "small",
+   "start": 83.36,
+   "end": 83.76,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 83.84,
+   "end": 84,
+   "paragraph": 5
+  },
+  {
+   "text": "light,",
+   "start": 84.08,
+   "end": 84.72,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 84.8,
+   "end": 84.88,
+   "paragraph": 5
+  },
+  {
+   "text": "on",
+   "start": 84.92,
+   "end": 84.96,
+   "paragraph": 5
+  },
+  {
+   "text": "an",
+   "start": 85.04,
+   "end": 85.12,
+   "paragraph": 5
+  },
+  {
+   "text": "aircraft",
+   "start": 85.2,
+   "end": 85.6,
+   "paragraph": 5
+  },
+  {
+   "text": "every",
+   "start": 86,
+   "end": 86.32,
+   "paragraph": 5
+  },
+  {
+   "text": "kilogram",
+   "start": 86.48,
+   "end": 86.88,
+   "paragraph": 5
+  },
+  {
+   "text": "counts.",
+   "start": 87.04,
+   "end": 87.76,
+   "paragraph": 5
+  }
+ ]
+}

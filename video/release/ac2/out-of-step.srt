@@ -1,0 +1,991 @@
+1
+00:00:00,667 --> 00:00:03,847
+Take one alternating supply, and connect three things
+
+2
+00:00:03,867 --> 00:00:05,177
+to it in turn.
+
+3
+00:00:05,307 --> 00:00:06,377
+A resistor.
+
+4
+00:00:06,427 --> 00:00:07,337
+A coil.
+
+5
+00:00:07,387 --> 00:00:08,577
+A capacitor.
+
+6
+00:00:08,747 --> 00:00:12,727
+In all three, an alternating voltage produces an alternating
+
+7
+00:00:12,747 --> 00:00:13,617
+current.
+
+8
+00:00:13,787 --> 00:00:16,417
+Same frequency, same smooth shape.
+
+9
+00:00:16,507 --> 00:00:18,257
+So far, nothing surprising.
+
+10
+00:00:18,667 --> 00:00:20,097
+But look at the timing.
+
+11
+00:00:20,427 --> 00:00:24,167
+In the resistor, the current rises and falls exactly with
+
+12
+00:00:24,187 --> 00:00:24,977
+the voltage.
+
+13
+00:00:25,307 --> 00:00:27,857
+In the coil, the current runs late.
+
+14
+00:00:28,187 --> 00:00:30,737
+In the capacitor, it runs early.
+
+15
+00:00:30,987 --> 00:00:34,337
+Last time, we called that gap in timing phase.
+
+16
+00:00:34,667 --> 00:00:37,537
+In this video we find out where it comes from.
+
+17
+00:00:37,947 --> 00:00:41,607
+The answer explains why a coil can limit a current without
+
+18
+00:00:41,627 --> 00:00:45,207
+getting warm, why a capacitor passes a current although
+
+19
+00:00:45,227 --> 00:00:48,807
+nothing crosses its gap, and why engineers talk about
+
+20
+00:00:48,827 --> 00:00:52,087
+a second kind of opposition that is not resistance at
+
+21
+00:00:52,107 --> 00:00:52,657
+all.
+
+22
+00:00:54,033 --> 00:00:57,703
+Start with the resistor, because it holds no surprises.
+
+23
+00:00:58,113 --> 00:01:01,663
+A resistor obeys Ohm's law at every instant.
+
+24
+00:01:01,793 --> 00:01:04,253
+Whatever the voltage is at this moment,
+
+25
+00:01:04,273 --> 00:01:07,823
+the current is that voltage divided by the resistance.
+
+26
+00:01:07,953 --> 00:01:09,933
+When the voltage is at its peak,
+
+27
+00:01:09,953 --> 00:01:11,223
+so is the current.
+
+28
+00:01:11,313 --> 00:01:14,103
+When the voltage is zero, the current is zero.
+
+29
+00:01:14,433 --> 00:01:17,863
+When the voltage reverses, the current reverses with it.
+
+30
+00:01:17,953 --> 00:01:20,183
+So the two waves are in phase.
+
+31
+00:01:20,353 --> 00:01:21,863
+They keep perfect step.
+
+32
+00:01:22,273 --> 00:01:23,463
+Now look at the power.
+
+33
+00:01:23,793 --> 00:01:26,343
+Power is voltage times current.
+
+34
+00:01:26,433 --> 00:01:29,223
+When both are positive, the power is positive.
+
+35
+00:01:29,473 --> 00:01:32,813
+When both are negative, a negative times a negative is
+
+36
+00:01:32,833 --> 00:01:33,783
+positive again.
+
+37
+00:01:34,033 --> 00:01:36,743
+So the power never goes below zero.
+
+38
+00:01:36,833 --> 00:01:40,053
+A resistor takes energy on both halves of the cycle,
+
+39
+00:01:40,073 --> 00:01:42,343
+and turns all of it into heat.
+
+40
+00:01:42,433 --> 00:01:44,253
+The power does pulse.
+
+41
+00:01:44,273 --> 00:01:47,373
+It swells and fades twice in every cycle.
+
+42
+00:01:47,393 --> 00:01:51,613
+But its average is simple: the RMS voltage times the RMS
+
+43
+00:01:51,633 --> 00:01:52,573
+current.
+
+44
+00:01:52,593 --> 00:01:56,333
+That, you will remember, is exactly what RMS was invented
+
+45
+00:01:56,353 --> 00:01:56,983
+for.
+
+46
+00:01:58,333 --> 00:01:59,523
+Now the coil.
+
+47
+00:01:59,933 --> 00:02:02,443
+Remember what a coil cares about.
+
+48
+00:02:02,573 --> 00:02:06,153
+In the video on inductance, we saw that a coil does not
+
+49
+00:02:06,173 --> 00:02:07,363
+oppose a current.
+
+50
+00:02:07,613 --> 00:02:10,273
+It opposes a change in current.
+
+51
+00:02:10,293 --> 00:02:13,593
+The voltage across it depends on how fast the current
+
+52
+00:02:13,613 --> 00:02:14,793
+is changing.
+
+53
+00:02:14,813 --> 00:02:19,363
+So ask: when is an alternating current changing fastest?
+
+54
+00:02:19,693 --> 00:02:21,033
+Not at its crest.
+
+55
+00:02:21,053 --> 00:02:24,553
+At the crest it has stopped rising and has not yet started
+
+56
+00:02:24,573 --> 00:02:25,513
+to fall.
+
+57
+00:02:25,533 --> 00:02:28,473
+For an instant it is not changing at all.
+
+58
+00:02:28,493 --> 00:02:32,633
+So at that instant the voltage across the coil is zero.
+
+59
+00:02:32,653 --> 00:02:36,313
+The current changes fastest as it sweeps through zero,
+
+60
+00:02:36,333 --> 00:02:39,113
+on its way from one direction to the other.
+
+61
+00:02:39,133 --> 00:02:42,073
+So that is when the voltage is greatest.
+
+62
+00:02:42,093 --> 00:02:43,913
+Put the two side by side.
+
+63
+00:02:43,933 --> 00:02:47,593
+The voltage peaks, and only a quarter of a cycle later
+
+64
+00:02:47,613 --> 00:02:49,113
+does the current peak.
+
+65
+00:02:49,133 --> 00:02:53,273
+In a coil, the current lags the voltage by ninety degrees.
+
+66
+00:02:53,293 --> 00:02:54,713
+You can feel why.
+
+67
+00:02:54,733 --> 00:02:58,393
+Think of pushing a heavy trolley back and forth on rails.
+
+68
+00:02:58,413 --> 00:03:00,793
+You push hardest at the very start,
+
+69
+00:03:00,813 --> 00:03:02,393
+when it is standing still.
+
+70
+00:03:02,413 --> 00:03:05,043
+It reaches its greatest speed later,
+
+71
+00:03:05,133 --> 00:03:07,033
+just as your push dies away.
+
+72
+00:03:07,053 --> 00:03:09,993
+The trolley's speed lags your push.
+
+73
+00:03:10,013 --> 00:03:14,003
+Its mass does to motion what inductance does to current.
+
+74
+00:03:15,367 --> 00:03:18,707
+A coil on alternating current limits the current,
+
+75
+00:03:18,727 --> 00:03:20,587
+just as a resistor would.
+
+76
+00:03:20,607 --> 00:03:23,747
+But it does so in a completely different way,
+
+77
+00:03:23,767 --> 00:03:25,747
+and we give it a different name:
+
+78
+00:03:25,767 --> 00:03:27,037
+reactance.
+
+79
+00:03:27,207 --> 00:03:28,557
+How large is it?
+
+80
+00:03:28,727 --> 00:03:30,157
+Think about the frequency.
+
+81
+00:03:30,567 --> 00:03:32,667
+The faster the supply alternates,
+
+82
+00:03:32,687 --> 00:03:34,867
+the faster the current has to change,
+
+83
+00:03:34,887 --> 00:03:37,277
+and the harder the coil pushes back.
+
+84
+00:03:37,447 --> 00:03:40,557
+Double the frequency, and the reactance doubles.
+
+85
+00:03:40,647 --> 00:03:43,997
+And a larger inductance pushes back harder still.
+
+86
+00:03:44,167 --> 00:03:47,227
+So the reactance of a coil is two pi,
+
+87
+00:03:47,247 --> 00:03:50,037
+times the frequency, times the inductance.
+
+88
+00:03:50,167 --> 00:03:53,507
+It is measured in ohms, because it is a voltage divided
+
+89
+00:03:53,527 --> 00:03:54,717
+by a current.
+
+90
+00:03:54,887 --> 00:03:58,067
+A coil of a tenth of a henry, at fifty hertz,
+
+91
+00:03:58,087 --> 00:04:00,717
+has a reactance of about thirty-one ohms.
+
+92
+00:04:01,047 --> 00:04:04,387
+At five thousand hertz, the same coil has three thousand
+
+93
+00:04:04,407 --> 00:04:05,037
+ohms.
+
+94
+00:04:05,367 --> 00:04:08,147
+And for a steady current, at zero frequency,
+
+95
+00:04:08,167 --> 00:04:09,357
+it has none.
+
+96
+00:04:09,527 --> 00:04:13,267
+That is why a coil passes direct current freely and holds
+
+97
+00:04:13,287 --> 00:04:15,037
+back alternating current.
+
+98
+00:04:15,207 --> 00:04:17,757
+But these are not the ohms of a resistor.
+
+99
+00:04:17,847 --> 00:04:20,717
+A resistor with thirty-one ohms gets hot.
+
+100
+00:04:20,807 --> 00:04:23,917
+An ideal coil with thirty-one ohms does not.
+
+101
+00:04:24,007 --> 00:04:25,677
+We will see why in a moment.
+
+102
+00:04:26,167 --> 00:04:29,667
+The word reactance was proposed in eighteen ninety-three,
+
+103
+00:04:29,687 --> 00:04:32,627
+by a French engineer, Édouard Hospitalier,
+
+104
+00:04:32,647 --> 00:04:35,757
+as alternating current was first being put to work.
+
+105
+00:04:37,100 --> 00:04:40,850
+Now the capacitor, and here everything is the other way
+
+106
+00:04:40,900 --> 00:04:41,490
+round.
+
+107
+00:04:41,580 --> 00:04:45,530
+A capacitor's voltage depends on the charge on its plates.
+
+108
+00:04:45,660 --> 00:04:48,370
+Current is charge arriving or leaving.
+
+109
+00:04:48,700 --> 00:04:52,680
+So the current is large when the voltage is changing fast,
+
+110
+00:04:52,700 --> 00:04:55,330
+and zero when the voltage is not changing.
+
+111
+00:04:55,820 --> 00:04:57,090
+Follow one cycle.
+
+112
+00:04:57,420 --> 00:05:00,530
+Start with the capacitor empty and the supply voltage
+
+113
+00:05:00,620 --> 00:05:02,050
+just beginning to rise.
+
+114
+00:05:02,380 --> 00:05:05,800
+The voltage is climbing as steeply as it ever does,
+
+115
+00:05:05,820 --> 00:05:08,210
+so charge pours onto the plates.
+
+116
+00:05:08,300 --> 00:05:10,690
+The current is at its greatest.
+
+117
+00:05:10,860 --> 00:05:13,000
+As the voltage nears its crest,
+
+118
+00:05:13,020 --> 00:05:14,210
+it levels off.
+
+119
+00:05:14,300 --> 00:05:17,650
+The plates are nearly full, and the flow dwindles.
+
+120
+00:05:18,060 --> 00:05:21,200
+At the crest itself, the voltage stops changing,
+
+121
+00:05:21,220 --> 00:05:22,690
+and the current is zero.
+
+122
+00:05:23,180 --> 00:05:25,480
+Then the voltage starts to fall,
+
+123
+00:05:25,500 --> 00:05:27,410
+and the charge flows back out.
+
+124
+00:05:27,740 --> 00:05:29,880
+The current has already reversed,
+
+125
+00:05:29,900 --> 00:05:31,970
+while the voltage is still positive.
+
+126
+00:05:32,460 --> 00:05:35,720
+So in a capacitor the current peaks first,
+
+127
+00:05:35,740 --> 00:05:38,370
+and the voltage a quarter of a cycle later.
+
+128
+00:05:38,780 --> 00:05:41,810
+The current leads the voltage by ninety degrees.
+
+129
+00:05:42,220 --> 00:05:44,290
+Think of filling a tank from the bottom.
+
+130
+00:05:44,540 --> 00:05:47,810
+The water rushes in fastest when the tank is empty.
+
+131
+00:05:48,140 --> 00:05:51,000
+As the level rises, the flow slows,
+
+132
+00:05:51,020 --> 00:05:53,330
+and when the tank is full, it stops.
+
+133
+00:05:53,660 --> 00:05:55,170
+The flow comes first.
+
+134
+00:05:55,260 --> 00:05:56,690
+The level follows.
+
+135
+00:05:57,020 --> 00:06:00,520
+And notice: no charge ever crosses the gap between the
+
+136
+00:06:00,540 --> 00:06:01,410
+plates.
+
+137
+00:06:01,500 --> 00:06:04,840
+The current we measure is charge flowing onto one plate
+
+138
+00:06:04,860 --> 00:06:07,610
+and off the other, back and forth.
+
+139
+00:06:07,740 --> 00:06:10,160
+As far as the rest of the circuit can tell,
+
+140
+00:06:10,180 --> 00:06:12,130
+a current is passing through.
+
+141
+00:06:13,500 --> 00:06:15,650
+A capacitor has reactance too.
+
+142
+00:06:15,980 --> 00:06:18,290
+But it behaves in the opposite way.
+
+143
+00:06:18,460 --> 00:06:22,040
+Raise the frequency, and the plates are charged and discharged
+
+144
+00:06:22,060 --> 00:06:24,120
+more often every second.
+
+145
+00:06:24,140 --> 00:06:27,960
+More charge moves each second, so the current is larger.
+
+146
+00:06:27,980 --> 00:06:31,640
+A larger capacitor holds more charge for the same voltage,
+
+147
+00:06:31,660 --> 00:06:34,320
+so again the current is larger.
+
+148
+00:06:34,340 --> 00:06:37,880
+So the reactance of a capacitor goes down as the frequency
+
+149
+00:06:37,900 --> 00:06:38,920
+goes up.
+
+150
+00:06:38,940 --> 00:06:42,760
+It is one, divided by two pi, times the frequency,
+
+151
+00:06:42,780 --> 00:06:44,250
+times the capacitance.
+
+152
+00:06:44,380 --> 00:06:46,840
+A capacitor of a hundred microfarads,
+
+153
+00:06:46,860 --> 00:06:51,080
+at fifty hertz, has a reactance of about thirty-two ohms.
+
+154
+00:06:51,100 --> 00:06:54,200
+At five thousand hertz, a third of an ohm.
+
+155
+00:06:54,220 --> 00:06:57,200
+And for a steady voltage, at zero frequency,
+
+156
+00:06:57,220 --> 00:06:59,640
+its reactance is beyond measure:
+
+157
+00:06:59,660 --> 00:07:01,090
+no current at all.
+
+158
+00:07:01,180 --> 00:07:04,840
+A capacitor blocks direct current and passes alternating
+
+159
+00:07:04,860 --> 00:07:05,410
+current.
+
+160
+00:07:05,820 --> 00:07:07,650
+Set the two side by side.
+
+161
+00:07:07,740 --> 00:07:11,400
+As the frequency rises, the coil's reactance climbs and
+
+162
+00:07:11,420 --> 00:07:13,010
+the capacitor's falls.
+
+163
+00:07:13,260 --> 00:07:16,210
+At one particular frequency they are equal.
+
+164
+00:07:16,380 --> 00:07:18,520
+Something remarkable happens there,
+
+165
+00:07:18,540 --> 00:07:20,530
+and it has a video of its own.
+
+166
+00:07:21,900 --> 00:07:23,810
+Now we can answer the puzzle.
+
+167
+00:07:23,980 --> 00:07:27,240
+Why does a coil with thirty-one ohms of reactance stay
+
+168
+00:07:27,260 --> 00:07:28,090
+cool?
+
+169
+00:07:28,300 --> 00:07:32,040
+Look at the power again: voltage times current.
+
+170
+00:07:32,060 --> 00:07:34,600
+In the resistor, the two were in step,
+
+171
+00:07:34,620 --> 00:07:37,240
+and their product was always positive.
+
+172
+00:07:37,260 --> 00:07:40,520
+In the coil, they are a quarter of a cycle apart.
+
+173
+00:07:40,540 --> 00:07:43,360
+For a quarter of the cycle, both are positive,
+
+174
+00:07:43,380 --> 00:07:46,040
+and the coil takes energy from the supply.
+
+175
+00:07:46,060 --> 00:07:49,320
+That energy goes into building its magnetic field.
+
+176
+00:07:49,340 --> 00:07:53,160
+For the next quarter, one is positive and the other negative.
+
+177
+00:07:53,180 --> 00:07:54,840
+The power is negative.
+
+178
+00:07:54,860 --> 00:07:58,360
+The field is collapsing, and the coil is handing the energy
+
+179
+00:07:58,380 --> 00:07:59,240
+back.
+
+180
+00:07:59,260 --> 00:08:00,920
+Take, give back.
+
+181
+00:08:00,940 --> 00:08:02,480
+Take, give back.
+
+182
+00:08:02,500 --> 00:08:05,970
+Over a whole cycle, the average power is zero.
+
+183
+00:08:06,020 --> 00:08:07,920
+Nothing is turned into heat.
+
+184
+00:08:07,940 --> 00:08:11,160
+A capacitor does the same, with its electric field.
+
+185
+00:08:11,180 --> 00:08:13,320
+It borrows energy as it charges,
+
+186
+00:08:13,340 --> 00:08:15,640
+and returns it as it discharges.
+
+187
+00:08:15,660 --> 00:08:18,360
+So reactance does not consume energy.
+
+188
+00:08:18,380 --> 00:08:20,040
+It only borrows it.
+
+189
+00:08:20,060 --> 00:08:22,600
+But notice what that means for the wires.
+
+190
+00:08:22,620 --> 00:08:26,280
+A real current is flowing back and forth the whole time,
+
+191
+00:08:26,300 --> 00:08:28,760
+carrying energy that nobody uses.
+
+192
+00:08:28,780 --> 00:08:31,040
+The generator must supply that current,
+
+193
+00:08:31,060 --> 00:08:33,160
+and the cables must carry it.
+
+194
+00:08:33,180 --> 00:08:35,960
+This is what engineers call reactive power,
+
+195
+00:08:35,980 --> 00:08:39,170
+and the cost of it will be the subject of a later video.
+
+196
+00:08:40,533 --> 00:08:44,673
+Because coils and capacitors treat frequencies so differently,
+
+197
+00:08:44,693 --> 00:08:48,163
+we can use them to sort one frequency from another.
+
+198
+00:08:48,373 --> 00:08:50,723
+Look inside a loudspeaker cabinet.
+
+199
+00:08:50,853 --> 00:08:54,113
+There is a large cone for the low notes and a small one
+
+200
+00:08:54,133 --> 00:08:55,483
+for the high notes.
+
+201
+00:08:55,653 --> 00:08:58,923
+A coil is wired in line with the large cone.
+
+202
+00:08:59,093 --> 00:09:01,633
+Low frequencies pass through it easily,
+
+203
+00:09:01,653 --> 00:09:03,723
+and high ones are held back.
+
+204
+00:09:03,893 --> 00:09:07,153
+A capacitor is wired in line with the small cone,
+
+205
+00:09:07,173 --> 00:09:08,673
+and does the opposite.
+
+206
+00:09:08,693 --> 00:09:11,793
+Between them, they send each note to the cone that can
+
+207
+00:09:11,813 --> 00:09:12,913
+play it.
+
+208
+00:09:12,933 --> 00:09:16,433
+A coil is also the gentlest way to limit an alternating
+
+209
+00:09:16,453 --> 00:09:17,353
+current.
+
+210
+00:09:17,373 --> 00:09:20,913
+A resistor would do it by wasting energy as heat.
+
+211
+00:09:20,933 --> 00:09:25,153
+A coil does it by reactance, and wastes almost nothing.
+
+212
+00:09:25,173 --> 00:09:28,643
+That is the job of the choke in an old fluorescent lamp.
+
+213
+00:09:28,773 --> 00:09:31,873
+And here is a way to remember which way round the timing
+
+214
+00:09:31,893 --> 00:09:32,443
+goes.
+
+215
+00:09:32,853 --> 00:09:34,523
+Think of the word CIVIL.
+
+216
+00:09:34,853 --> 00:09:37,713
+In a capacitor, C, the current,
+
+217
+00:09:37,733 --> 00:09:40,443
+I, comes before the voltage, V.
+
+218
+00:09:40,773 --> 00:09:43,123
+That is C, I, V.
+
+219
+00:09:43,253 --> 00:09:46,033
+In an inductor, L, the voltage,
+
+220
+00:09:46,053 --> 00:09:48,603
+V, comes before the current, I.
+
+221
+00:09:48,933 --> 00:09:52,043
+Read from the middle: V, I, L.
+
+222
+00:09:52,133 --> 00:09:54,403
+Capacitor, current leads.
+
+223
+00:09:54,453 --> 00:09:56,923
+Inductor, current lags.
+
+224
+00:09:58,267 --> 00:09:59,977
+So let's put it together.
+
+225
+00:10:00,107 --> 00:10:03,647
+In a resistor, the current keeps step with the voltage,
+
+226
+00:10:03,667 --> 00:10:06,137
+and all the energy becomes heat.
+
+227
+00:10:06,267 --> 00:10:10,007
+In a coil, the voltage depends on how fast the current
+
+228
+00:10:10,027 --> 00:10:11,057
+is changing.
+
+229
+00:10:11,147 --> 00:10:14,817
+So the current lags the voltage by a quarter of a cycle.
+
+230
+00:10:15,147 --> 00:10:18,887
+In a capacitor, the current depends on how fast the voltage
+
+231
+00:10:18,907 --> 00:10:19,697
+is changing.
+
+232
+00:10:19,947 --> 00:10:23,097
+So the current leads by a quarter of a cycle.
+
+233
+00:10:23,227 --> 00:10:26,327
+Both oppose alternating current with reactance,
+
+234
+00:10:26,347 --> 00:10:27,777
+measured in ohms.
+
+235
+00:10:27,867 --> 00:10:30,777
+A coil's reactance rises with frequency.
+
+236
+00:10:30,827 --> 00:10:32,737
+A capacitor's falls.
+
+237
+00:10:32,827 --> 00:10:35,217
+And reactance consumes no energy.
+
+238
+00:10:35,387 --> 00:10:37,657
+It borrows it, and gives it back.
+
+239
+00:10:37,787 --> 00:10:40,617
+But real circuits are never just one of these.
+
+240
+00:10:40,667 --> 00:10:44,247
+They have resistance, inductance and capacitance all at
+
+241
+00:10:44,267 --> 00:10:48,327
+once, and the current is neither in step nor a full quarter
+
+242
+00:10:48,347 --> 00:10:49,297
+cycle out.
+
+243
+00:10:49,627 --> 00:10:52,817
+To deal with that, an engineer in eighteen ninety-three
+
+244
+00:10:52,907 --> 00:10:56,487
+found a way to replace every wave with a simple turning
+
+245
+00:10:56,507 --> 00:10:56,977
+arrow.
+
+246
+00:10:57,467 --> 00:11:00,617
+Next time: phasors, and impedance.
+
+247
+00:11:00,747 --> 00:11:04,167
+If this helped you see it, and not just calculate it,
+
+248
+00:11:04,187 --> 00:11:07,217
+please like, share, and subscribe to this channel.

@@ -1,0 +1,626 @@
+{
+ "chapter": 1,
+ "title": "The needle that moved",
+ "characters": 573,
+ "duration": 41.325714,
+ "words": [
+  {
+   "text": "In",
+   "start": 0,
+   "end": 0.16,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 0.2,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "spring",
+   "start": 0.32,
+   "end": 0.64,
+   "paragraph": 0
+  },
+  {
+   "text": "of",
+   "start": 0.72,
+   "end": 0.8,
+   "paragraph": 0
+  },
+  {
+   "text": "eighteen",
+   "start": 0.88,
+   "end": 1.12,
+   "paragraph": 0
+  },
+  {
+   "text": "twenty,",
+   "start": 1.28,
+   "end": 2.08,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 2.16,
+   "end": 2.24,
+   "paragraph": 0
+  },
+  {
+   "text": "Danish",
+   "start": 2.32,
+   "end": 2.64,
+   "paragraph": 0
+  },
+  {
+   "text": "professor",
+   "start": 2.72,
+   "end": 3.2,
+   "paragraph": 0
+  },
+  {
+   "text": "named",
+   "start": 3.36,
+   "end": 3.6,
+   "paragraph": 0
+  },
+  {
+   "text": "Hans",
+   "start": 3.76,
+   "end": 4.08,
+   "paragraph": 0
+  },
+  {
+   "text": "Christian",
+   "start": 4.16,
+   "end": 4.56,
+   "paragraph": 0
+  },
+  {
+   "text": "Oersted",
+   "start": 4.64,
+   "end": 5.2,
+   "paragraph": 0
+  },
+  {
+   "text": "was",
+   "start": 5.36,
+   "end": 5.6,
+   "paragraph": 0
+  },
+  {
+   "text": "giving",
+   "start": 5.707,
+   "end": 5.92,
+   "paragraph": 0
+  },
+  {
+   "text": "an",
+   "start": 6.04,
+   "end": 6.16,
+   "paragraph": 0
+  },
+  {
+   "text": "evening",
+   "start": 6.28,
+   "end": 6.48,
+   "paragraph": 0
+  },
+  {
+   "text": "lecture.",
+   "start": 6.56,
+   "end": 7.28,
+   "paragraph": 0
+  },
+  {
+   "text": "On",
+   "start": 7.6,
+   "end": 7.68,
+   "paragraph": 0
+  },
+  {
+   "text": "his",
+   "start": 7.76,
+   "end": 7.92,
+   "paragraph": 0
+  },
+  {
+   "text": "bench",
+   "start": 8,
+   "end": 8.32,
+   "paragraph": 0
+  },
+  {
+   "text": "lay",
+   "start": 8.48,
+   "end": 8.64,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 8.72,
+   "end": 8.8,
+   "paragraph": 0
+  },
+  {
+   "text": "battery,",
+   "start": 8.88,
+   "end": 9.68,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 9.72,
+   "end": 9.76,
+   "paragraph": 0
+  },
+  {
+   "text": "length",
+   "start": 9.84,
+   "end": 10.08,
+   "paragraph": 0
+  },
+  {
+   "text": "of",
+   "start": 10.16,
+   "end": 10.24,
+   "paragraph": 0
+  },
+  {
+   "text": "wire,",
+   "start": 10.32,
+   "end": 11.04,
+   "paragraph": 0
+  },
+  {
+   "text": "and,",
+   "start": 11.12,
+   "end": 11.68,
+   "paragraph": 0
+  },
+  {
+   "text": "by",
+   "start": 11.76,
+   "end": 11.84,
+   "paragraph": 0
+  },
+  {
+   "text": "chance,",
+   "start": 12,
+   "end": 12.64,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 12.68,
+   "end": 12.72,
+   "paragraph": 0
+  },
+  {
+   "text": "compass.",
+   "start": 12.8,
+   "end": 13.64,
+   "paragraph": 0
+  },
+  {
+   "text": "He",
+   "start": 13.92,
+   "end": 14.08,
+   "paragraph": 1
+  },
+  {
+   "text": "closed",
+   "start": 14.16,
+   "end": 14.48,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 14.56,
+   "end": 14.64,
+   "paragraph": 1
+  },
+  {
+   "text": "circuit.",
+   "start": 14.72,
+   "end": 15.44,
+   "paragraph": 1
+  },
+  {
+   "text": "And",
+   "start": 15.68,
+   "end": 15.76,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 15.84,
+   "end": 15.92,
+   "paragraph": 1
+  },
+  {
+   "text": "compass",
+   "start": 16,
+   "end": 16.4,
+   "paragraph": 1
+  },
+  {
+   "text": "needle",
+   "start": 16.48,
+   "end": 16.8,
+   "paragraph": 1
+  },
+  {
+   "text": "moved.",
+   "start": 16.96,
+   "end": 17.68,
+   "paragraph": 1
+  },
+  {
+   "text": "Nothing",
+   "start": 18,
+   "end": 18.32,
+   "paragraph": 2
+  },
+  {
+   "text": "was",
+   "start": 18.4,
+   "end": 18.48,
+   "paragraph": 2
+  },
+  {
+   "text": "touching",
+   "start": 18.56,
+   "end": 18.88,
+   "paragraph": 2
+  },
+  {
+   "text": "it.",
+   "start": 18.96,
+   "end": 19.36,
+   "paragraph": 2
+  },
+  {
+   "text": "No",
+   "start": 19.6,
+   "end": 19.76,
+   "paragraph": 2
+  },
+  {
+   "text": "magnet",
+   "start": 19.92,
+   "end": 20.32,
+   "paragraph": 2
+  },
+  {
+   "text": "was",
+   "start": 20.4,
+   "end": 20.48,
+   "paragraph": 2
+  },
+  {
+   "text": "near",
+   "start": 20.56,
+   "end": 20.72,
+   "paragraph": 2
+  },
+  {
+   "text": "it.",
+   "start": 20.8,
+   "end": 21.04,
+   "paragraph": 2
+  },
+  {
+   "text": "A",
+   "start": 21.6,
+   "end": 21.76,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 21.84,
+   "end": 22.16,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 22.24,
+   "end": 22.32,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 22.4,
+   "end": 22.48,
+   "paragraph": 2
+  },
+  {
+   "text": "wire",
+   "start": 22.56,
+   "end": 22.88,
+   "paragraph": 2
+  },
+  {
+   "text": "had",
+   "start": 22.96,
+   "end": 23.2,
+   "paragraph": 2
+  },
+  {
+   "text": "reached",
+   "start": 23.28,
+   "end": 23.6,
+   "paragraph": 2
+  },
+  {
+   "text": "out",
+   "start": 23.68,
+   "end": 23.92,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 24.08,
+   "end": 24.16,
+   "paragraph": 2
+  },
+  {
+   "text": "turned",
+   "start": 24.32,
+   "end": 24.64,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 24.68,
+   "end": 24.72,
+   "paragraph": 2
+  },
+  {
+   "text": "magnet.",
+   "start": 24.8,
+   "end": 25.6,
+   "paragraph": 2
+  },
+  {
+   "text": "For",
+   "start": 25.92,
+   "end": 26.16,
+   "paragraph": 3
+  },
+  {
+   "text": "two",
+   "start": 26.24,
+   "end": 26.32,
+   "paragraph": 3
+  },
+  {
+   "text": "thousand",
+   "start": 26.48,
+   "end": 26.96,
+   "paragraph": 3
+  },
+  {
+   "text": "years,",
+   "start": 27.04,
+   "end": 27.68,
+   "paragraph": 3
+  },
+  {
+   "text": "people",
+   "start": 27.84,
+   "end": 28,
+   "paragraph": 3
+  },
+  {
+   "text": "had",
+   "start": 28.08,
+   "end": 28.16,
+   "paragraph": 3
+  },
+  {
+   "text": "treated",
+   "start": 28.24,
+   "end": 28.56,
+   "paragraph": 3
+  },
+  {
+   "text": "electricity",
+   "start": 28.64,
+   "end": 29.44,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 29.52,
+   "end": 29.6,
+   "paragraph": 3
+  },
+  {
+   "text": "magnetism",
+   "start": 29.68,
+   "end": 30.4,
+   "paragraph": 3
+  },
+  {
+   "text": "as",
+   "start": 30.48,
+   "end": 30.64,
+   "paragraph": 3
+  },
+  {
+   "text": "two",
+   "start": 30.8,
+   "end": 30.96,
+   "paragraph": 3
+  },
+  {
+   "text": "separate",
+   "start": 31.12,
+   "end": 31.52,
+   "paragraph": 3
+  },
+  {
+   "text": "things.",
+   "start": 31.72,
+   "end": 32,
+   "paragraph": 3
+  },
+  {
+   "text": "That",
+   "start": 32.64,
+   "end": 32.8,
+   "paragraph": 3
+  },
+  {
+   "text": "evening,",
+   "start": 32.88,
+   "end": 33.52,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 33.56,
+   "end": 33.6,
+   "paragraph": 3
+  },
+  {
+   "text": "front",
+   "start": 33.76,
+   "end": 33.92,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 34,
+   "end": 34.08,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 34.12,
+   "end": 34.16,
+   "paragraph": 3
+  },
+  {
+   "text": "few",
+   "start": 34.24,
+   "end": 34.32,
+   "paragraph": 3
+  },
+  {
+   "text": "students,",
+   "start": 34.4,
+   "end": 35.36,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 35.44,
+   "end": 35.52,
+   "paragraph": 3
+  },
+  {
+   "text": "wall",
+   "start": 35.6,
+   "end": 35.84,
+   "paragraph": 3
+  },
+  {
+   "text": "between",
+   "start": 35.92,
+   "end": 36.24,
+   "paragraph": 3
+  },
+  {
+   "text": "them",
+   "start": 36.32,
+   "end": 36.48,
+   "paragraph": 3
+  },
+  {
+   "text": "cracked.",
+   "start": 36.72,
+   "end": 37.52,
+   "paragraph": 3
+  },
+  {
+   "text": "To",
+   "start": 37.84,
+   "end": 37.92,
+   "paragraph": 3
+  },
+  {
+   "text": "see",
+   "start": 38,
+   "end": 38.16,
+   "paragraph": 3
+  },
+  {
+   "text": "why",
+   "start": 38.24,
+   "end": 38.4,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 38.48,
+   "end": 38.56,
+   "paragraph": 3
+  },
+  {
+   "text": "mattered,",
+   "start": 38.64,
+   "end": 39.36,
+   "paragraph": 3
+  },
+  {
+   "text": "we",
+   "start": 39.44,
+   "end": 39.6,
+   "paragraph": 3
+  },
+  {
+   "text": "have",
+   "start": 39.68,
+   "end": 39.76,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 39.84,
+   "end": 39.92,
+   "paragraph": 3
+  },
+  {
+   "text": "go",
+   "start": 40.04,
+   "end": 40.16,
+   "paragraph": 3
+  },
+  {
+   "text": "back",
+   "start": 40.28,
+   "end": 40.4,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 40.44,
+   "end": 40.48,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 40.56,
+   "end": 40.6,
+   "paragraph": 3
+  },
+  {
+   "text": "beginning.",
+   "start": 40.64,
+   "end": 41.36,
+   "paragraph": 3
+  }
+ ]
+}

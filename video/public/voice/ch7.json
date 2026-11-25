@@ -1,0 +1,1244 @@
+{
+ "chapter": 7,
+ "title": "Heat and the real world",
+ "characters": 1130,
+ "duration": 79.882449,
+ "words": [
+  {
+   "text": "One",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "question",
+   "start": 0.32,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 0.8,
+   "end": 0.88,
+   "paragraph": 0
+  },
+  {
+   "text": "left.",
+   "start": 1.08,
+   "end": 1.6,
+   "paragraph": 0
+  },
+  {
+   "text": "Every",
+   "start": 1.92,
+   "end": 2.24,
+   "paragraph": 0
+  },
+  {
+   "text": "time",
+   "start": 2.32,
+   "end": 2.48,
+   "paragraph": 0
+  },
+  {
+   "text": "an",
+   "start": 2.56,
+   "end": 2.64,
+   "paragraph": 0
+  },
+  {
+   "text": "electron",
+   "start": 2.88,
+   "end": 3.12,
+   "paragraph": 0
+  },
+  {
+   "text": "scatters,",
+   "start": 3.2,
+   "end": 4.08,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 4.2,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "loses",
+   "start": 4.4,
+   "end": 4.8,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 4.88,
+   "end": 4.96,
+   "paragraph": 0
+  },
+  {
+   "text": "energy",
+   "start": 5.04,
+   "end": 5.44,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 5.52,
+   "end": 5.68,
+   "paragraph": 0
+  },
+  {
+   "text": "field",
+   "start": 5.76,
+   "end": 6,
+   "paragraph": 0
+  },
+  {
+   "text": "has",
+   "start": 6.08,
+   "end": 6.32,
+   "paragraph": 0
+  },
+  {
+   "text": "just",
+   "start": 6.4,
+   "end": 6.64,
+   "paragraph": 0
+  },
+  {
+   "text": "given",
+   "start": 6.72,
+   "end": 6.96,
+   "paragraph": 0
+  },
+  {
+   "text": "it.",
+   "start": 7.04,
+   "end": 7.68,
+   "paragraph": 0
+  },
+  {
+   "text": "Where",
+   "start": 7.76,
+   "end": 7.92,
+   "paragraph": 0
+  },
+  {
+   "text": "does",
+   "start": 8,
+   "end": 8.08,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 8.16,
+   "end": 8.24,
+   "paragraph": 0
+  },
+  {
+   "text": "energy",
+   "start": 8.32,
+   "end": 8.64,
+   "paragraph": 0
+  },
+  {
+   "text": "go?",
+   "start": 8.72,
+   "end": 9.04,
+   "paragraph": 0
+  },
+  {
+   "text": "Into",
+   "start": 9.6,
+   "end": 9.92,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 10,
+   "end": 10.08,
+   "paragraph": 1
+  },
+  {
+   "text": "lattice.",
+   "start": 10.16,
+   "end": 11.04,
+   "paragraph": 1
+  },
+  {
+   "text": "Each",
+   "start": 11.36,
+   "end": 11.6,
+   "paragraph": 1
+  },
+  {
+   "text": "scattering",
+   "start": 11.68,
+   "end": 12.24,
+   "paragraph": 1
+  },
+  {
+   "text": "makes",
+   "start": 12.32,
+   "end": 12.56,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 12.64,
+   "end": 12.72,
+   "paragraph": 1
+  },
+  {
+   "text": "atoms",
+   "start": 12.96,
+   "end": 13.2,
+   "paragraph": 1
+  },
+  {
+   "text": "tremble",
+   "start": 13.28,
+   "end": 13.68,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 13.76,
+   "end": 13.84,
+   "paragraph": 1
+  },
+  {
+   "text": "little",
+   "start": 14,
+   "end": 14.24,
+   "paragraph": 1
+  },
+  {
+   "text": "harder,",
+   "start": 14.32,
+   "end": 15.04,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 15.12,
+   "end": 15.28,
+   "paragraph": 1
+  },
+  {
+   "text": "trembling",
+   "start": 15.36,
+   "end": 15.76,
+   "paragraph": 1
+  },
+  {
+   "text": "atoms",
+   "start": 16,
+   "end": 16.24,
+   "paragraph": 1
+  },
+  {
+   "text": "are,",
+   "start": 16.4,
+   "end": 16.8,
+   "paragraph": 1
+  },
+  {
+   "text": "quite",
+   "start": 16.96,
+   "end": 17.12,
+   "paragraph": 1
+  },
+  {
+   "text": "literally,",
+   "start": 17.24,
+   "end": 17.92,
+   "paragraph": 1
+  },
+  {
+   "text": "heat.",
+   "start": 18,
+   "end": 18.72,
+   "paragraph": 1
+  },
+  {
+   "text": "So",
+   "start": 19.04,
+   "end": 19.2,
+   "paragraph": 1
+  },
+  {
+   "text": "every",
+   "start": 19.28,
+   "end": 19.6,
+   "paragraph": 1
+  },
+  {
+   "text": "conductor",
+   "start": 19.68,
+   "end": 20.16,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 20.24,
+   "end": 20.4,
+   "paragraph": 1
+  },
+  {
+   "text": "carries",
+   "start": 20.48,
+   "end": 20.8,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 20.88,
+   "end": 20.96,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 21.16,
+   "end": 21.36,
+   "paragraph": 1
+  },
+  {
+   "text": "warms",
+   "start": 21.6,
+   "end": 21.92,
+   "paragraph": 1
+  },
+  {
+   "text": "up.",
+   "start": 22,
+   "end": 22.52,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 22.8,
+   "end": 22.96,
+   "paragraph": 2
+  },
+  {
+   "text": "power",
+   "start": 23.04,
+   "end": 23.28,
+   "paragraph": 2
+  },
+  {
+   "text": "turned",
+   "start": 23.36,
+   "end": 23.6,
+   "paragraph": 2
+  },
+  {
+   "text": "into",
+   "start": 23.68,
+   "end": 23.92,
+   "paragraph": 2
+  },
+  {
+   "text": "heat",
+   "start": 24,
+   "end": 24.32,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 24.48,
+   "end": 24.64,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 24.72,
+   "end": 24.8,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 24.88,
+   "end": 25.12,
+   "paragraph": 2
+  },
+  {
+   "text": "squared,",
+   "start": 25.2,
+   "end": 25.84,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 26,
+   "end": 26.16,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 26.24,
+   "end": 26.28,
+   "paragraph": 2
+  },
+  {
+   "text": "resistance.",
+   "start": 26.32,
+   "end": 27.04,
+   "paragraph": 2
+  },
+  {
+   "text": "P",
+   "start": 27.52,
+   "end": 27.76,
+   "paragraph": 2
+  },
+  {
+   "text": "equals",
+   "start": 27.92,
+   "end": 28.32,
+   "paragraph": 2
+  },
+  {
+   "text": "I",
+   "start": 28.48,
+   "end": 28.56,
+   "paragraph": 2
+  },
+  {
+   "text": "squared",
+   "start": 28.64,
+   "end": 29.04,
+   "paragraph": 2
+  },
+  {
+   "text": "R.",
+   "start": 29.28,
+   "end": 29.6,
+   "paragraph": 2
+  },
+  {
+   "text": "Sometimes",
+   "start": 30.16,
+   "end": 30.8,
+   "paragraph": 3
+  },
+  {
+   "text": "that",
+   "start": 31.04,
+   "end": 31.2,
+   "paragraph": 3
+  },
+  {
+   "text": "heat",
+   "start": 31.28,
+   "end": 31.6,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 31.68,
+   "end": 31.84,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 31.88,
+   "end": 31.92,
+   "paragraph": 3
+  },
+  {
+   "text": "whole",
+   "start": 32.08,
+   "end": 32.32,
+   "paragraph": 3
+  },
+  {
+   "text": "point.",
+   "start": 32.48,
+   "end": 32.88,
+   "paragraph": 3
+  },
+  {
+   "text": "A",
+   "start": 33.36,
+   "end": 33.44,
+   "paragraph": 3
+  },
+  {
+   "text": "heater,",
+   "start": 33.52,
+   "end": 34.16,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 34.2,
+   "end": 34.24,
+   "paragraph": 3
+  },
+  {
+   "text": "toaster",
+   "start": 34.32,
+   "end": 34.88,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 35.04,
+   "end": 35.2,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 35.28,
+   "end": 35.32,
+   "paragraph": 3
+  },
+  {
+   "text": "lamp",
+   "start": 35.36,
+   "end": 35.6,
+   "paragraph": 3
+  },
+  {
+   "text": "filament",
+   "start": 35.68,
+   "end": 36.16,
+   "paragraph": 3
+  },
+  {
+   "text": "are",
+   "start": 36.4,
+   "end": 36.56,
+   "paragraph": 3
+  },
+  {
+   "text": "made",
+   "start": 36.64,
+   "end": 36.8,
+   "paragraph": 3
+  },
+  {
+   "text": "from",
+   "start": 36.88,
+   "end": 37.04,
+   "paragraph": 3
+  },
+  {
+   "text": "high-resistivity",
+   "start": 37.12,
+   "end": 38,
+   "paragraph": 3
+  },
+  {
+   "text": "material",
+   "start": 38.08,
+   "end": 38.64,
+   "paragraph": 3
+  },
+  {
+   "text": "so",
+   "start": 38.88,
+   "end": 39.04,
+   "paragraph": 3
+  },
+  {
+   "text": "that",
+   "start": 39.12,
+   "end": 39.2,
+   "paragraph": 3
+  },
+  {
+   "text": "they",
+   "start": 39.28,
+   "end": 39.36,
+   "paragraph": 3
+  },
+  {
+   "text": "get",
+   "start": 39.44,
+   "end": 39.6,
+   "paragraph": 3
+  },
+  {
+   "text": "hot",
+   "start": 39.68,
+   "end": 39.92,
+   "paragraph": 3
+  },
+  {
+   "text": "on",
+   "start": 40.08,
+   "end": 40.16,
+   "paragraph": 3
+  },
+  {
+   "text": "purpose.",
+   "start": 40.32,
+   "end": 40.88,
+   "paragraph": 3
+  },
+  {
+   "text": "A",
+   "start": 41.36,
+   "end": 41.44,
+   "paragraph": 3
+  },
+  {
+   "text": "fuse",
+   "start": 41.52,
+   "end": 42,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 42.08,
+   "end": 42.16,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 42.24,
+   "end": 42.32,
+   "paragraph": 3
+  },
+  {
+   "text": "thin",
+   "start": 42.4,
+   "end": 42.64,
+   "paragraph": 3
+  },
+  {
+   "text": "wire",
+   "start": 42.72,
+   "end": 43.04,
+   "paragraph": 3
+  },
+  {
+   "text": "designed",
+   "start": 43.12,
+   "end": 43.6,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 43.64,
+   "end": 43.68,
+   "paragraph": 3
+  },
+  {
+   "text": "melt",
+   "start": 43.84,
+   "end": 44.16,
+   "paragraph": 3
+  },
+  {
+   "text": "when",
+   "start": 44.24,
+   "end": 44.4,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 44.44,
+   "end": 44.48,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 44.56,
+   "end": 44.88,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 44.96,
+   "end": 45.12,
+   "paragraph": 3
+  },
+  {
+   "text": "too",
+   "start": 45.2,
+   "end": 45.36,
+   "paragraph": 3
+  },
+  {
+   "text": "high,",
+   "start": 45.44,
+   "end": 46.08,
+   "paragraph": 3
+  },
+  {
+   "text": "breaking",
+   "start": 46.16,
+   "end": 46.48,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 46.56,
+   "end": 46.64,
+   "paragraph": 3
+  },
+  {
+   "text": "circuit",
+   "start": 46.72,
+   "end": 47.12,
+   "paragraph": 3
+  },
+  {
+   "text": "before",
+   "start": 47.2,
+   "end": 47.52,
+   "paragraph": 3
+  },
+  {
+   "text": "anything",
+   "start": 47.6,
+   "end": 48,
+   "paragraph": 3
+  },
+  {
+   "text": "else",
+   "start": 48.08,
+   "end": 48.24,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 48.32,
+   "end": 48.4,
+   "paragraph": 3
+  },
+  {
+   "text": "damaged.",
+   "start": 48.48,
+   "end": 49.28,
+   "paragraph": 3
+  },
+  {
+   "text": "But",
+   "start": 49.6,
+   "end": 49.68,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 49.76,
+   "end": 49.8,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 49.84,
+   "end": 49.92,
+   "paragraph": 4
+  },
+  {
+   "text": "power",
+   "start": 50,
+   "end": 50.24,
+   "paragraph": 4
+  },
+  {
+   "text": "line,",
+   "start": 50.32,
+   "end": 50.88,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 51,
+   "end": 51.12,
+   "paragraph": 4
+  },
+  {
+   "text": "heat",
+   "start": 51.2,
+   "end": 51.44,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 51.52,
+   "end": 51.68,
+   "paragraph": 4
+  },
+  {
+   "text": "pure",
+   "start": 51.84,
+   "end": 52.16,
+   "paragraph": 4
+  },
+  {
+   "text": "loss.",
+   "start": 52.32,
+   "end": 53,
+   "paragraph": 4
+  },
+  {
+   "text": "And",
+   "start": 53.28,
+   "end": 53.44,
+   "paragraph": 4
+  },
+  {
+   "text": "notice",
+   "start": 53.6,
+   "end": 53.76,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 53.84,
+   "end": 53.92,
+   "paragraph": 4
+  },
+  {
+   "text": "square.",
+   "start": 54.16,
+   "end": 54.48,
+   "paragraph": 4
+  },
+  {
+   "text": "Halve",
+   "start": 54.96,
+   "end": 55.28,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 55.32,
+   "end": 55.36,
+   "paragraph": 4
+  },
+  {
+   "text": "current",
+   "start": 55.44,
+   "end": 55.84,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 56,
+   "end": 56.08,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 56.16,
+   "end": 56.24,
+   "paragraph": 4
+  },
+  {
+   "text": "loss",
+   "start": 56.32,
+   "end": 56.64,
+   "paragraph": 4
+  },
+  {
+   "text": "falls",
+   "start": 56.72,
+   "end": 57.04,
+   "paragraph": 4
+  },
+  {
+   "text": "to",
+   "start": 57.08,
+   "end": 57.12,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 57.2,
+   "end": 57.28,
+   "paragraph": 4
+  },
+  {
+   "text": "quarter.",
+   "start": 57.36,
+   "end": 58.04,
+   "paragraph": 4
+  },
+  {
+   "text": "That",
+   "start": 58.32,
+   "end": 58.48,
+   "paragraph": 5
+  },
+  {
+   "text": "is",
+   "start": 58.56,
+   "end": 58.64,
+   "paragraph": 5
+  },
+  {
+   "text": "why",
+   "start": 58.72,
+   "end": 58.88,
+   "paragraph": 5
+  },
+  {
+   "text": "electricity",
+   "start": 58.96,
+   "end": 59.6,
+   "paragraph": 5
+  },
+  {
+   "text": "crosses",
+   "start": 59.68,
+   "end": 60.08,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 60.16,
+   "end": 60.24,
+   "paragraph": 5
+  },
+  {
+   "text": "country",
+   "start": 60.44,
+   "end": 60.64,
+   "paragraph": 5
+  },
+  {
+   "text": "at",
+   "start": 60.72,
+   "end": 60.88,
+   "paragraph": 5
+  },
+  {
+   "text": "hundreds",
+   "start": 61.04,
+   "end": 61.52,
+   "paragraph": 5
+  },
+  {
+   "text": "of",
+   "start": 61.6,
+   "end": 61.68,
+   "paragraph": 5
+  },
+  {
+   "text": "thousands",
+   "start": 61.84,
+   "end": 62.32,
+   "paragraph": 5
+  },
+  {
+   "text": "of",
+   "start": 62.4,
+   "end": 62.48,
+   "paragraph": 5
+  },
+  {
+   "text": "volts.",
+   "start": 62.6,
+   "end": 63.2,
+   "paragraph": 5
+  },
+  {
+   "text": "For",
+   "start": 63.44,
+   "end": 63.52,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 63.6,
+   "end": 63.68,
+   "paragraph": 5
+  },
+  {
+   "text": "same",
+   "start": 63.76,
+   "end": 63.92,
+   "paragraph": 5
+  },
+  {
+   "text": "power,",
+   "start": 64,
+   "end": 64.64,
+   "paragraph": 5
+  },
+  {
+   "text": "ten",
+   "start": 64.76,
+   "end": 64.88,
+   "paragraph": 5
+  },
+  {
+   "text": "times",
+   "start": 64.96,
+   "end": 65.2,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 65.28,
+   "end": 65.32,
+   "paragraph": 5
+  },
+  {
+   "text": "voltage",
+   "start": 65.36,
+   "end": 65.84,
+   "paragraph": 5
+  },
+  {
+   "text": "needs",
+   "start": 66,
+   "end": 66.24,
+   "paragraph": 5
+  },
+  {
+   "text": "only",
+   "start": 66.32,
+   "end": 66.56,
+   "paragraph": 5
+  },
+  {
+   "text": "one",
+   "start": 66.72,
+   "end": 66.88,
+   "paragraph": 5
+  },
+  {
+   "text": "tenth",
+   "start": 67.04,
+   "end": 67.36,
+   "paragraph": 5
+  },
+  {
+   "text": "of",
+   "start": 67.44,
+   "end": 67.52,
+   "paragraph": 5
+  },
+  {
+   "text": "the",
+   "start": 67.56,
+   "end": 67.6,
+   "paragraph": 5
+  },
+  {
+   "text": "current,",
+   "start": 67.68,
+   "end": 68.32,
+   "paragraph": 5
+  },
+  {
+   "text": "and",
+   "start": 68.4,
+   "end": 68.48,
+   "paragraph": 5
+  },
+  {
+   "text": "loses",
+   "start": 68.56,
+   "end": 68.96,
+   "paragraph": 5
+  },
+  {
+   "text": "just",
+   "start": 69.12,
+   "end": 69.36,
+   "paragraph": 5
+  },
+  {
+   "text": "one",
+   "start": 69.52,
+   "end": 69.68,
+   "paragraph": 5
+  },
+  {
+   "text": "hundredth",
+   "start": 69.84,
+   "end": 70.32,
+   "paragraph": 5
+  },
+  {
+   "text": "as",
+   "start": 70.4,
+   "end": 70.56,
+   "paragraph": 5
+  },
+  {
+   "text": "much",
+   "start": 70.64,
+   "end": 70.8,
+   "paragraph": 5
+  },
+  {
+   "text": "as",
+   "start": 70.88,
+   "end": 71.04,
+   "paragraph": 5
+  },
+  {
+   "text": "heat.",
+   "start": 71.2,
+   "end": 71.44,
+   "paragraph": 5
+  },
+  {
+   "text": "It",
+   "start": 71.92,
+   "end": 72,
+   "paragraph": 6
+  },
+  {
+   "text": "is",
+   "start": 72.08,
+   "end": 72.16,
+   "paragraph": 6
+  },
+  {
+   "text": "also",
+   "start": 72.24,
+   "end": 72.56,
+   "paragraph": 6
+  },
+  {
+   "text": "why",
+   "start": 72.64,
+   "end": 72.88,
+   "paragraph": 6
+  },
+  {
+   "text": "every",
+   "start": 73.04,
+   "end": 73.36,
+   "paragraph": 6
+  },
+  {
+   "text": "cable",
+   "start": 73.44,
+   "end": 73.76,
+   "paragraph": 6
+  },
+  {
+   "text": "has",
+   "start": 73.84,
+   "end": 74,
+   "paragraph": 6
+  },
+  {
+   "text": "a",
+   "start": 74.04,
+   "end": 74.08,
+   "paragraph": 6
+  },
+  {
+   "text": "current",
+   "start": 74.24,
+   "end": 74.48,
+   "paragraph": 6
+  },
+  {
+   "text": "rating.",
+   "start": 74.56,
+   "end": 75.2,
+   "paragraph": 6
+  },
+  {
+   "text": "Push",
+   "start": 75.44,
+   "end": 75.68,
+   "paragraph": 6
+  },
+  {
+   "text": "more",
+   "start": 75.76,
+   "end": 76,
+   "paragraph": 6
+  },
+  {
+   "text": "through",
+   "start": 76.12,
+   "end": 76.24,
+   "paragraph": 6
+  },
+  {
+   "text": "it",
+   "start": 76.32,
+   "end": 76.4,
+   "paragraph": 6
+  },
+  {
+   "text": "than",
+   "start": 76.48,
+   "end": 76.56,
+   "paragraph": 6
+  },
+  {
+   "text": "it",
+   "start": 76.6,
+   "end": 76.64,
+   "paragraph": 6
+  },
+  {
+   "text": "was",
+   "start": 76.72,
+   "end": 76.88,
+   "paragraph": 6
+  },
+  {
+   "text": "sized",
+   "start": 76.92,
+   "end": 77.2,
+   "paragraph": 6
+  },
+  {
+   "text": "for,",
+   "start": 77.28,
+   "end": 77.76,
+   "paragraph": 6
+  },
+  {
+   "text": "and",
+   "start": 77.84,
+   "end": 77.92,
+   "paragraph": 6
+  },
+  {
+   "text": "the",
+   "start": 78,
+   "end": 78.08,
+   "paragraph": 6
+  },
+  {
+   "text": "heat",
+   "start": 78.16,
+   "end": 78.4,
+   "paragraph": 6
+  },
+  {
+   "text": "has",
+   "start": 78.56,
+   "end": 78.72,
+   "paragraph": 6
+  },
+  {
+   "text": "nowhere",
+   "start": 78.88,
+   "end": 79.2,
+   "paragraph": 6
+  },
+  {
+   "text": "to",
+   "start": 79.28,
+   "end": 79.36,
+   "paragraph": 6
+  },
+  {
+   "text": "go.",
+   "start": 79.48,
+   "end": 79.92,
+   "paragraph": 6
+  }
+ ]
+}

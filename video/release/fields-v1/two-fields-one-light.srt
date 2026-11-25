@@ -1,0 +1,1215 @@
+1
+00:00:00,667 --> 00:00:04,567
+Over the last four videos, we have met two fields.
+
+2
+00:00:04,587 --> 00:00:07,407
+The electric field is made by charge.
+
+3
+00:00:07,427 --> 00:00:11,217
+Its lines begin on positive charge and end on negative.
+
+4
+00:00:11,627 --> 00:00:15,047
+It pushes on any charge, whether that charge is moving
+
+5
+00:00:15,067 --> 00:00:16,167
+or not.
+
+6
+00:00:16,187 --> 00:00:19,447
+It is the field between the plates of a capacitor.
+
+7
+00:00:19,467 --> 00:00:23,087
+The magnetic field is made by charge in motion.
+
+8
+00:00:23,107 --> 00:00:26,007
+Its lines have no beginning and no end.
+
+9
+00:00:26,027 --> 00:00:29,087
+It pushes only on charge that is moving.
+
+10
+00:00:29,107 --> 00:00:32,247
+It is the field in and around a coil.
+
+11
+00:00:32,267 --> 00:00:35,847
+So far, the only thing connecting them is charge.
+
+12
+00:00:35,867 --> 00:00:37,927
+A charge makes one field.
+
+13
+00:00:37,947 --> 00:00:41,047
+Set it moving, and it makes the other as well.
+
+14
+00:00:41,067 --> 00:00:43,207
+But here is a deeper question.
+
+15
+00:00:43,227 --> 00:00:45,847
+Can the fields act on each other directly,
+
+16
+00:00:45,867 --> 00:00:47,527
+with no charge in between?
+
+17
+00:00:47,547 --> 00:00:50,034
+Can one field make the other?
+
+18
+00:00:50,054 --> 00:00:52,807
+The answer took thirty years to find.
+
+19
+00:00:52,827 --> 00:00:56,967
+It explains how a phone charges on a pad without any contacts,
+
+20
+00:00:56,987 --> 00:00:59,367
+how a radio signal crosses an ocean,
+
+21
+00:00:59,387 --> 00:01:01,617
+and what light actually is.
+
+22
+00:01:02,967 --> 00:01:06,627
+The first half of the answer came from Michael Faraday.
+
+23
+00:01:06,647 --> 00:01:10,387
+Once Oersted had shown that electricity makes magnetism,
+
+24
+00:01:10,407 --> 00:01:13,587
+Faraday was sure the reverse must be possible.
+
+25
+00:01:13,607 --> 00:01:18,387
+He wrote himself a note: convert magnetism into electricity.
+
+26
+00:01:18,407 --> 00:01:20,547
+It took him ten years.
+
+27
+00:01:20,567 --> 00:01:22,627
+In August of eighteen thirty-one,
+
+28
+00:01:22,647 --> 00:01:26,067
+he wound two separate coils on an iron ring.
+
+29
+00:01:26,087 --> 00:01:27,614
+One went to a battery.
+
+30
+00:01:27,634 --> 00:01:29,560
+The other went to a meter.
+
+31
+00:01:29,580 --> 00:01:31,934
+There was no connection between them.
+
+32
+00:01:31,954 --> 00:01:34,254
+With a steady current in the first coil,
+
+33
+00:01:34,274 --> 00:01:36,547
+the meter showed nothing at all.
+
+34
+00:01:36,567 --> 00:01:38,747
+That was why everyone had failed.
+
+35
+00:01:38,767 --> 00:01:41,267
+They had been looking for a steady effect.
+
+36
+00:01:41,287 --> 00:01:44,627
+But Faraday noticed that at the instant he switched the
+
+37
+00:01:44,647 --> 00:01:47,027
+current on, the needle kicked.
+
+38
+00:01:47,047 --> 00:01:48,574
+Then it settled back.
+
+39
+00:01:48,594 --> 00:01:51,774
+And when he switched off, it kicked the other way.
+
+40
+00:01:51,794 --> 00:01:54,547
+You can see the same thing with a bar magnet and a coil
+
+41
+00:01:54,567 --> 00:01:55,587
+of wire.
+
+42
+00:01:55,607 --> 00:01:58,467
+Push the magnet in, and a current flows.
+
+43
+00:01:58,487 --> 00:02:00,814
+Hold it still, however strong it is,
+
+44
+00:02:00,834 --> 00:02:02,267
+and nothing happens.
+
+45
+00:02:02,287 --> 00:02:05,374
+Pull it out, and the current flows the other way.
+
+46
+00:02:05,394 --> 00:02:08,227
+A steady magnetic field does nothing.
+
+47
+00:02:08,247 --> 00:02:11,187
+Only a changing one drives a current.
+
+48
+00:02:11,207 --> 00:02:13,347
+Now think about what that means.
+
+49
+00:02:13,367 --> 00:02:16,307
+The charges in that wire were sitting at rest,
+
+50
+00:02:16,327 --> 00:02:18,334
+and something pushed them.
+
+51
+00:02:18,354 --> 00:02:21,587
+A magnetic field cannot push a charge at rest.
+
+52
+00:02:21,607 --> 00:02:23,827
+Only an electric field can.
+
+53
+00:02:23,847 --> 00:02:28,507
+So a changing magnetic field must create an electric field.
+
+54
+00:02:28,527 --> 00:02:31,534
+And it is an electric field of a new kind.
+
+55
+00:02:31,554 --> 00:02:35,117
+The fields we met before start on one charge and end on
+
+56
+00:02:35,407 --> 00:02:36,027
+another.
+
+57
+00:02:36,047 --> 00:02:39,347
+This one has no charges to start or end on.
+
+58
+00:02:39,367 --> 00:02:42,307
+Its lines close on themselves, in loops,
+
+59
+00:02:42,327 --> 00:02:44,707
+circling the changing magnetic field.
+
+60
+00:02:44,727 --> 00:02:47,027
+The wire only reveals it.
+
+61
+00:02:47,047 --> 00:02:49,987
+Take the wire away, and the loops of electric field are
+
+62
+00:02:50,007 --> 00:02:52,387
+still there, in empty space.
+
+63
+00:02:52,407 --> 00:02:54,227
+You may have this in your kitchen.
+
+64
+00:02:54,247 --> 00:02:57,587
+Under the glass of an induction cooker is a coil carrying
+
+65
+00:02:57,607 --> 00:02:59,720
+a rapidly changing current.
+
+66
+00:02:59,740 --> 00:03:02,974
+Its changing magnetic field passes up through the glass,
+
+67
+00:03:02,994 --> 00:03:05,837
+and creates loops of electric field in the base of the
+
+68
+00:03:06,087 --> 00:03:06,547
+pan.
+
+69
+00:03:06,567 --> 00:03:08,574
+Those drive currents in the metal,
+
+70
+00:03:08,594 --> 00:03:10,654
+and the pan heats itself.
+
+71
+00:03:10,674 --> 00:03:13,707
+The glass stays cool, because there is nothing in glass
+
+72
+00:03:13,727 --> 00:03:15,357
+for the field to push around.
+
+73
+00:03:16,733 --> 00:03:19,593
+Faraday was a brilliant experimenter,
+
+74
+00:03:19,613 --> 00:03:22,163
+but he had almost no mathematics.
+
+75
+00:03:22,653 --> 00:03:26,633
+Thirty years later, a Scottish physicist named James Clerk
+
+76
+00:03:26,653 --> 00:03:31,163
+Maxwell set out to turn Faraday's pictures into equations.
+
+77
+00:03:31,293 --> 00:03:33,833
+He wrote down everything that was known,
+
+78
+00:03:33,853 --> 00:03:37,323
+and he found that the rules did not quite fit together.
+
+79
+00:03:37,453 --> 00:03:40,003
+The trouble showed up in a capacitor.
+
+80
+00:03:40,173 --> 00:03:42,483
+Think of a capacitor being charged.
+
+81
+00:03:42,573 --> 00:03:45,833
+Current flows along the wire, and around the wire there
+
+82
+00:03:45,853 --> 00:03:50,083
+is a magnetic field, in rings, exactly as Oersted found.
+
+83
+00:03:50,413 --> 00:03:52,643
+Now follow the wire to the plate.
+
+84
+00:03:52,733 --> 00:03:54,963
+Between the plates there is a gap.
+
+85
+00:03:55,053 --> 00:03:56,603
+No charge crosses it.
+
+86
+00:03:56,653 --> 00:03:58,603
+There is no current there at all.
+
+87
+00:03:58,733 --> 00:04:01,043
+So what happens to the magnetic field?
+
+88
+00:04:01,293 --> 00:04:03,913
+Does it simply stop, at the edge of the plate,
+
+89
+00:04:03,933 --> 00:04:05,683
+and start again on the other side?
+
+90
+00:04:06,013 --> 00:04:08,243
+A field cannot be cut off like that.
+
+91
+00:04:08,573 --> 00:04:10,763
+But look at what is in the gap.
+
+92
+00:04:10,813 --> 00:04:12,163
+It is not empty.
+
+93
+00:04:12,253 --> 00:04:15,433
+As the plates charge, the electric field between them
+
+94
+00:04:15,453 --> 00:04:18,123
+is growing stronger every instant.
+
+95
+00:04:18,253 --> 00:04:21,003
+Maxwell proposed that this is enough.
+
+96
+00:04:21,053 --> 00:04:24,153
+A changing electric field makes a magnetic field around
+
+97
+00:04:24,173 --> 00:04:26,243
+it, just as a current does.
+
+98
+00:04:26,333 --> 00:04:29,793
+With that one addition, the rings of magnetic field carry
+
+99
+00:04:29,813 --> 00:04:33,033
+on smoothly around the gap, and the rules fit together
+
+100
+00:04:33,053 --> 00:04:34,043
+everywhere.
+
+101
+00:04:34,173 --> 00:04:36,443
+Nobody had ever seen this effect.
+
+102
+00:04:36,493 --> 00:04:40,003
+It is far too small to detect with a compass and a capacitor.
+
+103
+00:04:40,253 --> 00:04:43,753
+Maxwell added it because the mathematics demanded it,
+
+104
+00:04:43,773 --> 00:04:46,483
+and because of what it led to next.
+
+105
+00:04:47,833 --> 00:04:50,303
+Now put the two halves side by side.
+
+106
+00:04:50,633 --> 00:04:54,183
+A changing magnetic field makes an electric field.
+
+107
+00:04:54,313 --> 00:04:57,783
+A changing electric field makes a magnetic field.
+
+108
+00:04:57,913 --> 00:04:59,463
+Do you see what follows?
+
+109
+00:04:59,593 --> 00:05:01,743
+Take a charge and give it a shake.
+
+110
+00:05:01,993 --> 00:05:04,103
+Its electric field changes.
+
+111
+00:05:04,233 --> 00:05:07,263
+That change makes a magnetic field around it.
+
+112
+00:05:07,433 --> 00:05:10,613
+But a moment ago that magnetic field was not there,
+
+113
+00:05:10,633 --> 00:05:12,463
+so it is changing too.
+
+114
+00:05:12,553 --> 00:05:15,853
+And a changing magnetic field makes an electric field,
+
+115
+00:05:15,873 --> 00:05:17,263
+a little further out.
+
+116
+00:05:17,353 --> 00:05:21,093
+Which is new, and changing, and so makes a magnetic field
+
+117
+00:05:21,113 --> 00:05:22,223
+beyond that.
+
+118
+00:05:22,313 --> 00:05:25,893
+It is like a row of dominoes, where each one falling tips
+
+119
+00:05:25,913 --> 00:05:26,783
+the next.
+
+120
+00:05:26,873 --> 00:05:29,343
+Except that here there are no dominoes.
+
+121
+00:05:29,753 --> 00:05:33,333
+Each field creates the other, one step further on,
+
+122
+00:05:33,353 --> 00:05:34,703
+in empty space.
+
+123
+00:05:34,793 --> 00:05:37,733
+So the disturbance does not stay near the charge.
+
+124
+00:05:37,753 --> 00:05:40,223
+It travels outward by itself.
+
+125
+00:05:40,313 --> 00:05:43,983
+The charge can stop moving, and the ripple carries on.
+
+126
+00:05:44,153 --> 00:05:48,423
+Maxwell had found, on paper, an electromagnetic wave.
+
+127
+00:05:48,473 --> 00:05:50,263
+It has a particular shape.
+
+128
+00:05:50,393 --> 00:05:53,413
+Flick a rope, and the rope moves up and down while the
+
+129
+00:05:53,433 --> 00:05:54,863
+hump travels along.
+
+130
+00:05:55,113 --> 00:05:58,413
+In the same way, the electric field in the wave points
+
+131
+00:05:58,433 --> 00:06:00,143
+across the direction of travel.
+
+132
+00:06:00,393 --> 00:06:02,933
+The magnetic field points across it too,
+
+133
+00:06:02,953 --> 00:06:05,223
+at right angles to the electric field.
+
+134
+00:06:05,273 --> 00:06:07,733
+And the two rise and fall together,
+
+135
+00:06:07,753 --> 00:06:08,543
+in step.
+
+136
+00:06:08,873 --> 00:06:10,933
+Unlike the hump on a rope, though,
+
+137
+00:06:10,953 --> 00:06:13,383
+this wave needs nothing to travel in.
+
+138
+00:06:13,433 --> 00:06:15,663
+The fields carry themselves.
+
+139
+00:06:17,033 --> 00:06:19,263
+How fast does such a wave travel?
+
+140
+00:06:19,673 --> 00:06:23,423
+Maxwell could work it out, and he needed only two numbers.
+
+141
+00:06:23,753 --> 00:06:25,423
+We have already met both.
+
+142
+00:06:25,753 --> 00:06:28,783
+The first appeared in the formula for a capacitor.
+
+143
+00:06:28,873 --> 00:06:32,853
+It tells us how strong the electric field of a given charge
+
+144
+00:06:32,873 --> 00:06:33,543
+is.
+
+145
+00:06:33,753 --> 00:06:36,623
+The second appeared in the formula for a coil.
+
+146
+00:06:36,953 --> 00:06:40,693
+It tells us how strong the magnetic field of a given current
+
+147
+00:06:40,713 --> 00:06:41,183
+is.
+
+148
+00:06:41,753 --> 00:06:44,133
+Neither has anything to do with waves,
+
+149
+00:06:44,153 --> 00:06:45,103
+or with speed.
+
+150
+00:06:45,513 --> 00:06:48,453
+You measure them on a bench, with metal plates,
+
+151
+00:06:48,473 --> 00:06:51,383
+coils of wire, and a sensitive balance.
+
+152
+00:06:51,593 --> 00:06:54,853
+Two German physicists, Weber and Kohlrausch,
+
+153
+00:06:54,873 --> 00:06:58,143
+had done exactly that in eighteen fifty-six.
+
+154
+00:06:58,313 --> 00:07:01,023
+Maxwell put their figures into his equations.
+
+155
+00:07:01,353 --> 00:07:05,583
+Out came a speed: three hundred and ten thousand kilometres
+
+156
+00:07:05,673 --> 00:07:07,143
+every second.
+
+157
+00:07:07,433 --> 00:07:09,623
+He had seen a number like that before.
+
+158
+00:07:09,753 --> 00:07:12,106
+A few years earlier, in France,
+
+159
+00:07:12,126 --> 00:07:15,093
+Hippolyte Fizeau had sent a beam of light through the
+
+160
+00:07:15,113 --> 00:07:18,453
+teeth of a spinning wheel to a mirror eight kilometres
+
+161
+00:07:18,473 --> 00:07:21,463
+away, and timed its journey there and back.
+
+162
+00:07:21,593 --> 00:07:24,573
+His result for the speed of light was three hundred and
+
+163
+00:07:24,593 --> 00:07:26,783
+fifteen thousand kilometres a second.
+
+164
+00:07:27,433 --> 00:07:30,303
+One number came from charged plates and coils.
+
+165
+00:07:30,553 --> 00:07:33,583
+The other came from a light beam and a toothed wheel.
+
+166
+00:07:33,913 --> 00:07:36,423
+They agreed to within two percent.
+
+167
+00:07:36,633 --> 00:07:40,063
+Maxwell wrote that we can scarcely avoid the conclusion
+
+168
+00:07:40,153 --> 00:07:43,423
+that light itself is an electromagnetic wave.
+
+169
+00:07:43,913 --> 00:07:48,133
+Until then, optics, electricity and magnetism had been
+
+170
+00:07:48,153 --> 00:07:49,983
+three separate sciences.
+
+171
+00:07:50,073 --> 00:07:52,463
+From that moment, they were one.
+
+172
+00:07:53,833 --> 00:07:56,143
+But it was still only a prediction.
+
+173
+00:07:56,473 --> 00:07:59,103
+Maxwell died in eighteen seventy-nine,
+
+174
+00:07:59,153 --> 00:08:00,853
+without seeing it tested.
+
+175
+00:08:00,873 --> 00:08:03,013
+The proof came eight years later,
+
+176
+00:08:03,033 --> 00:08:06,423
+from a young German professor, Heinrich Hertz.
+
+177
+00:08:06,633 --> 00:08:10,333
+If Maxwell was right, then charge rushing back and forth
+
+178
+00:08:10,353 --> 00:08:12,133
+should send out waves.
+
+179
+00:08:12,153 --> 00:08:14,373
+So on one side of his laboratory,
+
+180
+00:08:14,393 --> 00:08:18,533
+Hertz set up two brass rods with a small gap between them,
+
+181
+00:08:18,553 --> 00:08:21,653
+and made a spark leap back and forth across it,
+
+182
+00:08:21,673 --> 00:08:24,213
+many millions of times a second.
+
+183
+00:08:24,233 --> 00:08:27,333
+On the other side of the room, he held a simple loop of
+
+184
+00:08:27,353 --> 00:08:29,933
+wire with a tiny gap of its own.
+
+185
+00:08:29,953 --> 00:08:31,813
+It was connected to nothing.
+
+186
+00:08:31,833 --> 00:08:34,053
+No battery, no wires.
+
+187
+00:08:34,073 --> 00:08:37,733
+When the first spark fired, a faint spark appeared in
+
+188
+00:08:37,753 --> 00:08:39,253
+the gap of the loop.
+
+189
+00:08:39,273 --> 00:08:41,613
+Something had crossed the room.
+
+190
+00:08:41,633 --> 00:08:44,693
+Hertz went on to test it as you would test light.
+
+191
+00:08:44,713 --> 00:08:47,533
+A metal sheet reflected it, like a mirror.
+
+192
+00:08:47,553 --> 00:08:49,573
+A curved one focused it.
+
+193
+00:08:49,593 --> 00:08:51,493
+And when he measured its speed,
+
+194
+00:08:51,513 --> 00:08:53,743
+it was the speed of light.
+
+195
+00:08:53,793 --> 00:08:56,213
+Asked what use his discovery might be,
+
+196
+00:08:56,233 --> 00:08:59,253
+he is said to have replied: none at all.
+
+197
+00:08:59,273 --> 00:09:01,013
+He was wrong about that.
+
+198
+00:09:01,033 --> 00:09:04,543
+In nineteen hundred and one, Guglielmo Marconi sent a
+
+199
+00:09:04,593 --> 00:09:06,453
+signal across the Atlantic.
+
+200
+00:09:06,473 --> 00:09:10,133
+Today the unit of frequency, one cycle each second,
+
+201
+00:09:10,153 --> 00:09:12,013
+is called the hertz.
+
+202
+00:09:12,033 --> 00:09:14,853
+Hertz's waves were a few metres long.
+
+203
+00:09:14,873 --> 00:09:17,663
+Light waves are less than a thousandth of a millimetre
+
+204
+00:09:17,873 --> 00:09:18,453
+long.
+
+205
+00:09:18,473 --> 00:09:21,173
+That is the only difference between them.
+
+206
+00:09:21,193 --> 00:09:23,813
+Radio waves, as long as a building.
+
+207
+00:09:23,833 --> 00:09:26,133
+Microwaves, the size of your hand,
+
+208
+00:09:26,153 --> 00:09:28,293
+which is why they fit inside an oven.
+
+209
+00:09:28,313 --> 00:09:30,960
+Infrared, which you feel as warmth.
+
+210
+00:09:30,980 --> 00:09:33,493
+The narrow band that your eyes can detect.
+
+211
+00:09:33,513 --> 00:09:34,853
+Ultraviolet.
+
+212
+00:09:34,873 --> 00:09:37,413
+X-rays, smaller than an atom.
+
+213
+00:09:37,433 --> 00:09:41,653
+They are all the same thing: electric and magnetic fields,
+
+214
+00:09:41,673 --> 00:09:45,583
+each creating the other, crossing space at the same speed.
+
+215
+00:09:46,967 --> 00:09:50,557
+There is one more step, and it is the strangest.
+
+216
+00:09:51,047 --> 00:09:53,277
+Picture a charge sitting on a table.
+
+217
+00:09:53,607 --> 00:09:55,357
+You are standing beside it.
+
+218
+00:09:55,767 --> 00:09:58,187
+Around it there is an electric field,
+
+219
+00:09:58,207 --> 00:10:00,077
+and no magnetic field at all.
+
+220
+00:10:00,407 --> 00:10:02,717
+A compass in your hand does nothing.
+
+221
+00:10:03,287 --> 00:10:05,597
+Now a friend walks past the table.
+
+222
+00:10:05,927 --> 00:10:08,557
+From where they are, the charge is moving.
+
+223
+00:10:08,887 --> 00:10:12,317
+And we learned that a moving charge makes a magnetic field.
+
+224
+00:10:12,647 --> 00:10:15,277
+So your friend's compass should swing.
+
+225
+00:10:15,447 --> 00:10:16,477
+Who is right?
+
+226
+00:10:16,567 --> 00:10:19,237
+Is there a magnetic field or not?
+
+227
+00:10:19,687 --> 00:10:20,717
+Both are right.
+
+228
+00:10:21,127 --> 00:10:24,707
+In nineteen hundred and five, Albert Einstein opened his
+
+229
+00:10:24,727 --> 00:10:28,237
+most famous paper with exactly this puzzle.
+
+230
+00:10:28,407 --> 00:10:31,667
+His answer was that the electric field and the magnetic
+
+231
+00:10:31,687 --> 00:10:34,387
+field are not two separate things.
+
+232
+00:10:34,407 --> 00:10:36,867
+They are two faces of one thing,
+
+233
+00:10:36,887 --> 00:10:39,107
+the electromagnetic field.
+
+234
+00:10:39,127 --> 00:10:41,187
+How much of it appears as electric,
+
+235
+00:10:41,207 --> 00:10:45,467
+and how much as magnetic, depends on how you are moving.
+
+236
+00:10:45,487 --> 00:10:47,747
+It is a little like looking at a coin.
+
+237
+00:10:47,767 --> 00:10:49,987
+From the front you see a circle.
+
+238
+00:10:50,007 --> 00:10:51,917
+From the edge you see a line.
+
+239
+00:10:52,247 --> 00:10:54,077
+The coin has not changed.
+
+240
+00:10:54,167 --> 00:10:55,277
+You have.
+
+241
+00:10:55,447 --> 00:10:59,277
+That is why the two fields are bound so tightly together.
+
+242
+00:10:59,367 --> 00:11:00,877
+They were never really two.
+
+243
+00:11:01,687 --> 00:11:04,987
+The equations that describe this single field were tidied
+
+244
+00:11:05,007 --> 00:11:08,067
+into the form we use today by Oliver Heaviside,
+
+245
+00:11:08,087 --> 00:11:09,907
+in eighteen eighty-four.
+
+246
+00:11:09,927 --> 00:11:14,157
+He reduced Maxwell's twenty equations to four short lines.
+
+247
+00:11:14,487 --> 00:11:17,837
+Every electrical machine ever built obeys them.
+
+248
+00:11:19,200 --> 00:11:23,230
+For an engineer, this changes how you look at every circuit.
+
+249
+00:11:23,360 --> 00:11:25,100
+Start with something small.
+
+250
+00:11:25,120 --> 00:11:27,740
+A wireless charging pad has a coil in it,
+
+251
+00:11:27,760 --> 00:11:29,700
+carrying a changing current.
+
+252
+00:11:29,720 --> 00:11:32,460
+Your phone has a second coil in its back.
+
+253
+00:11:32,480 --> 00:11:35,820
+The changing magnetic field of the first creates an electric
+
+254
+00:11:35,840 --> 00:11:38,900
+field in the second, and drives a current that charges
+
+255
+00:11:38,920 --> 00:11:39,980
+the battery.
+
+256
+00:11:40,000 --> 00:11:41,340
+Nothing touches.
+
+257
+00:11:41,360 --> 00:11:44,380
+The energy crosses the gap as field.
+
+258
+00:11:44,400 --> 00:11:46,580
+A transformer is the same idea,
+
+259
+00:11:46,600 --> 00:11:49,420
+built to carry the power of a whole town.
+
+260
+00:11:49,440 --> 00:11:52,940
+Two coils that never touch, linked only by a changing
+
+261
+00:11:52,960 --> 00:11:54,420
+magnetic field.
+
+262
+00:11:54,440 --> 00:11:57,020
+An antenna goes one step further.
+
+263
+00:11:57,040 --> 00:12:00,220
+Charge is driven up and down a wire so quickly that its
+
+264
+00:12:00,240 --> 00:12:01,900
+fields cannot keep up.
+
+265
+00:12:01,920 --> 00:12:04,860
+They break away and travel off as waves.
+
+266
+00:12:04,880 --> 00:12:08,380
+Far away, a second antenna sits in the passing wave,
+
+267
+00:12:08,400 --> 00:12:11,340
+and the wave's electric field pushes its charges back
+
+268
+00:12:11,360 --> 00:12:12,300
+and forth.
+
+269
+00:12:12,320 --> 00:12:15,100
+That tiny current is your radio signal.
+
+270
+00:12:15,120 --> 00:12:18,327
+Even in an ordinary cable, the picture changes.
+
+271
+00:12:18,347 --> 00:12:21,527
+The energy does not really travel inside the copper.
+
+272
+00:12:21,547 --> 00:12:25,180
+It travels in the fields around and between the two conductors,
+
+273
+00:12:25,200 --> 00:12:28,220
+guided by them, at close to the speed of light.
+
+274
+00:12:28,240 --> 00:12:31,340
+The electrons themselves, as we saw in the first video,
+
+275
+00:12:31,360 --> 00:12:32,807
+barely crawl.
+
+276
+00:12:32,827 --> 00:12:34,860
+And that speed, though enormous,
+
+277
+00:12:34,880 --> 00:12:36,540
+is not infinite.
+
+278
+00:12:36,560 --> 00:12:40,060
+At fifty cycles a second, one wavelength is six thousand
+
+279
+00:12:40,080 --> 00:12:41,473
+kilometres long.
+
+280
+00:12:41,493 --> 00:12:43,420
+On a very long transmission line,
+
+281
+00:12:43,440 --> 00:12:46,780
+the voltage at the far end is noticeably out of step with
+
+282
+00:12:46,800 --> 00:12:48,673
+the voltage at the near end.
+
+283
+00:12:48,693 --> 00:12:50,950
+Power engineers have to design for that.
+
+284
+00:12:52,300 --> 00:12:53,810
+So let's put it together.
+
+285
+00:12:54,140 --> 00:12:56,210
+Charge makes an electric field.
+
+286
+00:12:56,540 --> 00:12:59,250
+Moving charge makes a magnetic field.
+
+287
+00:12:59,340 --> 00:13:02,810
+A changing magnetic field makes an electric field.
+
+288
+00:13:02,860 --> 00:13:04,120
+That was Faraday.
+
+289
+00:13:04,140 --> 00:13:07,480
+A changing electric field makes a magnetic field.
+
+290
+00:13:07,500 --> 00:13:08,810
+That was Maxwell.
+
+291
+00:13:08,860 --> 00:13:11,880
+Because each makes the other, the two can travel through
+
+292
+00:13:11,900 --> 00:13:14,250
+empty space together as a wave.
+
+293
+00:13:14,300 --> 00:13:16,090
+Hertz found that wave.
+
+294
+00:13:16,140 --> 00:13:17,810
+Light is one kind of it.
+
+295
+00:13:17,980 --> 00:13:21,880
+And the two fields are really two faces of one electromagnetic
+
+296
+00:13:21,900 --> 00:13:22,610
+field.
+
+297
+00:13:22,700 --> 00:13:25,560
+One of those links matters more to an electrical engineer
+
+298
+00:13:25,580 --> 00:13:30,090
+than any other: a changing magnetic field makes a voltage.
+
+299
+00:13:30,220 --> 00:13:32,880
+Next time, in the last video of this series,
+
+300
+00:13:32,900 --> 00:13:34,560
+we take it apart properly.
+
+301
+00:13:34,580 --> 00:13:37,080
+It is called electromagnetic induction,
+
+302
+00:13:37,100 --> 00:13:41,160
+and it runs every generator and every transformer on Earth.
+
+303
+00:13:41,180 --> 00:13:44,320
+If this helped you see it, and not just calculate it,
+
+304
+00:13:44,340 --> 00:13:47,250
+please like, share, and subscribe to this channel.

@@ -1,0 +1,847 @@
+1
+00:00:00,667 --> 00:00:02,807
+In the spring of eighteen twenty,
+
+2
+00:00:02,827 --> 00:00:06,687
+a Danish professor named Hans Christian Oersted was giving
+
+3
+00:00:06,707 --> 00:00:08,097
+an evening lecture.
+
+4
+00:00:08,267 --> 00:00:11,767
+On his bench lay a battery, a length of wire,
+
+5
+00:00:11,787 --> 00:00:14,457
+and, by chance, a compass.
+
+6
+00:00:14,587 --> 00:00:16,257
+He closed the circuit.
+
+7
+00:00:16,347 --> 00:00:18,497
+And the compass needle moved.
+
+8
+00:00:18,667 --> 00:00:20,177
+Nothing was touching it.
+
+9
+00:00:20,267 --> 00:00:21,857
+No magnet was near it.
+
+10
+00:00:22,267 --> 00:00:26,417
+A current in a wire had reached out and turned a magnet.
+
+11
+00:00:26,587 --> 00:00:30,167
+For two thousand years, people had treated electricity
+
+12
+00:00:30,187 --> 00:00:32,817
+and magnetism as two separate things.
+
+13
+00:00:33,307 --> 00:00:36,087
+That evening, in front of a few students,
+
+14
+00:00:36,107 --> 00:00:38,337
+the wall between them cracked.
+
+15
+00:00:38,507 --> 00:00:42,177
+To see why it mattered, we have to go back to the beginning.
+
+16
+00:00:43,533 --> 00:00:46,633
+The ancient Greeks knew of a dark stone,
+
+17
+00:00:46,653 --> 00:00:48,953
+found near a place called Magnesia,
+
+18
+00:00:48,973 --> 00:00:50,953
+that pulled on iron.
+
+19
+00:00:50,973 --> 00:00:54,963
+We call it lodestone, and from Magnesia we get the word
+
+20
+00:00:55,133 --> 00:00:55,843
+magnet.
+
+21
+00:00:56,253 --> 00:01:00,313
+In China, a sliver of lodestone was found to turn until
+
+22
+00:01:00,333 --> 00:01:02,363
+it lay north and south.
+
+23
+00:01:02,493 --> 00:01:06,193
+By the year ten eighty-eight, the scholar Shen Kuo had
+
+24
+00:01:06,213 --> 00:01:10,153
+described a magnetised needle used to find direction,
+
+25
+00:01:10,173 --> 00:01:13,443
+and noted that it did not point exactly true.
+
+26
+00:01:13,613 --> 00:01:17,603
+Within a century, sailors were crossing open sea by it.
+
+27
+00:01:17,773 --> 00:01:21,433
+The first careful experiments came in twelve sixty-nine,
+
+28
+00:01:21,453 --> 00:01:23,593
+from a French soldier and engineer,
+
+29
+00:01:23,613 --> 00:01:25,153
+Peter Peregrinus.
+
+30
+00:01:25,173 --> 00:01:28,953
+He laid a needle on a round lodestone at many places,
+
+31
+00:01:28,973 --> 00:01:32,073
+traced the lines it followed, and found that they all
+
+32
+00:01:32,093 --> 00:01:33,753
+met at two points.
+
+33
+00:01:33,773 --> 00:01:35,873
+He named them poles.
+
+34
+00:01:35,893 --> 00:01:39,633
+He showed that like poles push apart and unlike poles
+
+35
+00:01:39,653 --> 00:01:40,793
+pull together.
+
+36
+00:01:40,813 --> 00:01:43,073
+And he found something strange:
+
+37
+00:01:43,093 --> 00:01:46,473
+break a magnet in half, and you do not get one pole on
+
+38
+00:01:46,493 --> 00:01:47,593
+each piece.
+
+39
+00:01:47,613 --> 00:01:50,003
+You get two complete magnets.
+
+40
+00:01:50,173 --> 00:01:53,353
+Then, in sixteen hundred, William Gilbert,
+
+41
+00:01:53,373 --> 00:01:56,113
+the same man who gave us the word electric,
+
+42
+00:01:56,133 --> 00:01:59,713
+carved a lodestone into a small sphere and studied how
+
+43
+00:01:59,733 --> 00:02:02,003
+a needle behaved on its surface.
+
+44
+00:02:02,093 --> 00:02:05,603
+It behaved exactly as a compass does on the Earth.
+
+45
+00:02:05,693 --> 00:02:07,523
+His conclusion was bold.
+
+46
+00:02:07,853 --> 00:02:10,803
+The Earth itself is a great magnet.
+
+47
+00:02:12,133 --> 00:02:16,163
+Every magnet has two poles, north and south.
+
+48
+00:02:16,293 --> 00:02:19,963
+And here magnetism differs sharply from electricity.
+
+49
+00:02:20,293 --> 00:02:22,923
+A positive charge can exist alone.
+
+50
+00:02:23,013 --> 00:02:24,363
+So can a negative one.
+
+51
+00:02:24,693 --> 00:02:28,363
+But nobody has ever found a north pole on its own.
+
+52
+00:02:28,533 --> 00:02:30,953
+Cut a magnet as small as you like,
+
+53
+00:02:30,973 --> 00:02:33,243
+and each piece still has both.
+
+54
+00:02:33,653 --> 00:02:34,763
+That is a clue.
+
+55
+00:02:35,093 --> 00:02:38,513
+It tells us that magnetism does not come from some kind
+
+56
+00:02:38,533 --> 00:02:39,963
+of magnetic charge.
+
+57
+00:02:40,213 --> 00:02:41,963
+It comes from something else.
+
+58
+00:02:42,373 --> 00:02:43,883
+Hold on to that question.
+
+59
+00:02:45,233 --> 00:02:49,023
+Like a charge, a magnet changes the space around it.
+
+60
+00:02:49,153 --> 00:02:53,293
+Scatter iron filings near one and they line up along curves,
+
+61
+00:02:53,313 --> 00:02:56,103
+showing a pattern that was there all along.
+
+62
+00:02:56,273 --> 00:02:58,653
+That pattern is the magnetic field,
+
+63
+00:02:58,673 --> 00:03:00,663
+and we write it with the letter B.
+
+64
+00:03:01,153 --> 00:03:03,943
+We draw it with lines, as Faraday taught us.
+
+65
+00:03:04,353 --> 00:03:07,533
+By convention, they leave the north pole and enter the
+
+66
+00:03:07,553 --> 00:03:08,103
+south.
+
+67
+00:03:08,433 --> 00:03:11,693
+A compass needle placed anywhere in the field turns to
+
+68
+00:03:11,713 --> 00:03:14,343
+lie along the line through that point.
+
+69
+00:03:14,513 --> 00:03:17,703
+But there is one great difference from the electric field.
+
+70
+00:03:18,113 --> 00:03:21,533
+Electric field lines start on a positive charge and end
+
+71
+00:03:21,553 --> 00:03:22,983
+on a negative one.
+
+72
+00:03:23,153 --> 00:03:26,823
+Magnetic field lines never start and never end.
+
+73
+00:03:26,913 --> 00:03:29,933
+They pass through the magnet and close on themselves,
+
+74
+00:03:29,953 --> 00:03:31,743
+in unbroken loops.
+
+75
+00:03:31,873 --> 00:03:33,853
+That is the same fact as before,
+
+76
+00:03:33,873 --> 00:03:37,573
+seen another way: there are no single poles for the lines
+
+77
+00:03:37,593 --> 00:03:39,303
+to begin or end on.
+
+78
+00:03:40,767 --> 00:03:42,997
+Now we can see what Oersted found.
+
+79
+00:03:43,407 --> 00:03:46,747
+A wire carrying a current is surrounded by a magnetic
+
+80
+00:03:46,767 --> 00:03:47,597
+field.
+
+81
+00:03:47,727 --> 00:03:50,187
+The field does not point toward the wire,
+
+82
+00:03:50,207 --> 00:03:51,317
+or away from it.
+
+83
+00:03:51,647 --> 00:03:54,517
+It circles the wire, in rings.
+
+84
+00:03:54,687 --> 00:03:57,077
+There is an easy way to remember the direction.
+
+85
+00:03:57,487 --> 00:03:59,467
+Grip the wire in your right hand,
+
+86
+00:03:59,487 --> 00:04:01,957
+with your thumb pointing along the current.
+
+87
+00:04:02,047 --> 00:04:04,757
+Your fingers curl the way the field goes.
+
+88
+00:04:05,407 --> 00:04:07,637
+The news reached Paris in September.
+
+89
+00:04:07,967 --> 00:04:10,587
+André-Marie Ampère saw it demonstrated,
+
+90
+00:04:10,607 --> 00:04:13,357
+and within one week he had gone further.
+
+91
+00:04:13,487 --> 00:04:15,627
+If a current acts like a magnet,
+
+92
+00:04:15,647 --> 00:04:19,317
+he reasoned, then two currents should act on each other.
+
+93
+00:04:19,487 --> 00:04:21,797
+He set up two parallel wires.
+
+94
+00:04:21,887 --> 00:04:23,907
+With the currents flowing the same way,
+
+95
+00:04:23,927 --> 00:04:25,677
+the wires pulled together.
+
+96
+00:04:25,807 --> 00:04:28,837
+With the currents opposed, they pushed apart.
+
+97
+00:04:29,007 --> 00:04:31,397
+No iron, no lodestone.
+
+98
+00:04:31,447 --> 00:04:33,907
+Only electricity in motion.
+
+99
+00:04:33,927 --> 00:04:37,267
+That same autumn, Biot and Savart measured the strength
+
+100
+00:04:37,287 --> 00:04:38,507
+of the field.
+
+101
+00:04:38,527 --> 00:04:41,707
+Around a long straight wire, it grows with the current
+
+102
+00:04:41,727 --> 00:04:43,867
+and falls off with distance.
+
+103
+00:04:43,887 --> 00:04:46,827
+One ampere, at a distance of one centimetre,
+
+104
+00:04:46,847 --> 00:04:49,627
+gives about twenty millionths of a tesla:
+
+105
+00:04:49,647 --> 00:04:52,907
+roughly half the strength of the Earth's own field.
+
+106
+00:04:52,927 --> 00:04:56,427
+Ampère drew the conclusion that changed everything.
+
+107
+00:04:56,447 --> 00:04:59,347
+Magnetism is not a separate force.
+
+108
+00:04:59,367 --> 00:05:01,877
+It is what moving charge does.
+
+109
+00:05:03,233 --> 00:05:06,733
+Bend the wire into a loop, and the rings of field add
+
+110
+00:05:06,753 --> 00:05:07,783
+up through the middle.
+
+111
+00:05:08,273 --> 00:05:11,053
+One side of the loop behaves like a north pole,
+
+112
+00:05:11,073 --> 00:05:12,663
+the other like a south.
+
+113
+00:05:12,993 --> 00:05:15,543
+A loop of current is a magnet.
+
+114
+00:05:15,713 --> 00:05:18,773
+Wind many loops side by side into a coil,
+
+115
+00:05:18,793 --> 00:05:22,103
+called a solenoid, and their fields add together.
+
+116
+00:05:22,273 --> 00:05:25,863
+Inside, the field runs straight and nearly uniform.
+
+117
+00:05:26,193 --> 00:05:29,823
+Outside, it is exactly the field of a bar magnet.
+
+118
+00:05:29,953 --> 00:05:33,013
+The more turns in each metre, and the more current,
+
+119
+00:05:33,033 --> 00:05:34,623
+the stronger it is.
+
+120
+00:05:34,753 --> 00:05:37,183
+Then put a bar of iron inside.
+
+121
+00:05:37,313 --> 00:05:40,973
+In eighteen twenty-five, William Sturgeon did just that,
+
+122
+00:05:40,993 --> 00:05:45,093
+and his small coil lifted twenty times its own weight.
+
+123
+00:05:45,113 --> 00:05:47,986
+Six years later, the American Joseph Henry,
+
+124
+00:05:48,006 --> 00:05:50,533
+winding many layers of insulated wire,
+
+125
+00:05:50,553 --> 00:05:53,543
+built an electromagnet that held up more than a ton.
+
+126
+00:05:53,953 --> 00:05:56,743
+A magnet you can switch on and off.
+
+127
+00:05:56,833 --> 00:06:01,693
+Every relay, every contactor, every motor and every transformer
+
+128
+00:06:01,713 --> 00:06:02,903
+begins here.
+
+129
+00:06:04,267 --> 00:06:08,457
+So why does iron do this, when copper and wood do not?
+
+130
+00:06:08,587 --> 00:06:11,657
+And where is the current in a lump of lodestone?
+
+131
+00:06:11,787 --> 00:06:15,247
+Ampère guessed the answer, long before anyone could check
+
+132
+00:06:15,267 --> 00:06:15,817
+it.
+
+133
+00:06:15,947 --> 00:06:19,847
+He proposed that inside a magnet there are countless tiny
+
+134
+00:06:19,867 --> 00:06:21,177
+loops of current.
+
+135
+00:06:21,307 --> 00:06:22,417
+He was right.
+
+136
+00:06:22,587 --> 00:06:26,287
+Electrons circle their atoms, and they also spin,
+
+137
+00:06:26,307 --> 00:06:29,527
+and each one acts as a minute magnet.
+
+138
+00:06:29,547 --> 00:06:32,047
+In most materials these cancel out.
+
+139
+00:06:32,067 --> 00:06:34,647
+But in iron, nickel and cobalt,
+
+140
+00:06:34,667 --> 00:06:37,367
+neighbouring atoms line up with each other.
+
+141
+00:06:37,387 --> 00:06:40,567
+In nineteen hundred and seven, Pierre Weiss showed that
+
+142
+00:06:40,587 --> 00:06:43,847
+they do so in patches, called domains.
+
+143
+00:06:43,867 --> 00:06:46,967
+In an ordinary piece of iron, the domains point in all
+
+144
+00:06:46,987 --> 00:06:50,327
+directions, and the whole is not a magnet.
+
+145
+00:06:50,347 --> 00:06:54,047
+Apply a field, and the domains swing into line.
+
+146
+00:06:54,067 --> 00:06:57,047
+The iron's own magnetism adds to the field,
+
+147
+00:06:57,067 --> 00:06:59,297
+hundreds or thousands of times over.
+
+148
+00:06:59,787 --> 00:07:03,937
+That is why an iron core makes an electromagnet so strong.
+
+149
+00:07:04,027 --> 00:07:06,097
+And it explains our earlier puzzle.
+
+150
+00:07:06,427 --> 00:07:09,367
+Cut a magnet in half, and you are only cutting between
+
+151
+00:07:09,387 --> 00:07:10,497
+loops of current.
+
+152
+00:07:10,907 --> 00:07:13,577
+Each piece still has both faces.
+
+153
+00:07:13,707 --> 00:07:15,737
+Heat destroys the order.
+
+154
+00:07:15,867 --> 00:07:19,207
+In eighteen ninety-five, Pierre Curie found that above
+
+155
+00:07:19,227 --> 00:07:22,247
+a certain temperature, seven hundred and seventy degrees
+
+156
+00:07:22,267 --> 00:07:25,047
+for iron, the alignment collapses,
+
+157
+00:07:25,067 --> 00:07:27,537
+and a magnet stops being a magnet.
+
+158
+00:07:28,900 --> 00:07:32,400
+A magnetic field does not push on a charge that is standing
+
+159
+00:07:32,420 --> 00:07:33,250
+still.
+
+160
+00:07:33,380 --> 00:07:36,410
+It acts only on a charge that is moving.
+
+161
+00:07:36,580 --> 00:07:40,240
+And the force is strange: it points neither along the
+
+162
+00:07:40,260 --> 00:07:44,970
+field nor along the motion, but at right angles to both.
+
+163
+00:07:45,140 --> 00:07:48,560
+A force that is always sideways cannot speed a charge
+
+164
+00:07:48,580 --> 00:07:50,250
+up or slow it down.
+
+165
+00:07:50,500 --> 00:07:52,450
+It can only turn it.
+
+166
+00:07:52,660 --> 00:07:56,600
+So a charge moving across a magnetic field travels in
+
+167
+00:07:56,620 --> 00:07:57,450
+a circle.
+
+168
+00:07:57,940 --> 00:08:01,250
+A current is nothing but charges in motion.
+
+169
+00:08:01,380 --> 00:08:06,130
+So a wire carrying current across a field is pushed sideways.
+
+170
+00:08:06,260 --> 00:08:09,440
+The force is the field, times the current,
+
+171
+00:08:09,460 --> 00:08:11,810
+times the length of wire in the field.
+
+172
+00:08:11,940 --> 00:08:15,040
+Put a loop of wire in a field and pass a current through
+
+173
+00:08:15,060 --> 00:08:15,450
+it.
+
+174
+00:08:15,860 --> 00:08:18,640
+One side is pushed up, the other down,
+
+175
+00:08:18,660 --> 00:08:20,210
+and the loop turns.
+
+176
+00:08:20,340 --> 00:08:22,810
+You are looking at an electric motor.
+
+177
+00:08:24,167 --> 00:08:27,197
+To build with magnetism, we have to measure it.
+
+178
+00:08:27,607 --> 00:08:30,947
+In eighteen thirty-two, the mathematician Carl Friedrich
+
+179
+00:08:30,967 --> 00:08:34,787
+Gauss worked out how to measure the Earth's field in absolute
+
+180
+00:08:34,807 --> 00:08:38,637
+terms, using only length, mass and time.
+
+181
+00:08:38,807 --> 00:08:41,667
+The old unit of field carries his name.
+
+182
+00:08:41,687 --> 00:08:45,277
+The modern unit is the tesla, after Nikola Tesla,
+
+183
+00:08:45,327 --> 00:08:48,867
+adopted by international agreement in nineteen sixty.
+
+184
+00:08:48,887 --> 00:08:51,507
+One tesla is ten thousand gauss,
+
+185
+00:08:51,527 --> 00:08:53,827
+and it is a strong field.
+
+186
+00:08:53,847 --> 00:08:57,387
+The Earth's field is about fifty millionths of a tesla.
+
+187
+00:08:57,407 --> 00:08:59,987
+A fridge magnet, a few thousandths.
+
+188
+00:09:00,007 --> 00:09:03,667
+A hospital scanner, between one and a half and three.
+
+189
+00:09:03,687 --> 00:09:07,067
+And magnetism gave us the unit of current itself.
+
+190
+00:09:07,087 --> 00:09:10,787
+From nineteen forty-eight, the ampere was defined by Ampère's
+
+191
+00:09:10,807 --> 00:09:13,267
+own experiment: the current which,
+
+192
+00:09:13,287 --> 00:09:16,427
+in two long parallel wires a metre apart,
+
+193
+00:09:16,447 --> 00:09:19,027
+produces a set force between them.
+
+194
+00:09:19,047 --> 00:09:21,667
+It stayed that way until twenty nineteen,
+
+195
+00:09:21,687 --> 00:09:25,357
+when the ampere was redefined by counting electrons.
+
+196
+00:09:26,700 --> 00:09:28,530
+So let's put it together.
+
+197
+00:09:28,700 --> 00:09:33,170
+Magnets have two poles, and the poles always come in pairs.
+
+198
+00:09:33,260 --> 00:09:36,960
+A magnet fills the space around it with a magnetic field,
+
+199
+00:09:36,980 --> 00:09:39,330
+whose lines form closed loops.
+
+200
+00:09:39,420 --> 00:09:43,090
+A current makes a magnetic field that circles the wire.
+
+201
+00:09:43,180 --> 00:09:46,210
+Magnetism is what moving charge does.
+
+202
+00:09:46,300 --> 00:09:48,600
+A coil concentrates that field,
+
+203
+00:09:48,620 --> 00:09:50,930
+and an iron core multiplies it,
+
+204
+00:09:50,980 --> 00:09:54,680
+because iron is full of tiny current loops that line up.
+
+205
+00:09:54,700 --> 00:09:58,000
+A magnetic field pushes sideways on moving charge,
+
+206
+00:09:58,020 --> 00:10:00,720
+and that push turns every motor.
+
+207
+00:10:00,740 --> 00:10:03,760
+So a current makes a magnetic field.
+
+208
+00:10:03,780 --> 00:10:06,640
+Next time, we ask what happens when that field has to
+
+209
+00:10:06,660 --> 00:10:09,000
+be built up, and torn down again.
+
+210
+00:10:09,020 --> 00:10:11,560
+The answer is called inductance.
+
+211
+00:10:11,580 --> 00:10:14,840
+If this helped you see it, and not just calculate it,
+
+212
+00:10:14,860 --> 00:10:17,890
+please like, share, and subscribe to this channel.

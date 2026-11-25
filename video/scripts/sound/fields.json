@@ -1,0 +1,10 @@
+[
+  { "chapter": 1, "t": 40.4, "sfx": "shimmer", "gain": 0.3 },
+  { "chapter": 2, "t": 41.6, "sfx": "spark", "gain": 0.2 },
+  { "chapter": 3, "t": 64.6, "sfx": "shimmer", "gain": 0.3 },
+  { "chapter": 4, "t": 56.3, "sfx": "shimmer", "gain": 0.3 },
+  { "chapter": 5, "t": 79.6, "sfx": "impact", "gain": 0.35 },
+  { "chapter": 6, "t": 24.0, "sfx": "spark", "gain": 0.3 },
+  { "chapter": 6, "t": 42.6, "sfx": "spark", "gain": 0.2 },
+  { "chapter": 9, "t": 48.6, "sfx": "shimmer", "gain": 0.35 }
+]

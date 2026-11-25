@@ -1,0 +1,1388 @@
+{
+ "chapter": 4,
+ "title": "Lenz's law",
+ "characters": 1239,
+ "duration": 83.800816,
+ "words": [
+  {
+   "text": "Which",
+   "start": 0,
+   "end": 0.288,
+   "paragraph": 0
+  },
+  {
+   "text": "way",
+   "start": 0.32,
+   "end": 0.507,
+   "paragraph": 0
+  },
+  {
+   "text": "does",
+   "start": 0.56,
+   "end": 0.7,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 0.72,
+   "end": 0.853,
+   "paragraph": 0
+  },
+  {
+   "text": "induced",
+   "start": 0.88,
+   "end": 1.38,
+   "paragraph": 0
+  },
+  {
+   "text": "current",
+   "start": 1.44,
+   "end": 1.726,
+   "paragraph": 0
+  },
+  {
+   "text": "flow?",
+   "start": 1.76,
+   "end": 2.08,
+   "paragraph": 0
+  },
+  {
+   "text": "We",
+   "start": 2.72,
+   "end": 2.8,
+   "paragraph": 0
+  },
+  {
+   "text": "met",
+   "start": 2.88,
+   "end": 3.04,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 3.12,
+   "end": 3.2,
+   "paragraph": 0
+  },
+  {
+   "text": "answer",
+   "start": 3.28,
+   "end": 3.6,
+   "paragraph": 0
+  },
+  {
+   "text": "in",
+   "start": 3.68,
+   "end": 3.76,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 3.84,
+   "end": 3.88,
+   "paragraph": 0
+  },
+  {
+   "text": "video",
+   "start": 3.92,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "on",
+   "start": 4.4,
+   "end": 4.56,
+   "paragraph": 0
+  },
+  {
+   "text": "inductance.",
+   "start": 4.64,
+   "end": 5.56,
+   "paragraph": 0
+  },
+  {
+   "text": "It",
+   "start": 5.76,
+   "end": 5.84,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 5.92,
+   "end": 6.08,
+   "paragraph": 0
+  },
+  {
+   "text": "Lenz's",
+   "start": 6.32,
+   "end": 6.8,
+   "paragraph": 0
+  },
+  {
+   "text": "law:",
+   "start": 6.88,
+   "end": 7.6,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 7.68,
+   "end": 7.76,
+   "paragraph": 0
+  },
+  {
+   "text": "induced",
+   "start": 7.84,
+   "end": 8.24,
+   "paragraph": 0
+  },
+  {
+   "text": "current",
+   "start": 8.32,
+   "end": 8.72,
+   "paragraph": 0
+  },
+  {
+   "text": "always",
+   "start": 8.88,
+   "end": 9.36,
+   "paragraph": 0
+  },
+  {
+   "text": "flows",
+   "start": 9.44,
+   "end": 9.84,
+   "paragraph": 0
+  },
+  {
+   "text": "so",
+   "start": 10,
+   "end": 10.16,
+   "paragraph": 0
+  },
+  {
+   "text": "as",
+   "start": 10.24,
+   "end": 10.32,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 10.4,
+   "end": 10.48,
+   "paragraph": 0
+  },
+  {
+   "text": "oppose",
+   "start": 10.56,
+   "end": 10.96,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 11.04,
+   "end": 11.12,
+   "paragraph": 0
+  },
+  {
+   "text": "change",
+   "start": 11.2,
+   "end": 11.52,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 11.6,
+   "end": 11.76,
+   "paragraph": 0
+  },
+  {
+   "text": "caused",
+   "start": 11.84,
+   "end": 12.16,
+   "paragraph": 0
+  },
+  {
+   "text": "it.",
+   "start": 12.28,
+   "end": 12.68,
+   "paragraph": 0
+  },
+  {
+   "text": "Push",
+   "start": 12.96,
+   "end": 13.12,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 13.2,
+   "end": 13.28,
+   "paragraph": 1
+  },
+  {
+   "text": "north",
+   "start": 13.36,
+   "end": 13.6,
+   "paragraph": 1
+  },
+  {
+   "text": "pole",
+   "start": 13.68,
+   "end": 13.92,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 13.96,
+   "end": 14,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 14.08,
+   "end": 14.12,
+   "paragraph": 1
+  },
+  {
+   "text": "magnet",
+   "start": 14.16,
+   "end": 14.64,
+   "paragraph": 1
+  },
+  {
+   "text": "toward",
+   "start": 14.72,
+   "end": 14.96,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 15.04,
+   "end": 15.08,
+   "paragraph": 1
+  },
+  {
+   "text": "loop.",
+   "start": 15.12,
+   "end": 15.52,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 16.08,
+   "end": 16.16,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 16.24,
+   "end": 16.56,
+   "paragraph": 1
+  },
+  {
+   "text": "that",
+   "start": 16.64,
+   "end": 16.72,
+   "paragraph": 1
+  },
+  {
+   "text": "flows",
+   "start": 16.8,
+   "end": 17.2,
+   "paragraph": 1
+  },
+  {
+   "text": "turns",
+   "start": 17.36,
+   "end": 17.68,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 17.76,
+   "end": 17.84,
+   "paragraph": 1
+  },
+  {
+   "text": "near",
+   "start": 17.92,
+   "end": 18.16,
+   "paragraph": 1
+  },
+  {
+   "text": "face",
+   "start": 18.24,
+   "end": 18.48,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 18.52,
+   "end": 18.56,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 18.64,
+   "end": 18.68,
+   "paragraph": 1
+  },
+  {
+   "text": "loop",
+   "start": 18.72,
+   "end": 19.04,
+   "paragraph": 1
+  },
+  {
+   "text": "into",
+   "start": 19.16,
+   "end": 19.28,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 19.36,
+   "end": 19.44,
+   "paragraph": 1
+  },
+  {
+   "text": "north",
+   "start": 19.52,
+   "end": 19.76,
+   "paragraph": 1
+  },
+  {
+   "text": "pole",
+   "start": 19.84,
+   "end": 20,
+   "paragraph": 1
+  },
+  {
+   "text": "as",
+   "start": 20.08,
+   "end": 20.16,
+   "paragraph": 1
+  },
+  {
+   "text": "well,",
+   "start": 20.24,
+   "end": 20.88,
+   "paragraph": 1
+  },
+  {
+   "text": "so",
+   "start": 20.96,
+   "end": 21.2,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 21.44,
+   "end": 21.52,
+   "paragraph": 1
+  },
+  {
+   "text": "loop",
+   "start": 21.6,
+   "end": 21.84,
+   "paragraph": 1
+  },
+  {
+   "text": "pushes",
+   "start": 22,
+   "end": 22.32,
+   "paragraph": 1
+  },
+  {
+   "text": "back",
+   "start": 22.4,
+   "end": 22.64,
+   "paragraph": 1
+  },
+  {
+   "text": "on",
+   "start": 22.68,
+   "end": 22.72,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 22.8,
+   "end": 22.84,
+   "paragraph": 1
+  },
+  {
+   "text": "magnet.",
+   "start": 22.88,
+   "end": 23.6,
+   "paragraph": 1
+  },
+  {
+   "text": "Pull",
+   "start": 23.84,
+   "end": 24,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 24.08,
+   "end": 24.16,
+   "paragraph": 1
+  },
+  {
+   "text": "magnet",
+   "start": 24.2,
+   "end": 24.56,
+   "paragraph": 1
+  },
+  {
+   "text": "away,",
+   "start": 24.76,
+   "end": 25.2,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 25.28,
+   "end": 25.36,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 25.4,
+   "end": 25.44,
+   "paragraph": 1
+  },
+  {
+   "text": "current",
+   "start": 25.52,
+   "end": 25.76,
+   "paragraph": 1
+  },
+  {
+   "text": "reverses.",
+   "start": 25.84,
+   "end": 26.56,
+   "paragraph": 1
+  },
+  {
+   "text": "Now",
+   "start": 27.12,
+   "end": 27.36,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 27.52,
+   "end": 27.6,
+   "paragraph": 1
+  },
+  {
+   "text": "loop",
+   "start": 27.68,
+   "end": 27.92,
+   "paragraph": 1
+  },
+  {
+   "text": "attracts",
+   "start": 28.04,
+   "end": 28.48,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 28.56,
+   "end": 28.64,
+   "paragraph": 1
+  },
+  {
+   "text": "magnet,",
+   "start": 28.68,
+   "end": 29.28,
+   "paragraph": 1
+  },
+  {
+   "text": "trying",
+   "start": 29.4,
+   "end": 29.52,
+   "paragraph": 1
+  },
+  {
+   "text": "to",
+   "start": 29.6,
+   "end": 29.68,
+   "paragraph": 1
+  },
+  {
+   "text": "hold",
+   "start": 29.76,
+   "end": 29.92,
+   "paragraph": 1
+  },
+  {
+   "text": "on",
+   "start": 30,
+   "end": 30.16,
+   "paragraph": 1
+  },
+  {
+   "text": "to",
+   "start": 30.24,
+   "end": 30.32,
+   "paragraph": 1
+  },
+  {
+   "text": "it.",
+   "start": 30.44,
+   "end": 30.8,
+   "paragraph": 1
+  },
+  {
+   "text": "Either",
+   "start": 31.04,
+   "end": 31.28,
+   "paragraph": 2
+  },
+  {
+   "text": "way,",
+   "start": 31.36,
+   "end": 31.76,
+   "paragraph": 2
+  },
+  {
+   "text": "you",
+   "start": 31.84,
+   "end": 31.92,
+   "paragraph": 2
+  },
+  {
+   "text": "feel",
+   "start": 32,
+   "end": 32.16,
+   "paragraph": 2
+  },
+  {
+   "text": "resistance.",
+   "start": 32.24,
+   "end": 33.2,
+   "paragraph": 2
+  },
+  {
+   "text": "You",
+   "start": 33.44,
+   "end": 33.6,
+   "paragraph": 2
+  },
+  {
+   "text": "have",
+   "start": 33.68,
+   "end": 33.92,
+   "paragraph": 2
+  },
+  {
+   "text": "to",
+   "start": 33.96,
+   "end": 34,
+   "paragraph": 2
+  },
+  {
+   "text": "do",
+   "start": 34.08,
+   "end": 34.16,
+   "paragraph": 2
+  },
+  {
+   "text": "work",
+   "start": 34.32,
+   "end": 34.64,
+   "paragraph": 2
+  },
+  {
+   "text": "to",
+   "start": 34.72,
+   "end": 34.8,
+   "paragraph": 2
+  },
+  {
+   "text": "move",
+   "start": 34.96,
+   "end": 35.12,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 35.2,
+   "end": 35.24,
+   "paragraph": 2
+  },
+  {
+   "text": "magnet.",
+   "start": 35.28,
+   "end": 35.96,
+   "paragraph": 2
+  },
+  {
+   "text": "And",
+   "start": 36.16,
+   "end": 36.32,
+   "paragraph": 2
+  },
+  {
+   "text": "that",
+   "start": 36.4,
+   "end": 36.72,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 36.8,
+   "end": 36.96,
+   "paragraph": 2
+  },
+  {
+   "text": "exactly",
+   "start": 37.04,
+   "end": 37.68,
+   "paragraph": 2
+  },
+  {
+   "text": "where",
+   "start": 37.76,
+   "end": 37.92,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 38,
+   "end": 38.08,
+   "paragraph": 2
+  },
+  {
+   "text": "electrical",
+   "start": 38.24,
+   "end": 38.64,
+   "paragraph": 2
+  },
+  {
+   "text": "energy",
+   "start": 38.72,
+   "end": 39.04,
+   "paragraph": 2
+  },
+  {
+   "text": "comes",
+   "start": 39.12,
+   "end": 39.36,
+   "paragraph": 2
+  },
+  {
+   "text": "from.",
+   "start": 39.44,
+   "end": 39.96,
+   "paragraph": 2
+  },
+  {
+   "text": "The",
+   "start": 40.24,
+   "end": 40.32,
+   "paragraph": 2
+  },
+  {
+   "text": "work",
+   "start": 40.4,
+   "end": 40.64,
+   "paragraph": 2
+  },
+  {
+   "text": "your",
+   "start": 40.72,
+   "end": 40.8,
+   "paragraph": 2
+  },
+  {
+   "text": "hand",
+   "start": 40.96,
+   "end": 41.2,
+   "paragraph": 2
+  },
+  {
+   "text": "does",
+   "start": 41.28,
+   "end": 41.6,
+   "paragraph": 2
+  },
+  {
+   "text": "becomes",
+   "start": 41.76,
+   "end": 42.16,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 42.2,
+   "end": 42.24,
+   "paragraph": 2
+  },
+  {
+   "text": "energy",
+   "start": 42.4,
+   "end": 42.8,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 42.88,
+   "end": 42.96,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 43,
+   "end": 43.04,
+   "paragraph": 2
+  },
+  {
+   "text": "current.",
+   "start": 43.12,
+   "end": 43.8,
+   "paragraph": 2
+  },
+  {
+   "text": "Suppose",
+   "start": 44.08,
+   "end": 44.4,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 44.48,
+   "end": 44.56,
+   "paragraph": 3
+  },
+  {
+   "text": "went",
+   "start": 44.64,
+   "end": 44.8,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 44.88,
+   "end": 44.96,
+   "paragraph": 3
+  },
+  {
+   "text": "other",
+   "start": 45.04,
+   "end": 45.2,
+   "paragraph": 3
+  },
+  {
+   "text": "way.",
+   "start": 45.28,
+   "end": 45.76,
+   "paragraph": 3
+  },
+  {
+   "text": "Suppose",
+   "start": 46,
+   "end": 46.48,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 46.56,
+   "end": 46.64,
+   "paragraph": 3
+  },
+  {
+   "text": "induced",
+   "start": 46.72,
+   "end": 47.2,
+   "paragraph": 3
+  },
+  {
+   "text": "current",
+   "start": 47.28,
+   "end": 47.6,
+   "paragraph": 3
+  },
+  {
+   "text": "helped",
+   "start": 47.68,
+   "end": 48,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 48.08,
+   "end": 48.12,
+   "paragraph": 3
+  },
+  {
+   "text": "magnet",
+   "start": 48.16,
+   "end": 48.48,
+   "paragraph": 3
+  },
+  {
+   "text": "along.",
+   "start": 48.56,
+   "end": 49.2,
+   "paragraph": 3
+  },
+  {
+   "text": "Then",
+   "start": 49.44,
+   "end": 49.68,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 49.92,
+   "end": 50,
+   "paragraph": 3
+  },
+  {
+   "text": "magnet",
+   "start": 50.08,
+   "end": 50.4,
+   "paragraph": 3
+  },
+  {
+   "text": "would",
+   "start": 50.52,
+   "end": 50.64,
+   "paragraph": 3
+  },
+  {
+   "text": "speed",
+   "start": 50.8,
+   "end": 50.96,
+   "paragraph": 3
+  },
+  {
+   "text": "up,",
+   "start": 51.04,
+   "end": 51.44,
+   "paragraph": 3
+  },
+  {
+   "text": "induce",
+   "start": 51.56,
+   "end": 51.92,
+   "paragraph": 3
+  },
+  {
+   "text": "more",
+   "start": 52,
+   "end": 52.16,
+   "paragraph": 3
+  },
+  {
+   "text": "current,",
+   "start": 52.24,
+   "end": 52.8,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 52.84,
+   "end": 52.88,
+   "paragraph": 3
+  },
+  {
+   "text": "speed",
+   "start": 52.96,
+   "end": 53.2,
+   "paragraph": 3
+  },
+  {
+   "text": "up",
+   "start": 53.28,
+   "end": 53.36,
+   "paragraph": 3
+  },
+  {
+   "text": "again,",
+   "start": 53.56,
+   "end": 54,
+   "paragraph": 3
+  },
+  {
+   "text": "for",
+   "start": 54.08,
+   "end": 54.24,
+   "paragraph": 3
+  },
+  {
+   "text": "ever,",
+   "start": 54.32,
+   "end": 54.96,
+   "paragraph": 3
+  },
+  {
+   "text": "giving",
+   "start": 55.04,
+   "end": 55.28,
+   "paragraph": 3
+  },
+  {
+   "text": "out",
+   "start": 55.36,
+   "end": 55.52,
+   "paragraph": 3
+  },
+  {
+   "text": "energy",
+   "start": 55.6,
+   "end": 55.92,
+   "paragraph": 3
+  },
+  {
+   "text": "from",
+   "start": 56.08,
+   "end": 56.24,
+   "paragraph": 3
+  },
+  {
+   "text": "nothing.",
+   "start": 56.4,
+   "end": 57.04,
+   "paragraph": 3
+  },
+  {
+   "text": "Lenz's",
+   "start": 57.28,
+   "end": 57.76,
+   "paragraph": 3
+  },
+  {
+   "text": "law",
+   "start": 57.88,
+   "end": 58,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 58.08,
+   "end": 58.24,
+   "paragraph": 3
+  },
+  {
+   "text": "simply",
+   "start": 58.32,
+   "end": 58.72,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 58.76,
+   "end": 58.8,
+   "paragraph": 3
+  },
+  {
+   "text": "conservation",
+   "start": 58.96,
+   "end": 59.6,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 59.64,
+   "end": 59.68,
+   "paragraph": 3
+  },
+  {
+   "text": "energy,",
+   "start": 59.76,
+   "end": 60.48,
+   "paragraph": 3
+  },
+  {
+   "text": "written",
+   "start": 60.64,
+   "end": 60.8,
+   "paragraph": 3
+  },
+  {
+   "text": "for",
+   "start": 60.96,
+   "end": 61.04,
+   "paragraph": 3
+  },
+  {
+   "text": "magnets",
+   "start": 61.12,
+   "end": 61.68,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 61.76,
+   "end": 61.92,
+   "paragraph": 3
+  },
+  {
+   "text": "wires.",
+   "start": 62,
+   "end": 62.76,
+   "paragraph": 3
+  },
+  {
+   "text": "You",
+   "start": 63.04,
+   "end": 63.12,
+   "paragraph": 4
+  },
+  {
+   "text": "can",
+   "start": 63.2,
+   "end": 63.36,
+   "paragraph": 4
+  },
+  {
+   "text": "see",
+   "start": 63.44,
+   "end": 63.52,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 63.6,
+   "end": 63.76,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 63.84,
+   "end": 63.92,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 63.96,
+   "end": 64,
+   "paragraph": 4
+  },
+  {
+   "text": "strong",
+   "start": 64.08,
+   "end": 64.48,
+   "paragraph": 4
+  },
+  {
+   "text": "magnet",
+   "start": 64.56,
+   "end": 64.96,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 65.04,
+   "end": 65.12,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 65.16,
+   "end": 65.2,
+   "paragraph": 4
+  },
+  {
+   "text": "thick",
+   "start": 65.36,
+   "end": 65.6,
+   "paragraph": 4
+  },
+  {
+   "text": "copper",
+   "start": 65.68,
+   "end": 65.92,
+   "paragraph": 4
+  },
+  {
+   "text": "pipe.",
+   "start": 66,
+   "end": 66.4,
+   "paragraph": 4
+  },
+  {
+   "text": "Copper",
+   "start": 66.88,
+   "end": 67.2,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 67.36,
+   "end": 67.52,
+   "paragraph": 4
+  },
+  {
+   "text": "not",
+   "start": 67.6,
+   "end": 67.84,
+   "paragraph": 4
+  },
+  {
+   "text": "magnetic.",
+   "start": 67.92,
+   "end": 68.48,
+   "paragraph": 4
+  },
+  {
+   "text": "Yet",
+   "start": 68.96,
+   "end": 69.2,
+   "paragraph": 4
+  },
+  {
+   "text": "drop",
+   "start": 69.52,
+   "end": 69.76,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 69.84,
+   "end": 69.88,
+   "paragraph": 4
+  },
+  {
+   "text": "magnet",
+   "start": 69.92,
+   "end": 70.24,
+   "paragraph": 4
+  },
+  {
+   "text": "down",
+   "start": 70.32,
+   "end": 70.56,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 70.6,
+   "end": 70.64,
+   "paragraph": 4
+  },
+  {
+   "text": "pipe,",
+   "start": 70.72,
+   "end": 71.2,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 71.24,
+   "end": 71.28,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 71.36,
+   "end": 71.44,
+   "paragraph": 4
+  },
+  {
+   "text": "does",
+   "start": 71.52,
+   "end": 71.68,
+   "paragraph": 4
+  },
+  {
+   "text": "not",
+   "start": 71.76,
+   "end": 71.84,
+   "paragraph": 4
+  },
+  {
+   "text": "fall.",
+   "start": 72,
+   "end": 72.56,
+   "paragraph": 4
+  },
+  {
+   "text": "It",
+   "start": 72.8,
+   "end": 72.96,
+   "paragraph": 4
+  },
+  {
+   "text": "drifts",
+   "start": 73.04,
+   "end": 73.44,
+   "paragraph": 4
+  },
+  {
+   "text": "down,",
+   "start": 73.6,
+   "end": 74.08,
+   "paragraph": 4
+  },
+  {
+   "text": "slowly,",
+   "start": 74.16,
+   "end": 74.96,
+   "paragraph": 4
+  },
+  {
+   "text": "as",
+   "start": 75.04,
+   "end": 75.12,
+   "paragraph": 4
+  },
+  {
+   "text": "if",
+   "start": 75.2,
+   "end": 75.28,
+   "paragraph": 4
+  },
+  {
+   "text": "through",
+   "start": 75.36,
+   "end": 75.52,
+   "paragraph": 4
+  },
+  {
+   "text": "honey.",
+   "start": 75.6,
+   "end": 76,
+   "paragraph": 4
+  },
+  {
+   "text": "The",
+   "start": 76.48,
+   "end": 76.56,
+   "paragraph": 4
+  },
+  {
+   "text": "falling",
+   "start": 76.64,
+   "end": 76.96,
+   "paragraph": 4
+  },
+  {
+   "text": "magnet",
+   "start": 77.04,
+   "end": 77.52,
+   "paragraph": 4
+  },
+  {
+   "text": "changes",
+   "start": 77.68,
+   "end": 78.08,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 78.16,
+   "end": 78.24,
+   "paragraph": 4
+  },
+  {
+   "text": "flux",
+   "start": 78.44,
+   "end": 78.64,
+   "paragraph": 4
+  },
+  {
+   "text": "through",
+   "start": 78.8,
+   "end": 78.96,
+   "paragraph": 4
+  },
+  {
+   "text": "each",
+   "start": 79.04,
+   "end": 79.28,
+   "paragraph": 4
+  },
+  {
+   "text": "ring",
+   "start": 79.4,
+   "end": 79.52,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 79.56,
+   "end": 79.6,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 79.68,
+   "end": 79.76,
+   "paragraph": 4
+  },
+  {
+   "text": "pipe.",
+   "start": 79.84,
+   "end": 80.16,
+   "paragraph": 4
+  },
+  {
+   "text": "Currents",
+   "start": 80.64,
+   "end": 81.04,
+   "paragraph": 4
+  },
+  {
+   "text": "flow",
+   "start": 81.12,
+   "end": 81.36,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 81.4,
+   "end": 81.44,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 81.52,
+   "end": 81.56,
+   "paragraph": 4
+  },
+  {
+   "text": "copper,",
+   "start": 81.6,
+   "end": 82.24,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 82.32,
+   "end": 82.4,
+   "paragraph": 4
+  },
+  {
+   "text": "they",
+   "start": 82.48,
+   "end": 82.64,
+   "paragraph": 4
+  },
+  {
+   "text": "oppose",
+   "start": 82.72,
+   "end": 83.04,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 83.12,
+   "end": 83.2,
+   "paragraph": 4
+  },
+  {
+   "text": "fall.",
+   "start": 83.28,
+   "end": 83.84,
+   "paragraph": 4
+  }
+ ]
+}

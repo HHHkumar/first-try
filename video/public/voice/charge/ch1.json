@@ -1,0 +1,896 @@
+{
+ "chapter": 1,
+ "title": "A force across empty space",
+ "characters": 823,
+ "duration": 57.80898,
+ "words": [
+  {
+   "text": "Rub",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 0.28,
+   "end": 0.32,
+   "paragraph": 0
+  },
+  {
+   "text": "balloon",
+   "start": 0.4,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "on",
+   "start": 0.8,
+   "end": 0.88,
+   "paragraph": 0
+  },
+  {
+   "text": "your",
+   "start": 0.96,
+   "end": 1.04,
+   "paragraph": 0
+  },
+  {
+   "text": "hair",
+   "start": 1.12,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 1.6,
+   "end": 1.76,
+   "paragraph": 0
+  },
+  {
+   "text": "press",
+   "start": 1.92,
+   "end": 2.16,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 2.24,
+   "end": 2.32,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 2.36,
+   "end": 2.4,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 2.48,
+   "end": 2.56,
+   "paragraph": 0
+  },
+  {
+   "text": "wall.",
+   "start": 2.64,
+   "end": 3.16,
+   "paragraph": 0
+  },
+  {
+   "text": "It",
+   "start": 3.36,
+   "end": 3.44,
+   "paragraph": 0
+  },
+  {
+   "text": "stays.",
+   "start": 3.52,
+   "end": 4.24,
+   "paragraph": 0
+  },
+  {
+   "text": "Nothing",
+   "start": 4.48,
+   "end": 4.8,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 4.88,
+   "end": 4.96,
+   "paragraph": 0
+  },
+  {
+   "text": "holding",
+   "start": 5.12,
+   "end": 5.28,
+   "paragraph": 0
+  },
+  {
+   "text": "it.",
+   "start": 5.4,
+   "end": 5.8,
+   "paragraph": 0
+  },
+  {
+   "text": "No",
+   "start": 6.08,
+   "end": 6.16,
+   "paragraph": 0
+  },
+  {
+   "text": "glue,",
+   "start": 6.32,
+   "end": 6.88,
+   "paragraph": 0
+  },
+  {
+   "text": "no",
+   "start": 6.96,
+   "end": 7.04,
+   "paragraph": 0
+  },
+  {
+   "text": "string,",
+   "start": 7.12,
+   "end": 7.92,
+   "paragraph": 0
+  },
+  {
+   "text": "no",
+   "start": 8,
+   "end": 8.16,
+   "paragraph": 0
+  },
+  {
+   "text": "contact",
+   "start": 8.24,
+   "end": 8.72,
+   "paragraph": 0
+  },
+  {
+   "text": "at",
+   "start": 8.84,
+   "end": 8.96,
+   "paragraph": 0
+  },
+  {
+   "text": "all",
+   "start": 9.04,
+   "end": 9.28,
+   "paragraph": 0
+  },
+  {
+   "text": "between",
+   "start": 9.44,
+   "end": 9.6,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 9.64,
+   "end": 9.68,
+   "paragraph": 0
+  },
+  {
+   "text": "charges",
+   "start": 9.76,
+   "end": 10.16,
+   "paragraph": 0
+  },
+  {
+   "text": "doing",
+   "start": 10.28,
+   "end": 10.4,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 10.44,
+   "end": 10.48,
+   "paragraph": 0
+  },
+  {
+   "text": "work.",
+   "start": 10.56,
+   "end": 11.2,
+   "paragraph": 0
+  },
+  {
+   "text": "Something",
+   "start": 11.52,
+   "end": 12,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 12.08,
+   "end": 12.24,
+   "paragraph": 1
+  },
+  {
+   "text": "reaching",
+   "start": 12.32,
+   "end": 12.64,
+   "paragraph": 1
+  },
+  {
+   "text": "across",
+   "start": 12.72,
+   "end": 13.04,
+   "paragraph": 1
+  },
+  {
+   "text": "empty",
+   "start": 13.12,
+   "end": 13.44,
+   "paragraph": 1
+  },
+  {
+   "text": "space",
+   "start": 13.6,
+   "end": 14.08,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 14.16,
+   "end": 14.32,
+   "paragraph": 1
+  },
+  {
+   "text": "pulling.",
+   "start": 14.48,
+   "end": 15.16,
+   "paragraph": 1
+  },
+  {
+   "text": "That",
+   "start": 15.44,
+   "end": 15.68,
+   "paragraph": 2
+  },
+  {
+   "text": "something",
+   "start": 15.92,
+   "end": 16.16,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 16.32,
+   "end": 16.48,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 16.52,
+   "end": 16.56,
+   "paragraph": 2
+  },
+  {
+   "text": "electric",
+   "start": 16.64,
+   "end": 17.12,
+   "paragraph": 2
+  },
+  {
+   "text": "force,",
+   "start": 17.2,
+   "end": 17.92,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 18,
+   "end": 18.08,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 18.16,
+   "end": 18.24,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 18.32,
+   "end": 18.56,
+   "paragraph": 2
+  },
+  {
+   "text": "astonishingly",
+   "start": 18.84,
+   "end": 19.52,
+   "paragraph": 2
+  },
+  {
+   "text": "strong.",
+   "start": 19.6,
+   "end": 20.32,
+   "paragraph": 2
+  },
+  {
+   "text": "Compare",
+   "start": 20.64,
+   "end": 20.96,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 21,
+   "end": 21.04,
+   "paragraph": 2
+  },
+  {
+   "text": "with",
+   "start": 21.12,
+   "end": 21.2,
+   "paragraph": 2
+  },
+  {
+   "text": "gravity",
+   "start": 21.28,
+   "end": 21.84,
+   "paragraph": 2
+  },
+  {
+   "text": "for",
+   "start": 21.92,
+   "end": 22,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 22.08,
+   "end": 22.16,
+   "paragraph": 2
+  },
+  {
+   "text": "single",
+   "start": 22.24,
+   "end": 22.48,
+   "paragraph": 2
+  },
+  {
+   "text": "electron",
+   "start": 22.56,
+   "end": 23.12,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 23.2,
+   "end": 23.28,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 23.36,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "single",
+   "start": 23.52,
+   "end": 23.76,
+   "paragraph": 2
+  },
+  {
+   "text": "proton:",
+   "start": 23.84,
+   "end": 24.88,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 24.92,
+   "end": 24.96,
+   "paragraph": 2
+  },
+  {
+   "text": "electric",
+   "start": 25.04,
+   "end": 25.52,
+   "paragraph": 2
+  },
+  {
+   "text": "pull",
+   "start": 25.6,
+   "end": 25.84,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 25.92,
+   "end": 26.08,
+   "paragraph": 2
+  },
+  {
+   "text": "stronger",
+   "start": 26.28,
+   "end": 26.56,
+   "paragraph": 2
+  },
+  {
+   "text": "by",
+   "start": 26.64,
+   "end": 26.8,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 26.92,
+   "end": 27.04,
+   "paragraph": 2
+  },
+  {
+   "text": "thousand",
+   "start": 27.12,
+   "end": 27.6,
+   "paragraph": 2
+  },
+  {
+   "text": "billion",
+   "start": 27.84,
+   "end": 28.24,
+   "paragraph": 2
+  },
+  {
+   "text": "billion",
+   "start": 28.48,
+   "end": 28.88,
+   "paragraph": 2
+  },
+  {
+   "text": "billion",
+   "start": 29.12,
+   "end": 29.52,
+   "paragraph": 2
+  },
+  {
+   "text": "billion",
+   "start": 29.76,
+   "end": 30.08,
+   "paragraph": 2
+  },
+  {
+   "text": "times.",
+   "start": 30.16,
+   "end": 30.96,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 31.28,
+   "end": 31.52,
+   "paragraph": 3
+  },
+  {
+   "text": "why",
+   "start": 31.76,
+   "end": 31.84,
+   "paragraph": 3
+  },
+  {
+   "text": "don't",
+   "start": 31.92,
+   "end": 32.08,
+   "paragraph": 3
+  },
+  {
+   "text": "we",
+   "start": 32.16,
+   "end": 32.32,
+   "paragraph": 3
+  },
+  {
+   "text": "feel",
+   "start": 32.4,
+   "end": 32.48,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 32.56,
+   "end": 32.64,
+   "paragraph": 3
+  },
+  {
+   "text": "everywhere?",
+   "start": 32.76,
+   "end": 33.44,
+   "paragraph": 3
+  },
+  {
+   "text": "Because",
+   "start": 33.76,
+   "end": 34.08,
+   "paragraph": 3
+  },
+  {
+   "text": "matter",
+   "start": 34.16,
+   "end": 34.56,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 34.64,
+   "end": 34.8,
+   "paragraph": 3
+  },
+  {
+   "text": "balanced,",
+   "start": 34.88,
+   "end": 35.76,
+   "paragraph": 3
+  },
+  {
+   "text": "almost",
+   "start": 36,
+   "end": 36.24,
+   "paragraph": 3
+  },
+  {
+   "text": "perfectly.",
+   "start": 36.4,
+   "end": 37.52,
+   "paragraph": 3
+  },
+  {
+   "text": "If",
+   "start": 37.6,
+   "end": 37.76,
+   "paragraph": 3
+  },
+  {
+   "text": "you",
+   "start": 37.84,
+   "end": 38.08,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 38.12,
+   "end": 38.16,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 38.24,
+   "end": 38.32,
+   "paragraph": 3
+  },
+  {
+   "text": "friend",
+   "start": 38.4,
+   "end": 38.72,
+   "paragraph": 3
+  },
+  {
+   "text": "stood",
+   "start": 38.84,
+   "end": 38.96,
+   "paragraph": 3
+  },
+  {
+   "text": "at",
+   "start": 39.04,
+   "end": 39.12,
+   "paragraph": 3
+  },
+  {
+   "text": "arm's",
+   "start": 39.2,
+   "end": 39.52,
+   "paragraph": 3
+  },
+  {
+   "text": "length,",
+   "start": 39.68,
+   "end": 40.08,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 40.2,
+   "end": 40.32,
+   "paragraph": 3
+  },
+  {
+   "text": "each",
+   "start": 40.4,
+   "end": 40.56,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 40.64,
+   "end": 40.72,
+   "paragraph": 3
+  },
+  {
+   "text": "you",
+   "start": 40.8,
+   "end": 40.96,
+   "paragraph": 3
+  },
+  {
+   "text": "had",
+   "start": 41.08,
+   "end": 41.2,
+   "paragraph": 3
+  },
+  {
+   "text": "just",
+   "start": 41.36,
+   "end": 41.52,
+   "paragraph": 3
+  },
+  {
+   "text": "one",
+   "start": 41.6,
+   "end": 41.76,
+   "paragraph": 3
+  },
+  {
+   "text": "percent",
+   "start": 41.92,
+   "end": 42.32,
+   "paragraph": 3
+  },
+  {
+   "text": "more",
+   "start": 42.48,
+   "end": 42.64,
+   "paragraph": 3
+  },
+  {
+   "text": "electrons",
+   "start": 42.72,
+   "end": 43.28,
+   "paragraph": 3
+  },
+  {
+   "text": "than",
+   "start": 43.36,
+   "end": 43.44,
+   "paragraph": 3
+  },
+  {
+   "text": "protons,",
+   "start": 43.52,
+   "end": 44.48,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 44.56,
+   "end": 44.72,
+   "paragraph": 3
+  },
+  {
+   "text": "push",
+   "start": 44.84,
+   "end": 44.96,
+   "paragraph": 3
+  },
+  {
+   "text": "between",
+   "start": 45.04,
+   "end": 45.36,
+   "paragraph": 3
+  },
+  {
+   "text": "you",
+   "start": 45.44,
+   "end": 45.6,
+   "paragraph": 3
+  },
+  {
+   "text": "would",
+   "start": 45.68,
+   "end": 45.76,
+   "paragraph": 3
+  },
+  {
+   "text": "be",
+   "start": 45.84,
+   "end": 45.92,
+   "paragraph": 3
+  },
+  {
+   "text": "enough",
+   "start": 46.04,
+   "end": 46.32,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 46.4,
+   "end": 46.48,
+   "paragraph": 3
+  },
+  {
+   "text": "lift",
+   "start": 46.56,
+   "end": 46.8,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 46.84,
+   "end": 46.88,
+   "paragraph": 3
+  },
+  {
+   "text": "weight",
+   "start": 46.96,
+   "end": 47.28,
+   "paragraph": 3
+  },
+  {
+   "text": "equal",
+   "start": 47.36,
+   "end": 47.68,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 47.76,
+   "end": 47.84,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 47.92,
+   "end": 48.08,
+   "paragraph": 3
+  },
+  {
+   "text": "entire",
+   "start": 48.28,
+   "end": 48.72,
+   "paragraph": 3
+  },
+  {
+   "text": "Earth.",
+   "start": 48.88,
+   "end": 49.92,
+   "paragraph": 3
+  },
+  {
+   "text": "Every",
+   "start": 50,
+   "end": 50.24,
+   "paragraph": 4
+  },
+  {
+   "text": "wire,",
+   "start": 50.4,
+   "end": 50.96,
+   "paragraph": 4
+  },
+  {
+   "text": "every",
+   "start": 51.12,
+   "end": 51.28,
+   "paragraph": 4
+  },
+  {
+   "text": "motor",
+   "start": 51.36,
+   "end": 51.76,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 51.84,
+   "end": 52.08,
+   "paragraph": 4
+  },
+  {
+   "text": "every",
+   "start": 52.16,
+   "end": 52.4,
+   "paragraph": 4
+  },
+  {
+   "text": "circuit",
+   "start": 52.56,
+   "end": 52.96,
+   "paragraph": 4
+  },
+  {
+   "text": "you",
+   "start": 53,
+   "end": 53.04,
+   "paragraph": 4
+  },
+  {
+   "text": "will",
+   "start": 53.16,
+   "end": 53.28,
+   "paragraph": 4
+  },
+  {
+   "text": "ever",
+   "start": 53.36,
+   "end": 53.52,
+   "paragraph": 4
+  },
+  {
+   "text": "study",
+   "start": 53.6,
+   "end": 54.24,
+   "paragraph": 4
+  },
+  {
+   "text": "runs",
+   "start": 54.32,
+   "end": 54.56,
+   "paragraph": 4
+  },
+  {
+   "text": "on",
+   "start": 54.64,
+   "end": 54.72,
+   "paragraph": 4
+  },
+  {
+   "text": "this",
+   "start": 54.8,
+   "end": 54.88,
+   "paragraph": 4
+  },
+  {
+   "text": "force.",
+   "start": 54.96,
+   "end": 55.84,
+   "paragraph": 4
+  },
+  {
+   "text": "So",
+   "start": 56.08,
+   "end": 56.32,
+   "paragraph": 4
+  },
+  {
+   "text": "let's",
+   "start": 56.4,
+   "end": 56.56,
+   "paragraph": 4
+  },
+  {
+   "text": "see",
+   "start": 56.64,
+   "end": 56.72,
+   "paragraph": 4
+  },
+  {
+   "text": "where",
+   "start": 56.8,
+   "end": 56.88,
+   "paragraph": 4
+  },
+  {
+   "text": "it",
+   "start": 56.96,
+   "end": 57.04,
+   "paragraph": 4
+  },
+  {
+   "text": "comes",
+   "start": 57.16,
+   "end": 57.28,
+   "paragraph": 4
+  },
+  {
+   "text": "from.",
+   "start": 57.44,
+   "end": 57.84,
+   "paragraph": 4
+  }
+ ]
+}

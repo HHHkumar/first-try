@@ -1,0 +1,944 @@
+{
+ "chapter": 4,
+ "title": "What sets it",
+ "characters": 894,
+ "duration": 62.432653,
+ "words": [
+  {
+   "text": "What",
+   "start": 0,
+   "end": 0.24,
+   "paragraph": 0
+  },
+  {
+   "text": "decides",
+   "start": 0.32,
+   "end": 0.72,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 0.76,
+   "end": 0.8,
+   "paragraph": 0
+  },
+  {
+   "text": "capacitance",
+   "start": 0.88,
+   "end": 1.6,
+   "paragraph": 0
+  },
+  {
+   "text": "of",
+   "start": 1.68,
+   "end": 1.76,
+   "paragraph": 0
+  },
+  {
+   "text": "two",
+   "start": 1.84,
+   "end": 2,
+   "paragraph": 0
+  },
+  {
+   "text": "plates?",
+   "start": 2.08,
+   "end": 2.84,
+   "paragraph": 0
+  },
+  {
+   "text": "Only",
+   "start": 3.12,
+   "end": 3.44,
+   "paragraph": 0
+  },
+  {
+   "text": "their",
+   "start": 3.52,
+   "end": 3.68,
+   "paragraph": 0
+  },
+  {
+   "text": "shape,",
+   "start": 3.76,
+   "end": 4.4,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 4.52,
+   "end": 4.64,
+   "paragraph": 0
+  },
+  {
+   "text": "what",
+   "start": 4.72,
+   "end": 4.88,
+   "paragraph": 0
+  },
+  {
+   "text": "lies",
+   "start": 4.96,
+   "end": 5.2,
+   "paragraph": 0
+  },
+  {
+   "text": "between",
+   "start": 5.4,
+   "end": 5.6,
+   "paragraph": 0
+  },
+  {
+   "text": "them.",
+   "start": 5.72,
+   "end": 5.92,
+   "paragraph": 0
+  },
+  {
+   "text": "Make",
+   "start": 6.48,
+   "end": 6.64,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 6.72,
+   "end": 6.76,
+   "paragraph": 1
+  },
+  {
+   "text": "plates",
+   "start": 6.8,
+   "end": 7.12,
+   "paragraph": 1
+  },
+  {
+   "text": "larger,",
+   "start": 7.2,
+   "end": 7.92,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 8.04,
+   "end": 8.16,
+   "paragraph": 1
+  },
+  {
+   "text": "there",
+   "start": 8.24,
+   "end": 8.32,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 8.4,
+   "end": 8.48,
+   "paragraph": 1
+  },
+  {
+   "text": "more",
+   "start": 8.56,
+   "end": 8.72,
+   "paragraph": 1
+  },
+  {
+   "text": "room",
+   "start": 8.88,
+   "end": 9.12,
+   "paragraph": 1
+  },
+  {
+   "text": "for",
+   "start": 9.2,
+   "end": 9.28,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 9.36,
+   "end": 9.68,
+   "paragraph": 1
+  },
+  {
+   "text": "to",
+   "start": 9.72,
+   "end": 9.76,
+   "paragraph": 1
+  },
+  {
+   "text": "spread",
+   "start": 9.84,
+   "end": 10.08,
+   "paragraph": 1
+  },
+  {
+   "text": "out.",
+   "start": 10.16,
+   "end": 10.96,
+   "paragraph": 1
+  },
+  {
+   "text": "Double",
+   "start": 11.04,
+   "end": 11.28,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 11.36,
+   "end": 11.44,
+   "paragraph": 1
+  },
+  {
+   "text": "area,",
+   "start": 11.52,
+   "end": 12.24,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 12.32,
+   "end": 12.4,
+   "paragraph": 1
+  },
+  {
+   "text": "you",
+   "start": 12.48,
+   "end": 12.56,
+   "paragraph": 1
+  },
+  {
+   "text": "double",
+   "start": 12.72,
+   "end": 12.96,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 13.04,
+   "end": 13.08,
+   "paragraph": 1
+  },
+  {
+   "text": "capacitance.",
+   "start": 13.12,
+   "end": 14.2,
+   "paragraph": 1
+  },
+  {
+   "text": "Bring",
+   "start": 14.48,
+   "end": 14.64,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 14.72,
+   "end": 14.8,
+   "paragraph": 2
+  },
+  {
+   "text": "plates",
+   "start": 14.88,
+   "end": 15.2,
+   "paragraph": 2
+  },
+  {
+   "text": "closer,",
+   "start": 15.28,
+   "end": 16.08,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 16.2,
+   "end": 16.32,
+   "paragraph": 2
+  },
+  {
+   "text": "something",
+   "start": 16.4,
+   "end": 16.8,
+   "paragraph": 2
+  },
+  {
+   "text": "subtler",
+   "start": 16.96,
+   "end": 17.36,
+   "paragraph": 2
+  },
+  {
+   "text": "happens.",
+   "start": 17.4,
+   "end": 18.2,
+   "paragraph": 2
+  },
+  {
+   "text": "Remember",
+   "start": 18.48,
+   "end": 18.96,
+   "paragraph": 2
+  },
+  {
+   "text": "that",
+   "start": 19.04,
+   "end": 19.12,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 19.2,
+   "end": 19.28,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 19.36,
+   "end": 19.92,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 20,
+   "end": 20.16,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 20.24,
+   "end": 20.36,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 20.48,
+   "end": 20.8,
+   "paragraph": 2
+  },
+  {
+   "text": "multiplied",
+   "start": 21.04,
+   "end": 21.6,
+   "paragraph": 2
+  },
+  {
+   "text": "by",
+   "start": 21.68,
+   "end": 21.76,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 21.84,
+   "end": 21.92,
+   "paragraph": 2
+  },
+  {
+   "text": "gap.",
+   "start": 22,
+   "end": 22.56,
+   "paragraph": 2
+  },
+  {
+   "text": "With",
+   "start": 22.8,
+   "end": 22.96,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 23,
+   "end": 23.04,
+   "paragraph": 2
+  },
+  {
+   "text": "smaller",
+   "start": 23.12,
+   "end": 23.44,
+   "paragraph": 2
+  },
+  {
+   "text": "gap,",
+   "start": 23.52,
+   "end": 24.08,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 24.16,
+   "end": 24.32,
+   "paragraph": 2
+  },
+  {
+   "text": "same",
+   "start": 24.44,
+   "end": 24.56,
+   "paragraph": 2
+  },
+  {
+   "text": "charge",
+   "start": 24.64,
+   "end": 25.04,
+   "paragraph": 2
+  },
+  {
+   "text": "produces",
+   "start": 25.12,
+   "end": 25.6,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 25.68,
+   "end": 25.76,
+   "paragraph": 2
+  },
+  {
+   "text": "smaller",
+   "start": 25.84,
+   "end": 26.24,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage.",
+   "start": 26.32,
+   "end": 27.12,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 27.36,
+   "end": 27.6,
+   "paragraph": 2
+  },
+  {
+   "text": "for",
+   "start": 27.68,
+   "end": 27.84,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 27.92,
+   "end": 28,
+   "paragraph": 2
+  },
+  {
+   "text": "same",
+   "start": 28.08,
+   "end": 28.24,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage,",
+   "start": 28.32,
+   "end": 29.04,
+   "paragraph": 2
+  },
+  {
+   "text": "you",
+   "start": 29.12,
+   "end": 29.2,
+   "paragraph": 2
+  },
+  {
+   "text": "can",
+   "start": 29.24,
+   "end": 29.28,
+   "paragraph": 2
+  },
+  {
+   "text": "store",
+   "start": 29.36,
+   "end": 29.68,
+   "paragraph": 2
+  },
+  {
+   "text": "more",
+   "start": 29.84,
+   "end": 30,
+   "paragraph": 2
+  },
+  {
+   "text": "charge.",
+   "start": 30.08,
+   "end": 30.56,
+   "paragraph": 2
+  },
+  {
+   "text": "Halve",
+   "start": 31.04,
+   "end": 31.36,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 31.44,
+   "end": 31.48,
+   "paragraph": 2
+  },
+  {
+   "text": "gap,",
+   "start": 31.52,
+   "end": 32.08,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 32.16,
+   "end": 32.24,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 32.28,
+   "end": 32.32,
+   "paragraph": 2
+  },
+  {
+   "text": "capacitance",
+   "start": 32.4,
+   "end": 33.12,
+   "paragraph": 2
+  },
+  {
+   "text": "doubles.",
+   "start": 33.28,
+   "end": 33.84,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 34.32,
+   "end": 34.56,
+   "paragraph": 3
+  },
+  {
+   "text": "capacitance",
+   "start": 34.8,
+   "end": 35.52,
+   "paragraph": 3
+  },
+  {
+   "text": "equals",
+   "start": 35.68,
+   "end": 36,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 36.08,
+   "end": 36.16,
+   "paragraph": 3
+  },
+  {
+   "text": "constant,",
+   "start": 36.24,
+   "end": 37.04,
+   "paragraph": 3
+  },
+  {
+   "text": "times",
+   "start": 37.2,
+   "end": 37.36,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 37.4,
+   "end": 37.44,
+   "paragraph": 3
+  },
+  {
+   "text": "area,",
+   "start": 37.52,
+   "end": 38.16,
+   "paragraph": 3
+  },
+  {
+   "text": "divided",
+   "start": 38.28,
+   "end": 38.64,
+   "paragraph": 3
+  },
+  {
+   "text": "by",
+   "start": 38.72,
+   "end": 38.88,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 38.92,
+   "end": 38.96,
+   "paragraph": 3
+  },
+  {
+   "text": "gap.",
+   "start": 39.04,
+   "end": 39.44,
+   "paragraph": 3
+  },
+  {
+   "text": "The",
+   "start": 39.84,
+   "end": 40,
+   "paragraph": 3
+  },
+  {
+   "text": "constant",
+   "start": 40.28,
+   "end": 40.56,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 40.64,
+   "end": 40.72,
+   "paragraph": 3
+  },
+  {
+   "text": "called",
+   "start": 40.8,
+   "end": 41.04,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 41.08,
+   "end": 41.12,
+   "paragraph": 3
+  },
+  {
+   "text": "permittivity",
+   "start": 41.28,
+   "end": 41.92,
+   "paragraph": 3
+  },
+  {
+   "text": "of",
+   "start": 42,
+   "end": 42.16,
+   "paragraph": 3
+  },
+  {
+   "text": "free",
+   "start": 42.24,
+   "end": 42.4,
+   "paragraph": 3
+  },
+  {
+   "text": "space,",
+   "start": 42.48,
+   "end": 43.2,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 43.32,
+   "end": 43.44,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 43.52,
+   "end": 43.6,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 43.68,
+   "end": 43.76,
+   "paragraph": 3
+  },
+  {
+   "text": "very",
+   "start": 44,
+   "end": 44.16,
+   "paragraph": 3
+  },
+  {
+   "text": "small.",
+   "start": 44.32,
+   "end": 44.88,
+   "paragraph": 3
+  },
+  {
+   "text": "How",
+   "start": 45.12,
+   "end": 45.28,
+   "paragraph": 4
+  },
+  {
+   "text": "small?",
+   "start": 45.36,
+   "end": 45.76,
+   "paragraph": 4
+  },
+  {
+   "text": "Take",
+   "start": 46.24,
+   "end": 46.48,
+   "paragraph": 4
+  },
+  {
+   "text": "two",
+   "start": 46.56,
+   "end": 46.64,
+   "paragraph": 4
+  },
+  {
+   "text": "plates,",
+   "start": 46.72,
+   "end": 47.44,
+   "paragraph": 4
+  },
+  {
+   "text": "each",
+   "start": 47.6,
+   "end": 47.76,
+   "paragraph": 4
+  },
+  {
+   "text": "one",
+   "start": 47.84,
+   "end": 48,
+   "paragraph": 4
+  },
+  {
+   "text": "metre",
+   "start": 48.08,
+   "end": 48.32,
+   "paragraph": 4
+  },
+  {
+   "text": "square,",
+   "start": 48.52,
+   "end": 48.96,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 49,
+   "end": 49.04,
+   "paragraph": 4
+  },
+  {
+   "text": "millimetre",
+   "start": 49.2,
+   "end": 49.68,
+   "paragraph": 4
+  },
+  {
+   "text": "apart.",
+   "start": 49.8,
+   "end": 50.36,
+   "paragraph": 4
+  },
+  {
+   "text": "Their",
+   "start": 50.56,
+   "end": 50.72,
+   "paragraph": 4
+  },
+  {
+   "text": "capacitance",
+   "start": 50.8,
+   "end": 51.44,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 51.52,
+   "end": 51.68,
+   "paragraph": 4
+  },
+  {
+   "text": "less",
+   "start": 51.76,
+   "end": 51.92,
+   "paragraph": 4
+  },
+  {
+   "text": "than",
+   "start": 52,
+   "end": 52.16,
+   "paragraph": 4
+  },
+  {
+   "text": "nine",
+   "start": 52.32,
+   "end": 52.56,
+   "paragraph": 4
+  },
+  {
+   "text": "billionths",
+   "start": 52.8,
+   "end": 53.36,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 53.44,
+   "end": 53.52,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 53.56,
+   "end": 53.6,
+   "paragraph": 4
+  },
+  {
+   "text": "farad.",
+   "start": 53.68,
+   "end": 54.28,
+   "paragraph": 4
+  },
+  {
+   "text": "To",
+   "start": 54.48,
+   "end": 54.56,
+   "paragraph": 4
+  },
+  {
+   "text": "reach",
+   "start": 54.68,
+   "end": 54.8,
+   "paragraph": 4
+  },
+  {
+   "text": "one",
+   "start": 55.04,
+   "end": 55.2,
+   "paragraph": 4
+  },
+  {
+   "text": "farad",
+   "start": 55.28,
+   "end": 55.68,
+   "paragraph": 4
+  },
+  {
+   "text": "with",
+   "start": 55.8,
+   "end": 55.92,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 56.04,
+   "end": 56.16,
+   "paragraph": 4
+  },
+  {
+   "text": "gap,",
+   "start": 56.24,
+   "end": 56.8,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 56.88,
+   "end": 56.96,
+   "paragraph": 4
+  },
+  {
+   "text": "plates",
+   "start": 57.04,
+   "end": 57.36,
+   "paragraph": 4
+  },
+  {
+   "text": "would",
+   "start": 57.44,
+   "end": 57.52,
+   "paragraph": 4
+  },
+  {
+   "text": "have",
+   "start": 57.6,
+   "end": 57.68,
+   "paragraph": 4
+  },
+  {
+   "text": "to",
+   "start": 57.76,
+   "end": 57.84,
+   "paragraph": 4
+  },
+  {
+   "text": "cover",
+   "start": 57.92,
+   "end": 58.16,
+   "paragraph": 4
+  },
+  {
+   "text": "more",
+   "start": 58.24,
+   "end": 58.4,
+   "paragraph": 4
+  },
+  {
+   "text": "than",
+   "start": 58.48,
+   "end": 58.56,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 58.64,
+   "end": 58.72,
+   "paragraph": 4
+  },
+  {
+   "text": "hundred",
+   "start": 58.8,
+   "end": 59.2,
+   "paragraph": 4
+  },
+  {
+   "text": "square",
+   "start": 59.28,
+   "end": 59.6,
+   "paragraph": 4
+  },
+  {
+   "text": "kilometres:",
+   "start": 59.76,
+   "end": 60.88,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 60.96,
+   "end": 61.04,
+   "paragraph": 4
+  },
+  {
+   "text": "area",
+   "start": 61.12,
+   "end": 61.44,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 61.52,
+   "end": 61.6,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 61.68,
+   "end": 61.76,
+   "paragraph": 4
+  },
+  {
+   "text": "city.",
+   "start": 61.84,
+   "end": 62.48,
+   "paragraph": 4
+  }
+ ]
+}

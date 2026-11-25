@@ -1,0 +1,1388 @@
+{
+ "chapter": 8,
+ "title": "Field and voltage",
+ "characters": 1279,
+ "duration": 89.312653,
+ "words": [
+  {
+   "text": "Moving",
+   "start": 0,
+   "end": 0.4,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 0.44,
+   "end": 0.48,
+   "paragraph": 0
+  },
+  {
+   "text": "charge",
+   "start": 0.56,
+   "end": 0.88,
+   "paragraph": 0
+  },
+  {
+   "text": "against",
+   "start": 0.96,
+   "end": 1.28,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 1.36,
+   "end": 1.44,
+   "paragraph": 0
+  },
+  {
+   "text": "field",
+   "start": 1.52,
+   "end": 1.92,
+   "paragraph": 0
+  },
+  {
+   "text": "takes",
+   "start": 2,
+   "end": 2.24,
+   "paragraph": 0
+  },
+  {
+   "text": "work,",
+   "start": 2.4,
+   "end": 3.12,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 3.2,
+   "end": 3.28,
+   "paragraph": 0
+  },
+  {
+   "text": "same",
+   "start": 3.36,
+   "end": 3.52,
+   "paragraph": 0
+  },
+  {
+   "text": "way",
+   "start": 3.6,
+   "end": 3.84,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 3.92,
+   "end": 4,
+   "paragraph": 0
+  },
+  {
+   "text": "lifting",
+   "start": 4.08,
+   "end": 4.4,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 4.48,
+   "end": 4.56,
+   "paragraph": 0
+  },
+  {
+   "text": "weight",
+   "start": 4.64,
+   "end": 4.88,
+   "paragraph": 0
+  },
+  {
+   "text": "against",
+   "start": 5.04,
+   "end": 5.2,
+   "paragraph": 0
+  },
+  {
+   "text": "gravity",
+   "start": 5.28,
+   "end": 5.68,
+   "paragraph": 0
+  },
+  {
+   "text": "does.",
+   "start": 5.76,
+   "end": 6.64,
+   "paragraph": 0
+  },
+  {
+   "text": "And",
+   "start": 6.72,
+   "end": 6.8,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 6.88,
+   "end": 6.96,
+   "paragraph": 0
+  },
+  {
+   "text": "work",
+   "start": 7.04,
+   "end": 7.44,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 7.56,
+   "end": 7.68,
+   "paragraph": 0
+  },
+  {
+   "text": "not",
+   "start": 7.8,
+   "end": 7.92,
+   "paragraph": 0
+  },
+  {
+   "text": "lost.",
+   "start": 8.08,
+   "end": 8.88,
+   "paragraph": 0
+  },
+  {
+   "text": "It",
+   "start": 8.92,
+   "end": 8.96,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 9.04,
+   "end": 9.2,
+   "paragraph": 0
+  },
+  {
+   "text": "stored,",
+   "start": 9.44,
+   "end": 10,
+   "paragraph": 0
+  },
+  {
+   "text": "ready",
+   "start": 10.08,
+   "end": 10.32,
+   "paragraph": 0
+  },
+  {
+   "text": "to",
+   "start": 10.4,
+   "end": 10.48,
+   "paragraph": 0
+  },
+  {
+   "text": "be",
+   "start": 10.52,
+   "end": 10.56,
+   "paragraph": 0
+  },
+  {
+   "text": "given",
+   "start": 10.64,
+   "end": 10.88,
+   "paragraph": 0
+  },
+  {
+   "text": "back.",
+   "start": 10.96,
+   "end": 11.92,
+   "paragraph": 0
+  },
+  {
+   "text": "The",
+   "start": 12,
+   "end": 12.08,
+   "paragraph": 1
+  },
+  {
+   "text": "work",
+   "start": 12.24,
+   "end": 12.4,
+   "paragraph": 1
+  },
+  {
+   "text": "needed",
+   "start": 12.48,
+   "end": 12.72,
+   "paragraph": 1
+  },
+  {
+   "text": "for",
+   "start": 12.8,
+   "end": 13.04,
+   "paragraph": 1
+  },
+  {
+   "text": "each",
+   "start": 13.12,
+   "end": 13.28,
+   "paragraph": 1
+  },
+  {
+   "text": "coulomb",
+   "start": 13.36,
+   "end": 13.68,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 13.72,
+   "end": 13.76,
+   "paragraph": 1
+  },
+  {
+   "text": "charge",
+   "start": 13.92,
+   "end": 14.32,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 14.4,
+   "end": 14.56,
+   "paragraph": 1
+  },
+  {
+   "text": "called",
+   "start": 14.64,
+   "end": 14.88,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 15.04,
+   "end": 15.12,
+   "paragraph": 1
+  },
+  {
+   "text": "potential",
+   "start": 15.2,
+   "end": 15.76,
+   "paragraph": 1
+  },
+  {
+   "text": "difference.",
+   "start": 16.04,
+   "end": 16.88,
+   "paragraph": 1
+  },
+  {
+   "text": "You",
+   "start": 16.96,
+   "end": 17.04,
+   "paragraph": 1
+  },
+  {
+   "text": "already",
+   "start": 17.24,
+   "end": 17.44,
+   "paragraph": 1
+  },
+  {
+   "text": "know",
+   "start": 17.52,
+   "end": 17.6,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 17.68,
+   "end": 17.76,
+   "paragraph": 1
+  },
+  {
+   "text": "by",
+   "start": 17.84,
+   "end": 17.92,
+   "paragraph": 1
+  },
+  {
+   "text": "another",
+   "start": 18.08,
+   "end": 18.24,
+   "paragraph": 1
+  },
+  {
+   "text": "name:",
+   "start": 18.32,
+   "end": 19.04,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage.",
+   "start": 19.12,
+   "end": 20.32,
+   "paragraph": 1
+  },
+  {
+   "text": "The",
+   "start": 20.4,
+   "end": 20.48,
+   "paragraph": 1
+  },
+  {
+   "text": "unit",
+   "start": 20.56,
+   "end": 20.88,
+   "paragraph": 1
+  },
+  {
+   "text": "honours",
+   "start": 20.96,
+   "end": 21.36,
+   "paragraph": 1
+  },
+  {
+   "text": "Alessandro",
+   "start": 21.44,
+   "end": 22,
+   "paragraph": 1
+  },
+  {
+   "text": "Volta,",
+   "start": 22.16,
+   "end": 22.88,
+   "paragraph": 1
+  },
+  {
+   "text": "who",
+   "start": 22.96,
+   "end": 23.04,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 23.16,
+   "end": 23.28,
+   "paragraph": 1
+  },
+  {
+   "text": "eighteen",
+   "start": 23.4,
+   "end": 23.6,
+   "paragraph": 1
+  },
+  {
+   "text": "hundred",
+   "start": 23.68,
+   "end": 24.08,
+   "paragraph": 1
+  },
+  {
+   "text": "stacked",
+   "start": 24.4,
+   "end": 24.88,
+   "paragraph": 1
+  },
+  {
+   "text": "discs",
+   "start": 25.04,
+   "end": 25.28,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 25.36,
+   "end": 25.44,
+   "paragraph": 1
+  },
+  {
+   "text": "zinc",
+   "start": 25.6,
+   "end": 25.84,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 25.92,
+   "end": 26,
+   "paragraph": 1
+  },
+  {
+   "text": "copper",
+   "start": 26.16,
+   "end": 26.56,
+   "paragraph": 1
+  },
+  {
+   "text": "into",
+   "start": 26.68,
+   "end": 26.8,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 26.92,
+   "end": 27.04,
+   "paragraph": 1
+  },
+  {
+   "text": "first",
+   "start": 27.2,
+   "end": 27.36,
+   "paragraph": 1
+  },
+  {
+   "text": "battery,",
+   "start": 27.44,
+   "end": 28.24,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 28.32,
+   "end": 28.4,
+   "paragraph": 1
+  },
+  {
+   "text": "gave",
+   "start": 28.44,
+   "end": 28.64,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 28.68,
+   "end": 28.72,
+   "paragraph": 1
+  },
+  {
+   "text": "world",
+   "start": 28.8,
+   "end": 29.12,
+   "paragraph": 1
+  },
+  {
+   "text": "its",
+   "start": 29.2,
+   "end": 29.44,
+   "paragraph": 1
+  },
+  {
+   "text": "first",
+   "start": 29.52,
+   "end": 29.92,
+   "paragraph": 1
+  },
+  {
+   "text": "steady",
+   "start": 30,
+   "end": 30.4,
+   "paragraph": 1
+  },
+  {
+   "text": "source",
+   "start": 30.56,
+   "end": 30.72,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 30.8,
+   "end": 30.88,
+   "paragraph": 1
+  },
+  {
+   "text": "electrical",
+   "start": 30.96,
+   "end": 31.52,
+   "paragraph": 1
+  },
+  {
+   "text": "push.",
+   "start": 31.6,
+   "end": 32.64,
+   "paragraph": 1
+  },
+  {
+   "text": "One",
+   "start": 32.72,
+   "end": 32.88,
+   "paragraph": 1
+  },
+  {
+   "text": "volt",
+   "start": 32.96,
+   "end": 33.28,
+   "paragraph": 1
+  },
+  {
+   "text": "means",
+   "start": 33.44,
+   "end": 33.76,
+   "paragraph": 1
+  },
+  {
+   "text": "one",
+   "start": 33.92,
+   "end": 34.08,
+   "paragraph": 1
+  },
+  {
+   "text": "joule",
+   "start": 34.24,
+   "end": 34.4,
+   "paragraph": 1
+  },
+  {
+   "text": "of",
+   "start": 34.48,
+   "end": 34.64,
+   "paragraph": 1
+  },
+  {
+   "text": "work",
+   "start": 34.72,
+   "end": 35.04,
+   "paragraph": 1
+  },
+  {
+   "text": "for",
+   "start": 35.12,
+   "end": 35.36,
+   "paragraph": 1
+  },
+  {
+   "text": "each",
+   "start": 35.44,
+   "end": 35.68,
+   "paragraph": 1
+  },
+  {
+   "text": "coulomb",
+   "start": 35.76,
+   "end": 36.08,
+   "paragraph": 1
+  },
+  {
+   "text": "moved.",
+   "start": 36.16,
+   "end": 37.12,
+   "paragraph": 1
+  },
+  {
+   "text": "Between",
+   "start": 37.32,
+   "end": 37.52,
+   "paragraph": 2
+  },
+  {
+   "text": "our",
+   "start": 37.6,
+   "end": 37.68,
+   "paragraph": 2
+  },
+  {
+   "text": "two",
+   "start": 37.76,
+   "end": 37.84,
+   "paragraph": 2
+  },
+  {
+   "text": "plates,",
+   "start": 38,
+   "end": 38.64,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 38.72,
+   "end": 39.28,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 39.36,
+   "end": 39.44,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 39.6,
+   "end": 40,
+   "paragraph": 2
+  },
+  {
+   "text": "are",
+   "start": 40.12,
+   "end": 40.24,
+   "paragraph": 2
+  },
+  {
+   "text": "tied",
+   "start": 40.32,
+   "end": 40.48,
+   "paragraph": 2
+  },
+  {
+   "text": "together",
+   "start": 40.56,
+   "end": 41.04,
+   "paragraph": 2
+  },
+  {
+   "text": "very",
+   "start": 41.16,
+   "end": 41.28,
+   "paragraph": 2
+  },
+  {
+   "text": "simply.",
+   "start": 41.36,
+   "end": 42.24,
+   "paragraph": 2
+  },
+  {
+   "text": "The",
+   "start": 42.32,
+   "end": 42.4,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 42.48,
+   "end": 42.88,
+   "paragraph": 2
+  },
+  {
+   "text": "equals",
+   "start": 42.96,
+   "end": 43.36,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 43.44,
+   "end": 43.52,
+   "paragraph": 2
+  },
+  {
+   "text": "voltage",
+   "start": 43.6,
+   "end": 44.16,
+   "paragraph": 2
+  },
+  {
+   "text": "divided",
+   "start": 44.24,
+   "end": 44.64,
+   "paragraph": 2
+  },
+  {
+   "text": "by",
+   "start": 44.72,
+   "end": 44.8,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 44.88,
+   "end": 44.96,
+   "paragraph": 2
+  },
+  {
+   "text": "gap:",
+   "start": 45.04,
+   "end": 45.84,
+   "paragraph": 2
+  },
+  {
+   "text": "E",
+   "start": 45.92,
+   "end": 46.24,
+   "paragraph": 2
+  },
+  {
+   "text": "equals",
+   "start": 46.32,
+   "end": 46.8,
+   "paragraph": 2
+  },
+  {
+   "text": "V",
+   "start": 46.96,
+   "end": 47.2,
+   "paragraph": 2
+  },
+  {
+   "text": "over",
+   "start": 47.28,
+   "end": 47.44,
+   "paragraph": 2
+  },
+  {
+   "text": "d.",
+   "start": 47.6,
+   "end": 48.32,
+   "paragraph": 2
+  },
+  {
+   "text": "So",
+   "start": 48.36,
+   "end": 48.4,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 48.48,
+   "end": 48.64,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 48.84,
+   "end": 49.04,
+   "paragraph": 2
+  },
+  {
+   "text": "can",
+   "start": 49.12,
+   "end": 49.28,
+   "paragraph": 2
+  },
+  {
+   "text": "also",
+   "start": 49.36,
+   "end": 49.68,
+   "paragraph": 2
+  },
+  {
+   "text": "be",
+   "start": 49.76,
+   "end": 49.84,
+   "paragraph": 2
+  },
+  {
+   "text": "measured",
+   "start": 49.88,
+   "end": 50.24,
+   "paragraph": 2
+  },
+  {
+   "text": "in",
+   "start": 50.32,
+   "end": 50.48,
+   "paragraph": 2
+  },
+  {
+   "text": "volts",
+   "start": 50.56,
+   "end": 50.88,
+   "paragraph": 2
+  },
+  {
+   "text": "per",
+   "start": 50.96,
+   "end": 51.12,
+   "paragraph": 2
+  },
+  {
+   "text": "metre.",
+   "start": 51.24,
+   "end": 51.92,
+   "paragraph": 2
+  },
+  {
+   "text": "Put",
+   "start": 52,
+   "end": 52.24,
+   "paragraph": 2
+  },
+  {
+   "text": "one",
+   "start": 52.32,
+   "end": 52.48,
+   "paragraph": 2
+  },
+  {
+   "text": "volt",
+   "start": 52.56,
+   "end": 52.88,
+   "paragraph": 2
+  },
+  {
+   "text": "across",
+   "start": 52.96,
+   "end": 53.28,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 53.36,
+   "end": 53.44,
+   "paragraph": 2
+  },
+  {
+   "text": "one-millimetre",
+   "start": 53.52,
+   "end": 54.16,
+   "paragraph": 2
+  },
+  {
+   "text": "gap,",
+   "start": 54.24,
+   "end": 54.8,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 54.88,
+   "end": 54.96,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 55.04,
+   "end": 55.12,
+   "paragraph": 2
+  },
+  {
+   "text": "field",
+   "start": 55.32,
+   "end": 55.52,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 55.6,
+   "end": 55.68,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 55.76,
+   "end": 55.92,
+   "paragraph": 2
+  },
+  {
+   "text": "thousand",
+   "start": 56,
+   "end": 56.4,
+   "paragraph": 2
+  },
+  {
+   "text": "volts",
+   "start": 56.48,
+   "end": 56.72,
+   "paragraph": 2
+  },
+  {
+   "text": "per",
+   "start": 56.8,
+   "end": 56.88,
+   "paragraph": 2
+  },
+  {
+   "text": "metre.",
+   "start": 57,
+   "end": 57.68,
+   "paragraph": 2
+  },
+  {
+   "text": "Squeeze",
+   "start": 57.76,
+   "end": 58.08,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 58.16,
+   "end": 58.32,
+   "paragraph": 3
+  },
+  {
+   "text": "same",
+   "start": 58.44,
+   "end": 58.56,
+   "paragraph": 3
+  },
+  {
+   "text": "voltage",
+   "start": 58.64,
+   "end": 59.04,
+   "paragraph": 3
+  },
+  {
+   "text": "into",
+   "start": 59.12,
+   "end": 59.36,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 59.44,
+   "end": 59.52,
+   "paragraph": 3
+  },
+  {
+   "text": "smaller",
+   "start": 59.68,
+   "end": 59.92,
+   "paragraph": 3
+  },
+  {
+   "text": "gap",
+   "start": 60.2,
+   "end": 60.48,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 60.52,
+   "end": 60.56,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 60.64,
+   "end": 60.72,
+   "paragraph": 3
+  },
+  {
+   "text": "field",
+   "start": 60.8,
+   "end": 61.12,
+   "paragraph": 3
+  },
+  {
+   "text": "grows.",
+   "start": 61.16,
+   "end": 62.16,
+   "paragraph": 3
+  },
+  {
+   "text": "And",
+   "start": 62.24,
+   "end": 62.32,
+   "paragraph": 3
+  },
+  {
+   "text": "every",
+   "start": 62.4,
+   "end": 62.72,
+   "paragraph": 3
+  },
+  {
+   "text": "insulator",
+   "start": 62.8,
+   "end": 63.36,
+   "paragraph": 3
+  },
+  {
+   "text": "has",
+   "start": 63.44,
+   "end": 63.6,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 63.64,
+   "end": 63.68,
+   "paragraph": 3
+  },
+  {
+   "text": "limit.",
+   "start": 63.76,
+   "end": 64.56,
+   "paragraph": 3
+  },
+  {
+   "text": "For",
+   "start": 64.64,
+   "end": 64.72,
+   "paragraph": 3
+  },
+  {
+   "text": "air,",
+   "start": 64.88,
+   "end": 65.32,
+   "paragraph": 3
+  },
+  {
+   "text": "it",
+   "start": 65.36,
+   "end": 65.44,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 65.48,
+   "end": 65.52,
+   "paragraph": 3
+  },
+  {
+   "text": "about",
+   "start": 65.6,
+   "end": 65.92,
+   "paragraph": 3
+  },
+  {
+   "text": "three",
+   "start": 66,
+   "end": 66.24,
+   "paragraph": 3
+  },
+  {
+   "text": "million",
+   "start": 66.32,
+   "end": 66.64,
+   "paragraph": 3
+  },
+  {
+   "text": "volts",
+   "start": 66.72,
+   "end": 67.04,
+   "paragraph": 3
+  },
+  {
+   "text": "per",
+   "start": 67.08,
+   "end": 67.12,
+   "paragraph": 3
+  },
+  {
+   "text": "metre.",
+   "start": 67.2,
+   "end": 67.96,
+   "paragraph": 3
+  },
+  {
+   "text": "Push",
+   "start": 68,
+   "end": 68.24,
+   "paragraph": 3
+  },
+  {
+   "text": "past",
+   "start": 68.32,
+   "end": 68.56,
+   "paragraph": 3
+  },
+  {
+   "text": "that,",
+   "start": 68.64,
+   "end": 69.147,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 69.173,
+   "end": 69.2,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 69.28,
+   "end": 69.44,
+   "paragraph": 3
+  },
+  {
+   "text": "air",
+   "start": 69.52,
+   "end": 69.68,
+   "paragraph": 3
+  },
+  {
+   "text": "itself",
+   "start": 69.76,
+   "end": 70.32,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 70.44,
+   "end": 70.56,
+   "paragraph": 3
+  },
+  {
+   "text": "torn",
+   "start": 70.64,
+   "end": 70.8,
+   "paragraph": 3
+  },
+  {
+   "text": "apart",
+   "start": 70.88,
+   "end": 71.28,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 71.36,
+   "end": 71.44,
+   "paragraph": 3
+  },
+  {
+   "text": "starts",
+   "start": 71.52,
+   "end": 71.84,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 71.88,
+   "end": 71.92,
+   "paragraph": 3
+  },
+  {
+   "text": "conduct.",
+   "start": 72.4,
+   "end": 72.92,
+   "paragraph": 3
+  },
+  {
+   "text": "That",
+   "start": 72.96,
+   "end": 73.36,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 73.44,
+   "end": 73.52,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 73.6,
+   "end": 73.68,
+   "paragraph": 3
+  },
+  {
+   "text": "spark.",
+   "start": 73.76,
+   "end": 74.667,
+   "paragraph": 3
+  },
+  {
+   "text": "On",
+   "start": 74.693,
+   "end": 74.72,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 74.8,
+   "end": 74.88,
+   "paragraph": 3
+  },
+  {
+   "text": "much",
+   "start": 75,
+   "end": 75.12,
+   "paragraph": 3
+  },
+  {
+   "text": "larger",
+   "start": 75.2,
+   "end": 75.52,
+   "paragraph": 3
+  },
+  {
+   "text": "scale,",
+   "start": 75.6,
+   "end": 76.2,
+   "paragraph": 3
+  },
+  {
+   "text": "that",
+   "start": 76.24,
+   "end": 76.64,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 76.72,
+   "end": 76.88,
+   "paragraph": 3
+  },
+  {
+   "text": "lightning.",
+   "start": 76.96,
+   "end": 77.96,
+   "paragraph": 3
+  },
+  {
+   "text": "This",
+   "start": 78,
+   "end": 78.08,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 78.16,
+   "end": 78.32,
+   "paragraph": 4
+  },
+  {
+   "text": "why",
+   "start": 78.48,
+   "end": 78.64,
+   "paragraph": 4
+  },
+  {
+   "text": "insulation",
+   "start": 78.72,
+   "end": 79.28,
+   "paragraph": 4
+  },
+  {
+   "text": "thickness,",
+   "start": 79.36,
+   "end": 80.32,
+   "paragraph": 4
+  },
+  {
+   "text": "spacing",
+   "start": 80.48,
+   "end": 80.64,
+   "paragraph": 4
+  },
+  {
+   "text": "between",
+   "start": 80.8,
+   "end": 80.96,
+   "paragraph": 4
+  },
+  {
+   "text": "conductors",
+   "start": 81.2,
+   "end": 81.76,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 81.84,
+   "end": 81.92,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 82,
+   "end": 82.08,
+   "paragraph": 4
+  },
+  {
+   "text": "smooth",
+   "start": 82.16,
+   "end": 82.56,
+   "paragraph": 4
+  },
+  {
+   "text": "shape",
+   "start": 82.72,
+   "end": 82.88,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 82.96,
+   "end": 83.04,
+   "paragraph": 4
+  },
+  {
+   "text": "high-voltage",
+   "start": 83.12,
+   "end": 83.68,
+   "paragraph": 4
+  },
+  {
+   "text": "equipment",
+   "start": 83.76,
+   "end": 84.4,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 84.52,
+   "end": 84.64,
+   "paragraph": 4
+  },
+  {
+   "text": "never",
+   "start": 84.72,
+   "end": 85.04,
+   "paragraph": 4
+  },
+  {
+   "text": "arbitrary.",
+   "start": 85.12,
+   "end": 86.107,
+   "paragraph": 4
+  },
+  {
+   "text": "They",
+   "start": 86.133,
+   "end": 86.16,
+   "paragraph": 4
+  },
+  {
+   "text": "are",
+   "start": 86.24,
+   "end": 86.4,
+   "paragraph": 4
+  },
+  {
+   "text": "all",
+   "start": 86.48,
+   "end": 86.72,
+   "paragraph": 4
+  },
+  {
+   "text": "ways",
+   "start": 86.8,
+   "end": 87.04,
+   "paragraph": 4
+  },
+  {
+   "text": "of",
+   "start": 87.12,
+   "end": 87.28,
+   "paragraph": 4
+  },
+  {
+   "text": "keeping",
+   "start": 87.44,
+   "end": 87.6,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 87.68,
+   "end": 87.76,
+   "paragraph": 4
+  },
+  {
+   "text": "field",
+   "start": 87.84,
+   "end": 88.24,
+   "paragraph": 4
+  },
+  {
+   "text": "below",
+   "start": 88.44,
+   "end": 88.64,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 88.68,
+   "end": 88.72,
+   "paragraph": 4
+  },
+  {
+   "text": "limit.",
+   "start": 88.8,
+   "end": 89.36,
+   "paragraph": 4
+  }
+ ]
+}

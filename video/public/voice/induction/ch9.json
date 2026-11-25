@@ -1,0 +1,1406 @@
+{
+ "chapter": 9,
+ "title": "Motors, and the series in one picture",
+ "characters": 1197,
+ "duration": 86.517551,
+ "words": [
+  {
+   "text": "A",
+   "start": 0,
+   "end": 0.04,
+   "paragraph": 0
+  },
+  {
+   "text": "motor",
+   "start": 0.08,
+   "end": 0.48,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 0.56,
+   "end": 0.747,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 0.8,
+   "end": 0.84,
+   "paragraph": 0
+  },
+  {
+   "text": "generator",
+   "start": 0.88,
+   "end": 1.529,
+   "paragraph": 0
+  },
+  {
+   "text": "are",
+   "start": 1.6,
+   "end": 1.733,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 1.76,
+   "end": 1.893,
+   "paragraph": 0
+  },
+  {
+   "text": "same",
+   "start": 1.92,
+   "end": 2.18,
+   "paragraph": 0
+  },
+  {
+   "text": "machine.",
+   "start": 2.24,
+   "end": 2.72,
+   "paragraph": 0
+  },
+  {
+   "text": "Push",
+   "start": 2.8,
+   "end": 3.52,
+   "paragraph": 0
+  },
+  {
+   "text": "current",
+   "start": 3.6,
+   "end": 3.92,
+   "paragraph": 0
+  },
+  {
+   "text": "through",
+   "start": 4,
+   "end": 4.16,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 4.24,
+   "end": 4.32,
+   "paragraph": 0
+  },
+  {
+   "text": "loop,",
+   "start": 4.4,
+   "end": 4.88,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 4.96,
+   "end": 5.04,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 5.08,
+   "end": 5.12,
+   "paragraph": 0
+  },
+  {
+   "text": "field",
+   "start": 5.28,
+   "end": 5.6,
+   "paragraph": 0
+  },
+  {
+   "text": "turns",
+   "start": 5.76,
+   "end": 6.04,
+   "paragraph": 0
+  },
+  {
+   "text": "it:",
+   "start": 6.08,
+   "end": 6.72,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 6.88,
+   "end": 7.04,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 7.2,
+   "end": 7.28,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 7.36,
+   "end": 7.4,
+   "paragraph": 0
+  },
+  {
+   "text": "motor.",
+   "start": 7.44,
+   "end": 8.16,
+   "paragraph": 0
+  },
+  {
+   "text": "Turn",
+   "start": 8.48,
+   "end": 8.72,
+   "paragraph": 0
+  },
+  {
+   "text": "the",
+   "start": 8.76,
+   "end": 8.8,
+   "paragraph": 0
+  },
+  {
+   "text": "loop",
+   "start": 8.88,
+   "end": 9.12,
+   "paragraph": 0
+  },
+  {
+   "text": "by",
+   "start": 9.2,
+   "end": 9.28,
+   "paragraph": 0
+  },
+  {
+   "text": "hand,",
+   "start": 9.36,
+   "end": 10,
+   "paragraph": 0
+  },
+  {
+   "text": "and",
+   "start": 10.04,
+   "end": 10.08,
+   "paragraph": 0
+  },
+  {
+   "text": "it",
+   "start": 10.16,
+   "end": 10.24,
+   "paragraph": 0
+  },
+  {
+   "text": "gives",
+   "start": 10.32,
+   "end": 10.48,
+   "paragraph": 0
+  },
+  {
+   "text": "out",
+   "start": 10.56,
+   "end": 10.72,
+   "paragraph": 0
+  },
+  {
+   "text": "current:",
+   "start": 10.8,
+   "end": 11.68,
+   "paragraph": 0
+  },
+  {
+   "text": "that",
+   "start": 11.84,
+   "end": 12,
+   "paragraph": 0
+  },
+  {
+   "text": "is",
+   "start": 12.16,
+   "end": 12.24,
+   "paragraph": 0
+  },
+  {
+   "text": "a",
+   "start": 12.32,
+   "end": 12.36,
+   "paragraph": 0
+  },
+  {
+   "text": "generator.",
+   "start": 12.4,
+   "end": 13.04,
+   "paragraph": 0
+  },
+  {
+   "text": "In",
+   "start": 13.6,
+   "end": 13.68,
+   "paragraph": 1
+  },
+  {
+   "text": "fact,",
+   "start": 13.76,
+   "end": 14.32,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 14.4,
+   "end": 14.48,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 14.6,
+   "end": 14.72,
+   "paragraph": 1
+  },
+  {
+   "text": "always",
+   "start": 14.8,
+   "end": 15.28,
+   "paragraph": 1
+  },
+  {
+   "text": "both",
+   "start": 15.44,
+   "end": 15.68,
+   "paragraph": 1
+  },
+  {
+   "text": "at",
+   "start": 15.76,
+   "end": 15.84,
+   "paragraph": 1
+  },
+  {
+   "text": "once.",
+   "start": 15.92,
+   "end": 16.68,
+   "paragraph": 1
+  },
+  {
+   "text": "As",
+   "start": 17.04,
+   "end": 17.12,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 17.2,
+   "end": 17.24,
+   "paragraph": 1
+  },
+  {
+   "text": "motor",
+   "start": 17.28,
+   "end": 17.6,
+   "paragraph": 1
+  },
+  {
+   "text": "spins,",
+   "start": 17.68,
+   "end": 18.48,
+   "paragraph": 1
+  },
+  {
+   "text": "its",
+   "start": 18.6,
+   "end": 18.72,
+   "paragraph": 1
+  },
+  {
+   "text": "coils",
+   "start": 18.8,
+   "end": 19.2,
+   "paragraph": 1
+  },
+  {
+   "text": "are",
+   "start": 19.28,
+   "end": 19.36,
+   "paragraph": 1
+  },
+  {
+   "text": "turning",
+   "start": 19.44,
+   "end": 19.76,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 19.84,
+   "end": 19.88,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 19.92,
+   "end": 20,
+   "paragraph": 1
+  },
+  {
+   "text": "magnetic",
+   "start": 20.16,
+   "end": 20.48,
+   "paragraph": 1
+  },
+  {
+   "text": "field,",
+   "start": 20.64,
+   "end": 21.36,
+   "paragraph": 1
+  },
+  {
+   "text": "so",
+   "start": 21.44,
+   "end": 21.68,
+   "paragraph": 1
+  },
+  {
+   "text": "a",
+   "start": 21.76,
+   "end": 21.92,
+   "paragraph": 1
+  },
+  {
+   "text": "voltage",
+   "start": 22,
+   "end": 22.48,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 22.56,
+   "end": 22.64,
+   "paragraph": 1
+  },
+  {
+   "text": "induced",
+   "start": 22.72,
+   "end": 23.12,
+   "paragraph": 1
+  },
+  {
+   "text": "in",
+   "start": 23.2,
+   "end": 23.28,
+   "paragraph": 1
+  },
+  {
+   "text": "them.",
+   "start": 23.36,
+   "end": 23.6,
+   "paragraph": 1
+  },
+  {
+   "text": "By",
+   "start": 24.24,
+   "end": 24.32,
+   "paragraph": 1
+  },
+  {
+   "text": "Lenz's",
+   "start": 24.4,
+   "end": 24.88,
+   "paragraph": 1
+  },
+  {
+   "text": "law,",
+   "start": 25,
+   "end": 25.44,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 25.52,
+   "end": 25.6,
+   "paragraph": 1
+  },
+  {
+   "text": "opposes",
+   "start": 25.68,
+   "end": 26.16,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 26.24,
+   "end": 26.32,
+   "paragraph": 1
+  },
+  {
+   "text": "supply.",
+   "start": 26.56,
+   "end": 26.88,
+   "paragraph": 1
+  },
+  {
+   "text": "It",
+   "start": 27.36,
+   "end": 27.44,
+   "paragraph": 1
+  },
+  {
+   "text": "is",
+   "start": 27.52,
+   "end": 27.6,
+   "paragraph": 1
+  },
+  {
+   "text": "called",
+   "start": 27.68,
+   "end": 27.92,
+   "paragraph": 1
+  },
+  {
+   "text": "the",
+   "start": 28.08,
+   "end": 28.16,
+   "paragraph": 1
+  },
+  {
+   "text": "back",
+   "start": 28.32,
+   "end": 28.56,
+   "paragraph": 1
+  },
+  {
+   "text": "EMF,",
+   "start": 28.64,
+   "end": 29.44,
+   "paragraph": 1
+  },
+  {
+   "text": "and",
+   "start": 29.48,
+   "end": 29.52,
+   "paragraph": 1
+  },
+  {
+   "text": "it",
+   "start": 29.6,
+   "end": 29.68,
+   "paragraph": 1
+  },
+  {
+   "text": "grows",
+   "start": 29.76,
+   "end": 30.16,
+   "paragraph": 1
+  },
+  {
+   "text": "with",
+   "start": 30.24,
+   "end": 30.32,
+   "paragraph": 1
+  },
+  {
+   "text": "speed.",
+   "start": 30.4,
+   "end": 31.24,
+   "paragraph": 1
+  },
+  {
+   "text": "This",
+   "start": 31.6,
+   "end": 31.76,
+   "paragraph": 2
+  },
+  {
+   "text": "explains",
+   "start": 31.84,
+   "end": 32.32,
+   "paragraph": 2
+  },
+  {
+   "text": "something",
+   "start": 32.56,
+   "end": 32.8,
+   "paragraph": 2
+  },
+  {
+   "text": "every",
+   "start": 32.88,
+   "end": 33.2,
+   "paragraph": 2
+  },
+  {
+   "text": "engineer",
+   "start": 33.28,
+   "end": 33.68,
+   "paragraph": 2
+  },
+  {
+   "text": "has",
+   "start": 33.76,
+   "end": 33.92,
+   "paragraph": 2
+  },
+  {
+   "text": "to",
+   "start": 34,
+   "end": 34.08,
+   "paragraph": 2
+  },
+  {
+   "text": "know.",
+   "start": 34.2,
+   "end": 34.64,
+   "paragraph": 2
+  },
+  {
+   "text": "At",
+   "start": 34.96,
+   "end": 35.12,
+   "paragraph": 2
+  },
+  {
+   "text": "full",
+   "start": 35.2,
+   "end": 35.36,
+   "paragraph": 2
+  },
+  {
+   "text": "speed,",
+   "start": 35.44,
+   "end": 36.16,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 36.24,
+   "end": 36.32,
+   "paragraph": 2
+  },
+  {
+   "text": "back",
+   "start": 36.4,
+   "end": 36.64,
+   "paragraph": 2
+  },
+  {
+   "text": "EMF",
+   "start": 36.72,
+   "end": 37.2,
+   "paragraph": 2
+  },
+  {
+   "text": "nearly",
+   "start": 37.36,
+   "end": 37.68,
+   "paragraph": 2
+  },
+  {
+   "text": "balances",
+   "start": 37.84,
+   "end": 38.32,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 38.4,
+   "end": 38.44,
+   "paragraph": 2
+  },
+  {
+   "text": "supply,",
+   "start": 38.48,
+   "end": 39.28,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 39.36,
+   "end": 39.44,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 39.48,
+   "end": 39.52,
+   "paragraph": 2
+  },
+  {
+   "text": "motor",
+   "start": 39.6,
+   "end": 39.92,
+   "paragraph": 2
+  },
+  {
+   "text": "draws",
+   "start": 40.08,
+   "end": 40.4,
+   "paragraph": 2
+  },
+  {
+   "text": "only",
+   "start": 40.48,
+   "end": 40.72,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 40.8,
+   "end": 40.88,
+   "paragraph": 2
+  },
+  {
+   "text": "small",
+   "start": 40.96,
+   "end": 41.28,
+   "paragraph": 2
+  },
+  {
+   "text": "current.",
+   "start": 41.36,
+   "end": 42.32,
+   "paragraph": 2
+  },
+  {
+   "text": "But",
+   "start": 42.48,
+   "end": 42.64,
+   "paragraph": 2
+  },
+  {
+   "text": "at",
+   "start": 42.88,
+   "end": 43.04,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 43.08,
+   "end": 43.12,
+   "paragraph": 2
+  },
+  {
+   "text": "moment",
+   "start": 43.2,
+   "end": 43.44,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 43.52,
+   "end": 43.6,
+   "paragraph": 2
+  },
+  {
+   "text": "starting,",
+   "start": 43.68,
+   "end": 44.48,
+   "paragraph": 2
+  },
+  {
+   "text": "or",
+   "start": 44.6,
+   "end": 44.72,
+   "paragraph": 2
+  },
+  {
+   "text": "if",
+   "start": 44.8,
+   "end": 44.88,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 44.96,
+   "end": 45.04,
+   "paragraph": 2
+  },
+  {
+   "text": "shaft",
+   "start": 45.12,
+   "end": 45.36,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 45.44,
+   "end": 45.6,
+   "paragraph": 2
+  },
+  {
+   "text": "jammed,",
+   "start": 45.68,
+   "end": 46.4,
+   "paragraph": 2
+  },
+  {
+   "text": "there",
+   "start": 46.48,
+   "end": 46.56,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 46.64,
+   "end": 46.72,
+   "paragraph": 2
+  },
+  {
+   "text": "no",
+   "start": 46.96,
+   "end": 47.04,
+   "paragraph": 2
+  },
+  {
+   "text": "back",
+   "start": 47.2,
+   "end": 47.44,
+   "paragraph": 2
+  },
+  {
+   "text": "EMF",
+   "start": 47.48,
+   "end": 47.84,
+   "paragraph": 2
+  },
+  {
+   "text": "at",
+   "start": 47.92,
+   "end": 48,
+   "paragraph": 2
+  },
+  {
+   "text": "all.",
+   "start": 48.08,
+   "end": 48.88,
+   "paragraph": 2
+  },
+  {
+   "text": "The",
+   "start": 48.96,
+   "end": 49.04,
+   "paragraph": 2
+  },
+  {
+   "text": "current",
+   "start": 49.2,
+   "end": 49.36,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 49.44,
+   "end": 49.52,
+   "paragraph": 2
+  },
+  {
+   "text": "limited",
+   "start": 49.6,
+   "end": 50.08,
+   "paragraph": 2
+  },
+  {
+   "text": "only",
+   "start": 50.16,
+   "end": 50.48,
+   "paragraph": 2
+  },
+  {
+   "text": "by",
+   "start": 50.56,
+   "end": 50.64,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 50.72,
+   "end": 50.76,
+   "paragraph": 2
+  },
+  {
+   "text": "resistance",
+   "start": 50.8,
+   "end": 51.36,
+   "paragraph": 2
+  },
+  {
+   "text": "of",
+   "start": 51.44,
+   "end": 51.52,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 51.56,
+   "end": 51.6,
+   "paragraph": 2
+  },
+  {
+   "text": "windings,",
+   "start": 51.68,
+   "end": 52.56,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 52.6,
+   "end": 52.64,
+   "paragraph": 2
+  },
+  {
+   "text": "it",
+   "start": 52.72,
+   "end": 52.8,
+   "paragraph": 2
+  },
+  {
+   "text": "can",
+   "start": 52.88,
+   "end": 52.96,
+   "paragraph": 2
+  },
+  {
+   "text": "be",
+   "start": 53.04,
+   "end": 53.28,
+   "paragraph": 2
+  },
+  {
+   "text": "many",
+   "start": 53.36,
+   "end": 53.6,
+   "paragraph": 2
+  },
+  {
+   "text": "times",
+   "start": 53.68,
+   "end": 53.92,
+   "paragraph": 2
+  },
+  {
+   "text": "the",
+   "start": 54,
+   "end": 54.04,
+   "paragraph": 2
+  },
+  {
+   "text": "normal",
+   "start": 54.08,
+   "end": 54.4,
+   "paragraph": 2
+  },
+  {
+   "text": "value.",
+   "start": 54.6,
+   "end": 55.44,
+   "paragraph": 2
+  },
+  {
+   "text": "That",
+   "start": 55.52,
+   "end": 55.6,
+   "paragraph": 2
+  },
+  {
+   "text": "is",
+   "start": 55.68,
+   "end": 55.76,
+   "paragraph": 2
+  },
+  {
+   "text": "why",
+   "start": 55.84,
+   "end": 56.08,
+   "paragraph": 2
+  },
+  {
+   "text": "large",
+   "start": 56.24,
+   "end": 56.56,
+   "paragraph": 2
+  },
+  {
+   "text": "motors",
+   "start": 56.64,
+   "end": 57.04,
+   "paragraph": 2
+  },
+  {
+   "text": "need",
+   "start": 57.12,
+   "end": 57.28,
+   "paragraph": 2
+  },
+  {
+   "text": "starters,",
+   "start": 57.36,
+   "end": 58.24,
+   "paragraph": 2
+  },
+  {
+   "text": "and",
+   "start": 58.36,
+   "end": 58.48,
+   "paragraph": 2
+  },
+  {
+   "text": "why",
+   "start": 58.6,
+   "end": 58.72,
+   "paragraph": 2
+  },
+  {
+   "text": "a",
+   "start": 58.76,
+   "end": 58.8,
+   "paragraph": 2
+  },
+  {
+   "text": "stalled",
+   "start": 58.96,
+   "end": 59.36,
+   "paragraph": 2
+  },
+  {
+   "text": "motor",
+   "start": 59.44,
+   "end": 59.76,
+   "paragraph": 2
+  },
+  {
+   "text": "burns",
+   "start": 59.92,
+   "end": 60.24,
+   "paragraph": 2
+  },
+  {
+   "text": "out.",
+   "start": 60.36,
+   "end": 61.12,
+   "paragraph": 2
+  },
+  {
+   "text": "It",
+   "start": 61.2,
+   "end": 61.28,
+   "paragraph": 3
+  },
+  {
+   "text": "also",
+   "start": 61.36,
+   "end": 61.6,
+   "paragraph": 3
+  },
+  {
+   "text": "works",
+   "start": 61.68,
+   "end": 61.92,
+   "paragraph": 3
+  },
+  {
+   "text": "in",
+   "start": 62,
+   "end": 62.16,
+   "paragraph": 3
+  },
+  {
+   "text": "your",
+   "start": 62.28,
+   "end": 62.4,
+   "paragraph": 3
+  },
+  {
+   "text": "favour.",
+   "start": 62.44,
+   "end": 63.28,
+   "paragraph": 3
+  },
+  {
+   "text": "When",
+   "start": 63.36,
+   "end": 63.44,
+   "paragraph": 3
+  },
+  {
+   "text": "an",
+   "start": 63.52,
+   "end": 63.6,
+   "paragraph": 3
+  },
+  {
+   "text": "electric",
+   "start": 63.84,
+   "end": 64.08,
+   "paragraph": 3
+  },
+  {
+   "text": "car",
+   "start": 64.16,
+   "end": 64.48,
+   "paragraph": 3
+  },
+  {
+   "text": "or",
+   "start": 64.52,
+   "end": 64.56,
+   "paragraph": 3
+  },
+  {
+   "text": "train",
+   "start": 64.72,
+   "end": 65.04,
+   "paragraph": 3
+  },
+  {
+   "text": "slows",
+   "start": 65.12,
+   "end": 65.44,
+   "paragraph": 3
+  },
+  {
+   "text": "down,",
+   "start": 65.64,
+   "end": 66.16,
+   "paragraph": 3
+  },
+  {
+   "text": "its",
+   "start": 66.28,
+   "end": 66.4,
+   "paragraph": 3
+  },
+  {
+   "text": "motor",
+   "start": 66.48,
+   "end": 66.88,
+   "paragraph": 3
+  },
+  {
+   "text": "is",
+   "start": 66.96,
+   "end": 67.04,
+   "paragraph": 3
+  },
+  {
+   "text": "being",
+   "start": 67.16,
+   "end": 67.28,
+   "paragraph": 3
+  },
+  {
+   "text": "driven",
+   "start": 67.36,
+   "end": 67.6,
+   "paragraph": 3
+  },
+  {
+   "text": "by",
+   "start": 67.68,
+   "end": 67.84,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 67.92,
+   "end": 68,
+   "paragraph": 3
+  },
+  {
+   "text": "wheels.",
+   "start": 68.04,
+   "end": 68.88,
+   "paragraph": 3
+  },
+  {
+   "text": "It",
+   "start": 68.96,
+   "end": 69.04,
+   "paragraph": 3
+  },
+  {
+   "text": "becomes",
+   "start": 69.12,
+   "end": 69.44,
+   "paragraph": 3
+  },
+  {
+   "text": "a",
+   "start": 69.48,
+   "end": 69.52,
+   "paragraph": 3
+  },
+  {
+   "text": "generator,",
+   "start": 69.6,
+   "end": 70.48,
+   "paragraph": 3
+  },
+  {
+   "text": "and",
+   "start": 70.56,
+   "end": 70.64,
+   "paragraph": 3
+  },
+  {
+   "text": "sends",
+   "start": 70.72,
+   "end": 70.96,
+   "paragraph": 3
+  },
+  {
+   "text": "energy",
+   "start": 71.04,
+   "end": 71.44,
+   "paragraph": 3
+  },
+  {
+   "text": "back",
+   "start": 71.6,
+   "end": 71.76,
+   "paragraph": 3
+  },
+  {
+   "text": "to",
+   "start": 71.84,
+   "end": 71.92,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 71.96,
+   "end": 72,
+   "paragraph": 3
+  },
+  {
+   "text": "battery",
+   "start": 72.08,
+   "end": 72.56,
+   "paragraph": 3
+  },
+  {
+   "text": "or",
+   "start": 72.64,
+   "end": 72.72,
+   "paragraph": 3
+  },
+  {
+   "text": "the",
+   "start": 72.8,
+   "end": 72.84,
+   "paragraph": 3
+  },
+  {
+   "text": "line.",
+   "start": 72.88,
+   "end": 73.84,
+   "paragraph": 3
+  },
+  {
+   "text": "And",
+   "start": 73.88,
+   "end": 73.92,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 74,
+   "end": 74.08,
+   "paragraph": 4
+  },
+  {
+   "text": "inductance",
+   "start": 74.16,
+   "end": 74.72,
+   "paragraph": 4
+  },
+  {
+   "text": "we",
+   "start": 74.8,
+   "end": 74.88,
+   "paragraph": 4
+  },
+  {
+   "text": "met",
+   "start": 75,
+   "end": 75.12,
+   "paragraph": 4
+  },
+  {
+   "text": "two",
+   "start": 75.2,
+   "end": 75.36,
+   "paragraph": 4
+  },
+  {
+   "text": "videos",
+   "start": 75.44,
+   "end": 75.76,
+   "paragraph": 4
+  },
+  {
+   "text": "ago",
+   "start": 75.84,
+   "end": 76.08,
+   "paragraph": 4
+  },
+  {
+   "text": "is",
+   "start": 76.32,
+   "end": 76.48,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 76.56,
+   "end": 76.64,
+   "paragraph": 4
+  },
+  {
+   "text": "same",
+   "start": 76.72,
+   "end": 76.96,
+   "paragraph": 4
+  },
+  {
+   "text": "law",
+   "start": 77.04,
+   "end": 77.2,
+   "paragraph": 4
+  },
+  {
+   "text": "again.",
+   "start": 77.28,
+   "end": 77.96,
+   "paragraph": 4
+  },
+  {
+   "text": "A",
+   "start": 78.24,
+   "end": 78.4,
+   "paragraph": 4
+  },
+  {
+   "text": "coil",
+   "start": 78.6,
+   "end": 78.8,
+   "paragraph": 4
+  },
+  {
+   "text": "sits",
+   "start": 78.88,
+   "end": 79.12,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 79.2,
+   "end": 79.28,
+   "paragraph": 4
+  },
+  {
+   "text": "its",
+   "start": 79.4,
+   "end": 79.52,
+   "paragraph": 4
+  },
+  {
+   "text": "own",
+   "start": 79.6,
+   "end": 79.76,
+   "paragraph": 4
+  },
+  {
+   "text": "flux.",
+   "start": 79.84,
+   "end": 80.56,
+   "paragraph": 4
+  },
+  {
+   "text": "Change",
+   "start": 80.8,
+   "end": 81.04,
+   "paragraph": 4
+  },
+  {
+   "text": "its",
+   "start": 81.12,
+   "end": 81.28,
+   "paragraph": 4
+  },
+  {
+   "text": "current,",
+   "start": 81.36,
+   "end": 81.92,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 81.96,
+   "end": 82,
+   "paragraph": 4
+  },
+  {
+   "text": "you",
+   "start": 82.08,
+   "end": 82.24,
+   "paragraph": 4
+  },
+  {
+   "text": "change",
+   "start": 82.32,
+   "end": 82.56,
+   "paragraph": 4
+  },
+  {
+   "text": "that",
+   "start": 82.64,
+   "end": 82.8,
+   "paragraph": 4
+  },
+  {
+   "text": "flux,",
+   "start": 82.88,
+   "end": 83.52,
+   "paragraph": 4
+  },
+  {
+   "text": "and",
+   "start": 83.6,
+   "end": 83.68,
+   "paragraph": 4
+  },
+  {
+   "text": "the",
+   "start": 83.76,
+   "end": 83.84,
+   "paragraph": 4
+  },
+  {
+   "text": "coil",
+   "start": 83.92,
+   "end": 84.24,
+   "paragraph": 4
+  },
+  {
+   "text": "induces",
+   "start": 84.32,
+   "end": 84.88,
+   "paragraph": 4
+  },
+  {
+   "text": "a",
+   "start": 84.96,
+   "end": 85.04,
+   "paragraph": 4
+  },
+  {
+   "text": "voltage",
+   "start": 85.12,
+   "end": 85.6,
+   "paragraph": 4
+  },
+  {
+   "text": "in",
+   "start": 85.64,
+   "end": 85.68,
+   "paragraph": 4
+  },
+  {
+   "text": "itself.",
+   "start": 85.76,
+   "end": 86.56,
+   "paragraph": 4
+  }
+ ]
+}
