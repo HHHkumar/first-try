@@ -1,13 +1,13 @@
 # Tipu Sultan: Tyrant or Tiger?
 
-Narration script, draft 1, for the channel **Hemanth Explains**. English, about 11½ minutes (1,740 spoken words). Not yet approved.
+Narration script, draft 2, for the channel **Hemanth Explains**. English, about 13 minutes (2,006 spoken words). Not yet approved.
 
 Lines in plain text are spoken. Lines marked **On screen** describe the picture and are not spoken.
 
 Principles for this film:
 - Every factual claim is one that mainstream historians accept, and the script says where it comes from.
 - Where historians agree an event happened but disagree about its scale, the script says so and gives the range, not a single dramatic number.
-- The film does not tell the viewer whether to celebrate Tipu Jayanti. It gives them the evidence and a way to think about it.
+- The history chapters stay even-handed. The channel's own view comes in chapter 8: the history deserves to be studied, but a state-sponsored celebration of so divisive a figure looked more like political calculation than remembrance. That view is stated as the channel's opinion, argued from evidence, and aimed at governments and politicians, not at any community.
 - No inflammatory images: no blood, no burning temples or mosques, no caricatures of any community. Visuals are maps, the fort, documents, objects, and the timeline.
 
 ---
@@ -26,7 +26,7 @@ One side says Tipu was a tyrant. That he persecuted Hindus and Christians, destr
 
 The other side says he was a patriot. A modernising king who fought the British East India Company to the death, decades before anyone else in India thought of it, and who protected temples too.
 
-Both sides quote history. So in this video, we go to the history itself. What do we actually know about Tipu Sultan? Where does that knowledge come from? And what should we do with a figure who may be both?
+Both sides quote history. So in this video, we go to the history itself. What do we actually know about Tipu Sultan? Where does that knowledge come from? And at the end, I will tell you what I think of the celebration itself, and why.
 
 ---
 
@@ -150,7 +150,21 @@ First, judge him by his own time, but do not excuse him by it. Eighteenth-centur
 
 Second, separate the questions. Did Tipu fight colonial rule, and modernise his state? The evidence says yes. Did he persecute communities, and force conversions? The evidence says yes to that too. Both are true at once.
 
-Third, notice that the modern argument is not really about seventeen ninety-nine. It is about today. About who belongs, and whose history a state chooses to celebrate. That is a fair question for a democracy to debate. But it is a debate about the present, and it is better argued with the whole of the history, not half of it.
+Third, notice that the modern argument is not really about seventeen ninety-nine. It is about today.
+
+**On screen:** A calendar of Karnataka's official jayantis fills the screen, one tile per figure, each tagged with the community that claims them. The Tipu Jayanti tile is highlighted. Then a ballot box.
+
+And here is where I will give you my own view.
+
+Karnataka celebrates many jayantis. Over the years, governments of every party have added official birthdays, very often for a figure whom a particular community holds dear. A jayanti has become a way to tell a community: we see you. And, at election time, to ask for its votes.
+
+Tipu Jayanti fits that pattern. Several Muslim organisations and leaders had long championed Tipu as a community icon, one of the few Muslim rulers in Karnataka's past remembered as a fighter against the British. And for many Muslims in the state, he became a symbol of pride. Politicians saw that, and turned it into an official celebration.
+
+To its critics, that was appeasement. A state honouring one community's hero, without asking how it would feel to the Kodavas, the coastal Catholics, or the Hindu families whose ancestors suffered under him. And it was rushed into being with no attempt at a shared understanding of the history. The result was not remembrance. It was protest, division, and in Kodagu, a death.
+
+I think that criticism is fair. Not because Tipu is unworthy of being studied, or because his fight against the Company did not matter. But because a government should not pick a side in a wound that is still open, and should not use history to collect votes. If a state wants to remember Tipu, it should remember all of him: the rockets and the resistance, and Kodagu, Malabar and Mangaluru too.
+
+That is a debate about the present. And it is better argued with the whole of the history, not half of it.
 
 Studying a historical figure, remembering him, and worshipping him are three different things. You can study Tipu without worshipping him. And you can criticise him without erasing what he did against the Company.
 
@@ -172,7 +186,9 @@ And he protected and funded temples, including Sringeri, in other parts of his k
 
 Our picture of him has been shaped by who was writing: the British who defeated him, the nationalists who reclaimed him, and the communities who remember what he did to them.
 
-History does not have to give us heroes or villains. It gives us people, and the evidence of what they did. What we celebrate is our choice. It should be an informed one.
+And the official celebration of his birthday has more to do with today's politics than with the eighteenth century.
+
+History does not have to give us heroes or villains. It gives us people, and the evidence of what they did. What we celebrate is our choice. It should be an informed one, and it should not be made for us by whoever needs our votes.
 
 What do you think? Tell me in the comments, and keep it respectful. And if this helped you see the whole picture, please like, share, and subscribe to Hemanth Explains.
 
@@ -189,6 +205,6 @@ Claims in the script rest on these. Before voicing, a quick check against them i
 - William Kirkpatrick (trans.), *Select Letters of Tippoo Sultan* (1811), and Mark Wilks, *Historical Sketches of the South of India* (1810–1817): the early British accounts; Tipu's own letters.
 - Mysore Archaeological Department, *Annual Report* (1916): the Sringeri letters.
 - On the Mangalorean Catholic captivity: Severine Silva, *History of Christianity in Canara* (1957), and the community's own histories; estimates of the numbers vary widely.
-- On Tipu Jayanti politics: newspaper reporting from 2015 (state celebration begins; protests and a death in Kodagu) and 2019 (celebration cancelled).
+- On Tipu Jayanti politics: newspaper reporting from 2015 (state celebration begins; protests and a death in Kodagu) and 2019 (celebration cancelled), including the appeasement criticism made at the time and the responses to it. Check the list of Karnataka's official jayantis before the calendar graphic is made.
 - The rockets: Royal Artillery Museum collections; William Congreve's own account of his rocket (1807).
 - Tipu's Tiger: Victoria and Albert Museum, London.
